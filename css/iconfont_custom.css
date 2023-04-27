@@ -1,0 +1,20 @@
+/* 自己写的与iconfont有关的CSS */
+
+/* 卡片处小图标 */
+.card_icon {
+    /* 修改颜色 color: blue; */
+
+    /* 修改大小 */
+    font-size: 28px;
+}
+
+/* 各级标题前的美化图标 */
+#article-container h1:before,
+#article-container h2:before,
+#article-container h3:before,
+#article-container h4:before,
+#article-container h5:before,
+#article-container h6:before {
+font-family: "iconfont";
+    content: "\e87e"; /* iconfont图标的unicode码 */
+}
