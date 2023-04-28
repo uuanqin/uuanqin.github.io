@@ -1,0 +1,245 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>国内访问Hexo优化加速-替换jsdelivr的CDN链接 | 半方池水半方田</title><meta name="author" content="Wuanqin"><meta name="copyright" content="Wuanqin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="由于某种原因，jsdelivr的状况时好时坏，本文介绍Butterfly下替换CDN链接的解决方案">
+<meta property="og:type" content="article">
+<meta property="og:title" content="国内访问Hexo优化加速-替换jsdelivr的CDN链接">
+<meta property="og:url" content="https://www.uuanqin.top/2023/04/28/Hexo/%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AEHexo%E5%8D%A1%E9%A1%BF%E6%88%96%E5%BC%82%E5%B8%B8%E7%9A%84%E8%A7%A3%E5%86%B3-CDN%E9%93%BE%E6%8E%A5%E6%9B%BF%E6%8D%A2/index.html">
+<meta property="og:site_name" content="半方池水半方田">
+<meta property="og:description" content="由于某种原因，jsdelivr的状况时好时坏，本文介绍Butterfly下替换CDN链接的解决方案">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://typora-1301301520.file.myqcloud.com/img/jsdeliver-banned.png">
+<meta property="article:published_time" content="2023-04-28T09:34:18.000Z">
+<meta property="article:modified_time" content="2023-04-28T09:54:19.798Z">
+<meta property="article:author" content="Wuanqin">
+<meta property="article:tag" content="CDN">
+<meta property="article:tag" content="Butterfly">
+<meta property="article:tag" content="jsdelivr">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://typora-1301301520.file.myqcloud.com/img/jsdeliver-banned.png"><link rel="shortcut icon" href="https://typora-1301301520.file.myqcloud.com/img/qlogo.png"><link rel="canonical" href="https://www.uuanqin.top/2023/04/28/Hexo/%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AEHexo%E5%8D%A1%E9%A1%BF%E6%88%96%E5%BC%82%E5%B8%B8%E7%9A%84%E8%A7%A3%E5%86%B3-CDN%E9%93%BE%E6%8E%A5%E6%9B%BF%E6%8D%A2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://typora-1301301520.cos.ap-nanjing.myqcloud.com/js/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"2JINTHATAF","apiKey":"086110423d680367cda9c0216b336eb8","indexName":"uuanqin.top","hits":{"per_page":6},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":730,"position":"top","messagePrev":"这个页面已经有","messageNext":"天没有更新了，文章部分内容可能已经过时"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":200,"languages":{"author":"作者: Wuanqin","link":"链接: ","source":"来源: 半方池水半方田","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '国内访问Hexo优化加速-替换jsdelivr的CDN链接',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-04-28 17:54:19'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.3/tianli_gpt.css"><link rel="stylesheet" href="//at.alicdn.com/t/c/font_4037705_qir763ddnlj.css"><link rel="stylesheet" href="/css/iconfont_custom.css?2"><link rel="stylesheet" href="/css/scroll_bar.css?7"><script src="/js/random.js?1"></script><script src="https://npm.elemecdn.com/pace-js@latest/pace.min.js"></script><link rel="stylesheet" href="/css/load.css"><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://typora-1301301520.file.myqcloud.com/img/zhuangzhuangmao.jpg" onerror="onerror=null;src='/img/loading.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/sort/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/sort/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机访问</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-link-fill"></i><span> 连接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友情链接</span></a></li><li><a class="site-page child" href="/link/addme/"><i class="fa-fw iconfont icon-addLink-fill"></i><span> 加我友链</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw iconfont icon-mao"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://typora-1301301520.file.myqcloud.com/img/jsdeliver-banned.png')"><nav id="nav"><span id="blog-info"><a href="/" title="半方池水半方田"><img class="site-icon" src="https://typora-1301301520.file.myqcloud.com/img/logo-bc.png"/></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/sort/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/sort/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机访问</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-link-fill"></i><span> 连接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友情链接</span></a></li><li><a class="site-page child" href="/link/addme/"><i class="fa-fw iconfont icon-addLink-fill"></i><span> 加我友链</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw iconfont icon-mao"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">国内访问Hexo优化加速-替换jsdelivr的CDN链接</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-28T09:34:18.000Z" title="发表于 2023-04-28 17:34:18">2023-04-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-28T09:54:19.798Z" title="更新于 2023-04-28 17:54:19">2023-04-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Hexo/">Hexo</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="国内访问Hexo优化加速-替换jsdelivr的CDN链接"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>你的博客网站可能遇到页面卡顿、显示不全、功能异常（图标、评论、搜索等各种异常）等情况，比如：</p>
+<ul>
+<li>fontawesome加载迟、卡，拖慢网页加载（fontawesome可以考虑更换图标库，请看我之前的文章《》）</li>
+<li>algolia搜索按钮按不出来</li>
+<li>Waline评论系统不显示或评论数据无法获取（处理这个问题前请看我之前的文章《》）</li>
+</ul>
+<p>而使用魔法访问时却一切正常。这时候我们该考虑是不是CDN出现问题了。</p>
+<p>本地调试自己的博客网站后，打开浏览器的开发者面板（F12）-&gt;禁用缓存-&gt;点击网络选项卡-&gt;刷新页面：</p>
+<p><img src="https://typora-1301301520.file.myqcloud.com/img/jsdeliver%E6%83%B9%E7%9A%84%E7%A5%B81.png" alt="jsdeliver惹的祸1"></p>
+<p>你会发现一些js文件或css文件无法被加载，这些文件大多来源于jsdelivr的CDN连接。</p>
+<blockquote>
+<p>不熟悉CDN的小伙伴可以理解为，jsdelivr里存放了大量的js文件或css文件，你的博客网站需要引入这些文件，但是由于某种原因，jsdelivr结点的链接状况在国内时好时坏（使用魔法就好）。</p>
+</blockquote>
+<p>这时我们可以考虑把获取这些js或css文件的链接替换掉。在你的主题配置上进行替换，这里以Butterfly主题为例，在主题配置文件下找到：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">CDN:</span></span><br><span class="line">	<span class="attr">option:</span> </span><br><span class="line">    	<span class="attr">fontawesome:</span> <span class="string">&lt;替换的cdn&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>建议你把涉及jsdelivr都替换掉把，让中国宝宝访问你的博客网站更快更方便。</p>
+<p>各种资源CDN链接参考：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></p>
+<p>也可以在下面的两个网站找：</p>
+<ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://cdnjs.com/">https://cdnjs.com/</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bootcdn.cn/">https://www.bootcdn.cn/</a></li>
+</ul>
+<p>也可以把文件放在自己的存储桶中（注意看好你的钱包）。</p>
+<p>参考：</p>
+<ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/u013014254/article/details/122045331">jsdelivr炸了如何解决|用这些免费cdn_地域男孩的博客-CSDN博客</a></li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://www.uuanqin.top">Wuanqin</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.uuanqin.top/2023/04/28/Hexo/%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AEHexo%E5%8D%A1%E9%A1%BF%E6%88%96%E5%BC%82%E5%B8%B8%E7%9A%84%E8%A7%A3%E5%86%B3-CDN%E9%93%BE%E6%8E%A5%E6%9B%BF%E6%8D%A2/">https://www.uuanqin.top/2023/04/28/Hexo/%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AEHexo%E5%8D%A1%E9%A1%BF%E6%88%96%E5%BC%82%E5%B8%B8%E7%9A%84%E8%A7%A3%E5%86%B3-CDN%E9%93%BE%E6%8E%A5%E6%9B%BF%E6%8D%A2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.uuanqin.top" target="_blank">半方池水半方田</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/CDN/">CDN</a><a class="post-meta__tags" href="/tags/Butterfly/">Butterfly</a><a class="post-meta__tags" href="/tags/jsdelivr/">jsdelivr</a></div><div class="post_share"><div class="social-share" data-image="https://typora-1301301520.file.myqcloud.com/img/jsdeliver-banned.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css" media="print" onload="this.media='all'"><script src="https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://typora-1301301520.file.myqcloud.com/img/wx.png" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://typora-1301301520.file.myqcloud.com/img/wx.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://typora-1301301520.file.myqcloud.com/img/zfb.png" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://typora-1301301520.file.myqcloud.com/img/zfb.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2023/04/28/Hexo/%E5%AE%9A%E5%88%B6%E8%87%AA%E5%B7%B1%E7%9A%84Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" title="定制自己的Waline评论系统"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/diy-waline.png" onerror="onerror=null;src='/img/404img.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">定制自己的Waline评论系统</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/04/21/https%E7%9A%84%E9%85%8D%E7%BD%AE/" title="Linux下为Apache服务器添加SSL证书 ＆ 腾讯云CDN、WordPress中HTTPS相关配置"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/SSL_certificate-1.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-21</div><div class="title">Linux下为Apache服务器添加SSL证书 ＆ 腾讯云CDN、WordPress中HTTPS相关配置</div></div></a></div><div><a href="/2022/04/17/%E5%8F%AA%E8%A6%81%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E2%80%94%E2%80%94CDN%E5%AE%9E%E6%93%8D/" title="只要一篇文章——CDN实操"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/4ca09e5e584082f38feba89dae8d14a9.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-17</div><div class="title">只要一篇文章——CDN实操</div></div></a></div><div><a href="/2023/04/27/Hexo/Hexo%E6%A1%86%E6%9E%B6Btterfly%E4%B8%BB%E9%A2%98%E5%BC%95%E5%85%A5Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%EF%BC%88%E5%9B%BD%E5%86%85%E5%8F%AF%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE%EF%BC%89/" title="Hexo框架Btterfly主题引入Waline评论系统及国内正常访问"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/waline-comment.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-04-27</div><div class="title">Hexo框架Btterfly主题引入Waline评论系统及国内正常访问</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://typora-1301301520.file.myqcloud.com/img/zhuangzhuangmao.jpg" onerror="this.onerror=null;this.src='/img/loading.gif'" alt="avatar"/></div><div class="author-info__name">Wuanqin</div><div class="author-info__description">私人博客，主要内容为技术分享和生活分享</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" href="/building.html"><i class="iconfont icon-xianyoujianli"></i><span>Hire Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/uuanqin" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a><a class="social-icon" href="mailto:wuanqin@qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fa-solid fa-envelope" style="color: #efb336;"></i></a><a class="social-icon" href="https://afdian.net/a/uuanqin" rel="external nofollow noreferrer" target="_blank" title="爱发电"><i class="fa-solid fa-fish" style="color: #926BE5;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">博客框架正式迁移至Hexo！为保证博客功能正常，请走国内路线。（魔法用户的渠道已纳入未来规划）</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/04/28/Hexo/%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AEHexo%E5%8D%A1%E9%A1%BF%E6%88%96%E5%BC%82%E5%B8%B8%E7%9A%84%E8%A7%A3%E5%86%B3-CDN%E9%93%BE%E6%8E%A5%E6%9B%BF%E6%8D%A2/" title="国内访问Hexo优化加速-替换jsdelivr的CDN链接"><img src="https://typora-1301301520.file.myqcloud.com/img/jsdeliver-banned.png" onerror="this.onerror=null;this.src='/img/404img.png'" alt="国内访问Hexo优化加速-替换jsdelivr的CDN链接"/></a><div class="content"><a class="title" href="/2023/04/28/Hexo/%E5%9B%BD%E5%86%85%E8%AE%BF%E9%97%AEHexo%E5%8D%A1%E9%A1%BF%E6%88%96%E5%BC%82%E5%B8%B8%E7%9A%84%E8%A7%A3%E5%86%B3-CDN%E9%93%BE%E6%8E%A5%E6%9B%BF%E6%8D%A2/" title="国内访问Hexo优化加速-替换jsdelivr的CDN链接">国内访问Hexo优化加速-替换jsdelivr的CDN链接</a><time datetime="2023-04-28T09:34:18.000Z" title="发表于 2023-04-28 17:34:18">2023-04-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/04/28/Hexo/%E5%AE%9A%E5%88%B6%E8%87%AA%E5%B7%B1%E7%9A%84Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" title="定制自己的Waline评论系统"><img src="https://typora-1301301520.file.myqcloud.com/img/diy-waline.png" onerror="this.onerror=null;this.src='/img/404img.png'" alt="定制自己的Waline评论系统"/></a><div class="content"><a class="title" href="/2023/04/28/Hexo/%E5%AE%9A%E5%88%B6%E8%87%AA%E5%B7%B1%E7%9A%84Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" title="定制自己的Waline评论系统">定制自己的Waline评论系统</a><time datetime="2023-04-28T08:15:12.000Z" title="发表于 2023-04-28 16:15:12">2023-04-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/04/27/Hexo/Hexo%E6%A1%86%E6%9E%B6Btterfly%E4%B8%BB%E9%A2%98%E5%BC%95%E5%85%A5Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%EF%BC%88%E5%9B%BD%E5%86%85%E5%8F%AF%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE%EF%BC%89/" title="Hexo框架Btterfly主题引入Waline评论系统及国内正常访问"><img src="https://typora-1301301520.file.myqcloud.com/img/waline-comment.png" onerror="this.onerror=null;this.src='/img/404img.png'" alt="Hexo框架Btterfly主题引入Waline评论系统及国内正常访问"/></a><div class="content"><a class="title" href="/2023/04/27/Hexo/Hexo%E6%A1%86%E6%9E%B6Btterfly%E4%B8%BB%E9%A2%98%E5%BC%95%E5%85%A5Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%EF%BC%88%E5%9B%BD%E5%86%85%E5%8F%AF%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE%EF%BC%89/" title="Hexo框架Btterfly主题引入Waline评论系统及国内正常访问">Hexo框架Btterfly主题引入Waline评论系统及国内正常访问</a><time datetime="2023-04-27T08:27:09.000Z" title="发表于 2023-04-27 16:27:09">2023-04-27</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By Wuanqin</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn/">津ICP备2022002156号-1</a><a target="_blank" rel="noopener external nofollow noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011202000621"><img class="icp-icon" src="https://typora-1301301520.file.myqcloud.com/img/备案图标.png"><span>津公网安备 12011202000621号</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://typora-1301301520.cos.ap-nanjing.myqcloud.com/js/fancybox.umd.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="module"></script><div class="js-pjax"><script>function loadWaline () {
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://pl.uuanqin.top',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  const walineCSSLoad = document.getElementById('waline-css')
+
+  if (typeof Waline === 'object') {
+    walineCSSLoad ? initWaline() : getCSS('https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.css','waline-css').then(initWaline)
+  }
+  else {
+    getCSS('https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.css','waline-css').then(() => {
+      getScript('https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.js').then(initWaline)
+    })
+  }
+}
+
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script>let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'Zm8snUerkRZvD7Ek4Jil';</script><script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.3/tianli_gpt.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-info"><div class="algolia-stats"></div><div class="algolia-poweredBy"></div></div></div></div></div><div id="search-mask"></div><script src="https://cdn.bootcdn.net/ajax/libs/algoliasearch/4.17.0/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.bootcdn.net/ajax/libs/instantsearch.js/4.54.1/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script></div></div></body></html>
