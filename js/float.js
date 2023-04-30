@@ -22,6 +22,30 @@ var urlAllowList = [
     "/link/friends/",
 ]
 
+var isAllowFloat = false;   // 全局变量，允许使用漂浮特效
+
+// 判断
+function decide(){
+    isAllowFloat = true;
+    if(!allowAll){
+        // 判断当前页面是否为指定页面
+        var url = GetUrlRelativePath();
+        var i = 0;
+        for(;i<urlAllowList.length;i++){
+            if(url===urlAllowList[i]){
+                // console.log(i);
+                isAllowFloat = true;
+                break;
+            }
+        }
+        if(i===urlAllowList.length){
+            isAllowFloat = false;
+        }
+    }
+    // console.log(isAllowFloat)
+    if(isAllowFloat)startFloat();
+}
+
 var stop, staticx;
 var img = new Image();
 img.src = "/image/star_float.png"; // 图片
@@ -130,22 +154,6 @@ function getRandom(option) {
 }
 
 function startFloat() {
-    if(!allowAll){
-        // 判断当前页面是否为指定页面
-        var url = GetUrlRelativePath();
-        var i = 0;
-        for(;i<urlAllowList.length;i++){
-            if(url===urlAllowList[i]){
-                // console.log(i);
-                break;
-            }
-        }
-        if(i===urlAllowList.length){
-            // console.log(i);
-            return;
-        }
-        // console.log("url:"+url);
-    }
 
     requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || window.oRequestAnimationFrame;
     var canvas = document.createElement('canvas'), cxt;
@@ -184,7 +192,8 @@ function startFloat() {
 }
 
 window.onresize = function() {
-    var canvasSnow = document.getElementById('canvas_snow');
+    if(!isAllowFloat)return;
+    var canvasSnow = document.getElementById('canvas_float');
     canvasSnow.width = window.innerWidth;
     canvasSnow.height = window.innerHeight;
 }
@@ -195,8 +204,8 @@ function stopp(e) {
         child.parentNode.removeChild(child);
         window.cancelAnimationFrame(stop);
     } else if (e && !document.getElementById("canvas_float")) {
-        startFloat();
+        decide();
     }
 }
 
-window.addEventListener("DOMContentLoaded",startFloat);
+window.addEventListener("DOMContentLoaded",decide);
