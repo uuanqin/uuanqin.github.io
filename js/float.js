@@ -20,6 +20,7 @@ var allowAll = false; // true 则允许所有网页存在漂浮物
 var urlAllowList = [
     "/about/",
     "/link/friends/",
+    "/p/28a4bfe2.html", // 这是介绍 float的那篇文章
 ]
 
 var isAllowFloat = false;   // 全局变量，允许使用漂浮特效
