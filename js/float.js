@@ -19,7 +19,7 @@ var allowAll = false; // true 则允许所有网页存在漂浮物
 // 允许显示漂浮物的网址列表
 var urlAllowList = [
     "/about/",
-    "/link/friends/",
+    "/friends/",
     "/p/28a4bfe2.html", // 这是介绍 float的那篇文章
 ]
 
