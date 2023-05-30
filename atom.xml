@@ -6,7 +6,7 @@
   <link href="https://www.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://www.uuanqin.top/"/>
-  <updated>2023-05-29T16:17:43.192Z</updated>
+  <updated>2023-05-30T14:54:11.706Z</updated>
   <id>https://www.uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Butterfly主题自定义侧边栏尝试</title>
+    <link href="https://www.uuanqin.top/p/4776e2ad.html"/>
+    <id>https://www.uuanqin.top/p/4776e2ad.html</id>
+    <published>2023-05-30T14:12:22.000Z</published>
+    <updated>2023-05-30T14:54:11.706Z</updated>
+    
+    <content type="html"><![CDATA[<p>自定义侧边栏是Hexo主题Butterfly的新功能，在进行侧边栏增加时首先阅读官方文档：<a href="https://butterfly.js.org/posts/ea33ab97/">自定義側邊欄 | Butterfly</a>。</p><p>这里记录一下我的探索过程。重申，本人前端小透明，一切实现全靠摸索。</p><p>首先，在<a href="https://codepen.io/trending">Trending - CodePen</a>找到自己想要的小组件，以小风车为例<a href="https://codepen.io/FilipVitas/pen/zWWmbo">Windmill (codepen.io)</a>，进入代码编辑界面，里面有HTML代码和CSS代码。</p><h1 id="CSS准备"><a href="#CSS准备" class="headerlink" title="CSS准备"></a>CSS准备</h1><p>点击代码框右上小箭头，编译css文件：</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/image-20230530222130344.png" alt="image-20230530222130344"></p><p>复制里面的的代码到新文件windmill.css。将新文件放在合适的位置并在主题配置中inject（优雅改的基础步骤，详见这篇文章《》）。</p><p>删除不必要代码（否则导致博客异常）并稍微修改一下类选择器（以防万一）：</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="deletion">- *,</span></span><br><span class="line"><span class="deletion">- *:before,</span></span><br><span class="line"><span class="deletion">- *:after &#123;</span></span><br><span class="line"><span class="deletion">-   ...</span></span><br><span class="line"><span class="deletion">- &#125;</span></span><br><span class="line"><span class="deletion">- body &#123;</span></span><br><span class="line"><span class="deletion">-   ...</span></span><br><span class="line"><span class="deletion">- &#125;</span></span><br><span class="line"><span class="deletion">- .inspiration &#123;</span></span><br><span class="line"><span class="deletion">- ...</span></span><br><span class="line"><span class="deletion">- &#125;</span></span><br><span class="line"><span class="deletion">- .center &#123;</span></span><br><span class="line"><span class="deletion">- ...</span></span><br><span class="line"><span class="deletion">- &#125;</span></span><br><span class="line"><span class="deletion">- @media screen and (max-height: 500px) &#123;</span></span><br><span class="line"><span class="deletion">- ...</span></span><br><span class="line"><span class="deletion">- &#125;</span></span><br><span class="line"><span class="addition">+ /* 这是为了让svg居中 */</span></span><br><span class="line"><span class="addition">+ .windmill &#123;</span></span><br><span class="line"><span class="addition">+     display: flex;</span></span><br><span class="line"><span class="addition">+     align-items: center;</span></span><br><span class="line"><span class="addition">+     justify-content: center;</span></span><br><span class="line"><span class="addition">+ &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="addition">+ /* 以下关于svg类选择器加上.windmill */</span></span><br><span class="line"><span class="deletion">- svg &#123;</span></span><br><span class="line"><span class="addition">+ svg.windmill &#123;</span></span><br><span class="line">  overflow: visible;</span><br><span class="line">&#125;</span><br><span class="line"><span class="deletion">- svg .blades &#123;</span></span><br><span class="line"><span class="addition">+ svg .blades.windmill &#123;</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line"><span class="deletion">- svg .clouds path:nth-child(1) &#123;</span></span><br><span class="line"><span class="addition">+ svg .clouds.windmill path:nth-child(1) &#123;</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line"><span class="deletion">- svg .clouds path:nth-child(2) &#123;</span></span><br><span class="line"><span class="addition">+ svg .clouds.windmill path:nth-child(2) &#123;</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure><h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p>只提取代码中第一个div元素，并对相关元素增加windmill类：</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="deletion">-&lt;div class=&quot;center&quot;&gt;</span></span><br><span class="line"><span class="addition">+&lt;div class=&quot;windmill&quot;&gt;</span></span><br><span class="line"><span class="deletion">-  &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;615.66 311.71 271.03 207.66&quot; width=&quot;271.03&quot; height=&quot;207.66&quot;&gt;</span></span><br><span class="line"><span class="deletion">-   &lt;g class=&quot;clouds&quot; fill=&quot;none&quot; stroke-width=&quot;3&quot; stroke=&quot;#BED3CF&quot; stroke-linejoin=&quot;round&quot; stroke-linecap=&quot;round&quot; stroke-miterlimit=&quot;3&quot;&gt;</span></span><br><span class="line"><span class="addition">+ &lt;svg class=&quot;windmill&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;615.66 311.71 271.03 207.66&quot; width=&quot;271.03&quot; height=&quot;207.66&quot;&gt;</span></span><br><span class="line"><span class="addition">+ &lt;g class=&quot;clouds windmill&quot; fill=&quot;none&quot; stroke-width=&quot;3&quot; stroke=&quot;#BED3CF&quot; stroke-linejoin=&quot;round&quot; stroke-linecap=&quot;round&quot; stroke-miterlimit=&quot;3&quot;&gt;</span></span><br><span class="line">        ...</span><br><span class="line">    &lt;/g&gt;</span><br><span class="line">...</span><br><span class="line"><span class="deletion">- &lt;g class=&quot;blades&quot; fill=&quot;#FFF&quot; stroke-width=&quot;3&quot; stroke=&quot;#4A5370&quot; stroke-linejoin=&quot;round&quot; stroke-miterlimit=&quot;3&quot;&gt;</span></span><br><span class="line"><span class="addition">+ &lt;g class=&quot;blades windmill&quot; fill=&quot;#FFF&quot; stroke-width=&quot;3&quot; stroke=&quot;#4A5370&quot; stroke-linejoin=&quot;round&quot; stroke-miterlimit=&quot;3&quot;&gt;</span></span><br><span class="line">...</span><br><span class="line">  &lt;/g&gt;</span><br><span class="line">&lt;/svg&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><p>在widget.yml中是这样的：</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/image-20230530223905933.png" alt="image-20230530223905933"></p><p>注意YAML文件中的缩进！否则会报这样的错误：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">can not read a block mapping entry; a multiline key may not be an implicit key</span><br></pre></td></tr></table></figure><h1 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h1><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/image-20230530224311630.png" alt="image-20230530224311630"></p>]]></content>
+    
+    
+    <summary type="html">一次自定义侧边栏的尝试</summary>
+    
+    
+    
+    <category term="计算机" scheme="https://www.uuanqin.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="Hexo" scheme="https://www.uuanqin.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Hexo/"/>
+    
+    
+    <category term="CSS" scheme="https://www.uuanqin.top/tags/CSS/"/>
+    
+    <category term="HTML" scheme="https://www.uuanqin.top/tags/HTML/"/>
+    
+    <category term="Butterfly" scheme="https://www.uuanqin.top/tags/Butterfly/"/>
+    
+  </entry>
   
   <entry>
     <title>Git-flow：git的分支管理策略</title>
@@ -185,9 +212,9 @@
     
     <category term="源码案例驱动" scheme="https://www.uuanqin.top/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
     
-    <category term="Python" scheme="https://www.uuanqin.top/tags/Python/"/>
-    
     <category term="MySQL" scheme="https://www.uuanqin.top/tags/MySQL/"/>
+    
+    <category term="Python" scheme="https://www.uuanqin.top/tags/Python/"/>
     
     <category term="Flask" scheme="https://www.uuanqin.top/tags/Flask/"/>
     
@@ -358,9 +385,9 @@
     <link href="https://www.uuanqin.top/p/7b17333d.html"/>
     <id>https://www.uuanqin.top/p/7b17333d.html</id>
     <published>2023-04-28T09:34:18.000Z</published>
-    <updated>2023-05-02T12:57:07.302Z</updated>
+    <updated>2023-05-30T09:51:26.540Z</updated>
     
-    <content type="html"><![CDATA[<p>假设你刚搭建了个人博客，发现网站的访问速度实在堪忧，怎么办？解决方法无非以下几种方法：</p><ul><li>有经济实力的，考虑提升硬件性能和带宽（购买高级服务器、增大带宽）</li><li>正确使用CDN加速源站和图片。CDN加速源站方法详看这篇文章：<a href="https://www.uuanqin.top/p/36451a4e.html">只要一篇文章——CDN实操 | 半方池水半方田 (uuanqin.top)</a>，如果对象存储已加入Typora的工作流，那图片的处理就更方便了：<a href="https://www.uuanqin.top/p/edfe8057.html">Typora+PicGo(app)+腾讯云COS实现图床 | 半方池水半方田 (uuanqin.top)</a></li><li>如果你的个人博客网站是动态网站（如Wordpress），但实在没有必要必须是动态网站时，可尝试改成静态框架，详看我的这篇文章：<a href="https://www.uuanqin.top/p/ad28b4a.html">部署Hexo个人博客框架到服务器 | 半方池水半方田 (uuanqin.top)</a></li></ul><p>如果以上的方法你都尝试过，但博客网站可能遇到页面卡顿、显示不全、功能异常（图标、评论、搜索等各种异常）等情况，比如：</p><ul><li>fontawesome加载迟、卡，拖慢网页加载（fontawesome可以考虑更换图标库，请看我之前的文章《》）</li><li>algolia搜索按钮按不出来</li><li>Waline评论系统不显示或评论数据无法获取（处理这个问题前请看我之前的文章：<a href="https://www.uuanqin.top/p/591f2165.html">Hexo框架Btterfly主题引入Waline评论系统及国内正常访问 | 半方池水半方田 (uuanqin.top)</a>）</li></ul><p>而使用魔法访问时却一切正常。这时候我们该考虑是不是CDN出现问题了。</p><p>本地调试自己的博客网站后，打开浏览器的开发者面板（F12）-&gt;禁用缓存-&gt;点击网络选项卡-&gt;刷新页面：</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/jsdeliver%E6%83%B9%E7%9A%84%E7%A5%B81.png" alt="jsdeliver惹的祸1"></p><p>你会发现一些js文件或css文件无法被加载，这些文件大多来源于jsdelivr的CDN连接。</p><blockquote><p>不熟悉CDN的小伙伴可以理解为，jsdelivr里存放了大量的js文件或css文件，你的博客网站需要引入这些文件，但是由于某种原因，jsdelivr结点的链接状况在国内时好时坏（使用魔法就好）。</p></blockquote><p>这时我们可以考虑把获取这些js或css文件的链接替换掉。在你的主题配置上进行替换，这里以Butterfly主题为例，在主题配置文件下找到：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">CDN:</span></span><br><span class="line">    <span class="attr">option:</span> </span><br><span class="line">        <span class="attr">fontawesome:</span> <span class="string">&lt;替换的cdn&gt;</span></span><br></pre></td></tr></table></figure><p>建议你把涉及jsdelivr都替换掉把，让中国宝宝访问你的博客网站更快更方便。</p><p>各种资源CDN链接参考：<a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></p><p>也可以在下面的两个网站找：</p><ul><li><a href="https://cdnjs.com/">https://cdnjs.com/</a></li><li><a href="https://www.bootcdn.cn/">https://www.bootcdn.cn/</a></li></ul><p>也可以把文件放在自己的存储桶中（注意看好你的钱包）。</p><p>参考：</p><ul><li><a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></li><li><a href="https://blog.csdn.net/u013014254/article/details/122045331">jsdelivr炸了如何解决|用这些免费cdn_地域男孩的博客-CSDN博客</a></li><li><a href="https://butterfly.js.org/posts/ceeb73f/#custom-format">Butterfly 安裝文檔(四) 主題配置-2 | Butterfly</a></li><li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1243">fontawesome图标问题 · Issue #1243 · jerryc127/hexo-theme-butterfly (github.com)</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>博客优化推荐文章（我没仔细看，但是他讲的好有道理）：<a href="https://akilar.top/posts/7c16c4bb/">Hexo博客优化蓝图 | Akilarの糖果屋</a></p></blockquote><p>假设你刚搭建了个人博客，发现网站的访问速度实在堪忧，怎么办？解决方法无非以下几种方法：</p><ul><li>有经济实力的，考虑提升硬件性能和带宽（购买高级服务器、增大带宽）</li><li>正确使用CDN加速源站和图片。CDN加速源站方法详看这篇文章：<a href="https://www.uuanqin.top/p/36451a4e.html">只要一篇文章——CDN实操 | 半方池水半方田 (uuanqin.top)</a>，如果对象存储已加入Typora的工作流，那图片的处理就更方便了：<a href="https://www.uuanqin.top/p/edfe8057.html">Typora+PicGo(app)+腾讯云COS实现图床 | 半方池水半方田 (uuanqin.top)</a></li><li>如果你的个人博客网站是动态网站（如Wordpress），但实在没有必要必须是动态网站时，可尝试改成静态框架，详看我的这篇文章：<a href="https://www.uuanqin.top/p/ad28b4a.html">部署Hexo个人博客框架到服务器 | 半方池水半方田 (uuanqin.top)</a></li></ul><p>如果以上的方法你都尝试过，但博客网站可能遇到页面卡顿、显示不全、功能异常（图标、评论、搜索等各种异常）等情况，比如：</p><ul><li>fontawesome加载迟、卡，拖慢网页加载（fontawesome可以考虑更换图标库，请看我之前的文章《》）</li><li>algolia搜索按钮按不出来</li><li>Waline评论系统不显示或评论数据无法获取（处理这个问题前请看我之前的文章：<a href="https://www.uuanqin.top/p/591f2165.html">Hexo框架Btterfly主题引入Waline评论系统及国内正常访问 | 半方池水半方田 (uuanqin.top)</a>）</li></ul><p>而使用魔法访问时却一切正常。这时候我们该考虑是不是CDN出现问题了。</p><p>本地调试自己的博客网站后，打开浏览器的开发者面板（F12）-&gt;禁用缓存-&gt;点击网络选项卡-&gt;刷新页面：</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/jsdeliver%E6%83%B9%E7%9A%84%E7%A5%B81.png" alt="jsdeliver惹的祸1"></p><p>你会发现一些js文件或css文件无法被加载，这些文件大多来源于jsdelivr的CDN连接。</p><blockquote><p>不熟悉CDN的小伙伴可以理解为，jsdelivr里存放了大量的js文件或css文件，你的博客网站需要引入这些文件，但是由于某种原因，jsdelivr结点的链接状况在国内时好时坏（使用魔法就好）。</p></blockquote><p>这时我们可以考虑把获取这些js或css文件的链接替换掉。在你的主题配置上进行替换，这里以Butterfly主题为例，在主题配置文件下找到：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">CDN:</span></span><br><span class="line">    <span class="attr">option:</span> </span><br><span class="line">        <span class="attr">fontawesome:</span> <span class="string">&lt;替换的cdn&gt;</span></span><br></pre></td></tr></table></figure><p>建议你把涉及jsdelivr都替换掉把，让中国宝宝访问你的博客网站更快更方便。</p><p>各种资源CDN链接参考：<a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></p><p>也可以在下面的两个网站找：</p><ul><li><a href="https://cdnjs.com/">https://cdnjs.com/</a></li><li><a href="https://www.bootcdn.cn/">https://www.bootcdn.cn/</a></li></ul><p>也可以把文件放在自己的存储桶中（注意看好你的钱包）。</p><p>参考：</p><ul><li><a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></li><li><a href="https://blog.csdn.net/u013014254/article/details/122045331">jsdelivr炸了如何解决|用这些免费cdn_地域男孩的博客-CSDN博客</a></li><li><a href="https://butterfly.js.org/posts/ceeb73f/#custom-format">Butterfly 安裝文檔(四) 主題配置-2 | Butterfly</a></li><li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1243">fontawesome图标问题 · Issue #1243 · jerryc127/hexo-theme-butterfly (github.com)</a></li></ul>]]></content>
     
     
     <summary type="html">由于某种原因，jsdelivr的状况时好时坏，本文介绍Butterfly下替换CDN链接的解决方案</summary>
@@ -374,9 +401,9 @@
     
     <category term="CDN" scheme="https://www.uuanqin.top/tags/CDN/"/>
     
-    <category term="jsdelivr" scheme="https://www.uuanqin.top/tags/jsdelivr/"/>
-    
     <category term="Butterfly" scheme="https://www.uuanqin.top/tags/Butterfly/"/>
+    
+    <category term="jsdelivr" scheme="https://www.uuanqin.top/tags/jsdelivr/"/>
     
   </entry>
   
@@ -510,33 +537,6 @@
     <category term="Linux" scheme="https://www.uuanqin.top/tags/Linux/"/>
     
     <category term="ECS" scheme="https://www.uuanqin.top/tags/ECS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nginx的安装与配置</title>
-    <link href="https://www.uuanqin.top/p/661ecc9.html"/>
-    <id>https://www.uuanqin.top/p/661ecc9.html</id>
-    <published>2023-04-13T10:05:00.000Z</published>
-    <updated>2023-04-28T11:33:17.029Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p><strong>环境信息</strong>：<br>CPU&amp;内存：1核(vCPU)2 GiB<br>操作系统：Alibaba Cloud Linux 3.2104 64位<br>实例规格：ecs.n4.small<br>实例规格族：共享计算型<br>刚刚初始化云盘的ECS服务器。</p></blockquote><h1 id="安装Nginx"><a href="#安装Nginx" class="headerlink" title="安装Nginx"></a>安装Nginx</h1><p>运行以下命令安装Nginx</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf -y install http://nginx.org/packages/centos/8/x86_64/RPMS/nginx-1.22.1-1.el8.ngx.x86_64.rpm </span><br></pre></td></tr></table></figure><p>您可以访问<a href="https://nginx.org/packages/centos/8/x86_64/RPMS/">Nginx官方安装包</a>获取适用于CentOS 8系统的多版本的Nginx安装包。</p><p>运行以下命令查看Nginx版本。</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nginx -v</span><br></pre></td></tr></table></figure><p>启动Nginx服务：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start nginx</span><br></pre></td></tr></table></figure><p>在本地电脑的浏览器输入主机地址并访问，出现Nginx默认页面即成功。</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/image-20230409141117412.png" alt="image-20230409141117412"></p><h1 id="配置Nginx"><a href="#配置Nginx" class="headerlink" title="配置Nginx"></a>配置Nginx</h1><p>找到nginx.conf文件进行配置，一般在<code>/etc/nginx</code>目录下。但我遇到一个问题，就是配置文件没有server字段。于是我参考了这篇文章：<a href="https://blog.csdn.net/qq_37283570/article/details/112854376">nginx.conf文件里没有server字段无法添加_nginxconf没有server_猴子奔跑的博客-CSDN博客</a>。最终在<code>/etc/nginx/conf.d/default.conf</code>中找到了。</p><p>修改配置文件，设定好网站的根目录：</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/image-20230408205637757.png" alt="image-20230408205637757"></p><p>重启Nginx：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart nginx</span><br></pre></td></tr></table></figure><p>你可以在服务器上对应自己设置的根目录创建文本文件，如<code>xiazai.txt</code>，然后浏览器访问网址<code>&lt;服务器主机IP&gt;/xiazai.txt</code>进行测试。</p><p>参考：</p><p><a href="https://help.aliyun.com/document_detail/464754.html?spm=a2c4g.472049.0.0.6a8d4de5bhOeVO">CentOS 8 自建安装 Nginx+Mysql环境+PHP环境 (aliyun.com)</a></p><p><a href="https://blog.csdn.net/github_38336924/article/details/82756779">Linux Nginx 配置/绑定域名_nginx配置域名_dadeity的博客-CSDN博客</a></p>]]></content>
-    
-    
-    <summary type="html">阿里云安装与配置Nginx。</summary>
-    
-    
-    
-    <category term="计算机" scheme="https://www.uuanqin.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-    
-    
-    <category term="Linux" scheme="https://www.uuanqin.top/tags/Linux/"/>
-    
-    <category term="ECS" scheme="https://www.uuanqin.top/tags/ECS/"/>
-    
-    <category term="Nginx" scheme="https://www.uuanqin.top/tags/Nginx/"/>
-    
-    <category term="安装" scheme="https://www.uuanqin.top/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
