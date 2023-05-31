@@ -187,9 +187,9 @@
     
     <category term="源码案例驱动" scheme="https://www.uuanqin.top/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
     
-    <category term="Markdown" scheme="https://www.uuanqin.top/tags/Markdown/"/>
-    
     <category term="Typora" scheme="https://www.uuanqin.top/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://www.uuanqin.top/tags/Markdown/"/>
     
   </entry>
   
@@ -212,8 +212,6 @@
     
     <category term="源码案例驱动" scheme="https://www.uuanqin.top/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
     
-    <category term="MySQL" scheme="https://www.uuanqin.top/tags/MySQL/"/>
-    
     <category term="Python" scheme="https://www.uuanqin.top/tags/Python/"/>
     
     <category term="Flask" scheme="https://www.uuanqin.top/tags/Flask/"/>
@@ -223,6 +221,8 @@
     <category term="Vue" scheme="https://www.uuanqin.top/tags/Vue/"/>
     
     <category term="ElementPlus" scheme="https://www.uuanqin.top/tags/ElementPlus/"/>
+    
+    <category term="MySQL" scheme="https://www.uuanqin.top/tags/MySQL/"/>
     
   </entry>
   
@@ -385,9 +385,9 @@
     <link href="https://www.uuanqin.top/p/7b17333d.html"/>
     <id>https://www.uuanqin.top/p/7b17333d.html</id>
     <published>2023-04-28T09:34:18.000Z</published>
-    <updated>2023-05-30T09:51:26.540Z</updated>
+    <updated>2023-05-30T16:29:56.487Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>博客优化推荐文章（我没仔细看，但是他讲的好有道理）：<a href="https://akilar.top/posts/7c16c4bb/">Hexo博客优化蓝图 | Akilarの糖果屋</a></p></blockquote><p>假设你刚搭建了个人博客，发现网站的访问速度实在堪忧，怎么办？解决方法无非以下几种方法：</p><ul><li>有经济实力的，考虑提升硬件性能和带宽（购买高级服务器、增大带宽）</li><li>正确使用CDN加速源站和图片。CDN加速源站方法详看这篇文章：<a href="https://www.uuanqin.top/p/36451a4e.html">只要一篇文章——CDN实操 | 半方池水半方田 (uuanqin.top)</a>，如果对象存储已加入Typora的工作流，那图片的处理就更方便了：<a href="https://www.uuanqin.top/p/edfe8057.html">Typora+PicGo(app)+腾讯云COS实现图床 | 半方池水半方田 (uuanqin.top)</a></li><li>如果你的个人博客网站是动态网站（如Wordpress），但实在没有必要必须是动态网站时，可尝试改成静态框架，详看我的这篇文章：<a href="https://www.uuanqin.top/p/ad28b4a.html">部署Hexo个人博客框架到服务器 | 半方池水半方田 (uuanqin.top)</a></li></ul><p>如果以上的方法你都尝试过，但博客网站可能遇到页面卡顿、显示不全、功能异常（图标、评论、搜索等各种异常）等情况，比如：</p><ul><li>fontawesome加载迟、卡，拖慢网页加载（fontawesome可以考虑更换图标库，请看我之前的文章《》）</li><li>algolia搜索按钮按不出来</li><li>Waline评论系统不显示或评论数据无法获取（处理这个问题前请看我之前的文章：<a href="https://www.uuanqin.top/p/591f2165.html">Hexo框架Btterfly主题引入Waline评论系统及国内正常访问 | 半方池水半方田 (uuanqin.top)</a>）</li></ul><p>而使用魔法访问时却一切正常。这时候我们该考虑是不是CDN出现问题了。</p><p>本地调试自己的博客网站后，打开浏览器的开发者面板（F12）-&gt;禁用缓存-&gt;点击网络选项卡-&gt;刷新页面：</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/jsdeliver%E6%83%B9%E7%9A%84%E7%A5%B81.png" alt="jsdeliver惹的祸1"></p><p>你会发现一些js文件或css文件无法被加载，这些文件大多来源于jsdelivr的CDN连接。</p><blockquote><p>不熟悉CDN的小伙伴可以理解为，jsdelivr里存放了大量的js文件或css文件，你的博客网站需要引入这些文件，但是由于某种原因，jsdelivr结点的链接状况在国内时好时坏（使用魔法就好）。</p></blockquote><p>这时我们可以考虑把获取这些js或css文件的链接替换掉。在你的主题配置上进行替换，这里以Butterfly主题为例，在主题配置文件下找到：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">CDN:</span></span><br><span class="line">    <span class="attr">option:</span> </span><br><span class="line">        <span class="attr">fontawesome:</span> <span class="string">&lt;替换的cdn&gt;</span></span><br></pre></td></tr></table></figure><p>建议你把涉及jsdelivr都替换掉把，让中国宝宝访问你的博客网站更快更方便。</p><p>各种资源CDN链接参考：<a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></p><p>也可以在下面的两个网站找：</p><ul><li><a href="https://cdnjs.com/">https://cdnjs.com/</a></li><li><a href="https://www.bootcdn.cn/">https://www.bootcdn.cn/</a></li></ul><p>也可以把文件放在自己的存储桶中（注意看好你的钱包）。</p><p>参考：</p><ul><li><a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></li><li><a href="https://blog.csdn.net/u013014254/article/details/122045331">jsdelivr炸了如何解决|用这些免费cdn_地域男孩的博客-CSDN博客</a></li><li><a href="https://butterfly.js.org/posts/ceeb73f/#custom-format">Butterfly 安裝文檔(四) 主題配置-2 | Butterfly</a></li><li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1243">fontawesome图标问题 · Issue #1243 · jerryc127/hexo-theme-butterfly (github.com)</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>其他优化博客网站的好文（我没仔细看，但是他讲的好有道理）：</p><ul><li><a href="https://akilar.top/posts/7c16c4bb/">Hexo博客优化蓝图 | Akilarの糖果屋</a></li><li><a href="https://blog.mrzefr.cn/posts/hexo-speed/">MrZeFr的小窝 - Hello World</a></li></ul></blockquote><p>假设你刚搭建了个人博客，发现网站的访问速度实在堪忧，怎么办？解决方法无非以下几种方法：</p><ul><li>有经济实力的，考虑提升硬件性能和带宽（购买高级服务器、增大带宽）</li><li>正确使用CDN加速源站和图片。CDN加速源站方法详看这篇文章：<a href="https://www.uuanqin.top/p/36451a4e.html">只要一篇文章——CDN实操 | 半方池水半方田 (uuanqin.top)</a>，如果对象存储已加入Typora的工作流，那图片的处理就更方便了：<a href="https://www.uuanqin.top/p/edfe8057.html">Typora+PicGo(app)+腾讯云COS实现图床 | 半方池水半方田 (uuanqin.top)</a></li><li>如果你的个人博客网站是动态网站（如Wordpress），但实在没有必要必须是动态网站时，可尝试改成静态框架，详看我的这篇文章：<a href="https://www.uuanqin.top/p/ad28b4a.html">部署Hexo个人博客框架到服务器 | 半方池水半方田 (uuanqin.top)</a></li></ul><p>如果以上的方法你都尝试过，但博客网站可能遇到页面卡顿、显示不全、功能异常（图标、评论、搜索等各种异常）等情况，比如：</p><ul><li>fontawesome加载迟、卡，拖慢网页加载（fontawesome可以考虑更换图标库，请看我之前的文章《》）</li><li>algolia搜索按钮按不出来</li><li>Waline评论系统不显示或评论数据无法获取（处理这个问题前请看我之前的文章：<a href="https://www.uuanqin.top/p/591f2165.html">Hexo框架Btterfly主题引入Waline评论系统及国内正常访问 | 半方池水半方田 (uuanqin.top)</a>）</li></ul><p>而使用魔法访问时却一切正常。这时候我们该考虑是不是CDN出现问题了。</p><p>本地调试自己的博客网站后，打开浏览器的开发者面板（F12）-&gt;禁用缓存-&gt;点击网络选项卡-&gt;刷新页面：</p><p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/jsdeliver%E6%83%B9%E7%9A%84%E7%A5%B81.png" alt="jsdeliver惹的祸1"></p><p>你会发现一些js文件或css文件无法被加载，这些文件大多来源于jsdelivr的CDN连接。</p><blockquote><p>不熟悉CDN的小伙伴可以理解为，jsdelivr里存放了大量的js文件或css文件，你的博客网站需要引入这些文件，但是由于某种原因，jsdelivr结点的链接状况在国内时好时坏（使用魔法就好）。</p></blockquote><p>这时我们可以考虑把获取这些js或css文件的链接替换掉。在你的主题配置上进行替换，这里以Butterfly主题为例，在主题配置文件下找到：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">CDN:</span></span><br><span class="line">    <span class="attr">option:</span> </span><br><span class="line">        <span class="attr">fontawesome:</span> <span class="string">&lt;替换的cdn&gt;</span></span><br></pre></td></tr></table></figure><p>建议你把涉及jsdelivr都替换掉把，让中国宝宝访问你的博客网站更快更方便。</p><p>各种资源CDN链接参考：<a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></p><p>也可以在下面的两个网站找：</p><ul><li><a href="https://cdnjs.com/">https://cdnjs.com/</a></li><li><a href="https://www.bootcdn.cn/">https://www.bootcdn.cn/</a></li></ul><p>也可以把文件放在自己的存储桶中（注意看好你的钱包）。</p><p>参考：</p><ul><li><a href="https://blog.zhheo.com/p/790087d9.html">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度 | 张洪Heo (zhheo.com)</a></li><li><a href="https://blog.csdn.net/u013014254/article/details/122045331">jsdelivr炸了如何解决|用这些免费cdn_地域男孩的博客-CSDN博客</a></li><li><a href="https://butterfly.js.org/posts/ceeb73f/#custom-format">Butterfly 安裝文檔(四) 主題配置-2 | Butterfly</a></li><li><a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1243">fontawesome图标问题 · Issue #1243 · jerryc127/hexo-theme-butterfly (github.com)</a></li></ul>]]></content>
     
     
     <summary type="html">由于某种原因，jsdelivr的状况时好时坏，本文介绍Butterfly下替换CDN链接的解决方案</summary>
