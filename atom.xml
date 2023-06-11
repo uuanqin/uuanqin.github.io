@@ -6,7 +6,7 @@
   <link href="https://www.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://www.uuanqin.top/"/>
-  <updated>2023-06-01T16:22:45.243Z</updated>
+  <updated>2023-06-02T08:55:46.060Z</updated>
   <id>https://www.uuanqin.top/</id>
   
   <author>
@@ -17,25 +17,69 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo进阶了解与Butterfly定制</title>
+    <link href="https://www.uuanqin.top/p/18bbd410.html"/>
+    <id>https://www.uuanqin.top/p/18bbd410.html</id>
+    <published>2023-06-02T08:55:00.000Z</published>
+    <updated>2023-06-02T08:55:46.060Z</updated>
+    
+    
+    <summary type="html">部署完Hexo，选择一个好的主题进行更加个性化的定制。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
+    
+    
+    <category term="Nginx" scheme="https://www.uuanqin.top/tags/Nginx/"/>
+    
+    <category term="butterfly" scheme="https://www.uuanqin.top/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>构建Obsidian的Hexo写作工作流</title>
+    <link href="https://www.uuanqin.top/p/51890a9.html"/>
+    <id>https://www.uuanqin.top/p/51890a9.html</id>
+    <published>2023-06-01T14:22:07.000Z</published>
+    <updated>2023-06-02T08:29:53.310Z</updated>
+    
+    
+    <summary type="html">切换到Obsidian写作的快速指南</summary>
+    
+    
+    
+    <category term="核心协同" scheme="https://www.uuanqin.top/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
+    
+    
+    <category term="Typora" scheme="https://www.uuanqin.top/tags/Typora/"/>
+    
+    <category term="Obsidian" scheme="https://www.uuanqin.top/tags/Obsidian/"/>
+    
+    <category term="Hexo" scheme="https://www.uuanqin.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown渲染测试</title>
     <link href="https://www.uuanqin.top/p/3c4a82e6.html"/>
     <id>https://www.uuanqin.top/p/3c4a82e6.html</id>
     <published>2023-06-01T14:06:06.000Z</published>
-    <updated>2023-06-01T16:22:45.243Z</updated>
+    <updated>2023-06-02T08:29:47.824Z</updated>
     
     
     <summary type="html">以CommonMark、GFM标准为基础进行测试。</summary>
     
     
     
-    <category term="笔记协同" scheme="https://www.uuanqin.top/categories/%E7%AC%94%E8%AE%B0%E5%8D%8F%E5%90%8C/"/>
+    <category term="核心协同" scheme="https://www.uuanqin.top/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
     <category term="源码案例驱动" scheme="https://www.uuanqin.top/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
     
-    <category term="Markdown" scheme="https://www.uuanqin.top/tags/Markdown/"/>
-    
     <category term="Typora" scheme="https://www.uuanqin.top/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://www.uuanqin.top/tags/Markdown/"/>
     
   </entry>
   
@@ -44,7 +88,7 @@
     <link href="https://www.uuanqin.top/p/568ad08.html"/>
     <id>https://www.uuanqin.top/p/568ad08.html</id>
     <published>2023-05-31T16:17:21.000Z</published>
-    <updated>2023-06-01T16:17:57.819Z</updated>
+    <updated>2023-06-03T09:04:28.130Z</updated>
     
     
     <summary type="html">辛苦摸索出来的侧边栏定制</summary>
@@ -149,12 +193,14 @@
     <link href="https://www.uuanqin.top/p/c318939d.html"/>
     <id>https://www.uuanqin.top/p/c318939d.html</id>
     <published>2023-05-26T15:09:27.000Z</published>
-    <updated>2023-06-01T07:16:51.658Z</updated>
+    <updated>2023-06-03T16:34:36.369Z</updated>
     
     
     <summary type="html">提取CClose中有用的脚本代码进行解析</summary>
     
     
+    
+    <category term="核心协同" scheme="https://www.uuanqin.top/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
     <category term="CClose" scheme="https://www.uuanqin.top/tags/CClose/"/>
@@ -172,12 +218,14 @@
     <link href="https://www.uuanqin.top/p/b8fe259e.html"/>
     <id>https://www.uuanqin.top/p/b8fe259e.html</id>
     <published>2023-05-13T10:33:32.000Z</published>
-    <updated>2023-06-01T07:16:05.386Z</updated>
+    <updated>2023-06-02T08:29:47.759Z</updated>
     
     
     <summary type="html">我使用过的优秀开源软件</summary>
     
     
+    
+    <category term="日常利器" scheme="https://www.uuanqin.top/categories/%E6%97%A5%E5%B8%B8%E5%88%A9%E5%99%A8/"/>
     
     
     <category term="Github" scheme="https://www.uuanqin.top/tags/Github/"/>
@@ -191,12 +239,14 @@
     <link href="https://www.uuanqin.top/p/84ae21ea.html"/>
     <id>https://www.uuanqin.top/p/84ae21ea.html</id>
     <published>2023-05-11T08:37:21.000Z</published>
-    <updated>2023-06-01T07:16:01.964Z</updated>
+    <updated>2023-06-02T08:29:47.759Z</updated>
     
     
     <summary type="html">修改油叉脚本以适应当前访问知网的网络状况</summary>
     
     
+    
+    <category term="日常利器" scheme="https://www.uuanqin.top/categories/%E6%97%A5%E5%B8%B8%E5%88%A9%E5%99%A8/"/>
     
     
     <category term="Tampermonkey" scheme="https://www.uuanqin.top/tags/Tampermonkey/"/>
@@ -268,12 +318,14 @@
     <link href="https://www.uuanqin.top/p/7a52ccab.html"/>
     <id>https://www.uuanqin.top/p/7a52ccab.html</id>
     <published>2023-05-01T09:41:12.000Z</published>
-    <updated>2023-06-01T07:17:14.721Z</updated>
+    <updated>2023-06-02T08:29:47.759Z</updated>
     
     
     <summary type="html">文章介绍通过素材进行画面拼接和合并的技巧和方法</summary>
     
     
+    
+    <category term="日常利器" scheme="https://www.uuanqin.top/categories/%E6%97%A5%E5%B8%B8%E5%88%A9%E5%99%A8/"/>
     
     
     <category term="PR" scheme="https://www.uuanqin.top/tags/PR/"/>
@@ -316,15 +368,13 @@
     <link href="https://www.uuanqin.top/p/26a31d07.html"/>
     <id>https://www.uuanqin.top/p/26a31d07.html</id>
     <published>2023-04-30T13:44:54.000Z</published>
-    <updated>2023-06-01T07:17:06.289Z</updated>
+    <updated>2023-06-02T06:53:59.875Z</updated>
     
     
     <summary type="html">在“额外CSS”中加入代码。</summary>
     
     
     
-    
-    <category term="搬运" scheme="https://www.uuanqin.top/tags/%E6%90%AC%E8%BF%90/"/>
     
     <category term="CSS" scheme="https://www.uuanqin.top/tags/CSS/"/>
     
@@ -375,7 +425,7 @@
     <link href="https://www.uuanqin.top/p/7b17333d.html"/>
     <id>https://www.uuanqin.top/p/7b17333d.html</id>
     <published>2023-04-28T09:34:18.000Z</published>
-    <updated>2023-06-01T07:14:03.638Z</updated>
+    <updated>2023-06-02T05:04:33.177Z</updated>
     
     
     <summary type="html">由于某种原因，jsdelivr的状况时好时坏，本文介绍Butterfly下替换CDN链接的解决方案</summary>
@@ -408,59 +458,11 @@
     <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
     
     
+    <category term="Waline" scheme="https://www.uuanqin.top/tags/Waline/"/>
+    
+    <category term="Vercel" scheme="https://www.uuanqin.top/tags/Vercel/"/>
+    
     <category term="Github" scheme="https://www.uuanqin.top/tags/Github/"/>
-    
-    <category term="Waline" scheme="https://www.uuanqin.top/tags/Waline/"/>
-    
-    <category term="Vercel" scheme="https://www.uuanqin.top/tags/Vercel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo框架Btterfly主题引入Waline评论系统及国内正常访问</title>
-    <link href="https://www.uuanqin.top/p/591f2165.html"/>
-    <id>https://www.uuanqin.top/p/591f2165.html</id>
-    <published>2023-04-27T08:27:09.000Z</published>
-    <updated>2023-06-01T07:14:03.638Z</updated>
-    
-    
-    <summary type="html">由于vercel.app国内访问失败，可通过配置子域名的方法解决</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
-    
-    
-    <category term="问题解决" scheme="https://www.uuanqin.top/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="Butterfly" scheme="https://www.uuanqin.top/tags/Butterfly/"/>
-    
-    <category term="Waline" scheme="https://www.uuanqin.top/tags/Waline/"/>
-    
-    <category term="Vercel" scheme="https://www.uuanqin.top/tags/Vercel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>校园网有线网连接相关问题</title>
-    <link href="https://www.uuanqin.top/p/14a6085b.html"/>
-    <id>https://www.uuanqin.top/p/14a6085b.html</id>
-    <published>2023-04-17T14:48:01.000Z</published>
-    <updated>2023-06-01T07:17:02.537Z</updated>
-    
-    
-    <summary type="html">本文涉及PPPoE拨号指导以及开机自动拨号教程</summary>
-    
-    
-    
-    
-    <category term="Windows" scheme="https://www.uuanqin.top/tags/Windows/"/>
-    
-    <category term="Clash" scheme="https://www.uuanqin.top/tags/Clash/"/>
-    
-    <category term="有线网" scheme="https://www.uuanqin.top/tags/%E6%9C%89%E7%BA%BF%E7%BD%91/"/>
-    
-    <category term="PPPoE" scheme="https://www.uuanqin.top/tags/PPPoE/"/>
     
   </entry>
   

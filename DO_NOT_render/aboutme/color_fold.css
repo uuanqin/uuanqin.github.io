@@ -1,0 +1,106 @@
+/* html,body{
+    margin :0;
+    height : 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-stroke: 1px transparent;
+    font-family: 'Open Sans';
+} */
+h1.color_fold, h2.color_fold, h3.color_fold, h4.color_fold, h5.color_fold, h6.color_fold, .h1.color_fold, .h2.color_fold, .h3.color_fold, .h4.color_fold, .h5.color_fold, .h6.color_fold{
+    font-family: 'Open Sans';
+    color : #ecf0f1;
+}
+p{
+    text-align: justify;
+}
+
+
+.icon h1.color_fold{
+    text-align : center;
+    position : relative;
+    top : 35%;
+    font-size : 5.8em;
+}
+.icon h1.color_fold small{
+    font-size : 0.4em;
+    line-height: 1.5em;
+}
+#accordion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    display : block;
+    overflow: hidden;
+    background: #8e44ad; /* Qin: 这个应该要和最后一个颜色相同，不然很奇怪 */
+    width : 100%;
+    visibility:hidden; /* Qin: 一开始先控制其不可见 */
+}
+ 
+#accordion > li {
+    float: left;
+    display: block;
+    width: 20%;
+    padding:  0;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5em;
+    height : 500px;
+    box-sizing : border-box;
+}
+.picture .icon{
+    background-color : #16a085;
+}
+.picture{
+    background-color : #1abc9c;
+}
+.mobile .icon{
+    background-color : #2980b9;
+}
+.mobile{
+    background-color : #3498db;
+}
+.charte{
+    background-color : #34495e;
+}
+.charte .icon{
+    background-color : #2c3e50;
+}
+.client .icon{
+    background-color : #8e44ad;
+}
+.client{
+    background-color : #9b59b6;
+}
+.aboutMe{
+    background-color : #c0392b;
+}
+.aboutMe .icon{
+    background-color : #e74c3c;
+}
+li .icon{
+    background-size : contain;
+    background-repeat : no-repeat;
+    background-position : center;
+}
+li .icon,li .article{
+    display : inline-block;
+    height : 500px;
+    vertical-align : middle;
+    box-sizing : border-box;
+}
+li .icon{
+    width : 100%;
+      position : relative;
+}
+li .article{
+    padding: 1%;
+    box-sizing : border-box;
+    overflow-y : auto;
+}

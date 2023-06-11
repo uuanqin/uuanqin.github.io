@@ -1,4 +1,4 @@
-#random{
+#effect_shade{
     /* width:40%!important; */
     height: 200px;
     background-color: var(--lyx-white-acrylic1)!important;
@@ -10,12 +10,12 @@
     font-size:40px; /*觉得小可以开大一点*/
     position: relative;
 }
-#random-banner{
+#effect_shade-banner{
     width:100%!important;
     height:100%!important;
     border-radius:8px;
 }
-#random-hover{
+#effect_shade-hover{
     position:absolute;
     right:0%;
     height:100%!important;
@@ -24,7 +24,7 @@
     padding-left: 5%;
     padding-top: 5%;
 }
-#random-hover:hover{
+#effect_shade-hover:hover{
    color:#ffffff;
    background-color: #669900dd;
    backdrop-filter: blur(10px) saturate(180%);
