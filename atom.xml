@@ -6,7 +6,7 @@
   <link href="https://www.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://www.uuanqin.top/"/>
-  <updated>2023-06-12T03:52:28.212Z</updated>
+  <updated>2023-06-12T03:40:26.598Z</updated>
   <id>https://www.uuanqin.top/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>参考测试页面</title>
-    <link href="https://www.uuanqin.top/p/e4b7f93a/"/>
-    <id>https://www.uuanqin.top/p/e4b7f93a/</id>
-    <published>2023-06-12T03:46:12.000Z</published>
-    <updated>2023-06-12T03:52:28.212Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;参考：[[https的配置]]&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hexo进阶了解与Butterfly定制</title>
@@ -64,7 +42,7 @@
     <link href="https://www.uuanqin.top/p/51890a9/"/>
     <id>https://www.uuanqin.top/p/51890a9/</id>
     <published>2023-06-01T14:22:07.000Z</published>
-    <updated>2023-06-13T03:27:19.985Z</updated>
+    <updated>2023-06-13T04:21:36.511Z</updated>
     
     
     <summary type="html">切换到Obsidian写作的快速指南</summary>
@@ -386,23 +364,6 @@
   </entry>
   
   <entry>
-    <title>博客网站网页变灰的操作方法</title>
-    <link href="https://www.uuanqin.top/p/26a31d07/"/>
-    <id>https://www.uuanqin.top/p/26a31d07/</id>
-    <published>2023-04-30T13:44:54.000Z</published>
-    <updated>2023-06-02T06:53:59.875Z</updated>
-    
-    
-    <summary type="html">在“额外CSS”中加入代码。</summary>
-    
-    
-    
-    
-    <category term="CSS" scheme="https://www.uuanqin.top/tags/CSS/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo博客添加漂浮物效果（可定制显示页面）</title>
     <link href="https://www.uuanqin.top/p/28a4bfe2/"/>
     <id>https://www.uuanqin.top/p/28a4bfe2/</id>
@@ -462,6 +423,54 @@
     <category term="Butterfly" scheme="https://www.uuanqin.top/tags/Butterfly/"/>
     
     <category term="jsdelivr" scheme="https://www.uuanqin.top/tags/jsdelivr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>定制自己的Waline评论系统</title>
+    <link href="https://www.uuanqin.top/p/dd188b35/"/>
+    <id>https://www.uuanqin.top/p/dd188b35/</id>
+    <published>2023-04-28T08:15:12.000Z</published>
+    <updated>2023-06-01T07:14:03.638Z</updated>
+    
+    
+    <summary type="html">通过修改客户端或服务端的配置定制自己的Waline评论区</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
+    
+    
+    <category term="Waline" scheme="https://www.uuanqin.top/tags/Waline/"/>
+    
+    <category term="Vercel" scheme="https://www.uuanqin.top/tags/Vercel/"/>
+    
+    <category term="Github" scheme="https://www.uuanqin.top/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo框架Btterfly主题引入Waline评论系统及国内正常访问</title>
+    <link href="https://www.uuanqin.top/p/591f2165/"/>
+    <id>https://www.uuanqin.top/p/591f2165/</id>
+    <published>2023-04-27T08:27:09.000Z</published>
+    <updated>2023-06-01T07:14:03.638Z</updated>
+    
+    
+    <summary type="html">由于vercel.app国内访问失败，可通过配置子域名的方法解决</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
+    
+    
+    <category term="问题解决" scheme="https://www.uuanqin.top/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    <category term="Butterfly" scheme="https://www.uuanqin.top/tags/Butterfly/"/>
+    
+    <category term="Waline" scheme="https://www.uuanqin.top/tags/Waline/"/>
+    
+    <category term="Vercel" scheme="https://www.uuanqin.top/tags/Vercel/"/>
     
   </entry>
   

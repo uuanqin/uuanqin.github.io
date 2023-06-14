@@ -80,7 +80,7 @@ section.timeline {
     margin-left: -15px;
   }
   
-  a {
+  a.atimeline {
     background: #3F51B5;
     color: #FFFFFF;
     padding: 8px 20px;
