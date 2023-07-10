@@ -1,0 +1,12 @@
+[data-theme='dark'] img.site-icon {
+    content: url(https://typora-1301301520.file.myqcloud.com/img/logo-dw.png);
+}
+
+[data-theme='dark'] .footer-logo img {
+    content: url(https://typora-1301301520.file.myqcloud.com/img/A%E5%85%A8%E5%BD%A9%E6%97%A0%E5%AD%97.png);
+}
+
+[data-theme='dark'] img.img-foreverblog {
+    content: url(https://img.foreverblog.cn/logo_en_default.png);
+}
+

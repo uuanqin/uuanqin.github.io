@@ -6,7 +6,7 @@
   <link href="https://www.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://www.uuanqin.top/"/>
-  <updated>2023-06-12T03:40:26.598Z</updated>
+  <updated>2023-07-10T18:03:50.179Z</updated>
   <id>https://www.uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Butterfly夜间模式变换网站图标</title>
+    <link href="https://www.uuanqin.top/p/f06d4de6/"/>
+    <id>https://www.uuanqin.top/p/f06d4de6/</id>
+    <published>2023-07-10T17:40:14.000Z</published>
+    <updated>2023-07-10T18:03:50.179Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Butterfly主题中提供了夜间模式，夜间模式下，字体颜色、图片亮度等都会有所变化。&lt;/p&gt;
+&lt;p&gt;Butterfly主题中没有提供网站Logo的夜间模式版本，本文章将给出解决方案。可以直接看实操部分节约你的时间。&lt;/p&gt;
+&lt;h1 id=&quot;分析过程&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
+    
+    
+    <category term="CSS" scheme="https://www.uuanqin.top/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Butterfly自定义页脚（footer）</title>
+    <link href="https://www.uuanqin.top/p/91b7dad/"/>
+    <id>https://www.uuanqin.top/p/91b7dad/</id>
+    <published>2023-07-10T15:16:32.000Z</published>
+    <updated>2023-07-10T16:56:25.361Z</updated>
+    
+    
+    <summary type="html">利用CodePen项目美化主题的页脚。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
+    
+    
+    <category term="CSS" scheme="https://www.uuanqin.top/tags/CSS/"/>
+    
+    <category term="HTML" scheme="https://www.uuanqin.top/tags/HTML/"/>
+    
+    <category term="CodePen" scheme="https://www.uuanqin.top/tags/CodePen/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo进阶了解与Butterfly定制</title>
     <link href="https://www.uuanqin.top/p/18bbd410/"/>
     <id>https://www.uuanqin.top/p/18bbd410/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-06-12T03:40:26.598Z</updated>
+    <updated>2023-07-10T18:01:41.677Z</updated>
     
     
     <summary type="html">部署完Hexo，选择一个好的主题进行更加个性化的定制。</summary>
@@ -113,7 +163,7 @@
     <link href="https://www.uuanqin.top/p/511c30b3/"/>
     <id>https://www.uuanqin.top/p/511c30b3/</id>
     <published>2023-05-31T09:53:26.000Z</published>
-    <updated>2023-06-01T15:46:23.616Z</updated>
+    <updated>2023-06-22T03:00:45.223Z</updated>
     
     
     <summary type="html">分享个人申请独立开发软件的软件著作权过程。</summary>
@@ -423,54 +473,6 @@
     <category term="Butterfly" scheme="https://www.uuanqin.top/tags/Butterfly/"/>
     
     <category term="jsdelivr" scheme="https://www.uuanqin.top/tags/jsdelivr/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>定制自己的Waline评论系统</title>
-    <link href="https://www.uuanqin.top/p/dd188b35/"/>
-    <id>https://www.uuanqin.top/p/dd188b35/</id>
-    <published>2023-04-28T08:15:12.000Z</published>
-    <updated>2023-06-01T07:14:03.638Z</updated>
-    
-    
-    <summary type="html">通过修改客户端或服务端的配置定制自己的Waline评论区</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
-    
-    
-    <category term="Waline" scheme="https://www.uuanqin.top/tags/Waline/"/>
-    
-    <category term="Vercel" scheme="https://www.uuanqin.top/tags/Vercel/"/>
-    
-    <category term="Github" scheme="https://www.uuanqin.top/tags/Github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo框架Btterfly主题引入Waline评论系统及国内正常访问</title>
-    <link href="https://www.uuanqin.top/p/591f2165/"/>
-    <id>https://www.uuanqin.top/p/591f2165/</id>
-    <published>2023-04-27T08:27:09.000Z</published>
-    <updated>2023-06-01T07:14:03.638Z</updated>
-    
-    
-    <summary type="html">由于vercel.app国内访问失败，可通过配置子域名的方法解决</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
-    
-    
-    <category term="问题解决" scheme="https://www.uuanqin.top/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="Butterfly" scheme="https://www.uuanqin.top/tags/Butterfly/"/>
-    
-    <category term="Waline" scheme="https://www.uuanqin.top/tags/Waline/"/>
-    
-    <category term="Vercel" scheme="https://www.uuanqin.top/tags/Vercel/"/>
     
   </entry>
   
