@@ -1368,6 +1368,7 @@
 }
 
 /**************** 我添加的CSS *********************/
+/* 评论区动图 */
 /* 然而我并不懂确切的含义，参数是乱调的 */
 .wl-editor {
     background-image: url(https://typora-1301301520.file.myqcloud.com/img/zhuangzhuang_comment_trans.gif);
@@ -1384,13 +1385,23 @@
 }
 
 /********** 评论区输入提醒 ****************/
+/* 感谢Leonus大佬指点迷津！大佬博客：https://b.leonus.cn/ */
+
+.wl-header {
+    overflow: visible;
+}
+.wl-header-item {
+    position: relative;
+}
+
+/* merci end */
 
 .wl-header-item:nth-child(1):before {
-    content: '输入QQ号会自动获取昵称和头像🐧';
+    content: '哈喽';
 }
 
 .wl-header-item:nth-child(2):before {
-    content: '收到回复将会发送到您的邮箱📧';
+    content: '收到回复将通过的邮箱提醒您📧';
 }
 
 .wl-header-item:nth-child(3):before {
