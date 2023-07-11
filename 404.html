@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>页面没有找到 | 半方池水半方田</title><meta name="author" content="Wuanqin"><meta name="copyright" content="Wuanqin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="* {   box-sizing: border-box; } body {   margin: 0; } #ihnhp2{   text-align:center;   font-size:72px;   font-family:Tahoma, Geneva, sans-serif; } .mb-3{   text-align:center;   font-size:28px; } .img-">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>页面没有找到 | 半方池水半方田</title><meta name="author" content="wuanqin"><meta name="copyright" content="wuanqin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="* {   box-sizing: border-box; } body {   margin: 0; } #ihnhp2{   text-align:center;   font-size:72px;   font-family:Tahoma, Geneva, sans-serif; } .mb-3{   text-align:center;   font-size:28px; } .img-">
 <meta property="og:type" content="website">
 <meta property="og:title" content="半方池水半方田">
 <meta property="og:url" content="https://www.uuanqin.top/404.html">
@@ -8,7 +8,7 @@
 <meta property="og:image" content="https://typora-1301301520.file.myqcloud.com/img/pexels-skylar-kang-6045344.jpg">
 <meta property="article:published_time" content="2023-04-14T06:24:15.000Z">
 <meta property="article:modified_time" content="2023-04-15T14:37:52.013Z">
-<meta property="article:author" content="Wuanqin">
+<meta property="article:author" content="wuanqin">
 <meta property="article:tag" content="博客 技术 生活">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://typora-1301301520.file.myqcloud.com/img/pexels-skylar-kang-6045344.jpg"><link rel="shortcut icon" href="https://typora-1301301520.file.myqcloud.com/img/qlogo.png"><link rel="canonical" href="https://www.uuanqin.top/404.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="codeva-IupgPifNxU"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://typora-1301301520.cos.ap-nanjing.myqcloud.com/js/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
@@ -50,7 +50,7 @@ gtag('config', 'G-HP0SJ9PVZC');
     day: '天前',
     month: '个月前'
   },
-  copyright: {"limitCount":200,"languages":{"author":"作者: Wuanqin","link":"链接: ","source":"来源: 半方池水半方田","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  copyright: {"limitCount":200,"languages":{"author":"作者: wuanqin","link":"链接: ","source":"来源: 半方池水半方田","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
   lightbox: 'fancybox',
   Snackbar: undefined,
   source: {
@@ -66,7 +66,7 @@ gtag('config', 'G-HP0SJ9PVZC');
     toc: true,
     rightside: true,
   },
-  autoDarkmode: true
+  autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: '页面没有找到',
   isPost: false,
@@ -159,26 +159,11 @@ gtag('config', 'G-HP0SJ9PVZC');
       }
       const t = saveToLocal.get('theme')
     
-          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
-          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
-          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
-          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
-
-          if (t === undefined) {
-            if (isLightMode) activateLightMode()
-            else if (isDarkMode) activateDarkMode()
-            else if (isNotSpecified || hasNoSupport) {
-              const now = new Date()
-              const hour = now.getHours()
-              const isNight = hour <= 6 || hour >= 18
-              isNight ? activateDarkMode() : activateLightMode()
-            }
-            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
-              if (saveToLocal.get('theme') === undefined) {
-                e.matches ? activateDarkMode() : activateLightMode()
-              }
-            })
-          } else if (t === 'light') activateLightMode()
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 8 || hour >= 23
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
@@ -362,16 +347,23 @@ body {
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
           <a href="building.html">隐私政策</a>
         </li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a href="building.html">使用条款</a>
-        </li>
       </ul>
     </div>
     <div class="footer-call-to-action">
       <h2 class="footer-call-to-action-title">联系本站</h2>
+      <ul id="menu-legal" class="footer-menu-list">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+          <a href="DO_NOT_render/wechatOA/index.html">微信公众号</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+          <a class="footer-call-to-action-link" href="mailto:uuanqin@uuanqin.top" rel="external nofollow noreferrer" target="_self">uuanqin#uuanqin.top</a>("#"替换成"@")
+        </li>
+      </ul>
+      <!-- 
       <p class="footer-call-to-action-link-wrapper">
         <a class="footer-call-to-action-link" href="mailto:uuanqin@uuanqin.top" rel="external nofollow noreferrer" target="_self">uuanqin#uuanqin.top</a>("#"替换成"@")
       </p>
+      -->
     </div>
   </div>
   <div class="footer-social-links"> <svg class="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">
