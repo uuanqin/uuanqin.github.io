@@ -758,10 +758,10 @@ This is a second line. （然而Typora不支持这种方式换行） <a href="#f
   const walineCSSLoad = document.getElementById('waline-css')
 
   if (typeof Waline === 'object') {
-    walineCSSLoad ? initWaline() : getCSS('/css/waline.min.css','waline-css').then(initWaline)
+    walineCSSLoad ? initWaline() : getCSS('/css/mywaline.css','waline-css').then(initWaline)
   }
   else {
-    getCSS('/css/waline.min.css','waline-css').then(() => {
+    getCSS('/css/mywaline.css','waline-css').then(() => {
       getScript('https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.js').then(initWaline)
     })
   }

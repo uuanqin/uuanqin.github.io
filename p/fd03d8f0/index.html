@@ -417,10 +417,10 @@ If your tools.jar file is out of date (pre Java 1.4, we think), parts of <stron
   const walineCSSLoad = document.getElementById('waline-css')
 
   if (typeof Waline === 'object') {
-    walineCSSLoad ? initWaline() : getCSS('/css/waline.min.css','waline-css').then(initWaline)
+    walineCSSLoad ? initWaline() : getCSS('/css/mywaline.css','waline-css').then(initWaline)
   }
   else {
-    getCSS('/css/waline.min.css','waline-css').then(() => {
+    getCSS('/css/mywaline.css','waline-css').then(() => {
       getScript('https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.js').then(initWaline)
     })
   }
