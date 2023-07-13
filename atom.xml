@@ -339,6 +339,8 @@
     
     <category term="源码案例驱动" scheme="https://www.uuanqin.top/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
     
+    <category term="MySQL" scheme="https://www.uuanqin.top/tags/MySQL/"/>
+    
     <category term="Python" scheme="https://www.uuanqin.top/tags/Python/"/>
     
     <category term="Flask" scheme="https://www.uuanqin.top/tags/Flask/"/>
@@ -348,8 +350,6 @@
     <category term="Vue" scheme="https://www.uuanqin.top/tags/Vue/"/>
     
     <category term="ElementPlus" scheme="https://www.uuanqin.top/tags/ElementPlus/"/>
-    
-    <category term="MySQL" scheme="https://www.uuanqin.top/tags/MySQL/"/>
     
   </entry>
   
