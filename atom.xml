@@ -6,7 +6,7 @@
   <link href="https://www.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://www.uuanqin.top/"/>
-  <updated>2023-07-11T16:26:29.661Z</updated>
+  <updated>2023-07-24T10:12:36.905Z</updated>
   <id>https://www.uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客域名解析管理与CDN加速配置</title>
+    <link href="https://www.uuanqin.top/p/83335cfa/"/>
+    <id>https://www.uuanqin.top/p/83335cfa/</id>
+    <published>2023-07-23T17:27:11.000Z</published>
+    <updated>2023-07-24T10:12:36.905Z</updated>
+    
+    
+    <summary type="html">精解本博客域名配置，建议属性CDN、HTTPS配置后参考。</summary>
+    
+    
+    
+    
+    <category term="CDN" scheme="https://www.uuanqin.top/tags/CDN/"/>
+    
+    <category term="HTTPS" scheme="https://www.uuanqin.top/tags/HTTPS/"/>
+    
+    <category term="SSL" scheme="https://www.uuanqin.top/tags/SSL/"/>
+    
+    <category term="腾讯云" scheme="https://www.uuanqin.top/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+    <category term="Nginx" scheme="https://www.uuanqin.top/tags/Nginx/"/>
+    
+    <category term="阿里云" scheme="https://www.uuanqin.top/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+    <category term="DNS" scheme="https://www.uuanqin.top/tags/DNS/"/>
+    
+    <category term="HSTS" scheme="https://www.uuanqin.top/tags/HSTS/"/>
+    
+    <category term="HTTP" scheme="https://www.uuanqin.top/tags/HTTP/"/>
+    
+  </entry>
   
   <entry>
     <title>为评论系统增加输入提醒（Waline等均适用）</title>
@@ -444,25 +477,6 @@
     <category term="JavaScript" scheme="https://www.uuanqin.top/tags/JavaScript/"/>
     
     <category term="ButterFly" scheme="https://www.uuanqin.top/tags/ButterFly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在你的Hexo博客上加入进度条（Butterfly）</title>
-    <link href="https://www.uuanqin.top/p/4dfb77c6/"/>
-    <id>https://www.uuanqin.top/p/4dfb77c6/</id>
-    <published>2023-04-28T12:03:02.000Z</published>
-    <updated>2023-06-01T07:14:03.638Z</updated>
-    
-    
-    <summary type="html">通过进入pace.js以及本地css实现网站顶部进度条</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://www.uuanqin.top/categories/Hexo/"/>
-    
-    
-    <category term="pace" scheme="https://www.uuanqin.top/tags/pace/"/>
     
   </entry>
   
