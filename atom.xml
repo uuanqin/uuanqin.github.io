@@ -50,11 +50,11 @@
   </entry>
   
   <entry>
-    <title>为评论系统增加输入提醒（Waline等均适用）</title>
+    <title>为评论系统增加输入提醒【Waline】</title>
     <link href="https://www.uuanqin.top/p/b3be711f/"/>
     <id>https://www.uuanqin.top/p/b3be711f/</id>
     <published>2023-07-11T15:42:59.000Z</published>
-    <updated>2023-07-11T16:26:29.661Z</updated>
+    <updated>2023-07-25T17:16:05.353Z</updated>
     
     
     <summary type="html">通过CSS设置实现信息输入提示。</summary>
@@ -71,11 +71,11 @@
   </entry>
   
   <entry>
-    <title>Butterfly夜间模式变换网站图标</title>
+    <title>Butterfly夜间模式变换顶部网站图标</title>
     <link href="https://www.uuanqin.top/p/f06d4de6/"/>
     <id>https://www.uuanqin.top/p/f06d4de6/</id>
     <published>2023-07-10T17:40:14.000Z</published>
-    <updated>2023-07-12T09:10:11.570Z</updated>
+    <updated>2023-07-25T17:52:09.528Z</updated>
     
     
     <summary type="html">使用CSS设定夜间模式时img使用的图片。</summary>
@@ -90,14 +90,14 @@
   </entry>
   
   <entry>
-    <title>Butterfly自定义页脚（footer）</title>
+    <title>Butterfly自定义页脚（不修改主题源码）</title>
     <link href="https://www.uuanqin.top/p/91b7dad/"/>
     <id>https://www.uuanqin.top/p/91b7dad/</id>
     <published>2023-07-10T15:16:32.000Z</published>
-    <updated>2023-07-25T16:46:16.621Z</updated>
+    <updated>2023-07-25T17:07:50.011Z</updated>
     
     
-    <summary type="html">利用CodePen项目美化主题的页脚。</summary>
+    <summary type="html">利用CodePen项目美化主题的页脚，不修改主题代码。</summary>
     
     
     
@@ -117,7 +117,7 @@
     <link href="https://www.uuanqin.top/p/18bbd410/"/>
     <id>https://www.uuanqin.top/p/18bbd410/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-07-25T16:38:07.312Z</updated>
+    <updated>2023-07-25T17:45:31.584Z</updated>
     
     
     <summary type="html">部署完Hexo，选择一个好的主题进行更加个性化的定制。</summary>
@@ -138,7 +138,7 @@
     <link href="https://www.uuanqin.top/p/51890a9/"/>
     <id>https://www.uuanqin.top/p/51890a9/</id>
     <published>2023-06-01T14:22:07.000Z</published>
-    <updated>2023-06-13T04:21:36.511Z</updated>
+    <updated>2023-07-25T17:35:01.066Z</updated>
     
     
     <summary type="html">切换到Obsidian写作的快速指南</summary>
@@ -180,11 +180,11 @@
   </entry>
   
   <entry>
-    <title>ButterFly不改动主题源码自定义侧边栏</title>
+    <title>ButterFly不改动主题源码实现自定义侧边栏</title>
     <link href="https://www.uuanqin.top/p/568ad08/"/>
     <id>https://www.uuanqin.top/p/568ad08/</id>
     <published>2023-05-31T16:17:21.000Z</published>
-    <updated>2023-07-25T16:44:37.937Z</updated>
+    <updated>2023-07-25T17:04:16.154Z</updated>
     
     
     <summary type="html">辛苦摸索出来的侧边栏定制</summary>
