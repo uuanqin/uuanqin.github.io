@@ -83,7 +83,7 @@ var tianliGPT = {
       }
   
       const combinedText = title + ' ' + content;
-      let wordLimit = 500; // ME: 改为500 开源节流，以后自己搞一个再任性
+      let wordLimit = 250; // ME: 开源节流，以后自己搞一个再任性
       if (typeof tianliGPT_wordLimit !== "undefined") {
         wordLimit = tianliGPT_wordLimit;
       }
