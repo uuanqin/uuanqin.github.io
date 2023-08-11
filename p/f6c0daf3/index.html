@@ -1,0 +1,478 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Butterfly侧边栏实现Obsidian关系图谱 | 半方池水半方田</title><meta name="author" content="wuanqin"><meta name="copyright" content="wuanqin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="通过自制脚本实现文章关系图绘制以及加入Hexo部署自动化流程中">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Butterfly侧边栏实现Obsidian关系图谱">
+<meta property="og:url" content="https://www.uuanqin.top/p/f6c0daf3/index.html">
+<meta property="og:site_name" content="半方池水半方田">
+<meta property="og:description" content="通过自制脚本实现文章关系图绘制以及加入Hexo部署自动化流程中">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://typora-1301301520.file.myqcloud.com/img/relationcover.png">
+<meta property="article:published_time" content="2023-08-11T14:30:29.000Z">
+<meta property="article:modified_time" content="2023-08-11T18:01:43.772Z">
+<meta property="article:author" content="wuanqin">
+<meta property="article:tag" content="CSS">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="HTML">
+<meta property="article:tag" content="Butterfly">
+<meta property="article:tag" content="Obsidian">
+<meta property="article:tag" content="Cosma">
+<meta property="article:tag" content="npm">
+<meta property="article:tag" content="script">
+<meta property="article:tag" content="YAML">
+<meta property="article:tag" content="Markdown">
+<meta property="article:tag" content="项目">
+<meta property="article:tag" content="GitHub">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://typora-1301301520.file.myqcloud.com/img/relationcover.png"><link rel="shortcut icon" href="https://typora-1301301520.file.myqcloud.com/img/qlogo.png"><link rel="canonical" href="https://www.uuanqin.top/p/f6c0daf3/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="codeva-IupgPifNxU"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://typora-1301301520.cos.ap-nanjing.myqcloud.com/js/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?877eb1cd1993b0865452ed4011fcd2d8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-HP0SJ9PVZC"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HP0SJ9PVZC');
+</script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "gwn59ub66c");</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: {"appId":"2JINTHATAF","apiKey":"086110423d680367cda9c0216b336eb8","indexName":"uuanqin.top","hits":{"per_page":6},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"这个页面已经有","messageNext":"天没有更新了，文章部分内容可能已经过时"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":350},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":200,"languages":{"author":"作者: wuanqin","link":"链接: ","source":"来源: 半方池水半方田","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Butterfly侧边栏实现Obsidian关系图谱',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-08-12 02:01:43'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 8 || hour >= 23
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/tianli_gpt.css"><link rel="stylesheet" href="//at.alicdn.com/t/c/font_4037705_qir763ddnlj.css"><link rel="stylesheet" href="/css/iconfont_custom.css?2"><link rel="stylesheet" href="/css/scroll_bar.css?1"><script src="/js/random.js?8"></script><script src="https://npm.elemecdn.com/pace-js@latest/pace.min.js"></script><link rel="stylesheet" href="/css/pace-barber-shop.css?2"><link rel="stylesheet" href="/css/effect_shade.css"><link rel="stylesheet" href="/css/footer.css"><link rel="stylesheet" href="/css/darktheme_modify.css"><link rel="stylesheet" href="/css/callout_blocks.css"><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="半方池水半方田" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://typora-1301301520.file.myqcloud.com/img/zhuangzhuangmao.jpg" onerror="onerror=null;src='/image/loading.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">64</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">126</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.travellings.cn/go.html"><i class="fa-fw fa-solid fa-subway"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/building.html"><i class="fa-fw iconfont icon-mao"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="半方池水半方田"><img class="site-icon" src="https://typora-1301301520.file.myqcloud.com/img/logo-bc.png"/><span class="site-name">半方池水半方田</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.travellings.cn/go.html"><i class="fa-fw fa-solid fa-subway"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/building.html"><i class="fa-fw iconfont icon-mao"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Butterfly侧边栏实现Obsidian关系图谱</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-08-11T14:30:29.000Z" title="发表于 2023-08-11 22:30:29">2023-08-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-08-11T18:01:43.772Z" title="更新于 2023-08-12 02:01:43">2023-08-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Hexo/">Hexo</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>10分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Butterfly侧边栏实现Obsidian关系图谱"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><details class="custom-callout cite" open><summary class="callout-title"><div class="callout-icon"></div><div>本文包含的项目</div>
+<div class="callout-fold"></div></summary><div class="callout-body">
+<p>将 Obsidian 仓库转换为 Cosma/Zettlr 可读的文件：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/obsidian2cosma">uuanqin/obsidian2cosma: Convert Obsidian vaults to collection of notes readable by Cosma and Zettlr (github.com)</a></p>
+</div>
+</details><h1 id="挖坑"><a class="markdownIt-Anchor" href="#挖坑"></a> 挖坑</h1>
+<p>由于最近使用 Obsidian 写文章，页面之间的链接越来越丰富，关系图谱越来越复杂。我在想能不能有一种方法可以把 Obsidian 的这张关系图导出放在网站上呢？经历一番探索之后，我发现 Obsidian 官方是推出过关系图生成网页的功能的：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://obsidian.md/publish">Obsidian Publish</a>，但它是付费服务。</p>
+<p>终于，我在 Obsidian 的论坛找到了我想要的：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://forum.obsidian.md/t/share-the-graph-view-and-notes-as-html-page-for-free-with-obsidian2cosma/51070">Share the graph view and notes as HTML page for free with obsidian2cosma - Share &amp; showcase - Obsidian Forum</a>。在这篇帖子中，作者利用一款可以生成这种关系图的开源 APP <a target="_blank" rel="noopener external nofollow noreferrer" href="https://cosma.arthurperret.fr/installing.html">Cosma</a>进行生成。Cosma 可以生成一个 HTML 网页，在包含关系图的同时提供对各个结点的交互，让用户在多种视图下审阅知识库的内容。</p>
+<p>为了让文章中的双向链接能被 Cosma 识别，帖子作者<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/kevinpolisano">Kévin Polisano</a>还自己编写了一个<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/kevinpolisano/obsidian2cosma">Python 命令行工具</a>，将 Obsidian 知识库中的文章的 Front-matter、以及双向链接的格式进行替换，以使得 Cosma 能够识别文章。这一点就让我看到了 Hexo 关系图谱实现的可能性，于是耗时一个星期的挖坑开始了…</p>
+<h1 id="效果"><a class="markdownIt-Anchor" href="#效果"></a> 效果</h1>
+<p>文章在 Obsidian 中显示的关系视图是这样的：</p>
+<p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/20230811225333.png" alt="image.png" /></p>
+<p>在 Hexo 侧边栏是这样的：</p>
+<p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/20230811225838.png" alt="image.png" /></p>
+<p>主关系图网页是这样的：</p>
+<p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/20230811230008.png" alt="image.png" /></p>
+<p>包含了各种标签筛选、视图以及文章查看等功能。</p>
+<h1 id="思路"><a class="markdownIt-Anchor" href="#思路"></a> 思路</h1>
+<p>整个过程分为几个步骤，我的愿景是脚本全自动进行。在 Hexo 进行本地部署或上传至服务器时进行以下操作：</p>
+<ol>
+<li>使用脚本转换 Hexo 中<code>_posts</code>目录下的文章为 Cosma 可以识别的文章</li>
+<li>运行两次 Cosma，根据不同的配置文件生成两个不一样的<code>cosmoscope.html</code>（这就是我说的那个关键的包含关系图谱网页）</li>
+<li>将其中一个<code>cosmoscope.html</code>用脚本进行修剪，用做侧边栏的展示</li>
+<li>将处理好的<code>cosmoscope.html</code>粘贴到 Hexo 博客<code>source</code>目录下某指定文件夹中</li>
+<li>删除转换后的文件，以免 Obsidian 仓库混淆</li>
+<li>脚本进行剩余的本地部署或发布操作</li>
+</ol>
+<h1 id="操作"><a class="markdownIt-Anchor" href="#操作"></a> 操作</h1>
+<h2 id="转换-obsidian-文章为-cosma-可识别的文章"><a class="markdownIt-Anchor" href="#转换-obsidian-文章为-cosma-可识别的文章"></a> 转换 Obsidian 文章为 Cosma 可识别的文章</h2>
+<p>这一步是关键一步。只要能导出 HTML 关系图谱网页那么一切都好办了。</p>
+<p>前面提到过 Kévin Polisano 写了一个脚本实现了这样的功能，但是限于这个脚本的诞生条件（Cosma 有未修复的 Bug）以及创作环境（作者是法国人，脚本有很多兼容性 Bug），它的脚本跑不起来。</p>
+<p>在我仔细研读源代码后决定将其重写代码以让它正确工作，项目地址如下，欢迎大家来捧场 🎉🎉！</p>
+<details class="custom-callout cite" open><summary class="callout-title"><div class="callout-icon"></div><div>项目地址</div>
+<div class="callout-fold"></div></summary><div class="callout-body">
+<p>将 Obsidian 仓库转换为 Cosma/Zettlr 可读的文件：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/obsidian2cosma">uuanqin/obsidian2cosma: Convert Obsidian vaults to collection of notes readable by Cosma and Zettlr (github.com)</a></p>
+</div>
+</details><p>最主要特点：<strong>Windows/Linux/MacOS 适配</strong>、<strong>Cosma/Zettlr 兼容</strong>、<strong>语言支持</strong>。</p>
+<p>我在原脚本的基础上修复了一些 Bug 也增加了一些功能以适配我的需求：</p>
+<details class="custom-callout cite" open><summary class="callout-title"><div class="callout-icon"></div><div>修复与增强</div>
+<div class="callout-fold"></div></summary><div class="callout-body">
+<ul>
+<li>重写了 YAML 解析器，使之可以解析更多格式的 YAML，摆脱特定关键字的依赖。</li>
+<li>重写了创建 ID 的逻辑。</li>
+<li>功能：更改 front-matter 中的关键字名称。</li>
+<li>修复了在 Windows 上复制源文件创建日期时出现的错误。</li>
+<li>提高在 Windows 上工作的效率。</li>
+<li>为频繁使用脚本提供交互增强。</li>
+<li>支持使用 UTF-8 字符集，中文标题文章也能用。</li>
+<li>更新 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://README.md">README.md</a> 并增加其中文版本。</li>
+<li>其他：ID 冲突检测、程序运行时间计算等<br />
+<em>—— 摘自 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/obsidian2cosma/blob/main/README_zh.md">uuanqin/obsidian2cosma(github.com) 中文文档</a></em></li>
+</ul>
+</div>
+</details><h2 id="使用-cosma-生成关系图谱-html"><a class="markdownIt-Anchor" href="#使用-cosma-生成关系图谱-html"></a> 使用 Cosma 生成关系图谱 HTML</h2>
+<p>在使用了上述脚本后，输出的 Markdown 文件会在指定的文件夹中，这里假设为<code>data/</code>。接下来我们使用 Cosma 进行读取和转换。</p>
+<p>Cosma 的安装与使用请详详细细阅读官网：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://cosma.arthurperret.fr/about.html">Cosma | About Cosma (arthurperret.fr)</a></p>
+<p>我的设想是使用两个不同的 Cosma 配置文件生成两种<code>cosmoscope.html</code>：一个用做侧边栏的基础展示，不需要那么多花里胡哨的功能，视图更清晰一些即可，这里我成之<code>cosmoscope_trim.html</code>；另一个用做正式的交互网页，一般原封不动即可。</p>
+<h2 id="对cosmoscopehtml进行修剪与美化"><a class="markdownIt-Anchor" href="#对cosmoscopehtml进行修剪与美化"></a> 对<code>cosmoscope.html</code>进行修剪与美化</h2>
+<p>在上一步中，配置文件只能调一些基本结点样式而已，不能关闭一些功能。这就会导致<code>cosmoscope_trim.html</code>文件很大，在侧边栏中显示不全。因此，这里我通过浏览器 F12 确定删减的标签与更改的样式，在将这个操作新写成另一个 Python 脚本。</p>
+<p><img src= "/image/loading.gif" data-lazy-src="https://typora-1301301520.file.myqcloud.com/img/20230811233922.png" alt="image.png" /></p>
+<p>此外，我对这个网页增加了一个按钮，让读者可以进入到主关系视图网页。项目来自：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://codepen.io/jqueryalmeida/pen/ZxmzYe">Css buttom (codepen.io)</a></p>
+<p>脚本分享：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">此脚本将根据 Cosma CLI2.0.2 生成的关系图谱网页进行修剪。</span></span><br><span class="line"><span class="string">作者：uuanqin（wuanqin@mail.ustc.edu.cn）</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">trim</span>(<span class="params">target_html</span>):</span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">修剪 HTML文件使之能在侧边栏展出</span></span><br><span class="line"><span class="string">:return:</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">soup = BeautifulSoup(<span class="built_in">open</span>(target_html,<span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>), <span class="string">&#x27;html.parser&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除多余元素</span></span><br><span class="line">soup.html.body.aside.decompose()</span><br><span class="line">soup.html.body.main.decompose()</span><br><span class="line">soup.html.body.div.div.decompose()</span><br><span class="line">soup.html.body.div.div.decompose()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改css，使得图片占据全画面</span></span><br><span class="line">style_str = soup.html.style.string</span><br><span class="line">style_str = re.sub(<span class="string">r&quot;(width: )calc\(100vw - 30rem\)(;)&quot;</span>,<span class="string">r&quot;\1 100vw\2&quot;</span>,style_str,count=<span class="number">1</span>,flags=re.DOTALL)</span><br><span class="line">soup.html.style.string = style_str</span><br><span class="line"></span><br><span class="line"><span class="comment"># 项目地址 https://codepen.io/jqueryalmeida/pen/ZxmzYe# CSS部分</span></span><br><span class="line">css_string = <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">.btn-b &#123;</span></span><br><span class="line"><span class="string">position: absolute;</span></span><br><span class="line"><span class="string">bottom: 9%;</span></span><br><span class="line"><span class="string">right: 2%;</span></span><br><span class="line"><span class="string">cursor: pointer;</span></span><br><span class="line"><span class="string">font-size: 10px;</span></span><br><span class="line"><span class="string">text-align: left;</span></span><br><span class="line"><span class="string">background: #a188fc;</span></span><br><span class="line"><span class="string">background: linear-gradient(to right, #0f4eb4 1%, #07a1e9 100%);</span></span><br><span class="line"><span class="string">color: #ddffff;</span></span><br><span class="line"><span class="string">padding: 0rem 0rem 0rem 0rem;</span></span><br><span class="line"><span class="string">border-radius: 10rem 50rem 50rem 10rem;</span></span><br><span class="line"><span class="string">-webkit-transition: all 0.7s;</span></span><br><span class="line"><span class="string">-moz-transition: all 0.7s;</span></span><br><span class="line"><span class="string">transition: all 0.7s;</span></span><br><span class="line"><span class="string">display: flex;</span></span><br><span class="line"><span class="string">align-items: center;</span></span><br><span class="line"><span class="string">justify-content: space-between;</span></span><br><span class="line"><span class="string">&#125;</span></span><br><span class="line"><span class="string">.btn-b:after &#123;</span></span><br><span class="line"><span class="string">content: &quot;&quot;;</span></span><br><span class="line"><span class="string">position: absolute;</span></span><br><span class="line"><span class="string">right: -1px;</span></span><br><span class="line"><span class="string">margin-left: 1em;</span></span><br><span class="line"><span class="string">width: 35px;</span></span><br><span class="line"><span class="string">height: 35px;</span></span><br><span class="line"><span class="string">border-radius: 50%;</span></span><br><span class="line"><span class="string">box-shadow: 0px 2px 8px 0px rgba(15, 78, 180, 0.22);</span></span><br><span class="line"><span class="string">background: #3bc1ff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNC4yIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIzIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDBINDg4YzEzLjMgMCAyNCAxMC43IDI0IDI0VjE2OGMwIDkuNy01LjggMTguNS0xNC44IDIyLjJzLTE5LjMgMS43LTI2LjItNS4ybC0zOS0zOS04NyA4N2MtOS40IDkuNC0yNC42IDkuNC0zMy45IDBsLTMyLTMyYy05LjQtOS40LTkuNC0yNC42IDAtMzMuOWw4Ny04N0wzMjcgNDFjLTYuOS02LjktOC45LTE3LjItNS4yLTI2LjJTMzM0LjMgMCAzNDQgMHpNMTY4IDUxMkgyNGMtMTMuMyAwLTI0LTEwLjctMjQtMjRWMzQ0YzAtOS43IDUuOC0xOC41IDE0LjgtMjIuMnMxOS4zLTEuNyAyNi4yIDUuMmwzOSAzOSA4Ny04N2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMGwzMiAzMmM5LjQgOS40IDkuNCAyNC42IDAgMzMuOWwtODcgODcgMzkgMzljNi45IDYuOSA4LjkgMTcuMiA1LjIgMjYuMnMtMTIuNSAxNC44LTIyLjIgMTQuOHoiLz48L3N2Zz4=) no-repeat center;</span></span><br><span class="line"><span class="string">background-size: 50%;</span></span><br><span class="line"><span class="string">&#125;</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line">new_style_tag = soup.new_tag(<span class="string">&quot;style&quot;</span>)</span><br><span class="line">new_style_tag.string = css_string</span><br><span class="line">soup.html.head.append(new_style_tag)</span><br><span class="line"><span class="comment"># HTML部分</span></span><br><span class="line">new_div_tag = soup.new_tag(<span class="string">&quot;div&quot;</span>)</span><br><span class="line">new_div_tag[<span class="string">&quot;class&quot;</span>] = <span class="string">&quot;btn-b&quot;</span></span><br><span class="line"><span class="comment"># 链接</span></span><br><span class="line">new_a_tag = soup.new_tag(<span class="string">&quot;a&quot;</span>)</span><br><span class="line">new_a_tag[<span class="string">&quot;href&quot;</span>] = <span class="string">&quot;/DO_NOT_render/cosmoscope/cosmoscope.html&quot;</span></span><br><span class="line">new_a_tag[<span class="string">&quot;target&quot;</span>] = <span class="string">&quot;_blank&quot;</span></span><br><span class="line">new_a_tag.append(new_div_tag)</span><br><span class="line">soup.html.body.div.insert_after(new_a_tag)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 重新写回</span></span><br><span class="line">p = Path(target_html)</span><br><span class="line">output_html = os.path.dirname(target_html)+<span class="string">&quot;/&quot;</span>+p.stem+<span class="string">&#x27;_trim.html&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(output_html,<span class="string">&quot;w&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">f.write(soup.prettify())</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line"><span class="comment"># target_html = &quot;cosma_dir/cosmoscope.html&quot;trim(sys.argv[1])</span></span><br></pre></td></tr></table></figure>
+<h2 id="hexo-侧边栏配置"><a class="markdownIt-Anchor" href="#hexo-侧边栏配置"></a> Hexo 侧边栏配置</h2>
+<p>实现无缝侧边栏参考我这篇教程：<a href="/p/568ad08/" data-pjax-state target="_Blank">ButterFly不改动主题源码实现自定义侧边栏</a></p>
+<p>widge.yml：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">class_name:</span> <span class="string">seamless-card</span></span><br><span class="line">	<span class="attr">id_name:</span></span><br><span class="line">	<span class="attr">name:</span></span><br><span class="line">	<span class="attr">icon:</span></span><br><span class="line">	<span class="attr">order:</span></span><br><span class="line">	<span class="attr">html:</span> <span class="string">|</span></span><br><span class="line">		<span class="string">&lt;div</span> <span class="string">style=&quot;height:</span> <span class="string">250px&quot;&gt;</span></span><br><span class="line">		<span class="string">&lt;iframe</span> <span class="string">src=&quot;/DO_NOT_render/cosmoscope/cosmoscope_trim.html&quot;</span> <span class="string">frameborder=&quot;no&quot;</span> <span class="string">style=&quot;width:</span> <span class="number">100</span><span class="string">%;</span> <span class="attr">height:</span> <span class="number">100</span><span class="string">%&quot;&gt;&lt;/iframe&gt;</span></span><br><span class="line">		<span class="string">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure>
+<p>可以看到 iframe 指向<code>cosmoscope_trim.html</code>。</p>
+<h2 id="hexo-部署自动化"><a class="markdownIt-Anchor" href="#hexo-部署自动化"></a> Hexo 部署自动化</h2>
+<p>上文<a href="#%E6%80%9D%E8%B7%AF">思路</a>，中提到的自动化步骤，通过了 npm script 及其钩子实现。</p>
+<p>以前的文章中我提到过钩子的用法：</p>
+<ul>
+<li>使用钩子在 Hexo 部署前检查 Obsidian 是否启动：<a href="/p/d4bc55f2/" data-pjax-state target="_Blank">Hexo博客适配Obsidian新语法</a></li>
+<li>Hexo 发布后自动刷新 CDN：<a href="/p/b05ac1ee/" data-pjax-state target="_Blank">将CDN缓存自动刷新加入到Hexo博客发布的工作流</a></li>
+</ul>
+<p>分享我目前的 npm script：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;prepublish&quot;</span><span class="punctuation">:</span> <span class="string">&quot;npm run check-obsidian&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;publish&quot;</span><span class="punctuation">:</span> <span class="string">&quot;echo \&quot;网站发布组合技\&quot; &amp;&amp; hexo clean &amp;&amp; hexo d -g &amp;&amp; npm run gen-cosma &amp;&amp; hexo algolia&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;postpublish&quot;</span><span class="punctuation">:</span> <span class="string">&quot;npm run flush-cdn&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;prestart&quot;</span><span class="punctuation">:</span> <span class="string">&quot;npm run check-obsidian&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;start&quot;</span><span class="punctuation">:</span> <span class="string">&quot;echo \&quot;本地部署组合技\&quot; &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; npm run gen-cosma &amp;&amp; hexo s&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;flush-cdn&quot;</span><span class="punctuation">:</span> <span class="string">&quot;node my_scripts/auto_flush_cdn.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;check-obsidian&quot;</span><span class="punctuation">:</span> <span class="string">&quot;node my_scripts/check_obsidian.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;ob2co&quot;</span><span class="punctuation">:</span> <span class="string">&quot;python my_scripts/obsidian2cosma.py -i source/_posts -o my_scripts/cosma_dir/data --ignore -f --method abbrlink --attrreplacement categories,types --verbose&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;cosma-total&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cd my_scripts/cosma_dir/dir_total &amp;&amp; cosma m&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;cosma-trim&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cd my_scripts/cosma_dir/dir_trim &amp;&amp; cosma m &amp;&amp; python ../../cosmoscope_trim.py ../../cosma_dir/dir_trim/cosmoscope.html&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;cosma-copy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;copy \&quot;.\\my_scripts\\cosma_dir\\dir_total\\cosmoscope.html\&quot; \&quot;.\\source\\DO_NOT_render\\cosmoscope\\cosmoscope.html\&quot; &amp; copy \&quot;.\\my_scripts\\cosma_dir\\dir_trim\\cosmoscope_trim.html\&quot; \&quot;.\\source\\DO_NOT_render\\cosmoscope\\cosmoscope_trim.html\&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;cosma-rm-output&quot;</span><span class="punctuation">:</span> <span class="string">&quot;echo \&quot;删除转换后的输出文件 - Cosma\&quot; &amp;&amp; rmdir /s /q .\\my_scripts\\cosma_dir\\data\\&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;gen-cosma&quot;</span><span class="punctuation">:</span> <span class="string">&quot;npm run ob2co &amp;&amp; npm run cosma-total &amp;&amp; npm run cosma-trim &amp;&amp; npm run cosma-copy &amp;&amp; npm run cosma-rm-output&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<p>每个步骤保持分开，以方便调试。</p>
+<h1 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h1>
+<p>最终能完成这样的效果我也很欣慰，和设想的差不多，<s>似乎感受到了一丢丢程序员改变世界的力量 🤭🤭🤭</s>。很多细节我没有详细写出，但是把最重要的思路理清了，有问题的小伙伴可直接评论联系。</p>
+<h2 id="后续改进"><a class="markdownIt-Anchor" href="#后续改进"></a> 后续改进</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 攻克侧边栏 Iframe 网页内的夜间模式问题。</li>
+</ul>
+<h2 id="踩过的坑"><a class="markdownIt-Anchor" href="#踩过的坑"></a> 踩过的坑</h2>
+<ol>
+<li>npm script 中使用 copy 命令时，路径用<code>\\</code>分隔，不然会找不到文件</li>
+<li>你可能会把 Obsidian2cosma 脚本输出的文档放在了平时用 Obsidian 写作的 Vault 内。请注意，这样的话 Obsidian 仓库中就会出现两个同名但不同文件夹的文章，会导致<strong>以后</strong>平时插入双向链接或修改双向链接时出现双向链接题目不对的问题，进而导致<strong>第二次</strong>使用该脚本时一些链接识别不出的问题。</li>
+</ol>
+<h1 id="本文参考"><a class="markdownIt-Anchor" href="#本文参考"></a> 本文参考</h1>
+<ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://docs.zettlr.com/en/academic/zkn-method/">Zettelkasten Methods - Zettlr Docs</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://cosma.arthurperret.fr/user-manual.html">Cosma | User Manual (arthurperret.fr)</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://forum.obsidian.md/t/share-the-graph-view-and-notes-as-html-page-for-free-with-obsidian2cosma/51070">Share the graph view and notes as HTML page for free with obsidian2cosma - Share &amp; showcase - Obsidian Forum</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/qq_19934363/article/details/118091299">Python os.system 乱码_输微的博客-CSDN 博客</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://stackoverflow.com/questions/4996405/how-do-i-change-the-file-creation-date-of-a-windows-file#:~:text=pip%20install%20win32-setctime%20And%20then%20use%20it%20like,dependency%20other%20that%20the%20built-in%20ctypes%20Python%20library%3A">stackoverflow.com/questions/4996405/how-do-i-change-the-file-creation-date-of-a-windows-file#:~:text=pip install win32-setctime And then use it like,dependency other that the built-in ctypes Python library%3A</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.winhelponline.com/blog/change-accessed-modified-created-file-date-timestamp-windows/">winhelponline.com/blog/change-accessed-modified-created-file-date-timestamp-windows/</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://yaml.org/spec/1.2.2/#a-long-long-long-long-link">YAML Ain’t Markup Language (YAML™) revision 1.2.2</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://zhuanlan.zhihu.com/p/429205730">Python 正则表达式细节小记 - 知乎 (zhihu.com)</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes/id">id - HTML（超文本标记语言） | MDN (mozilla.org)</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.windowsdigitals.com/change-file-date-timestamp-cmd-powershell/#:~:text=Set-ItemProperty%20-Path%20%22example.txt%22%20-Name%20CreationTime%20-Value%20%24NewDate,Set-ItemProperty%20-Path%20%22example.txt%22%20-Name%20LastWriteTime%20-Value%20%24NewDate">Change File(s) Date &amp; Timestamp via CMD or PowerShell (windowsdigitals.com)</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/yedajiang44/article/details/118176272">powershell 执行多条命令_powershell 执行多条命令_yedajiang44 的博客-CSDN 博客</a></li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://www.uuanqin.top">wuanqin</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.uuanqin.top/p/f6c0daf3/">https://www.uuanqin.top/p/f6c0daf3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.uuanqin.top" target="_blank">半方池水半方田</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/CSS/">CSS</a><a class="post-meta__tags" href="/tags/Python/">Python</a><a class="post-meta__tags" href="/tags/HTML/">HTML</a><a class="post-meta__tags" href="/tags/Butterfly/">Butterfly</a><a class="post-meta__tags" href="/tags/Obsidian/">Obsidian</a><a class="post-meta__tags" href="/tags/Cosma/">Cosma</a><a class="post-meta__tags" href="/tags/npm/">npm</a><a class="post-meta__tags" href="/tags/script/">script</a><a class="post-meta__tags" href="/tags/YAML/">YAML</a><a class="post-meta__tags" href="/tags/Markdown/">Markdown</a><a class="post-meta__tags" href="/tags/%E9%A1%B9%E7%9B%AE/">项目</a><a class="post-meta__tags" href="/tags/GitHub/">GitHub</a></div><div class="post_share"><div class="social-share" data-image="https://typora-1301301520.file.myqcloud.com/img/relationcover.png" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css" media="print" onload="this.media='all'"><script src="https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://typora-1301301520.file.myqcloud.com/img/wx.png" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://typora-1301301520.file.myqcloud.com/img/wx.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://typora-1301301520.file.myqcloud.com/img/zfb.png" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://typora-1301301520.file.myqcloud.com/img/zfb.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/p/d4bc55f2/" title="Hexo博客适配Obsidian新语法"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/hexoobsidian-grammar.png" onerror="onerror=null;src='/image/404img.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Hexo博客适配Obsidian新语法</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/p/d4bc55f2/" title="Hexo博客适配Obsidian新语法"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/hexoobsidian-grammar.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-08-01</div><div class="title">Hexo博客适配Obsidian新语法</div></div></a></div><div><a href="/p/568ad08/" title="ButterFly不改动主题源码实现自定义侧边栏"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/crowdcover46546.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-01</div><div class="title">ButterFly不改动主题源码实现自定义侧边栏</div></div></a></div><div><a href="/p/91b7dad/" title="Butterfly自定义页脚（不修改主题源码）"><img class="cover" src="https://typora-1301301520.file.myqcloud.com/img/fffootercover.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-07-10</div><div class="title">Butterfly自定义页脚（不修改主题源码）</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://typora-1301301520.file.myqcloud.com/img/zhuangzhuangmao.jpg" onerror="this.onerror=null;this.src='/image/loading.gif'" alt="avatar"/></div><div class="author-info__name">wuanqin</div><div class="author-info__description">啥都懂点，只能懂一点点</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">64</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">126</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" href="/building.html"><i class="fa-solid fa-graduation-cap"></i><span>USTC个人主页(需校内认证)</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/uuanqin" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a><a class="social-icon" href="mailto:uuanqin@uuanqin.top" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fa-solid fa-envelope" style="color: #efb336;"></i></a><a class="social-icon" href="https://afdian.net/a/uuanqin" rel="external nofollow noreferrer" target="_blank" title="爱发电"><i class="fa-solid fa-fish" style="color: #926BE5;"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa-solid fa-rss" style="color: #E97F2B;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">博客框架已迁移至Hexo🎉！<br>项目纷至沓来🤖~敬请期待😋~<br><br>It is recommended that you access this website through the <b>CHINESE MAINLAND</b> network environment.</div></div><div class="card-widget seamless-card"><div class="item-headline"><i></i><span></span></div><div class="item-content"><div id="effect_shade">
+<iframe id="effect_shade-banner" src="/DO_NOT_render/car.html" frameborder="no"></iframe>
+<a id="effect_shade-hover" style="width:100%;height:auto;" href="javascript:randomPost()" rel="external nofollow noreferrer">
+    <span>&nbsp</span><i class="fa-solid fa-car fa-beat"></i>
+  <div>&nbsp随便逛逛→</div></a>
+</div>
+</div></div><div class="card-widget seamless-card"><div class="item-headline"><i></i><span></span></div><div class="item-content"><div style="height: 250px">
+<iframe src="/DO_NOT_render/cosmoscope/cosmoscope_trim.html" frameborder="no" style="width: 100%; height: 100%"></iframe>
+</div>
+</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8C%96%E5%9D%91"><span class="toc-number">1.</span> <span class="toc-text"> 挖坑</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%88%E6%9E%9C"><span class="toc-number">2.</span> <span class="toc-text"> 效果</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%9D%E8%B7%AF"><span class="toc-number">3.</span> <span class="toc-text"> 思路</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%93%8D%E4%BD%9C"><span class="toc-number">4.</span> <span class="toc-text"> 操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AC%E6%8D%A2-obsidian-%E6%96%87%E7%AB%A0%E4%B8%BA-cosma-%E5%8F%AF%E8%AF%86%E5%88%AB%E7%9A%84%E6%96%87%E7%AB%A0"><span class="toc-number">4.1.</span> <span class="toc-text"> 转换 Obsidian 文章为 Cosma 可识别的文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-cosma-%E7%94%9F%E6%88%90%E5%85%B3%E7%B3%BB%E5%9B%BE%E8%B0%B1-html"><span class="toc-number">4.2.</span> <span class="toc-text"> 使用 Cosma 生成关系图谱 HTML</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9cosmoscopehtml%E8%BF%9B%E8%A1%8C%E4%BF%AE%E5%89%AA%E4%B8%8E%E7%BE%8E%E5%8C%96"><span class="toc-number">4.3.</span> <span class="toc-text"> 对cosmoscope.html进行修剪与美化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-%E4%BE%A7%E8%BE%B9%E6%A0%8F%E9%85%8D%E7%BD%AE"><span class="toc-number">4.4.</span> <span class="toc-text"> Hexo 侧边栏配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-%E9%83%A8%E7%BD%B2%E8%87%AA%E5%8A%A8%E5%8C%96"><span class="toc-number">4.5.</span> <span class="toc-text"> Hexo 部署自动化</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">5.</span> <span class="toc-text"> 后记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E7%BB%AD%E6%94%B9%E8%BF%9B"><span class="toc-number">5.1.</span> <span class="toc-text"> 后续改进</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91"><span class="toc-number">5.2.</span> <span class="toc-text"> 踩过的坑</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83"><span class="toc-number">6.</span> <span class="toc-text"> 本文参考</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/p/f6c0daf3/" title="Butterfly侧边栏实现Obsidian关系图谱"><img src="https://typora-1301301520.file.myqcloud.com/img/relationcover.png" onerror="this.onerror=null;this.src='/image/404img.png'" alt="Butterfly侧边栏实现Obsidian关系图谱"/></a><div class="content"><a class="title" href="/p/f6c0daf3/" title="Butterfly侧边栏实现Obsidian关系图谱">Butterfly侧边栏实现Obsidian关系图谱</a><time datetime="2023-08-11T14:30:29.000Z" title="发表于 2023-08-11 22:30:29">2023-08-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/d4bc55f2/" title="Hexo博客适配Obsidian新语法"><img src="https://typora-1301301520.file.myqcloud.com/img/hexoobsidian-grammar.png" onerror="this.onerror=null;this.src='/image/404img.png'" alt="Hexo博客适配Obsidian新语法"/></a><div class="content"><a class="title" href="/p/d4bc55f2/" title="Hexo博客适配Obsidian新语法">Hexo博客适配Obsidian新语法</a><time datetime="2023-08-01T03:34:33.000Z" title="发表于 2023-08-01 11:34:33">2023-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/83335cfa/" title="博客域名解析管理与CDN加速配置"><img src="https://typora-1301301520.file.myqcloud.com/img/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AEcover.png" onerror="this.onerror=null;this.src='/image/404img.png'" alt="博客域名解析管理与CDN加速配置"/></a><div class="content"><a class="title" href="/p/83335cfa/" title="博客域名解析管理与CDN加速配置">博客域名解析管理与CDN加速配置</a><time datetime="2023-07-23T17:27:11.000Z" title="发表于 2023-07-24 01:27:11">2023-07-24</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text"><svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+  <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+</svg>
+<div class="footer-content">
+  <div class="footer-content-column">
+    <div class="footer-logo">
+      <a class="footer-logo-link" href="#">
+        <span class="hidden-link-text">LOGO</span>
+        <img src="https://typora-1301301520.cos.ap-nanjing.myqcloud.com/img/A%E5%85%A8%E7%99%BD%E6%97%A0%E5%AD%97.png" style="height:40%; width:40%">
+      </a>
+    </div>
+    <div class="footer-menu">
+      <h2 class="footer-menu-name">开始</h2>
+      <ul id="menu-get-started" class="footer-menu-list">
+        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+          <a href="/building.html">关于本站</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+          <a href="/sitemap.xml">站点地图</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-content-column">
+    <div class="footer-menu">
+      <h2 class="footer-menu-name">快速链接</h2>
+      <ul id="menu-company" class="footer-menu-list">
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/archives/">时间轴</a>&nbsp;|&nbsp;<a href="/categories/">分类</a>&nbsp;|&nbsp;<a href="/tags/">标签</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a href="javascript:randomPost();" rel="external nofollow noreferrer">随机文章</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a href="https://www.travellings.cn/go.html" rel="noopener external nofollow noreferrer" target="_blank"> <img src="https://www.travellings.cn/assets/logo.gif" alt="" style="width:auto;height:29px;margin-top:10px" title="开往-友链接力"></a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a href="https://www.foreverblog.cn/go.html" rel="noopener external nofollow noreferrer" target="_blank"> <img src="https://img.foreverblog.cn/wormhole_2_tp.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"></a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+  <div class="footer-content-column">
+    <div class="footer-menu">
+      <h2 class="footer-menu-name">友情链接</h2>
+      <ul id="menu-get-started" class="footer-menu-list">
+        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+          <a href="/friends/">本站友链</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+          框架&nbsp;<a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/zh-cn/">Hexo</a>&nbsp;|&nbsp;主题&nbsp;<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+          <a target="_blank" href="https://bf.zzxworld.com/" rel="noopener external nofollow noreferrer noopener">BlogFinder</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+          <a href="https://www.foreverblog.cn/" rel="noopener external nofollow noreferrer" target="_blank" > <img class="img-foreverblog" src="https://typora-1301301520.file.myqcloud.com/img/forever_logo_en_default_white.png" alt="" style="width:auto;height:21px;margin-top:6px"> </a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+  <div class="footer-content-column">
+  <!--
+    <div class="footer-call-to-action">
+      <h2 class="footer-call-to-action-title"> Let's Chat</h2>
+      <p class="footer-call-to-action-description"> Have a support question?</p>
+      <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
+    </div>
+  -->
+    <div class="footer-menu">
+      <h2 class="footer-menu-name">法律声明</h2>
+      <ul id="menu-legal" class="footer-menu-list">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+          <a href="/building.html">隐私政策</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-call-to-action">
+      <h2 class="footer-call-to-action-title">联系本站</h2>
+      <ul id="menu-legal" class="footer-menu-list">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+          <a href="/DO_NOT_render/wechatOA/index.html">微信公众号</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+          <a class="footer-call-to-action-link" href="mailto:uuanqin@uuanqin.top" rel="external nofollow noreferrer" target="_self">
+            uuan<span style="display:none">@</span>qi<!-- >@ -->n@<span style="display:none">@</span>uu<!-- >@. -->an<span style="display:none">@</span>qin.top
+          </a>
+        </li>
+      </ul>
+      <!-- 
+      <p class="footer-call-to-action-link-wrapper">
+        <a class="footer-call-to-action-link" href="mailto:uuanqin@uuanqin.top" rel="external nofollow noreferrer" target="_self">uuanqin#uuanqin.top</a>
+      </p>
+      -->
+    </div>
+  </div>
+  <div class="footer-social-links"> <svg class="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">
+      <path class="footer-social-amoeba-path" d="M223.06,43.32c-.77-7.2,1.87-28.47-20-32.53C187.78,8,180.41,18,178.32,20.7s-5.63,10.1-4.07,16.7-.13,15.23-4.06,15.91-8.75-2.9-6.89-7S167.41,36,167.15,33a18.93,18.93,0,0,0-2.64-8.53c-3.44-5.5-8-11.19-19.12-11.19a21.64,21.64,0,0,0-18.31,9.18c-2.08,2.7-5.66,9.6-4.07,16.69s.64,14.32-6.11,13.9S108.35,46.5,112,36.54s-1.89-21.24-4-23.94S96.34,0,85.23,0,57.46,8.84,56.49,24.56s6.92,20.79,7,24.59c.07,2.75-6.43,4.16-12.92,2.38s-4-10.75-3.46-12.38c1.85-6.6-2-14-4.08-16.69a21.62,21.62,0,0,0-18.3-9.18C13.62,13.28,9.06,19,5.62,24.47A18.81,18.81,0,0,0,3,33a21.85,21.85,0,0,0,1.58,9.08,16.58,16.58,0,0,1,1.06,5A6.75,6.75,0,0,1,0,54H236C235.47,54,223.83,50.52,223.06,43.32Z"></path>
+    </svg>
+    <a class="footer-social-link github" href="https://github.com/uuanqin" rel="external nofollow noreferrer" target="_blank">
+      <span class="hidden-link-text">Github</span>
+      <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+        <path class="footer-social-icon-path" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "></path>
+      </svg>
+    </a>
+    <a class="footer-social-link email" href="mailto:uuanqin@uuanqin.top" rel="external nofollow noreferrer" target="_blank">
+      <span class="hidden-link-text">Email</span>
+      <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+      <path class="footer-social-icon-path" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+      </svg>
+    </a>
+    <a class="footer-social-link fish" href="https://afdian.net/a/uuanqin" rel="external nofollow noreferrer" target="_blank">
+      <span class="hidden-link-text">爱发电</span>
+      <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+      <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+      <path class="footer-social-icon-path" d="M180.5 141.5C219.7 108.5 272.6 80 336 80s116.3 28.5 155.5 61.5c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8C452.3 403.5 399.4 432 336 432s-116.3-28.5-155.5-61.5c-16.2-13.7-30.5-28.5-42.7-43.1L48.1 379.6c-12.5 7.3-28.4 5.3-38.7-4.9S-3 348.7 4.2 336.1L50 256 4.2 175.9c-7.2-12.6-5-28.4 5.3-38.6s26.1-12.2 38.7-4.9l89.7 52.3c12.2-14.6 26.5-29.4 42.7-43.1zM448 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/>
+      </svg>
+    </a>
+    <a class="footer-social-link rss" href="/atom.xml" target="_blank">
+      <span class="hidden-link-text">RSS</span>
+      <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+      <path class="footer-social-icon-path" d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/>
+      </svg>
+    </a>
+    
+  </div>
+</div>
+<div class="footer-copyright">
+  <div class="footer-copyright-wrapper">
+    <p class="footer-copyright-text">
+      ©2022-2023 By wuanqin 
+      <a target="_blank" href="https://beian.miit.gov.cn/" rel="noopener external nofollow noreferrer noopener"><img class="icp-icon" src="https://typora-1301301520.file.myqcloud.com/img/icp.ico"><span>津ICP备2022002156号-1</span></a>
+      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011202000621" rel="noopener external nofollow noreferrer noopener"><img class="icp-icon" src="https://typora-1301301520.file.myqcloud.com/img/备案图标.png"><span>津公网安备 12011202000621号</span></a>
+    </p>
+  </div>
+</div>
+</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://typora-1301301520.cos.ap-nanjing.myqcloud.com/js/fancybox.umd.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="module"></script><script src="https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.8.3/lazyload.iife.min.js"></script><div class="js-pjax"><script>function loadWaline () {
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://pl.uuanqin.top',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, {"locale":{"nick":"昵称","mail":"邮箱","link":"网站","placeholder":"填写数字QQ邮箱可以自动获取QQ头像，支持Gravatar。填写正确的邮箱以及时接收回复提醒。","requiredMeta":[],"sofa":"评论区空空如也~喵呜呜呜","anonymous":"匿名的野猫","login":"登录(可选)"},"emoji":["//unpkg.com/@waline/emojis@1.1.0/bilibili","//unpkg.com/@waline/emojis@1.1.0/qq","//unpkg.com/@waline/emojis@1.1.0/tieba","//unpkg.com/@waline/emojis@1.1.0/weibo"],"reaction":["https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/like.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/pathetic.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/question.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/dizzy.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/emm.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/spit.gif"]}))
+  }
+
+  const walineCSSLoad = document.getElementById('waline-css')
+
+  if (typeof Waline === 'object') {
+    walineCSSLoad ? initWaline() : getCSS('/css/mywaline.css','waline-css').then(initWaline)
+  }
+  else {
+    getCSS('/css/mywaline.css','waline-css').then(() => {
+      getScript('https://cdn.bootcdn.net/ajax/libs/waline/2.15.1/waline.min.js').then(initWaline)
+    })
+  }
+}
+
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script><script>let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'Zm8snUerkRZvD7Ek4Jil';</script><script src="/js/gh_zhheo_Post-Abstract-AI@0.12_tianli_gpt.js"></script><script src="/js/float.js?7"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-info"><div class="algolia-stats"></div><div class="algolia-poweredBy"></div></div></div></div></div><div id="search-mask"></div><script src="https://cdn.bootcdn.net/ajax/libs/algoliasearch/4.17.0/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.bootcdn.net/ajax/libs/instantsearch.js/4.54.1/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script></div></div></body></html>
