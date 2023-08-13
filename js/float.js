@@ -18,8 +18,7 @@ function GetUrlRelativePath()
 var allowAll = false; // true 则允许所有网页存在漂浮物
 // 允许显示漂浮物的网址列表
 var urlAllowList = [
-    "/about/",
-    "/friends/",
+    "/pages/friends/", // 友链页
     "/p/28a4bfe2/", // 这是介绍 float的那篇文章
 ]
 
