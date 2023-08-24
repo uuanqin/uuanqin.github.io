@@ -1,11 +1,11 @@
 /*顶部的网站图标*/
 [data-theme='dark'] img.site-icon {
-    content: url(https://typora-1301301520.file.myqcloud.com/img/logo-dw.png);
+    content: url(https://cdn.gallery.uuanqin.top/img/logo-dw.png);
 }
 
 /*脚注的图标*/
 [data-theme='dark'] .footer-logo img {
-    content: url(https://typora-1301301520.file.myqcloud.com/img/A%E5%85%A8%E5%BD%A9%E6%97%A0%E5%AD%97.png);
+    content: url(https://cdn.gallery.uuanqin.top/img/A%E5%85%A8%E5%BD%A9%E6%97%A0%E5%AD%97.png);
 }
 
 /*十年之约图标*/

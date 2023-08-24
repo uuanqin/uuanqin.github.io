@@ -12,7 +12,7 @@ waline.min.css的自定义改动
 /* 评论区动图 */
 /* 然而我并不懂确切的含义，参数是乱调的 */
 .wl-editor {
-    background-image: url(https://typora-1301301520.file.myqcloud.com/img/zhuangzhuang_comment_trans.gif);
+    background-image: url(https://cdn.gallery.uuanqin.top/img/zhuangzhuang_comment_trans.gif);
     background-size: 18%;
     background-repeat: no-repeat;
     background-position: right bottom;
