@@ -87,7 +87,7 @@
     <link href="https://uuanqin.top/p/d4bc55f2/"/>
     <id>https://uuanqin.top/p/d4bc55f2/</id>
     <published>2023-08-01T03:34:33.000Z</published>
-    <updated>2023-08-24T02:03:54.513Z</updated>
+    <updated>2023-08-24T17:02:05.778Z</updated>
     
     
     <summary type="html">本文介绍了使用插件使得Hexo接受部分OFM语法的方法</summary>
@@ -238,9 +238,9 @@
     
     <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
-    <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
-    
     <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
+    
+    <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
     <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
     
@@ -493,9 +493,9 @@
     
     
     
-    <category term="MySQL" scheme="https://uuanqin.top/pages/tags/MySQL/"/>
-    
     <category term="源码案例驱动" scheme="https://uuanqin.top/pages/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="MySQL" scheme="https://uuanqin.top/pages/tags/MySQL/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
