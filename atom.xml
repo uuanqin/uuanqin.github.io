@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-08-25T16:21:21.900Z</updated>
+  <updated>2023-08-26T19:24:56.516Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自定义文章内外链接样式的另一种方法（使用markdown-it插件）</title>
+    <link href="https://uuanqin.top/p/7a103a3/"/>
+    <id>https://uuanqin.top/p/7a103a3/</id>
+    <published>2023-08-26T16:45:18.000Z</published>
+    <updated>2023-08-26T19:24:56.516Z</updated>
+    
+    
+    <summary type="html">介绍一款markdown-it插件以区分文章中的外部链接和内部链接</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
+    
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
+    
+    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
+    
+    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
+    
+    <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
+    
+  </entry>
   
   <entry>
     <title>server、sqlite朋友圈部署方案</title>
@@ -56,6 +83,8 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
+    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
@@ -78,8 +107,6 @@
     
     <category term="项目" scheme="https://uuanqin.top/pages/tags/%E9%A1%B9%E7%9B%AE/"/>
     
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
-    
   </entry>
   
   <entry>
@@ -87,7 +114,7 @@
     <link href="https://uuanqin.top/p/d4bc55f2/"/>
     <id>https://uuanqin.top/p/d4bc55f2/</id>
     <published>2023-08-01T03:34:33.000Z</published>
-    <updated>2023-08-24T17:02:05.778Z</updated>
+    <updated>2023-08-26T19:32:40.012Z</updated>
     
     
     <summary type="html">本文介绍了使用插件使得Hexo接受部分OFM语法的方法</summary>
@@ -216,11 +243,11 @@
   </entry>
   
   <entry>
-    <title>进一步装饰Hexo</title>
+    <title>Hexo博客的写作与装饰</title>
     <link href="https://uuanqin.top/p/18bbd410/"/>
     <id>https://uuanqin.top/p/18bbd410/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-08-25T16:18:31.402Z</updated>
+    <updated>2023-08-26T18:09:47.416Z</updated>
     
     
     <summary type="html">部署完Hexo，选择一个好的主题进行更加个性化的定制。</summary>
@@ -241,7 +268,7 @@
     <link href="https://uuanqin.top/p/4872f379/"/>
     <id>https://uuanqin.top/p/4872f379/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-08-25T16:18:18.309Z</updated>
+    <updated>2023-08-26T18:03:17.528Z</updated>
     
     
     <summary type="html">既然选择了Butterfly主题，那就好好装点一下吧</summary>
@@ -251,6 +278,8 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
+    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
@@ -259,17 +288,15 @@
     
     <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
+    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
+    
     <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
     
     <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
-    
     <category term="RSS" scheme="https://uuanqin.top/pages/tags/RSS/"/>
     
     <category term="iconfont" scheme="https://uuanqin.top/pages/tags/iconfont/"/>
-    
-    <category term="Codepen" scheme="https://uuanqin.top/pages/tags/Codepen/"/>
     
   </entry>
   
@@ -278,7 +305,7 @@
     <link href="https://uuanqin.top/p/51890a9/"/>
     <id>https://uuanqin.top/p/51890a9/</id>
     <published>2023-06-01T14:22:07.000Z</published>
-    <updated>2023-08-24T02:03:54.496Z</updated>
+    <updated>2023-08-26T19:23:21.019Z</updated>
     
     
     <summary type="html">切换到Obsidian写作的快速指南</summary>
@@ -399,7 +426,7 @@
     
     
     
-    <category term="Git" scheme="https://uuanqin.top/pages/tags/Git/"/>
+    <category term="git" scheme="https://uuanqin.top/pages/tags/git/"/>
     
     <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
     
@@ -468,9 +495,9 @@
     <category term="日常利器" scheme="https://uuanqin.top/pages/categories/%E6%97%A5%E5%B8%B8%E5%88%A9%E5%99%A8/"/>
     
     
-    <category term="Tampermonkey" scheme="https://uuanqin.top/pages/tags/Tampermonkey/"/>
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    <category term="Tampermonkey" scheme="https://uuanqin.top/pages/tags/Tampermonkey/"/>
     
     <category term="BibTeX" scheme="https://uuanqin.top/pages/tags/BibTeX/"/>
     
@@ -493,9 +520,9 @@
     
     
     
-    <category term="MySQL" scheme="https://uuanqin.top/pages/tags/MySQL/"/>
-    
     <category term="源码案例驱动" scheme="https://uuanqin.top/pages/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="MySQL" scheme="https://uuanqin.top/pages/tags/MySQL/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -506,29 +533,6 @@
     <category term="Vue" scheme="https://uuanqin.top/pages/tags/Vue/"/>
     
     <category term="ElementPlus" scheme="https://uuanqin.top/pages/tags/ElementPlus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>代码驱动学习-快速入门AJAX</title>
-    <link href="https://uuanqin.top/p/9f885dad/"/>
-    <id>https://uuanqin.top/p/9f885dad/</id>
-    <published>2023-05-02T12:39:49.000Z</published>
-    <updated>2023-08-24T02:03:54.558Z</updated>
-    
-    
-    <summary type="html">通读代码快速理解AJAX原理</summary>
-    
-    
-    
-    
-    <category term="AJAX" scheme="https://uuanqin.top/pages/tags/AJAX/"/>
-    
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
-    
-    <category term="VSCode" scheme="https://uuanqin.top/pages/tags/VSCode/"/>
-    
-    <category term="源码案例驱动" scheme="https://uuanqin.top/pages/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
     
   </entry>
   
