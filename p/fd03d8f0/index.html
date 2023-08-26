@@ -422,7 +422,7 @@ Contact us when <b>ACCESS PROBLEMS</b> occur. Check <a target="_blank" rel="noop
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
       comment: false,
-    }, {"locale":{"nick":"昵称","mail":"邮箱","link":"网站","placeholder":"填写数字QQ邮箱可以自动获取QQ头像，支持Gravatar。填写正确的邮箱以及时接收回复提醒。","requiredMeta":[],"sofa":"评论区空空如也~喵呜呜呜","anonymous":"匿名的野猫","login":"登录(可选)"},"emoji":["//unpkg.com/@waline/emojis@1.1.0/bilibili","//unpkg.com/@waline/emojis@1.1.0/qq","//unpkg.com/@waline/emojis@1.1.0/tieba","//unpkg.com/@waline/emojis@1.1.0/weibo"],"reaction":["https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/like.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/pathetic.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/question.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/dizzy.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/emm.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/spit.gif"]}))
+    }, {"locale":{"nick":"昵称 Nick","mail":"邮箱 Email","link":"网站 Link","placeholder":"填写数字QQ邮箱将自动获取QQ头像，同时支持Gravatar。For readers of other languages, you can leave comments by uuanqin@uuanqin.top instead.","requiredMeta":[],"sofa":"评论区空空如也~喵呜呜呜","anonymous":"匿名的野猫","login":"登录(可选)"},"emoji":["//unpkg.com/@waline/emojis@1.1.0/tieba","//unpkg.com/@waline/emojis@1.1.0/bilibili","//unpkg.com/@waline/emojis@1.1.0/qq"],"reaction":["https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/like.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/pathetic.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/question.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/dizzy.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/emm.gif","https://typora-1301301520.cos.ap-nanjing.myqcloud.com/gif/zhuangzhuang_reaction/spit.gif"]}))
   }
 
   const walineCSSLoad = document.getElementById('waline-css')
@@ -454,6 +454,7 @@ if ('Waline' === 'Waline' || !false) {
         introduce: "我是文章辅助AI，点击下方的按钮，让我生成本文简介、推荐相关文章等。",
         button: ["介绍自己", "推荐相关文章", "生成本文简介", "矩阵穿梭"],
     },
+    title_el: '.post-title',
     whitelist: ['/p/'],
     summary_directly: false,
     total_length: 250,
