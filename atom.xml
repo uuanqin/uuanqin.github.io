@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-08-26T19:44:53.162Z</updated>
+  <updated>2023-09-09T09:04:33.224Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>页面展示用户 IP 地址及地理位置信息</title>
+    <link href="https://uuanqin.top/p/25f6686b/"/>
+    <id>https://uuanqin.top/p/25f6686b/</id>
+    <published>2023-09-09T08:13:29.000Z</published>
+    <updated>2023-09-09T09:04:33.224Z</updated>
+    
+    
+    <summary type="html">利用API获取IP地址信息，这也是对Heo方案的改进</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
+    
+    
+    <category term="API" scheme="https://uuanqin.top/pages/tags/API/"/>
+    
+    <category term="IP" scheme="https://uuanqin.top/pages/tags/IP/"/>
+    
+    <category term="UA" scheme="https://uuanqin.top/pages/tags/UA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>自定义文章内外链接样式的另一种方法（使用markdown-it插件）</title>
     <link href="https://uuanqin.top/p/7a103a3/"/>
     <id>https://uuanqin.top/p/7a103a3/</id>
     <published>2023-08-26T16:45:18.000Z</published>
-    <updated>2023-08-26T19:44:53.162Z</updated>
+    <updated>2023-09-07T10:50:08.202Z</updated>
     
     
     <summary type="html">介绍一款markdown-it插件以区分文章中的外部链接和内部链接</summary>
@@ -73,7 +96,7 @@
     <link href="https://uuanqin.top/p/f6c0daf3/"/>
     <id>https://uuanqin.top/p/f6c0daf3/</id>
     <published>2023-08-11T14:30:29.000Z</published>
-    <updated>2023-08-27T18:33:06.667Z</updated>
+    <updated>2023-09-07T10:50:08.171Z</updated>
     
     
     <summary type="html">通过自制脚本实现文章关系图绘制以及加入Hexo部署自动化流程中</summary>
@@ -110,11 +133,11 @@
   </entry>
   
   <entry>
-    <title>Hexo博客适配Obsidian新语法</title>
+    <title>Hexo 博客适配 Obsidian 新语法</title>
     <link href="https://uuanqin.top/p/d4bc55f2/"/>
     <id>https://uuanqin.top/p/d4bc55f2/</id>
     <published>2023-08-01T03:34:33.000Z</published>
-    <updated>2023-08-27T18:33:13.056Z</updated>
+    <updated>2023-09-09T09:00:53.206Z</updated>
     
     
     <summary type="html">本文介绍了使用插件使得Hexo接受部分OFM语法的方法</summary>
@@ -151,7 +174,7 @@
     <link href="https://uuanqin.top/p/83335cfa/"/>
     <id>https://uuanqin.top/p/83335cfa/</id>
     <published>2023-07-23T17:27:11.000Z</published>
-    <updated>2023-08-24T02:03:54.589Z</updated>
+    <updated>2023-08-29T13:31:36.131Z</updated>
     
     
     <summary type="html">精解本博客域名配置，建议熟悉CDN、HTTPS配置后参考。</summary>
@@ -184,7 +207,7 @@
     <link href="https://uuanqin.top/p/b3be711f/"/>
     <id>https://uuanqin.top/p/b3be711f/</id>
     <published>2023-07-11T15:42:59.000Z</published>
-    <updated>2023-08-28T14:39:35.624Z</updated>
+    <updated>2023-08-28T18:35:18.008Z</updated>
     
     
     <summary type="html">通过CSS设置实现信息输入提示。</summary>
@@ -201,11 +224,11 @@
   </entry>
   
   <entry>
-    <title>Butterfly夜间模式变换顶部网站图标</title>
+    <title>Butterfly 夜间模式变换顶部网站图标</title>
     <link href="https://uuanqin.top/p/f06d4de6/"/>
     <id>https://uuanqin.top/p/f06d4de6/</id>
     <published>2023-07-10T17:40:14.000Z</published>
-    <updated>2023-08-28T14:40:09.202Z</updated>
+    <updated>2023-09-07T10:49:57.071Z</updated>
     
     
     <summary type="html">使用CSS设定夜间模式时img使用的图片。</summary>
@@ -247,7 +270,7 @@
     <link href="https://uuanqin.top/p/18bbd410/"/>
     <id>https://uuanqin.top/p/18bbd410/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-08-27T18:33:29.707Z</updated>
+    <updated>2023-08-28T18:38:55.522Z</updated>
     
     
     <summary type="html">部署完Hexo，选择一个好的主题进行更加个性化的定制。</summary>
@@ -268,7 +291,7 @@
     <link href="https://uuanqin.top/p/4872f379/"/>
     <id>https://uuanqin.top/p/4872f379/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-08-28T15:42:30.453Z</updated>
+    <updated>2023-09-07T10:49:57.074Z</updated>
     
     
     <summary type="html">既然选择了Butterfly主题，那就好好装点一下吧</summary>
@@ -305,7 +328,7 @@
     <link href="https://uuanqin.top/p/51890a9/"/>
     <id>https://uuanqin.top/p/51890a9/</id>
     <published>2023-06-01T14:22:07.000Z</published>
-    <updated>2023-08-28T14:50:48.851Z</updated>
+    <updated>2023-09-07T10:50:08.315Z</updated>
     
     
     <summary type="html">切换到Obsidian写作的快速指南</summary>
@@ -489,7 +512,7 @@
     <link href="https://uuanqin.top/p/84ae21ea/"/>
     <id>https://uuanqin.top/p/84ae21ea/</id>
     <published>2023-05-11T08:37:21.000Z</published>
-    <updated>2023-08-24T02:03:54.433Z</updated>
+    <updated>2023-08-28T16:00:26.595Z</updated>
     
     
     <summary type="html">修改油叉脚本以适应当前访问知网的网络状况</summary>
@@ -509,34 +532,7 @@
     
     <category term="Greasy Fork" scheme="https://uuanqin.top/pages/tags/Greasy-Fork/"/>
     
-  </entry>
-  
-  <entry>
-    <title>极简图书管理系统，快速上手Flask-Vue前后端开发</title>
-    <link href="https://uuanqin.top/p/a329ff74/"/>
-    <id>https://uuanqin.top/p/a329ff74/</id>
-    <published>2023-05-04T08:29:14.000Z</published>
-    <updated>2023-08-24T02:03:54.567Z</updated>
-    
-    
-    <summary type="html">源码项目学习实践，快速掌握Flask+Vue的前后端开发流程</summary>
-    
-    
-    
-    
-    <category term="MySQL" scheme="https://uuanqin.top/pages/tags/MySQL/"/>
-    
-    <category term="源码案例驱动" scheme="https://uuanqin.top/pages/tags/%E6%BA%90%E7%A0%81%E6%A1%88%E4%BE%8B%E9%A9%B1%E5%8A%A8/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="Flask" scheme="https://uuanqin.top/pages/tags/Flask/"/>
-    
-    <category term="Vite" scheme="https://uuanqin.top/pages/tags/Vite/"/>
-    
-    <category term="Vue" scheme="https://uuanqin.top/pages/tags/Vue/"/>
-    
-    <category term="ElementPlus" scheme="https://uuanqin.top/pages/tags/ElementPlus/"/>
+    <category term="TJU" scheme="https://uuanqin.top/pages/tags/TJU/"/>
     
   </entry>
   
