@@ -10,10 +10,17 @@
 
 /*十年之约图标*/
 [data-theme='dark'] img.img-foreverblog {
-    content: url(https://img.foreverblog.cn/logo_en_default.png);
+    content: url(https://cdn.gallery.uuanqin.top/img/logo_en_default.webp);
+}
+
+/*Not By AI 图标*/
+[data-theme='dark'] img.img-not-ai {
+    content: url(https://cdn.gallery.uuanqin.top/img/zh_Produced-By-Human-Not-By-AI-Badge-black.svg);
 }
 
 [data-theme='dark'] svg#graph-canvas {
     background-color: #121212;
 }
+
+
 
