@@ -16,6 +16,7 @@ h1.color_fold, h2.color_fold, h3.color_fold, h4.color_fold, h5.color_fold, h6.co
 }
 p{
     text-align: justify;
+    /* margin-bottom: 10px; */
 }
 
 
@@ -31,7 +32,7 @@ p{
 }
 #accordion {
     list-style: none;
-    margin: 0;
+    margin-bottom: 50px;
     padding: 0;
     height: 500px;
     display : block;
@@ -55,31 +56,31 @@ p{
     box-sizing : border-box;
 }
 .picture .icon{
-    background-color : #16a085;
+    background-color : #1dc471;
 }
 .picture{
-    background-color : #1abc9c;
+    background-color : #148f57;
 }
 .mobile .icon{
-    background-color : #2980b9;
+    background-color : #009ed3;
 }
 .mobile{
-    background-color : #3498db;
+    background-color : #0c7ea2;
 }
 .charte{
-    background-color : #34495e;
+    background-color : #b47709;
 }
 .charte .icon{
-    background-color : #2c3e50;
+    background-color: #da971a;
 }
 .client .icon{
-    background-color : #8e44ad;
+    background-color : #9c4cc7;
 }
 .client{
-    background-color : #9b59b6;
+    background-color : #6a4283;
 }
 .aboutMe{
-    background-color : #c0392b;
+    background-color : #9f3e35;
 }
 .aboutMe .icon{
     background-color : #e74c3c;
