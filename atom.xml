@@ -349,9 +349,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
-    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
@@ -361,9 +361,9 @@
     
     <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
-    <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
-    
     <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
+    
+    <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
     <category term="RSS" scheme="https://uuanqin.top/pages/tags/RSS/"/>
     
