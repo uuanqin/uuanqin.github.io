@@ -164,8 +164,6 @@
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
-    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
-    
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
     <category term="Cosma" scheme="https://uuanqin.top/pages/tags/Cosma/"/>
@@ -173,6 +171,8 @@
     <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
     <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
+    
+    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
     
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
@@ -307,9 +307,9 @@
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
     <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
+    
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
   </entry>
   
@@ -349,15 +349,15 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
+    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
+    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
     <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
     <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
@@ -440,15 +440,15 @@
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
+    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
+    
     <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
-    <category term="Pug" scheme="https://uuanqin.top/pages/tags/Pug/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
-    
     <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
+    
+    <category term="Pug" scheme="https://uuanqin.top/pages/tags/Pug/"/>
     
   </entry>
   
