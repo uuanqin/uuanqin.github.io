@@ -22,5 +22,18 @@
     background-color: #121212;
 }
 
+/* hexo-megnet 插件的按钮夜间模式背景颜色 */
+[data-theme='dark'] .magnet_item {
+    background: #414141;
+}
+/* hexo-megnet 插件的按钮夜间模式文字颜色 */
+[data-theme='dark'] .magnet_link {
+    color: white;
+}
+
+
+
+
+
 
 
