@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-09-16T07:22:25.181Z</updated>
+  <updated>2023-10-22T09:49:18.623Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,67 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好像我应该也是个生活区博主</title>
+    <link href="https://uuanqin.top/p/67719b1b/"/>
+    <id>https://uuanqin.top/p/67719b1b/</id>
+    <published>2023-10-20T10:52:54.000Z</published>
+    <updated>2023-10-22T09:49:18.623Z</updated>
+    
+    
+    <summary type="html">最近才想起来，应该多发轻松一点的文章才对。</summary>
+    
+    
+    
+    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
+    
+    
+    <category term="网站想法" scheme="https://uuanqin.top/pages/tags/%E7%BD%91%E7%AB%99%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="友链" scheme="https://uuanqin.top/pages/tags/%E5%8F%8B%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一次开发 npm 插件</title>
+    <link href="https://uuanqin.top/p/ca685d6c/"/>
+    <id>https://uuanqin.top/p/ca685d6c/</id>
+    <published>2023-10-20T10:51:47.000Z</published>
+    <updated>2023-10-22T09:33:22.471Z</updated>
+    
+    
+    <summary type="html">有文档了也看不懂</summary>
+    
+    
+    
+    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
+    
+    
+    <category term="碎碎念" scheme="https://uuanqin.top/pages/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    <category term="开发杂记" scheme="https://uuanqin.top/pages/tags/%E5%BC%80%E5%8F%91%E6%9D%82%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我上钩了——一次被钓鱼邮件受骗经历</title>
+    <link href="https://uuanqin.top/p/d7081afd/"/>
+    <id>https://uuanqin.top/p/d7081afd/</id>
+    <published>2023-09-22T04:54:30.000Z</published>
+    <updated>2023-10-22T09:32:59.363Z</updated>
+    
+    
+    <summary type="html">吃一蛰，再吃一蛰</summary>
+    
+    
+    
+    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
+    
+    
+    <category term="校园" scheme="https://uuanqin.top/pages/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>本地部署 PlantUML</title>
@@ -119,10 +180,10 @@
     <link href="https://uuanqin.top/p/4e12798e/"/>
     <id>https://uuanqin.top/p/4e12798e/</id>
     <published>2023-08-24T14:43:03.000Z</published>
-    <updated>2023-10-20T05:01:05.677Z</updated>
+    <updated>2023-10-22T09:35:15.480Z</updated>
     
     
-    <summary type="html">记一次日常故障排查</summary>
+    <summary type="html">老是乱搞什么东东</summary>
     
     
     
@@ -154,20 +215,20 @@
     
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
   </entry>
   
   <entry>
-    <title>Butterfly侧边栏实现Obsidian关系图谱</title>
+    <title>Butterfly 侧边栏实现 Obsidian 关系图谱</title>
     <link href="https://uuanqin.top/p/f6c0daf3/"/>
     <id>https://uuanqin.top/p/f6c0daf3/</id>
     <published>2023-08-11T14:30:29.000Z</published>
-    <updated>2023-09-11T11:33:44.738Z</updated>
+    <updated>2023-10-21T06:23:48.518Z</updated>
     
     
     <summary type="html">通过自制脚本实现文章关系图绘制以及加入Hexo部署自动化流程中</summary>
@@ -177,13 +238,15 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -197,8 +260,6 @@
     
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
     <category term="项目" scheme="https://uuanqin.top/pages/tags/%E9%A1%B9%E7%9B%AE/"/>
     
   </entry>
@@ -208,7 +269,7 @@
     <link href="https://uuanqin.top/p/d4bc55f2/"/>
     <id>https://uuanqin.top/p/d4bc55f2/</id>
     <published>2023-08-01T03:34:33.000Z</published>
-    <updated>2023-10-14T15:21:26.985Z</updated>
+    <updated>2023-10-20T14:56:49.519Z</updated>
     
     
     <summary type="html">本文介绍了使用插件使得Hexo接受部分OFM语法的方法</summary>
@@ -218,9 +279,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -318,7 +379,7 @@
     <link href="https://uuanqin.top/p/91b7dad/"/>
     <id>https://uuanqin.top/p/91b7dad/</id>
     <published>2023-07-10T15:16:32.000Z</published>
-    <updated>2023-08-28T14:40:15.545Z</updated>
+    <updated>2023-10-20T12:55:09.485Z</updated>
     
     
     <summary type="html">利用CodePen项目美化主题的页脚，不修改主题代码。</summary>
@@ -328,9 +389,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
     <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
@@ -341,7 +402,7 @@
     <link href="https://uuanqin.top/p/18bbd410/"/>
     <id>https://uuanqin.top/p/18bbd410/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-10-14T16:32:36.487Z</updated>
+    <updated>2023-10-20T12:55:15.710Z</updated>
     
     
     <summary type="html">部署完Hexo，选择一个好的主题进行更加个性化的定制。</summary>
@@ -351,9 +412,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
   </entry>
   
@@ -362,7 +423,7 @@
     <link href="https://uuanqin.top/p/4872f379/"/>
     <id>https://uuanqin.top/p/4872f379/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-09-07T10:49:57.074Z</updated>
+    <updated>2023-10-21T05:09:35.024Z</updated>
     
     
     <summary type="html">既然选择了Butterfly主题，那就好好装点一下吧</summary>
@@ -372,15 +433,15 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
-    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
     <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
@@ -451,7 +512,7 @@
     <link href="https://uuanqin.top/p/568ad08/"/>
     <id>https://uuanqin.top/p/568ad08/</id>
     <published>2023-05-31T16:17:21.000Z</published>
-    <updated>2023-09-27T16:24:12.924Z</updated>
+    <updated>2023-10-20T12:55:35.471Z</updated>
     
     
     <summary type="html">侧边栏定制举一反三，手把手教你实现自己的侧边栏</summary>
@@ -461,74 +522,17 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
     <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
-    
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
     <category term="Pug" scheme="https://uuanqin.top/pages/tags/Pug/"/>
     
-  </entry>
-  
-  <entry>
-    <title>个人独立申请软件著作权申请记录</title>
-    <link href="https://uuanqin.top/p/511c30b3/"/>
-    <id>https://uuanqin.top/p/511c30b3/</id>
-    <published>2023-05-31T09:53:26.000Z</published>
-    <updated>2023-08-27T18:14:12.189Z</updated>
-    
-    
-    <summary type="html">分享个人申请独立开发软件的软件著作权过程。</summary>
-    
-    
-    
-    <category term="社会生活" scheme="https://uuanqin.top/pages/categories/%E7%A4%BE%E4%BC%9A%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="软著" scheme="https://uuanqin.top/pages/tags/%E8%BD%AF%E8%91%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git-flow：git的分支管理策略</title>
-    <link href="https://uuanqin.top/p/6eb2089c/"/>
-    <id>https://uuanqin.top/p/6eb2089c/</id>
-    <published>2023-05-27T13:51:53.000Z</published>
-    <updated>2023-08-24T02:02:45.359Z</updated>
-    
-    
-    <summary type="html">这是一篇对分支管理策略学习和探讨。</summary>
-    
-    
-    
-    
-    <category term="git" scheme="https://uuanqin.top/pages/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git基本操作学习</title>
-    <link href="https://uuanqin.top/p/707592dd/"/>
-    <id>https://uuanqin.top/p/707592dd/</id>
-    <published>2023-05-27T07:52:37.000Z</published>
-    <updated>2023-08-24T02:03:54.570Z</updated>
-    
-    
-    <summary type="html">包含初学者学习内容与进阶方法论</summary>
-    
-    
-    
-    
-    <category term="git" scheme="https://uuanqin.top/pages/tags/git/"/>
-    
-    <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
-    
-    <category term="Gitee" scheme="https://uuanqin.top/pages/tags/Gitee/"/>
+    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
   </entry>
   
