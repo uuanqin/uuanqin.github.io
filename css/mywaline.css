@@ -74,3 +74,9 @@ waline.min.css：https://unpkg.com/@waline/client@2.15.8/dist/waline.css
     background: #669900;
     color: #fff;
 }
+
+/*  */
+
+.wl-header input{
+    font-size: 0.8rem
+}
