@@ -42,7 +42,7 @@
     <link href="https://uuanqin.top/p/ca685d6c/"/>
     <id>https://uuanqin.top/p/ca685d6c/</id>
     <published>2023-10-20T10:51:47.000Z</published>
-    <updated>2023-10-22T09:33:22.471Z</updated>
+    <updated>2023-10-27T07:39:36.299Z</updated>
     
     
     <summary type="html">有文档了也看不懂</summary>
@@ -63,7 +63,7 @@
     <link href="https://uuanqin.top/p/d7081afd/"/>
     <id>https://uuanqin.top/p/d7081afd/</id>
     <published>2023-09-22T04:54:30.000Z</published>
-    <updated>2023-10-22T09:32:59.363Z</updated>
+    <updated>2023-10-28T07:28:30.888Z</updated>
     
     
     <summary type="html">吃一蛰，再吃一蛰</summary>
@@ -213,9 +213,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -228,7 +228,7 @@
     <link href="https://uuanqin.top/p/f6c0daf3/"/>
     <id>https://uuanqin.top/p/f6c0daf3/</id>
     <published>2023-08-11T14:30:29.000Z</published>
-    <updated>2023-10-21T06:23:48.518Z</updated>
+    <updated>2023-10-28T07:32:23.900Z</updated>
     
     
     <summary type="html">通过自制脚本实现文章关系图绘制以及加入Hexo部署自动化流程中</summary>
@@ -238,13 +238,13 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
@@ -314,6 +314,8 @@
     
     
     
+    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
+    
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
@@ -321,8 +323,6 @@
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
-    
-    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
     
     <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
@@ -389,7 +389,7 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
@@ -402,7 +402,7 @@
     <link href="https://uuanqin.top/p/18bbd410/"/>
     <id>https://uuanqin.top/p/18bbd410/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-10-20T12:55:15.710Z</updated>
+    <updated>2023-10-28T07:31:05.628Z</updated>
     
     
     <summary type="html">部署完Hexo，选择一个好的主题进行更加个性化的定制。</summary>
@@ -419,11 +419,11 @@
   </entry>
   
   <entry>
-    <title>装点你的Butterfly博客</title>
+    <title>装点你的 Butterfly 博客</title>
     <link href="https://uuanqin.top/p/4872f379/"/>
     <id>https://uuanqin.top/p/4872f379/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-10-21T05:09:35.024Z</updated>
+    <updated>2023-10-28T07:30:59.956Z</updated>
     
     
     <summary type="html">既然选择了Butterfly主题，那就好好装点一下吧</summary>
@@ -433,11 +433,11 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
@@ -522,9 +522,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
