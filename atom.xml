@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-11-04T05:39:56.832Z</updated>
+  <updated>2023-11-22T15:39:10.791Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>「多媒体与信号处理」课程笔记</title>
+    <link href="https://uuanqin.top/p/6c1cb5ed/"/>
+    <id>https://uuanqin.top/p/6c1cb5ed/</id>
+    <published>2023-11-22T14:10:23.000Z</published>
+    <updated>2023-11-22T15:39:10.791Z</updated>
+    
+    
+    <summary type="html">科软嵌入式必选课程笔记</summary>
+    
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    <category term="笔记" scheme="https://uuanqin.top/pages/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="多媒体" scheme="https://uuanqin.top/pages/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
+    
+    <category term="MP3" scheme="https://uuanqin.top/pages/tags/MP3/"/>
+    
+    <category term="AVC" scheme="https://uuanqin.top/pages/tags/AVC/"/>
+    
+    <category term="010编辑器" scheme="https://uuanqin.top/pages/tags/010%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    
+    <category term="JPEG" scheme="https://uuanqin.top/pages/tags/JPEG/"/>
+    
+    <category term="WAV" scheme="https://uuanqin.top/pages/tags/WAV/"/>
+    
+    <category term="AVI" scheme="https://uuanqin.top/pages/tags/AVI/"/>
+    
+    <category term="BMP" scheme="https://uuanqin.top/pages/tags/BMP/"/>
+    
+    <category term="DCT" scheme="https://uuanqin.top/pages/tags/DCT/"/>
+    
+    <category term="USTC" scheme="https://uuanqin.top/pages/tags/USTC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>本地文件夹的多端同步</title>
     <link href="https://uuanqin.top/p/cce6330b/"/>
     <id>https://uuanqin.top/p/cce6330b/</id>
     <published>2023-11-04T05:05:18.000Z</published>
-    <updated>2023-11-04T05:39:56.832Z</updated>
+    <updated>2023-11-10T11:20:27.649Z</updated>
     
     
     <summary type="html">实现Xmind思维导图的三端同步。</summary>
@@ -121,7 +160,7 @@
     <link href="https://uuanqin.top/p/d7081afd/"/>
     <id>https://uuanqin.top/p/d7081afd/</id>
     <published>2023-09-22T04:54:30.000Z</published>
-    <updated>2023-11-06T09:35:21.858Z</updated>
+    <updated>2023-11-14T11:30:29.420Z</updated>
     
     
     <summary type="html">吃一蛰，再吃一蛰</summary>
@@ -271,11 +310,11 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
@@ -296,15 +335,15 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
     <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -337,9 +376,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -364,7 +403,7 @@
     <link href="https://uuanqin.top/p/83335cfa/"/>
     <id>https://uuanqin.top/p/83335cfa/</id>
     <published>2023-07-23T17:27:11.000Z</published>
-    <updated>2023-09-11T10:55:55.692Z</updated>
+    <updated>2023-11-06T11:45:30.586Z</updated>
     
     
     <summary type="html">精解本博客域名配置，建议熟悉CDN、HTTPS配置后参考。</summary>
@@ -433,11 +472,11 @@
   </entry>
   
   <entry>
-    <title>Butterfly自定义页脚（不修改主题源码）</title>
+    <title>Butterfly 自定义页脚（不修改主题源码）</title>
     <link href="https://uuanqin.top/p/91b7dad/"/>
     <id>https://uuanqin.top/p/91b7dad/</id>
     <published>2023-07-10T15:16:32.000Z</published>
-    <updated>2023-10-20T12:55:09.485Z</updated>
+    <updated>2023-11-06T11:46:29.720Z</updated>
     
     
     <summary type="html">利用CodePen项目美化主题的页脚，不修改主题代码。</summary>
@@ -447,7 +486,7 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
@@ -470,9 +509,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
-    
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
     
   </entry>
   
@@ -481,7 +520,7 @@
     <link href="https://uuanqin.top/p/4872f379/"/>
     <id>https://uuanqin.top/p/4872f379/</id>
     <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-11-05T11:07:41.782Z</updated>
+    <updated>2023-11-06T11:45:59.577Z</updated>
     
     
     <summary type="html">既然选择了Butterfly主题，那就好好装点一下吧</summary>
@@ -491,13 +530,13 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
     
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
@@ -510,31 +549,6 @@
     <category term="RSS" scheme="https://uuanqin.top/pages/tags/RSS/"/>
     
     <category term="iconfont" scheme="https://uuanqin.top/pages/tags/iconfont/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>构建 Obsidian 的 Hexo 写作工作流</title>
-    <link href="https://uuanqin.top/p/51890a9/"/>
-    <id>https://uuanqin.top/p/51890a9/</id>
-    <published>2023-06-01T14:22:07.000Z</published>
-    <updated>2023-11-05T11:07:08.739Z</updated>
-    
-    
-    <summary type="html">切换到Obsidian写作的快速指南</summary>
-    
-    
-    
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
-    
-    
-    <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
-    
-    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/tags/Hexo/"/>
-    
-    <category term="Typora" scheme="https://uuanqin.top/pages/tags/Typora/"/>
     
   </entry>
   
