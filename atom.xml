@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-11-22T15:39:10.791Z</updated>
+  <updated>2023-11-23T13:24:38.146Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uuanqin.top/p/6c1cb5ed/"/>
     <id>https://uuanqin.top/p/6c1cb5ed/</id>
     <published>2023-11-22T14:10:23.000Z</published>
-    <updated>2023-11-22T15:39:10.791Z</updated>
+    <updated>2023-11-23T13:24:38.146Z</updated>
     
     
     <summary type="html">科软嵌入式必选课程笔记</summary>
@@ -296,6 +296,33 @@
   </entry>
   
   <entry>
+    <title>Epic城市天际线 DLC 全破解与模组安装</title>
+    <link href="https://uuanqin.top/p/2735215e/"/>
+    <id>https://uuanqin.top/p/2735215e/</id>
+    <published>2023-08-19T11:11:28.000Z</published>
+    <updated>2023-11-23T13:54:00.842Z</updated>
+    
+    
+    <summary type="html">介绍DLC安装方法以及Steam模组安装，请支持正版游戏</summary>
+    
+    
+    
+    
+    <category term="Epic" scheme="https://uuanqin.top/pages/tags/Epic/"/>
+    
+    <category term="游戏" scheme="https://uuanqin.top/pages/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="DLC" scheme="https://uuanqin.top/pages/tags/DLC/"/>
+    
+    <category term="Mod" scheme="https://uuanqin.top/pages/tags/Mod/"/>
+    
+    <category term="Steam" scheme="https://uuanqin.top/pages/tags/Steam/"/>
+    
+    <category term="Cities Skylines" scheme="https://uuanqin.top/pages/tags/Cities-Skylines/"/>
+    
+  </entry>
+  
+  <entry>
     <title>server、sqlite朋友圈部署方案</title>
     <link href="https://uuanqin.top/p/b0caa9e8/"/>
     <id>https://uuanqin.top/p/b0caa9e8/</id>
@@ -310,11 +337,11 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
@@ -335,15 +362,15 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
-    
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
+    
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -376,9 +403,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -486,7 +513,7 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
@@ -509,46 +536,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
     
-  </entry>
-  
-  <entry>
-    <title>装点你的 Butterfly 博客</title>
-    <link href="https://uuanqin.top/p/4872f379/"/>
-    <id>https://uuanqin.top/p/4872f379/</id>
-    <published>2023-06-02T08:55:00.000Z</published>
-    <updated>2023-11-06T11:45:59.577Z</updated>
-    
-    
-    <summary type="html">既然选择了Butterfly主题，那就好好装点一下吧</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
-    
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
-    
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
-    
-    <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
-    
-    <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
-    
-    <category term="RSS" scheme="https://uuanqin.top/pages/tags/RSS/"/>
-    
-    <category term="iconfont" scheme="https://uuanqin.top/pages/tags/iconfont/"/>
     
   </entry>
   
