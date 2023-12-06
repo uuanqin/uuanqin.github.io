@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-12-05T14:22:02.586Z</updated>
+  <updated>2023-12-06T14:18:31.089Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,93 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>简单脚本定时获取 Github 上的 Star 数量并推送</title>
+    <link href="https://uuanqin.top/p/b9dad4e7/"/>
+    <id>https://uuanqin.top/p/b9dad4e7/</id>
+    <published>2023-12-06T12:59:43.000Z</published>
+    <updated>2023-12-06T14:18:31.089Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章通过一个简单的 Python 脚本演示 Github API 的使用、Python 编写以及 Webhook 的调用。&lt;/p&gt;
+&lt;p&gt;以此为基础，你可以展开更多的想法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实时监测 GitHub</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
+    
+    <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
+    
+    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
+    
+    <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux使用cron创建定时任务</title>
+    <link href="https://uuanqin.top/p/88536c89/"/>
+    <id>https://uuanqin.top/p/88536c89/</id>
+    <published>2023-12-06T12:27:40.000Z</published>
+    <updated>2023-12-06T14:15:07.277Z</updated>
+    
+    
+    <summary type="html">快速上手Linux定时任务的创建。</summary>
+    
+    
+    
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
+    <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
+    
+    <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
+    
+    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux服务器 HTTPS 的部署</title>
+    <link href="https://uuanqin.top/p/6f54b93a/"/>
+    <id>https://uuanqin.top/p/6f54b93a/</id>
+    <published>2023-12-06T06:54:30.000Z</published>
+    <updated>2023-12-06T07:10:35.215Z</updated>
+    
+    
+    <summary type="html">拥有SSL证书后，如何安装到服务器？如果网站使用了CDN又如何配置？如果网站是WordPress网站？这篇文章提供了以上问题的解决方案。</summary>
+    
+    
+    
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
+    <category term="Apache" scheme="https://uuanqin.top/pages/tags/Apache/"/>
+    
+    <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
+    
+    <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
+    
+    <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
+    
+    <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>获取OpenAI API Key（附one-api部署方式）</title>
     <link href="https://uuanqin.top/p/c3e96fdc/"/>
     <id>https://uuanqin.top/p/c3e96fdc/</id>
     <published>2023-12-01T13:55:27.000Z</published>
-    <updated>2023-12-05T14:22:02.586Z</updated>
+    <updated>2023-12-06T07:52:27.277Z</updated>
     
     
     <summary type="html">ECS 部署 One API 项目，获取 OpenAI API KEY</summary>
@@ -29,23 +111,31 @@
     
     
     
-    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
-    
-    <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
+    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
     
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
     
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
     
-    <category term="OpenAI" scheme="https://uuanqin.top/pages/tags/OpenAI/"/>
+    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
     
-    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
+    <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
+    
+    <category term="OpenAI" scheme="https://uuanqin.top/pages/tags/OpenAI/"/>
     
     <category term="AIGC" scheme="https://uuanqin.top/pages/tags/AIGC/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
     <category term="API" scheme="https://uuanqin.top/pages/tags/API/"/>
+    
+    <category term="文心一言" scheme="https://uuanqin.top/pages/tags/%E6%96%87%E5%BF%83%E4%B8%80%E8%A8%80/"/>
+    
+    <category term="讯飞星火" scheme="https://uuanqin.top/pages/tags/%E8%AE%AF%E9%A3%9E%E6%98%9F%E7%81%AB/"/>
+    
+    <category term="通义千问" scheme="https://uuanqin.top/pages/tags/%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE/"/>
+    
+    <category term="ChatGLM" scheme="https://uuanqin.top/pages/tags/ChatGLM/"/>
     
   </entry>
   
@@ -107,13 +197,13 @@
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
+    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
+    
     <category term="foldersync" scheme="https://uuanqin.top/pages/tags/foldersync/"/>
     
     <category term="SyncThing" scheme="https://uuanqin.top/pages/tags/SyncThing/"/>
     
     <category term="OneDrive" scheme="https://uuanqin.top/pages/tags/OneDrive/"/>
-    
-    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
     
     <category term="Android" scheme="https://uuanqin.top/pages/tags/Android/"/>
     
@@ -372,9 +462,9 @@
     
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
     
     <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
@@ -395,15 +485,15 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
+    
+    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -436,9 +526,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -463,15 +553,13 @@
     <link href="https://uuanqin.top/p/83335cfa/"/>
     <id>https://uuanqin.top/p/83335cfa/</id>
     <published>2023-07-23T17:27:11.000Z</published>
-    <updated>2023-11-06T11:45:30.586Z</updated>
+    <updated>2023-12-06T07:00:32.857Z</updated>
     
     
     <summary type="html">精解本博客域名配置，建议熟悉CDN、HTTPS配置后参考。</summary>
     
     
     
-    
-    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
     
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
@@ -481,6 +569,8 @@
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
     
+    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
+    
     <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
     <category term="DNS" scheme="https://uuanqin.top/pages/tags/DNS/"/>
@@ -488,69 +578,6 @@
     <category term="HSTS" scheme="https://uuanqin.top/pages/tags/HSTS/"/>
     
     <category term="HTTP" scheme="https://uuanqin.top/pages/tags/HTTP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为评论系统增加输入提醒【Waline】</title>
-    <link href="https://uuanqin.top/p/b3be711f/"/>
-    <id>https://uuanqin.top/p/b3be711f/</id>
-    <published>2023-07-11T15:42:59.000Z</published>
-    <updated>2023-08-28T18:35:18.008Z</updated>
-    
-    
-    <summary type="html">通过CSS设置实现信息输入提示。</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-    <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Butterfly 夜间模式变换顶部网站图标</title>
-    <link href="https://uuanqin.top/p/f06d4de6/"/>
-    <id>https://uuanqin.top/p/f06d4de6/</id>
-    <published>2023-07-10T17:40:14.000Z</published>
-    <updated>2023-09-07T10:49:57.071Z</updated>
-    
-    
-    <summary type="html">使用CSS设定夜间模式时img使用的图片。</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Butterfly 自定义页脚（不修改主题源码）</title>
-    <link href="https://uuanqin.top/p/91b7dad/"/>
-    <id>https://uuanqin.top/p/91b7dad/</id>
-    <published>2023-07-10T15:16:32.000Z</published>
-    <updated>2023-11-06T11:46:29.720Z</updated>
-    
-    
-    <summary type="html">利用CodePen项目美化主题的页脚，不修改主题代码。</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
   </entry>
   
