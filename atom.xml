@@ -73,11 +73,11 @@
     
     
     
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
-    
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
     
     <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
     
@@ -96,13 +96,13 @@
     
     
     
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
-    
     <category term="Apache" scheme="https://uuanqin.top/pages/tags/Apache/"/>
     
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
     
@@ -123,13 +123,13 @@
     
     
     
-    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
-    
-    <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
-    
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
     
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
+    
+    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
+    
+    <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
     
     <category term="OpenAI" scheme="https://uuanqin.top/pages/tags/OpenAI/"/>
     
@@ -209,13 +209,13 @@
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
+    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
+    
     <category term="foldersync" scheme="https://uuanqin.top/pages/tags/foldersync/"/>
     
     <category term="SyncThing" scheme="https://uuanqin.top/pages/tags/SyncThing/"/>
     
     <category term="OneDrive" scheme="https://uuanqin.top/pages/tags/OneDrive/"/>
-    
-    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
     
     <category term="Android" scheme="https://uuanqin.top/pages/tags/Android/"/>
     
@@ -472,7 +472,7 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
     
