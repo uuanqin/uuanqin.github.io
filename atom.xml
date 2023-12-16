@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-12-09T14:34:35.474Z</updated>
+  <updated>2023-12-16T09:45:09.664Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Quartus II 18.0 出现 Current license file does not support the XXX device 问题的解决</title>
+    <link href="https://uuanqin.top/p/7d1c36ca/"/>
+    <id>https://uuanqin.top/p/7d1c36ca/</id>
+    <published>2023-12-16T09:23:34.000Z</published>
+    <updated>2023-12-16T09:45:09.664Z</updated>
+    
+    
+    <summary type="html">重新设置一下NIC，并运行破解程序</summary>
+    
+    
+    
+    
+    <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    <category term="Quartus II" scheme="https://uuanqin.top/pages/tags/Quartus-II/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Modelsim 10.4 破解过程中找不到 License 的解决办法</title>
     <link href="https://uuanqin.top/p/6a2f026f/"/>
     <id>https://uuanqin.top/p/6a2f026f/</id>
     <published>2023-12-09T12:41:37.000Z</published>
-    <updated>2023-12-09T14:34:35.474Z</updated>
+    <updated>2023-12-10T06:31:50.752Z</updated>
     
     
     <summary type="html">找不到 License 的一种解决方法以及卸载方法</summary>
@@ -35,6 +56,8 @@
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
     
+    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
+    
   </entry>
   
   <entry>
@@ -42,7 +65,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2023-12-06T12:59:43.000Z</published>
-    <updated>2023-12-09T14:33:38.092Z</updated>
+    <updated>2023-12-10T06:35:20.402Z</updated>
     
     
     <summary type="html">介绍一个简单定时脚本的编写并推送</summary>
@@ -50,13 +73,15 @@
     
     
     
-    <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
-    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
+    
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
@@ -65,7 +90,7 @@
     <link href="https://uuanqin.top/p/88536c89/"/>
     <id>https://uuanqin.top/p/88536c89/</id>
     <published>2023-12-06T12:27:40.000Z</published>
-    <updated>2023-12-09T14:33:42.911Z</updated>
+    <updated>2023-12-10T06:33:16.092Z</updated>
     
     
     <summary type="html">快速上手 Linux 定时任务的创建。</summary>
@@ -73,22 +98,22 @@
     
     
     
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
     
-    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
+    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
   </entry>
   
   <entry>
-    <title>Linux服务器 HTTPS 的部署</title>
+    <title>Linux 服务器 HTTPS 的部署</title>
     <link href="https://uuanqin.top/p/6f54b93a/"/>
     <id>https://uuanqin.top/p/6f54b93a/</id>
     <published>2023-12-06T06:54:30.000Z</published>
-    <updated>2023-12-06T07:10:35.215Z</updated>
+    <updated>2023-12-10T06:29:11.680Z</updated>
     
     
     <summary type="html">拥有SSL证书后，如何安装到服务器？如果网站使用了CDN又如何配置？如果网站是WordPress网站？这篇文章提供了以上问题的解决方案。</summary>
@@ -96,13 +121,13 @@
     
     
     
+    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
+    
     <category term="Apache" scheme="https://uuanqin.top/pages/tags/Apache/"/>
     
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
     
@@ -115,7 +140,7 @@
     <link href="https://uuanqin.top/p/c3e96fdc/"/>
     <id>https://uuanqin.top/p/c3e96fdc/</id>
     <published>2023-12-01T13:55:27.000Z</published>
-    <updated>2023-12-09T14:33:53.179Z</updated>
+    <updated>2023-12-10T06:29:08.991Z</updated>
     
     
     <summary type="html">ECS 部署 One API 项目，获取 OpenAI API KEY</summary>
@@ -209,13 +234,13 @@
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
-    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
-    
     <category term="foldersync" scheme="https://uuanqin.top/pages/tags/foldersync/"/>
     
     <category term="SyncThing" scheme="https://uuanqin.top/pages/tags/SyncThing/"/>
     
     <category term="OneDrive" scheme="https://uuanqin.top/pages/tags/OneDrive/"/>
+    
+    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
     
     <category term="Android" scheme="https://uuanqin.top/pages/tags/Android/"/>
     
@@ -385,7 +410,7 @@
     <link href="https://uuanqin.top/p/7a103a3/"/>
     <id>https://uuanqin.top/p/7a103a3/</id>
     <published>2023-08-26T16:45:18.000Z</published>
-    <updated>2023-12-09T14:33:03.979Z</updated>
+    <updated>2023-12-10T06:34:38.469Z</updated>
     
     
     <summary type="html">介绍一款 markdown-it 插件以区分文章中的外部链接和内部链接</summary>
@@ -397,11 +422,11 @@
     
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
-    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
+    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
+    
+    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
     
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
     <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
     
@@ -462,7 +487,7 @@
     <link href="https://uuanqin.top/p/b0caa9e8/"/>
     <id>https://uuanqin.top/p/b0caa9e8/</id>
     <published>2023-08-13T15:57:42.000Z</published>
-    <updated>2023-09-10T06:16:59.956Z</updated>
+    <updated>2023-12-10T06:27:36.202Z</updated>
     
     
     <summary type="html">简要介绍我在服务器的部署友链朋友圈过程以示参考</summary>
@@ -472,9 +497,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
     
-    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -487,7 +512,7 @@
     <link href="https://uuanqin.top/p/f6c0daf3/"/>
     <id>https://uuanqin.top/p/f6c0daf3/</id>
     <published>2023-08-11T14:30:29.000Z</published>
-    <updated>2023-12-09T14:33:13.957Z</updated>
+    <updated>2023-12-10T06:34:43.057Z</updated>
     
     
     <summary type="html">通过自制脚本实现文章关系图绘制以及加入 Hexo 部署自动化流程中</summary>
@@ -497,66 +522,29 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="Github" scheme="https://uuanqin.top/pages/tags/Github/"/>
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="python" scheme="https://uuanqin.top/pages/tags/python/"/>
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
     <category term="Cosma" scheme="https://uuanqin.top/pages/tags/Cosma/"/>
     
-    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
-    
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
-    
-    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
+    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
     
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
     <category term="项目" scheme="https://uuanqin.top/pages/tags/%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 博客适配 Obsidian 新语法</title>
-    <link href="https://uuanqin.top/p/d4bc55f2/"/>
-    <id>https://uuanqin.top/p/d4bc55f2/</id>
-    <published>2023-08-01T03:34:33.000Z</published>
-    <updated>2023-10-20T14:56:49.519Z</updated>
-    
-    
-    <summary type="html">本文介绍了使用插件使得Hexo接受部分OFM语法的方法</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
-    <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
-    
-    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
-    
-    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
-    
-    <category term="Node.js" scheme="https://uuanqin.top/pages/tags/Node-js/"/>
-    
-    <category term="cmd" scheme="https://uuanqin.top/pages/tags/cmd/"/>
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/tags/Hexo/"/>
-    
-    <category term="GFM" scheme="https://uuanqin.top/pages/tags/GFM/"/>
-    
-    <category term="OFM" scheme="https://uuanqin.top/pages/tags/OFM/"/>
     
   </entry>
   
