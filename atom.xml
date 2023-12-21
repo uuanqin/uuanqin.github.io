@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2023-12-16T09:45:09.664Z</updated>
+  <updated>2023-12-16T09:56:34.182Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uuanqin.top/p/7d1c36ca/"/>
     <id>https://uuanqin.top/p/7d1c36ca/</id>
     <published>2023-12-16T09:23:34.000Z</published>
-    <updated>2023-12-16T09:45:09.664Z</updated>
+    <updated>2023-12-16T09:56:34.182Z</updated>
     
     
     <summary type="html">重新设置一下NIC，并运行破解程序</summary>
@@ -65,7 +65,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2023-12-06T12:59:43.000Z</published>
-    <updated>2023-12-10T06:35:20.402Z</updated>
+    <updated>2023-12-21T04:17:20.576Z</updated>
     
     
     <summary type="html">介绍一个简单定时脚本的编写并推送</summary>
@@ -98,11 +98,11 @@
     
     
     
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
-    
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -113,15 +113,15 @@
     <link href="https://uuanqin.top/p/6f54b93a/"/>
     <id>https://uuanqin.top/p/6f54b93a/</id>
     <published>2023-12-06T06:54:30.000Z</published>
-    <updated>2023-12-10T06:29:11.680Z</updated>
+    <updated>2023-12-21T09:15:47.156Z</updated>
     
     
-    <summary type="html">拥有SSL证书后，如何安装到服务器？如果网站使用了CDN又如何配置？如果网站是WordPress网站？这篇文章提供了以上问题的解决方案。</summary>
+    <summary type="html">SSL证书的不同部署方式以及CDN配置HTTPS。</summary>
     
     
     
     
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="Apache" scheme="https://uuanqin.top/pages/tags/Apache/"/>
     
@@ -148,6 +148,8 @@
     
     
     
+    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
+    
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
     
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
@@ -157,8 +159,6 @@
     <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
     
     <category term="OpenAI" scheme="https://uuanqin.top/pages/tags/OpenAI/"/>
-    
-    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
     
     <category term="AIGC" scheme="https://uuanqin.top/pages/tags/AIGC/"/>
     
@@ -234,13 +234,13 @@
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
+    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
+    
     <category term="foldersync" scheme="https://uuanqin.top/pages/tags/foldersync/"/>
     
     <category term="SyncThing" scheme="https://uuanqin.top/pages/tags/SyncThing/"/>
     
     <category term="OneDrive" scheme="https://uuanqin.top/pages/tags/OneDrive/"/>
-    
-    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
     
     <category term="Android" scheme="https://uuanqin.top/pages/tags/Android/"/>
     
@@ -420,13 +420,13 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
-    
     <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
     
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
     <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
     
@@ -497,11 +497,11 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
@@ -522,19 +522,15 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
     <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
-    
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
-    
-    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
@@ -542,7 +538,11 @@
     
     <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
     
+    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
+    
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
+    
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="项目" scheme="https://uuanqin.top/pages/tags/%E9%A1%B9%E7%9B%AE/"/>
     
