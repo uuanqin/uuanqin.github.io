@@ -50,13 +50,13 @@
     
     
     
+    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
+    
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="Modelsim" scheme="https://uuanqin.top/pages/tags/Modelsim/"/>
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -150,13 +150,13 @@
     
     <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
     
-    <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
-    
-    <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
-    
     <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
     
     <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
+    
+    <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
+    
+    <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
     
     <category term="OpenAI" scheme="https://uuanqin.top/pages/tags/OpenAI/"/>
     
@@ -234,13 +234,13 @@
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
-    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
-    
     <category term="foldersync" scheme="https://uuanqin.top/pages/tags/foldersync/"/>
     
     <category term="SyncThing" scheme="https://uuanqin.top/pages/tags/SyncThing/"/>
     
     <category term="OneDrive" scheme="https://uuanqin.top/pages/tags/OneDrive/"/>
+    
+    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
     
     <category term="Android" scheme="https://uuanqin.top/pages/tags/Android/"/>
     
@@ -370,9 +370,9 @@
     
     
     
-    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
     <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
+    
+    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
     
     <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
@@ -420,13 +420,13 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
-    
-    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
-    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
+    
+    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
+    
+    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
     <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
     
@@ -512,7 +512,7 @@
     <link href="https://uuanqin.top/p/f6c0daf3/"/>
     <id>https://uuanqin.top/p/f6c0daf3/</id>
     <published>2023-08-11T14:30:29.000Z</published>
-    <updated>2023-12-10T06:34:43.057Z</updated>
+    <updated>2023-12-27T08:16:56.792Z</updated>
     
     
     <summary type="html">通过自制脚本实现文章关系图绘制以及加入 Hexo 部署自动化流程中</summary>
@@ -532,17 +532,17 @@
     
     <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
+    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
+    
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
     <category term="Cosma" scheme="https://uuanqin.top/pages/tags/Cosma/"/>
     
     <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
     
-    <category term="YAML" scheme="https://uuanqin.top/pages/tags/YAML/"/>
-    
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
-    
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="项目" scheme="https://uuanqin.top/pages/tags/%E9%A1%B9%E7%9B%AE/"/>
     
