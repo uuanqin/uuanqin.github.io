@@ -1,6 +1,6 @@
 // 获取ip
 function getIpInfo(){
-    var path = 'https://2023.ipchaxun.com/';
+    var path = 'https://2024.ipchaxun.com/';
     if(path !== undefined){
         var httpRequest = new XMLHttpRequest();//第一步：建立所需的对象
         httpRequest.open('GET', path , true);//第二步：打开连接  将请求参数写在url中  ps:"./Ptest.php?name=test&nameone=testone"
@@ -18,10 +18,12 @@ function getIpInfo(){
                 document.getElementById("userAgentRegion").innerHTML = obj.data[1];
                 document.getElementById("userAgentCity").innerHTML = obj.data[2];
                 document.getElementById("userAgentIsp").innerHTML = obj.data[4];
+            }else{
+                console.log('privacy.js - 获取信息失败. httpRequest.readyState=%d, httpRequest.status=%d',httpRequest.readyState,httpRequest.status);
             }
         };
     }else{
-        console.log('获取信息失败');
+        console.log('privacy.js - path === undefined');
     }
 
     var uaInfo = navigator.userAgent;

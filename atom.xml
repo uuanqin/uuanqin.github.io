@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-02-11T19:14:15.046Z</updated>
+  <updated>2024-02-16T20:27:16.534Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>穷游长沙</title>
+    <link href="https://uuanqin.top/p/6194fb1f/"/>
+    <id>https://uuanqin.top/p/6194fb1f/</id>
+    <published>2024-02-11T15:06:47.000Z</published>
+    <updated>2024-02-16T20:27:16.534Z</updated>
+    
+    
+    <summary type="html">走路不带停的这是一种什么样的体验</summary>
+    
+    
+    
+    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
+    
+    
+    <category term="长沙" scheme="https://uuanqin.top/pages/tags/%E9%95%BF%E6%B2%99/"/>
+    
+    <category term="旅行" scheme="https://uuanqin.top/pages/tags/%E6%97%85%E8%A1%8C/"/>
+    
+    <category term="城市印象" scheme="https://uuanqin.top/pages/tags/%E5%9F%8E%E5%B8%82%E5%8D%B0%E8%B1%A1/"/>
+    
+    <category term="博物馆" scheme="https://uuanqin.top/pages/tags/%E5%8D%9A%E7%89%A9%E9%A6%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>巢湖日落</title>
     <link href="https://uuanqin.top/p/c69d5b0b/"/>
     <id>https://uuanqin.top/p/c69d5b0b/</id>
     <published>2024-01-01T14:44:58.000Z</published>
-    <updated>2024-02-11T19:14:15.046Z</updated>
+    <updated>2024-02-11T19:20:06.062Z</updated>
     
     
     <summary type="html">记录别人的幸福也很幸福</summary>
@@ -259,13 +284,13 @@
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
     
-    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
-    
     <category term="foldersync" scheme="https://uuanqin.top/pages/tags/foldersync/"/>
     
     <category term="SyncThing" scheme="https://uuanqin.top/pages/tags/SyncThing/"/>
     
     <category term="OneDrive" scheme="https://uuanqin.top/pages/tags/OneDrive/"/>
+    
+    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
     
     <category term="Android" scheme="https://uuanqin.top/pages/tags/Android/"/>
     
@@ -412,7 +437,7 @@
     <link href="https://uuanqin.top/p/25f6686b/"/>
     <id>https://uuanqin.top/p/25f6686b/</id>
     <published>2023-09-09T08:13:29.000Z</published>
-    <updated>2023-12-09T14:32:59.767Z</updated>
+    <updated>2024-02-15T13:45:47.552Z</updated>
     
     
     <summary type="html">利用 API 获取 IP 地址信息，这也是对 Heo 方案的改进</summary>
@@ -504,31 +529,6 @@
     <category term="Steam" scheme="https://uuanqin.top/pages/tags/Steam/"/>
     
     <category term="Cities Skylines" scheme="https://uuanqin.top/pages/tags/Cities-Skylines/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>server、sqlite朋友圈部署方案</title>
-    <link href="https://uuanqin.top/p/b0caa9e8/"/>
-    <id>https://uuanqin.top/p/b0caa9e8/</id>
-    <published>2023-08-13T15:57:42.000Z</published>
-    <updated>2023-12-10T06:27:36.202Z</updated>
-    
-    
-    <summary type="html">简要介绍我在服务器的部署友链朋友圈过程以示参考</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="SQLite" scheme="https://uuanqin.top/pages/tags/SQLite/"/>
     
   </entry>
   
