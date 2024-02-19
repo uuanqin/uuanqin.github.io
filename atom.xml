@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-02-17T09:26:47.730Z</updated>
+  <updated>2024-02-19T21:00:32.372Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Scrapy-入门篇</title>
+    <link href="https://uuanqin.top/p/cf3e4a7b/"/>
+    <id>https://uuanqin.top/p/cf3e4a7b/</id>
+    <published>2024-02-19T16:54:08.000Z</published>
+    <updated>2024-02-19T21:00:32.372Z</updated>
+    
+    
+    <summary type="html">创建第一个 Scrapy 爬虫</summary>
+    
+    
+    
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>穷游长沙</title>
     <link href="https://uuanqin.top/p/6194fb1f/"/>
     <id>https://uuanqin.top/p/6194fb1f/</id>
     <published>2024-02-11T15:06:47.000Z</published>
-    <updated>2024-02-17T09:26:47.730Z</updated>
+    <updated>2024-02-17T11:18:48.634Z</updated>
     
     
     <summary type="html">走路不带停的这是一种什么样的体验</summary>
@@ -115,7 +134,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2023-12-06T12:59:43.000Z</published>
-    <updated>2023-12-21T04:17:20.576Z</updated>
+    <updated>2024-02-17T18:57:18.981Z</updated>
     
     
     <summary type="html">介绍一个简单定时脚本的编写并推送</summary>
@@ -148,11 +167,11 @@
     
     
     
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
+    
+    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -171,7 +190,7 @@
     
     
     
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
     
     <category term="Apache" scheme="https://uuanqin.top/pages/tags/Apache/"/>
     
@@ -198,8 +217,6 @@
     
     
     
-    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
-    
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
     
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
@@ -209,6 +226,8 @@
     <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
     
     <category term="OpenAI" scheme="https://uuanqin.top/pages/tags/OpenAI/"/>
+    
+    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
     
     <category term="AIGC" scheme="https://uuanqin.top/pages/tags/AIGC/"/>
     
@@ -470,13 +489,13 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
-    
-    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
-    
     <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
     
     <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
+    
+    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
+    
+    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
     <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
     
@@ -502,33 +521,6 @@
     <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
     
     <category term="吐槽" scheme="https://uuanqin.top/pages/tags/%E5%90%90%E6%A7%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Epic城市天际线 DLC 全破解与模组安装</title>
-    <link href="https://uuanqin.top/p/2735215e/"/>
-    <id>https://uuanqin.top/p/2735215e/</id>
-    <published>2023-08-19T11:11:28.000Z</published>
-    <updated>2023-11-23T13:54:00.842Z</updated>
-    
-    
-    <summary type="html">介绍DLC安装方法以及Steam模组安装，请支持正版游戏</summary>
-    
-    
-    
-    
-    <category term="Epic" scheme="https://uuanqin.top/pages/tags/Epic/"/>
-    
-    <category term="游戏" scheme="https://uuanqin.top/pages/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-    <category term="DLC" scheme="https://uuanqin.top/pages/tags/DLC/"/>
-    
-    <category term="Mod" scheme="https://uuanqin.top/pages/tags/Mod/"/>
-    
-    <category term="Steam" scheme="https://uuanqin.top/pages/tags/Steam/"/>
-    
-    <category term="Cities Skylines" scheme="https://uuanqin.top/pages/tags/Cities-Skylines/"/>
     
   </entry>
   

@@ -142,7 +142,7 @@
 
 
 .footer-social-links {
-    bottom: 0;
+    bottom: -1px;
     height: 54px;
     position: absolute;
     right: 0;
@@ -200,8 +200,8 @@
 
 .footer-social-link.fish {
     height: 47px;
-    left: 122px;
-    top: 11px;
+    left: 121px;
+    top: 13px;
     width: 47px;
 }
 

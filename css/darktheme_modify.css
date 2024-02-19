@@ -31,6 +31,21 @@
     color: white;
 }
 
+/* 页脚波浪的颜色 */
+[data-theme='dark'] #footer {
+    background-color: #0f3858;
+}
+
+/* 页脚海底的颜色 */
+[data-theme='dark'] .footer-copyright {
+    background-color: #104e5e;
+}
+[data-theme='dark'] .footer-social-amoeba-path {
+    fill: #104e5e;
+}
+
+
+
 
 
 
