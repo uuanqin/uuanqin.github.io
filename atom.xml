@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-02-19T21:00:32.372Z</updated>
+  <updated>2024-02-20T18:42:52.702Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Scrapy-充分利用浏览器中的开发者工具</title>
+    <link href="https://uuanqin.top/p/dfbe1dad/"/>
+    <id>https://uuanqin.top/p/dfbe1dad/</id>
+    <published>2024-02-20T15:59:47.000Z</published>
+    <updated>2024-02-20T18:42:52.702Z</updated>
+    
+    
+    <summary type="html">浏览器开发者工具基础向教程</summary>
+    
+    
+    
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    
+    <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Scrapy-入门篇</title>
     <link href="https://uuanqin.top/p/cf3e4a7b/"/>
     <id>https://uuanqin.top/p/cf3e4a7b/</id>
     <published>2024-02-19T16:54:08.000Z</published>
-    <updated>2024-02-19T21:00:32.372Z</updated>
+    <updated>2024-02-20T19:04:41.203Z</updated>
     
     
     <summary type="html">创建第一个 Scrapy 爬虫</summary>
@@ -31,7 +52,11 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
+    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    
+    <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
+    
+    <category term="XPath" scheme="https://uuanqin.top/pages/tags/XPath/"/>
     
   </entry>
   
@@ -167,11 +192,11 @@
     
     
     
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
-    
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -190,7 +215,7 @@
     
     
     
-    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="Apache" scheme="https://uuanqin.top/pages/tags/Apache/"/>
     
@@ -217,6 +242,8 @@
     
     
     
+    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
+    
     <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
     
     <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
@@ -226,8 +253,6 @@
     <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
     
     <category term="OpenAI" scheme="https://uuanqin.top/pages/tags/OpenAI/"/>
-    
-    <category term="ChatGPT" scheme="https://uuanqin.top/pages/tags/ChatGPT/"/>
     
     <category term="AIGC" scheme="https://uuanqin.top/pages/tags/AIGC/"/>
     
@@ -489,7 +514,7 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="CSS" scheme="https://uuanqin.top/pages/tags/CSS/"/>
+    <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
     
     <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
     
@@ -498,29 +523,6 @@
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
     <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>原来是 Edge 默默作祟</title>
-    <link href="https://uuanqin.top/p/4e12798e/"/>
-    <id>https://uuanqin.top/p/4e12798e/</id>
-    <published>2023-08-24T14:43:03.000Z</published>
-    <updated>2023-10-22T09:35:15.480Z</updated>
-    
-    
-    <summary type="html">老是乱搞什么东东</summary>
-    
-    
-    
-    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
-    
-    
-    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
-    
-    <category term="吐槽" scheme="https://uuanqin.top/pages/tags/%E5%90%90%E6%A7%BD/"/>
     
   </entry>
   
