@@ -148,22 +148,6 @@ window.addEventListener('load', () => {
     container: '#algolia-info > .algolia-poweredBy'
   })
 
-//   const { connectPoweredBy } = instantsearch.connectors;
-//
-//   // Create the render function
-//   const renderPoweredBy = (renderOptions, isFirstRender) => {
-//     const { url, widgetParams } = renderOptions;
-//
-//     widgetParams.container.innerHTML = `
-//     <a href="${url}">Powered by Algolia</a>
-//   `;
-//   };
-//
-// // Create the custom widget
-//   const customPoweredBy = connectPoweredBy(
-//       renderPoweredBy
-//   );
-
   const pagination = instantsearch.widgets.pagination({
     container: '#algolia-pagination',
     totalPages: 5,
