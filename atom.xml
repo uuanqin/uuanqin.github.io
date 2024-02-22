@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-02-21T12:12:24.071Z</updated>
+  <updated>2024-02-22T18:12:37.650Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>实现外链跳转中间页的一个思路</title>
+    <link href="https://uuanqin.top/p/e1ee5eca/"/>
+    <id>https://uuanqin.top/p/e1ee5eca/</id>
+    <published>2024-02-22T17:04:25.000Z</published>
+    <updated>2024-02-22T18:12:37.650Z</updated>
+    
+    
+    <summary type="html">垒起第一块砖</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
+    
+    
+    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    
+  </entry>
   
   <entry>
     <title>Scrapy-充分利用浏览器中的开发者工具</title>
@@ -123,11 +144,11 @@
     
     
     
-    <category term="Quartus II" scheme="https://uuanqin.top/pages/tags/Quartus-II/"/>
-    
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    <category term="Quartus II" scheme="https://uuanqin.top/pages/tags/Quartus-II/"/>
     
   </entry>
   
@@ -144,13 +165,13 @@
     
     
     
-    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
-    
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+    <category term="Modelsim" scheme="https://uuanqin.top/pages/tags/Modelsim/"/>
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
     
-    <category term="Modelsim" scheme="https://uuanqin.top/pages/tags/Modelsim/"/>
+    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -482,29 +503,6 @@
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
     <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>原来是 Edge 默默作祟</title>
-    <link href="https://uuanqin.top/p/4e12798e/"/>
-    <id>https://uuanqin.top/p/4e12798e/</id>
-    <published>2023-08-24T14:43:03.000Z</published>
-    <updated>2023-10-22T09:35:15.480Z</updated>
-    
-    
-    <summary type="html">老是乱搞什么东东</summary>
-    
-    
-    
-    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
-    
-    
-    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
-    
-    <category term="吐槽" scheme="https://uuanqin.top/pages/tags/%E5%90%90%E6%A7%BD/"/>
     
   </entry>
   
