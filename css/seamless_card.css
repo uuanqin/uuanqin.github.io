@@ -1,0 +1,8 @@
+/* 这是为了无缝侧边栏 */
+.seamless-card{
+    padding: 0px!important;
+}
+.seamless-card .item-headline{
+    padding-bottom: 0px!important;
+    height: 0px!important;
+}
