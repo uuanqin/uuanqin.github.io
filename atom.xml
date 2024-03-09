@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-02-29T14:56:44.320Z</updated>
+  <updated>2024-03-08T15:57:06.119Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uuanqin.top/p/e1ee5eca/"/>
     <id>https://uuanqin.top/p/e1ee5eca/</id>
     <published>2024-02-22T17:04:25.000Z</published>
-    <updated>2024-02-29T14:56:44.320Z</updated>
+    <updated>2024-03-08T15:57:06.119Z</updated>
     
     
     <summary type="html">垒起第一块砖</summary>
@@ -52,7 +52,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
     
     <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
     
@@ -73,7 +73,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
     
     <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
     
@@ -157,7 +157,7 @@
     <link href="https://uuanqin.top/p/6a2f026f/"/>
     <id>https://uuanqin.top/p/6a2f026f/</id>
     <published>2023-12-09T12:41:37.000Z</published>
-    <updated>2023-12-10T06:31:50.752Z</updated>
+    <updated>2024-03-09T06:10:49.192Z</updated>
     
     
     <summary type="html">找不到 License 的一种解决方法以及卸载方法</summary>
@@ -228,7 +228,7 @@
     <link href="https://uuanqin.top/p/6f54b93a/"/>
     <id>https://uuanqin.top/p/6f54b93a/</id>
     <published>2023-12-06T06:54:30.000Z</published>
-    <updated>2024-03-01T16:00:28.366Z</updated>
+    <updated>2024-03-09T06:09:44.470Z</updated>
     
     
     <summary type="html">SSL证书的不同部署方式以及CDN配置HTTPS。</summary>
@@ -496,11 +496,11 @@
     
     <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
     
+    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
+    
     <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
     
     <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
-    
-    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
     
     <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
     
