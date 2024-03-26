@@ -201,7 +201,7 @@
 <p><img src= "/image/loading.gif" data-lazy-src="https://cdn.gallery.uuanqin.top/img/image-20230428223656516.png" alt="image-20230428223656516" width="500px" /></p>
 <p>然后按照 Waline 官方文档的指导设置好服务端的环境变量：<a href="/pages/go.html#aHR0cHM6Ly93YWxpbmUuanMub3JnL2d1aWRlL2ZlYXR1cmVzL25vdGlmaWNhdGlvbi5odG1sIyVFOSU4MiVBRSVFNCVCQiVCNiVFOSU4MCU5QSVFNyU5RiVBNQ==" rel="noopener external nofollow noreferrer">评论通知 | Waline</a>，腾讯企业邮相关参数如下：</p>
 <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;QQex&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;aliases&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;QQ Enterprise&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;domains&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;exmail.qq.com&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;host&quot;</span><span class="punctuation">:</span> <span class="string">&quot;smtp.exmail.qq.com&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;port&quot;</span><span class="punctuation">:</span> <span class="number">465</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;secure&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line"><span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br></pre></td></tr></table></figure>
-<p>参考：<a href="/pages/go.html#aHR0cHM6Ly9jbG91ZC50ZW5jZW50LmNvbS9kZXZlbG9wZXIvYXJ0aWNsZS8yMDY3Mjk0" rel="noopener external nofollow noreferrer">Fluid -15- Waline 邮件通知 - 腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
+<p>参考：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://cloud.tencent.com/developer/article/2067294">Fluid -15- Waline 邮件通知 - 腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
 <h2 id="信件模板"><a class="markdownIt-Anchor" href="#信件模板"></a> 信件模板</h2>
 <p>关于邮件内容的模板，即环境变量 <strong>MAIL_TEMPLATE_ADMIN</strong> 如何写，可自行搜索样例。</p>
 <p>这里我参考了洪涝（张洪 Heo）的针对 Twikoo 评论系统的示例：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.zhheo.com/p/169a1abb.html">Twikoo 评论回复邮件模板：Acrylic Mail 粉 | 张洪 Heo (zhheo.com)</a></p>
@@ -229,7 +229,7 @@
 <ul>
 <li><a href="/pages/go.html#aHR0cHM6Ly93d3cuc2FyYWthbGUudG9wL2Jsb2cvcG9zdHMvNTM3MzQ0YjIuaHRtbA==" rel="noopener external nofollow noreferrer">waline 邮件通知模板样式一览 | SaraKale’s blog</a></li>
 <li><a href="/pages/go.html#aHR0cHM6Ly9ibG9nLmp5aGFvLmNuL3Bvc3RzLzE3OTc4Lmh0bWw=" rel="noopener external nofollow noreferrer">自定义 Waline/Twikoo 邮件通知样式 | Night1918 Blog (jyhao.cn)</a></li>
-<li><a href="/pages/go.html#aHR0cHM6Ly9jbG91ZC50ZW5jZW50LmNvbS9kZXZlbG9wZXIvYXJ0aWNsZS8yMjExNzI5" rel="noopener external nofollow noreferrer">Fluid -29- 修改 waline 邮箱通知模板 - 腾讯云开发者社区-腾讯云 (tencent.com)</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://cloud.tencent.com/developer/article/2211729">Fluid -29- 修改 waline 邮箱通知模板 - 腾讯云开发者社区-腾讯云 (tencent.com)</a></li>
 </ul>
 <h1 id="输入-qq-邮箱自动获取-qq-头像服务端配置"><a class="markdownIt-Anchor" href="#输入-qq-邮箱自动获取-qq-头像服务端配置"></a> 输入 QQ 邮箱自动获取 QQ 头像（服务端配置）</h1>
 <p>如果你的 Waline 服务端是按照官方推荐的 Vercel 部署方式，那么你可以打开 Vercel 对应的 Github 仓库，修改 index.js 文件，将以下内容添加至方框位置：</p>
@@ -269,7 +269,7 @@
 <h3 id="评论区背景图"><a class="markdownIt-Anchor" href="#评论区背景图"></a> 评论区背景图</h3>
 <p>我的做法是在 css 中加上：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.wl-editor</span> &#123;</span><br><span class="line">    <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">图片地址</span>);</span><br><span class="line">    <span class="attribute">background-size</span>: <span class="number">10%</span>;</span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line">    <span class="attribute">background-position</span>: right bottom;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="attribute">resize</span>: vertical</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.wl-editor</span><span class="selector-pseudo">:focus</span>&#123;</span><br><span class="line">    <span class="attribute">background-position</span>-x: <span class="number">800px</span>;</span><br><span class="line">    <span class="attribute">background-position</span>-y: <span class="number">1000px</span>;</span><br><span class="line">    <span class="attribute">transition</span>: all <span class="number">0.2s</span> ease-in-out <span class="number">0s</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>参考文章：<a href="/pages/go.html#aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC81ODE2NDA2MjY=" rel="noopener external nofollow noreferrer">Hexo 中 Buttefly 主题 Valine 评论系统配置以及美化（七） - 知乎 (zhihu.com)</a></p>
+<p>参考文章：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://zhuanlan.zhihu.com/p/581640626">Hexo 中 Buttefly 主题 Valine 评论系统配置以及美化（七） - 知乎 (zhihu.com)</a></p>
 <h1 id="评论安全"><a class="markdownIt-Anchor" href="#评论安全"></a> 评论安全</h1>
 <h2 id="设置违禁词服务端配置"><a class="markdownIt-Anchor" href="#设置违禁词服务端配置"></a> 设置违禁词（服务端配置）</h2>
 <blockquote>
@@ -333,7 +333,7 @@
 <hr class="footnotes-sep" />
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/walinejs/waline/issues/1034">[Bug]: 自定义邮件通知模板后评论内容显示问题 · Issue #1034 · walinejs/waline (github.com)</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+<li id="fn1" class="footnote-item"><p><a href="/pages/go.html#aHR0cHM6Ly9naXRodWIuY29tL3dhbGluZWpzL3dhbGluZS9pc3N1ZXMvMTAzNA==" rel="noopener external nofollow noreferrer">[Bug]: 自定义邮件通知模板后评论内容显示问题 · Issue #1034 · walinejs/waline (github.com)</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
@@ -371,7 +371,7 @@
             <h2 class="footer-menu-name">快速链接</h2>
             <ul id="menu-company" class="footer-menu-list">
                 <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
-                    <a href="/archives/">时间轴</a>&nbsp;|&nbsp;<a href="/DO_NOT_render/cosmoscope/cosmoscope.html">关系图</a>
+                    <a href="/archives/">时间轴</a>&nbsp;|&nbsp;<a href="/DO_NOT_render/cosmoscope/cosmoscope_trim.html">关系图</a>
                 </li>
                 <!--
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
