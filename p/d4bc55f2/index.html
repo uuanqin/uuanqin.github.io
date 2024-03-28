@@ -369,7 +369,7 @@ Git仓库地址：<a href="/pages/go.html#aHR0cHM6Ly9naXRodWIuY29tL3V1YW5xaW4vbW
 <p>在使用 Hexo 第三方插件 <code>hexo-link-obsidian</code> 发生了许多小插曲，向原作者提了许多 issue，直接改进两个版本。</p>
 <p>一开始发现对原本笔记就有的网络图片渲染得不是很好，我就自己改了一下源代码，把插件 index.js 匹配图片的正则表达式改成一个永远不会有的值结果在粘贴下面代码的时候…</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> pattern = <span class="regexp">/thestringyouwouldnerverwritekk24oo9669/g</span></span><br><span class="line"><span class="comment">// 傻B了，把改的地方直接复制过来，结果匹配上了。。。原本我还一直想着这个字符串我不会再写第二遍...</span></span><br></pre></td></tr></table></figure>
-<p>解决Callouts问题的过程中，搜到<a href="/pages/go.html#aHR0cHM6Ly93aWRjYXJkLndpbi8=" rel="noopener external nofollow noreferrer">widcardw</a>的博客并产生启发，于是我的第一款NPM插件markdown-it-obsidian-imgsize诞生了。开发杂记详见：<a href="/p/ca685d6c/" data-pjax-state target="_Blank">第一次开发 npm 插件</a>。</p>
+<p>解决Callouts问题的过程中，搜到<a href="/pages/go.html#aHR0cHM6Ly93aWRjYXJkLndpbi8=" rel="noopener external nofollow noreferrer">widcardw</a>的博客并产生启发，于是我的第一款NPM插件markdown-it-obsidian-imgsize诞生了。开发杂记详见：[[第一次开发 npm 插件]]。</p>
 <h2 id="后续考虑改进"><a class="markdownIt-Anchor" href="#后续考虑改进"></a> 后续考虑改进</h2>
 <ul class="contains-task-list">
 <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <s>写一个 markdown-it 插件 适配 Obsidian 图片大小的语法</s></li>
@@ -414,7 +414,7 @@ Git仓库地址：<a href="/pages/go.html#aHR0cHM6Ly9naXRodWIuY29tL3V1YW5xaW4vbW
 <ol class="footnotes-list">
 <li id="fn1" class="footnote-item"><p><a href="/pages/go.html#aHR0cHM6Ly9oZWxwLm9ic2lkaWFuLm1kL0VkaXRpbmcrYW5kK2Zvcm1hdHRpbmcvT2JzaWRpYW4rRmxhdm9yZWQrTWFya2Rvd24=" rel="noopener external nofollow noreferrer">Obsidian Flavored Markdown - Obsidian Help</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn2" class="footnote-item"><p>Markdown 相关语法规范详见<a href="/p/3c4a82e6/" data-pjax-state target="_Blank">Markdown 渲染测试</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+<li id="fn2" class="footnote-item"><p>Markdown 相关语法规范详见[[Markdown 渲染测试]] <a href="#fnref2" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
@@ -598,7 +598,7 @@ Git仓库地址：<a href="/pages/go.html#aHR0cHM6Ly9naXRodWIuY29tL3V1YW5xaW4vbW
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
       comment: false,
-    }, {"locale":{"nick":"昵称","mail":"邮箱","link":"网站","placeholder":"填写数字 QQ 邮箱将自动获取QQ头像，同时支持 Gravatar.com","requiredMeta":[],"sofa":"评论区空空如也~喵呜呜呜","anonymous":"匿名的野猫","login":"登录(可选)"},"emoji":["https://unpkg.com/@waline/emojis@1.2.0/tieba/","https://unpkg.com/@waline/emojis@1.2.0/bilibili/","https://unpkg.com/@waline/emojis@1.2.0/qq/"],"reaction":["https://s2.loli.net/2023/09/24/EhqxZ6DFIJojGNa.gif","https://s2.loli.net/2023/09/24/qmf5As3evWNXwGQ.gif","https://s2.loli.net/2023/09/24/ueWLPkmYw75x4cs.gif","https://s2.loli.net/2023/09/24/nsC1OGoBKfa8Hel.gif","https://s2.loli.net/2023/09/24/VKuBXqR91TPHnyc.gif","https://s2.loli.net/2023/09/24/2OmAWPeulq4ta8T.gif"],"turnstileKey":"0x4AAAAAAAMKQo7vr99MpLYN"}))
+    }, {"locale":{"nick":"昵称","mail":"邮箱","link":"网站","placeholder":"填写数字 QQ 邮箱将自动获取QQ头像，同时支持 Gravatar.com","requiredMeta":[],"sofa":"评论区空空如也~喵呜呜呜","anonymous":"匿名的野猫","login":"登录(可选)"},"emoji":["https://unpkg.com/@waline/emojis@1.2.0/tieba/","https://unpkg.com/@waline/emojis@1.2.0/bilibili/","https://unpkg.com/@waline/emojis@1.2.0/qq/"],"reaction":["https://s2.loli.net/2023/09/24/EhqxZ6DFIJojGNa.gif","https://s2.loli.net/2023/09/24/qmf5As3evWNXwGQ.gif","https://s2.loli.net/2023/09/24/ueWLPkmYw75x4cs.gif","https://s2.loli.net/2023/09/24/nsC1OGoBKfa8Hel.gif","https://s2.loli.net/2023/09/24/VKuBXqR91TPHnyc.gif","https://s2.loli.net/2023/09/24/2OmAWPeulq4ta8T.gif"]}))
 
     const destroyWaline = () => {
       waline.destroy()
