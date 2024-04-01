@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-03-26T06:24:18.906Z</updated>
+  <updated>2024-04-01T10:31:15.073Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ESP8266 烧写 AT MQTT 固件</title>
+    <link href="https://uuanqin.top/p/a587bc70/"/>
+    <id>https://uuanqin.top/p/a587bc70/</id>
+    <published>2024-04-01T08:54:51.000Z</published>
+    <updated>2024-04-01T10:31:15.073Z</updated>
+    
+    
+    <summary type="html">记录一下 ESP8266 烧写固件的基本步骤。</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
+    
+    <category term="UST-TTL" scheme="https://uuanqin.top/pages/tags/UST-TTL/"/>
+    
+    <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
+    
+    <category term="物联网" scheme="https://uuanqin.top/pages/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
+    
+    <category term="WIFI" scheme="https://uuanqin.top/pages/tags/WIFI/"/>
+    
+  </entry>
   
   <entry>
     <title>实现外链跳转中间页的一个思路</title>
@@ -165,13 +192,13 @@
     
     
     
+    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
+    
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="Modelsim" scheme="https://uuanqin.top/pages/tags/Modelsim/"/>
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -476,33 +503,6 @@
     <category term="IP" scheme="https://uuanqin.top/pages/tags/IP/"/>
     
     <category term="UA" scheme="https://uuanqin.top/pages/tags/UA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自定义文章内外链接样式的另一种方法（使用markdown-it插件）</title>
-    <link href="https://uuanqin.top/p/7a103a3/"/>
-    <id>https://uuanqin.top/p/7a103a3/</id>
-    <published>2023-08-26T16:45:18.000Z</published>
-    <updated>2023-12-10T06:34:38.469Z</updated>
-    
-    
-    <summary type="html">介绍一款 markdown-it 插件以区分文章中的外部链接和内部链接</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
-    
-    <category term="CodePen" scheme="https://uuanqin.top/pages/tags/CodePen/"/>
-    
-    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
-    
-    <category term="Markdown" scheme="https://uuanqin.top/pages/tags/Markdown/"/>
-    
-    <category term="markdown-it" scheme="https://uuanqin.top/pages/tags/markdown-it/"/>
     
   </entry>
   
