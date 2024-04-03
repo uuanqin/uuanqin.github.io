@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-04-01T10:31:15.073Z</updated>
+  <updated>2024-04-03T04:38:18.322Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,82 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>STM32 工程的创建（基于 HAL 库）</title>
+    <link href="https://uuanqin.top/p/53832aef/"/>
+    <id>https://uuanqin.top/p/53832aef/</id>
+    <published>2024-04-02T11:53:06.000Z</published>
+    <updated>2024-04-03T04:38:18.322Z</updated>
+    
+    
+    <summary type="html">介绍STM32CubeMX的使用。</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
+    
+    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    
+    <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Keil 的使用技巧与问题解决</title>
+    <link href="https://uuanqin.top/p/9c0a1431/"/>
+    <id>https://uuanqin.top/p/9c0a1431/</id>
+    <published>2024-04-02T08:38:04.000Z</published>
+    <updated>2024-04-03T04:38:18.096Z</updated>
+    
+    
+    <summary type="html">各种错误解决方法与技巧的收集。</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>STM32 工程的创建（基于寄存器或标准库）</title>
+    <link href="https://uuanqin.top/p/6c1cd7d0/"/>
+    <id>https://uuanqin.top/p/6c1cd7d0/</id>
+    <published>2024-04-02T06:12:46.000Z</published>
+    <updated>2024-04-03T04:38:18.363Z</updated>
+    
+    
+    <summary type="html">附两种方式的 LED 点灯。</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ESP8266 烧写 AT MQTT 固件</title>
     <link href="https://uuanqin.top/p/a587bc70/"/>
     <id>https://uuanqin.top/p/a587bc70/</id>
     <published>2024-04-01T08:54:51.000Z</published>
-    <updated>2024-04-01T10:31:15.073Z</updated>
+    <updated>2024-04-02T05:29:28.453Z</updated>
     
     
     <summary type="html">记录一下 ESP8266 烧写固件的基本步骤。</summary>
@@ -192,13 +263,13 @@
     
     
     
-    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
-    
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="Modelsim" scheme="https://uuanqin.top/pages/tags/Modelsim/"/>
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -432,77 +503,6 @@
     
     
     <category term="校园" scheme="https://uuanqin.top/pages/tags/%E6%A0%A1%E5%9B%AD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>本地部署 PlantUML</title>
-    <link href="https://uuanqin.top/p/fea772c1/"/>
-    <id>https://uuanqin.top/p/fea772c1/</id>
-    <published>2023-09-10T07:13:13.000Z</published>
-    <updated>2023-09-16T07:22:25.181Z</updated>
-    
-    
-    <summary type="html">介绍本地部署 PlantUML 的安装及使用方法</summary>
-    
-    
-    
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
-    
-    
-    <category term="PlantUML" scheme="https://uuanqin.top/pages/tags/PlantUML/"/>
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
-    
-    <category term="jar" scheme="https://uuanqin.top/pages/tags/jar/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阿里云ECS主机可ping通但拒绝连接的解决办法</title>
-    <link href="https://uuanqin.top/p/434e04cb/"/>
-    <id>https://uuanqin.top/p/434e04cb/</id>
-    <published>2023-09-10T03:13:48.000Z</published>
-    <updated>2023-09-10T08:14:17.068Z</updated>
-    
-    
-    <summary type="html">将目标IP加入阿里云白名单中</summary>
-    
-    
-    
-    
-    <category term="ECS" scheme="https://uuanqin.top/pages/tags/ECS/"/>
-    
-    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
-    
-    <category term="SSH" scheme="https://uuanqin.top/pages/tags/SSH/"/>
-    
-    <category term="IP" scheme="https://uuanqin.top/pages/tags/IP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>页面展示用户 IP 地址及地理位置信息</title>
-    <link href="https://uuanqin.top/p/25f6686b/"/>
-    <id>https://uuanqin.top/p/25f6686b/</id>
-    <published>2023-09-09T08:13:29.000Z</published>
-    <updated>2024-02-15T13:45:47.552Z</updated>
-    
-    
-    <summary type="html">利用 API 获取 IP 地址信息，这也是对 Heo 方案的改进</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
-    
-    
-    <category term="API" scheme="https://uuanqin.top/pages/tags/API/"/>
-    
-    <category term="IP" scheme="https://uuanqin.top/pages/tags/IP/"/>
-    
-    <category term="UA" scheme="https://uuanqin.top/pages/tags/UA/"/>
     
   </entry>
   
