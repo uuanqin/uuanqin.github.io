@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-04-03T04:38:18.322Z</updated>
+  <updated>2024-04-05T08:17:13.363Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,73 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>STM32 工程的创建（基于 HAL 库）</title>
+    <title>STM32+ESP8266+MQTT 实现阿里云温湿度监控及 LED 点灯（FreeRTOS+标准库 or HAL）</title>
+    <link href="https://uuanqin.top/p/de31d8e3/"/>
+    <id>https://uuanqin.top/p/de31d8e3/</id>
+    <published>2024-04-05T04:49:50.000Z</published>
+    <updated>2024-04-05T08:17:13.363Z</updated>
+    
+    
+    <summary type="html">一整套「嵌入式」入门练习</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
+    
+    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    
+    <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
+    
+    <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+    <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
+    
+    <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>STM32 移植 FreeRTOS - 基于 HAL 库</title>
+    <link href="https://uuanqin.top/p/7e13c80c/"/>
+    <id>https://uuanqin.top/p/7e13c80c/</id>
+    <published>2024-04-03T14:31:51.000Z</published>
+    <updated>2024-04-05T07:44:58.530Z</updated>
+    
+    
+    <summary type="html">STM32CubeMX 可以以更快速的方式移植 FreeRTOS</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    
+    <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
+    
+    <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>STM32 工程的创建 - 基于 HAL 库</title>
     <link href="https://uuanqin.top/p/53832aef/"/>
     <id>https://uuanqin.top/p/53832aef/</id>
     <published>2024-04-02T11:53:06.000Z</published>
-    <updated>2024-04-03T04:38:18.322Z</updated>
+    <updated>2024-04-05T07:46:28.785Z</updated>
     
     
     <summary type="html">介绍STM32CubeMX的使用。</summary>
@@ -35,9 +97,9 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
-    
     <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    
+    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
     
     <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
     
@@ -48,10 +110,10 @@
     <link href="https://uuanqin.top/p/9c0a1431/"/>
     <id>https://uuanqin.top/p/9c0a1431/</id>
     <published>2024-04-02T08:38:04.000Z</published>
-    <updated>2024-04-03T04:38:18.096Z</updated>
+    <updated>2024-04-05T05:48:31.026Z</updated>
     
     
-    <summary type="html">各种错误解决方法与技巧的收集。</summary>
+    <summary type="html">各种错误解决方法与技巧的收集</summary>
     
     
     
@@ -65,11 +127,11 @@
   </entry>
   
   <entry>
-    <title>STM32 工程的创建（基于寄存器或标准库）</title>
+    <title>STM32 工程的创建 - 基于寄存器或标准库</title>
     <link href="https://uuanqin.top/p/6c1cd7d0/"/>
     <id>https://uuanqin.top/p/6c1cd7d0/</id>
     <published>2024-04-02T06:12:46.000Z</published>
-    <updated>2024-04-03T12:23:05.892Z</updated>
+    <updated>2024-04-04T15:09:16.434Z</updated>
     
     
     <summary type="html">附两种方式的 LED 点灯。</summary>
@@ -88,11 +150,38 @@
   </entry>
   
   <entry>
+    <title>STM32 移植 FreeRTOS - 基于标准库</title>
+    <link href="https://uuanqin.top/p/8111c784/"/>
+    <id>https://uuanqin.top/p/8111c784/</id>
+    <published>2024-04-02T05:44:07.000Z</published>
+    <updated>2024-04-04T15:11:16.829Z</updated>
+    
+    
+    <summary type="html">标准库下FreeRTOS的移植。</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
+    
+    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
+    
+    <category term="移植" scheme="https://uuanqin.top/pages/tags/%E7%A7%BB%E6%A4%8D/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ESP8266 烧写 AT MQTT 固件</title>
     <link href="https://uuanqin.top/p/a587bc70/"/>
     <id>https://uuanqin.top/p/a587bc70/</id>
     <published>2024-04-01T08:54:51.000Z</published>
-    <updated>2024-04-02T05:29:28.453Z</updated>
+    <updated>2024-04-05T07:47:54.414Z</updated>
     
     
     <summary type="html">记录一下 ESP8266 烧写固件的基本步骤。</summary>
@@ -150,7 +239,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
+    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
     
     <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
     
@@ -171,7 +260,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
+    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
     
     <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
     
@@ -278,7 +367,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2023-12-06T12:59:43.000Z</published>
-    <updated>2024-04-03T12:23:35.012Z</updated>
+    <updated>2024-04-03T13:05:01.997Z</updated>
     
     
     <summary type="html">介绍一个简单定时脚本的编写并推送</summary>
@@ -353,12 +442,14 @@
     <link href="https://uuanqin.top/p/6c1cb5ed/"/>
     <id>https://uuanqin.top/p/6c1cb5ed/</id>
     <published>2023-11-22T14:10:23.000Z</published>
-    <updated>2023-12-05T12:49:23.851Z</updated>
+    <updated>2024-04-05T08:08:46.666Z</updated>
     
     
     <summary type="html">科软嵌入式必选课程笔记</summary>
     
     
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
     <category term="嵌入式" scheme="https://uuanqin.top/pages/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
@@ -442,67 +533,6 @@
     <category term="Win10" scheme="https://uuanqin.top/pages/tags/Win10/"/>
     
     <category term="图像采集" scheme="https://uuanqin.top/pages/tags/%E5%9B%BE%E5%83%8F%E9%87%87%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>好像我应该也是个生活区博主</title>
-    <link href="https://uuanqin.top/p/67719b1b/"/>
-    <id>https://uuanqin.top/p/67719b1b/</id>
-    <published>2023-10-20T10:52:54.000Z</published>
-    <updated>2023-10-22T09:49:18.623Z</updated>
-    
-    
-    <summary type="html">最近才想起来，应该多发轻松一点的文章才对。</summary>
-    
-    
-    
-    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
-    
-    
-    <category term="网站想法" scheme="https://uuanqin.top/pages/tags/%E7%BD%91%E7%AB%99%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="友链" scheme="https://uuanqin.top/pages/tags/%E5%8F%8B%E9%93%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一次开发 npm 插件</title>
-    <link href="https://uuanqin.top/p/ca685d6c/"/>
-    <id>https://uuanqin.top/p/ca685d6c/</id>
-    <published>2023-10-20T10:51:47.000Z</published>
-    <updated>2023-12-09T07:17:55.525Z</updated>
-    
-    
-    <summary type="html">有文档了也看不懂</summary>
-    
-    
-    
-    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
-    
-    
-    <category term="碎碎念" scheme="https://uuanqin.top/pages/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-    <category term="开发杂记" scheme="https://uuanqin.top/pages/tags/%E5%BC%80%E5%8F%91%E6%9D%82%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我上钩了——一次被钓鱼邮件受骗经历</title>
-    <link href="https://uuanqin.top/p/d7081afd/"/>
-    <id>https://uuanqin.top/p/d7081afd/</id>
-    <published>2023-09-22T04:54:30.000Z</published>
-    <updated>2024-03-26T15:04:15.521Z</updated>
-    
-    
-    <summary type="html">吃一蛰，再吃一蛰</summary>
-    
-    
-    
-    <category term="生活区" scheme="https://uuanqin.top/pages/categories/%E7%94%9F%E6%B4%BB%E5%8C%BA/"/>
-    
-    
-    <category term="校园" scheme="https://uuanqin.top/pages/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
