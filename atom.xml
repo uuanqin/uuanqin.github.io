@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-04-05T08:17:13.363Z</updated>
+  <updated>2024-04-11T11:17:05.691Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Ant Design Pro 项目初始化</title>
+    <link href="https://uuanqin.top/p/3d8f61f0/"/>
+    <id>https://uuanqin.top/p/3d8f61f0/</id>
+    <published>2024-04-10T16:18:37.000Z</published>
+    <updated>2024-04-11T11:17:05.691Z</updated>
+    
+    
+    <summary type="html">备忘一下 Ant Design Pro 快速部署</summary>
+    
+    
+    
+    
+    <category term="阿里巴巴" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4/"/>
+    
+    <category term="前端" scheme="https://uuanqin.top/pages/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Ant Design" scheme="https://uuanqin.top/pages/tags/Ant-Design/"/>
+    
+    <category term="umijs" scheme="https://uuanqin.top/pages/tags/umijs/"/>
+    
+    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
+    
+    <category term="yarn" scheme="https://uuanqin.top/pages/tags/yarn/"/>
+    
+    <category term="cnpm" scheme="https://uuanqin.top/pages/tags/cnpm/"/>
+    
+    <category term="tyarn" scheme="https://uuanqin.top/pages/tags/tyarn/"/>
+    
+    <category term="蚂蚁金服" scheme="https://uuanqin.top/pages/tags/%E8%9A%82%E8%9A%81%E9%87%91%E6%9C%8D/"/>
+    
+  </entry>
+  
+  <entry>
     <title>STM32+ESP8266+MQTT 实现阿里云温湿度监控及 LED 点灯（FreeRTOS+标准库 or HAL）</title>
     <link href="https://uuanqin.top/p/de31d8e3/"/>
     <id>https://uuanqin.top/p/de31d8e3/</id>
     <published>2024-04-05T04:49:50.000Z</published>
-    <updated>2024-04-05T08:17:13.363Z</updated>
+    <updated>2024-04-05T08:33:56.682Z</updated>
     
     
     <summary type="html">一整套「嵌入式」入门练习</summary>
@@ -41,13 +74,38 @@
     
     <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
     
-    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
-    
     <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
     
     <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
     
     <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>串口驱动程序之「不定长字符串的接收」</title>
+    <link href="https://uuanqin.top/p/aae69ac0/"/>
+    <id>https://uuanqin.top/p/aae69ac0/</id>
+    <published>2024-04-04T14:48:51.000Z</published>
+    <updated>2024-04-11T16:02:10.748Z</updated>
+    
+    
+    <summary type="html">以 ESP8266 为例。</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="串口" scheme="https://uuanqin.top/pages/tags/%E4%B8%B2%E5%8F%A3/"/>
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
     
   </entry>
   
@@ -208,7 +266,7 @@
     <link href="https://uuanqin.top/p/e1ee5eca/"/>
     <id>https://uuanqin.top/p/e1ee5eca/</id>
     <published>2024-02-22T17:04:25.000Z</published>
-    <updated>2024-03-26T06:24:18.906Z</updated>
+    <updated>2024-04-10T12:05:31.997Z</updated>
     
     
     <summary type="html">垒起第一块砖</summary>
@@ -239,7 +297,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
     
     <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
     
@@ -260,7 +318,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
     
     <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
     
@@ -323,17 +381,19 @@
     <link href="https://uuanqin.top/p/7d1c36ca/"/>
     <id>https://uuanqin.top/p/7d1c36ca/</id>
     <published>2023-12-16T09:23:34.000Z</published>
-    <updated>2023-12-16T09:56:34.182Z</updated>
+    <updated>2024-04-11T11:18:09.617Z</updated>
     
     
     <summary type="html">重新设置一下NIC，并运行破解程序</summary>
     
     
     
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
-    <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="Quartus II" scheme="https://uuanqin.top/pages/tags/Quartus-II/"/>
     
@@ -344,21 +404,23 @@
     <link href="https://uuanqin.top/p/6a2f026f/"/>
     <id>https://uuanqin.top/p/6a2f026f/</id>
     <published>2023-12-09T12:41:37.000Z</published>
-    <updated>2024-03-09T06:10:49.192Z</updated>
+    <updated>2024-04-11T11:18:12.944Z</updated>
     
     
     <summary type="html">找不到 License 的一种解决方法以及卸载方法</summary>
     
     
     
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
     
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="Modelsim" scheme="https://uuanqin.top/pages/tags/Modelsim/"/>
-    
-    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -367,7 +429,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2023-12-06T12:59:43.000Z</published>
-    <updated>2024-04-03T13:05:01.997Z</updated>
+    <updated>2024-04-10T12:09:03.087Z</updated>
     
     
     <summary type="html">介绍一个简单定时脚本的编写并推送</summary>
@@ -475,64 +537,6 @@
     <category term="DCT" scheme="https://uuanqin.top/pages/tags/DCT/"/>
     
     <category term="USTC" scheme="https://uuanqin.top/pages/tags/USTC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>本地文件夹的多端同步</title>
-    <link href="https://uuanqin.top/p/cce6330b/"/>
-    <id>https://uuanqin.top/p/cce6330b/</id>
-    <published>2023-11-04T05:05:18.000Z</published>
-    <updated>2023-11-10T11:20:27.649Z</updated>
-    
-    
-    <summary type="html">实现Xmind思维导图的三端同步。</summary>
-    
-    
-    
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
-    
-    
-    <category term="实现" scheme="https://uuanqin.top/pages/tags/%E5%AE%9E%E7%8E%B0/"/>
-    
-    <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
-    
-    <category term="foldersync" scheme="https://uuanqin.top/pages/tags/foldersync/"/>
-    
-    <category term="SyncThing" scheme="https://uuanqin.top/pages/tags/SyncThing/"/>
-    
-    <category term="OneDrive" scheme="https://uuanqin.top/pages/tags/OneDrive/"/>
-    
-    <category term="Xmind" scheme="https://uuanqin.top/pages/tags/Xmind/"/>
-    
-    <category term="Android" scheme="https://uuanqin.top/pages/tags/Android/"/>
-    
-    <category term="Harmony" scheme="https://uuanqin.top/pages/tags/Harmony/"/>
-    
-    <category term="坚果云" scheme="https://uuanqin.top/pages/tags/%E5%9D%9A%E6%9E%9C%E4%BA%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图像采集头顶到顶部距离不通过？就用 Windows 自带的画图解决</title>
-    <link href="https://uuanqin.top/p/489bd4b1/"/>
-    <id>https://uuanqin.top/p/489bd4b1/</id>
-    <published>2023-10-27T06:33:21.000Z</published>
-    <updated>2023-11-05T11:03:10.997Z</updated>
-    
-    
-    <summary type="html">用Windows自带软件简单调整图像的方法</summary>
-    
-    
-    
-    
-    <category term="Windows" scheme="https://uuanqin.top/pages/tags/Windows/"/>
-    
-    <category term="画图" scheme="https://uuanqin.top/pages/tags/%E7%94%BB%E5%9B%BE/"/>
-    
-    <category term="Win10" scheme="https://uuanqin.top/pages/tags/Win10/"/>
-    
-    <category term="图像采集" scheme="https://uuanqin.top/pages/tags/%E5%9B%BE%E5%83%8F%E9%87%87%E9%9B%86/"/>
     
   </entry>
   
