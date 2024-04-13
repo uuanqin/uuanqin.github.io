@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-04-12T15:55:43.058Z</updated>
+  <updated>2024-04-13T15:19:15.955Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,16 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>「蕴含」与「等价」自然语言表达的理解</title>
+    <link href="https://uuanqin.top/p/cd939534/"/>
+    <id>https://uuanqin.top/p/cd939534/</id>
+    <published>2024-04-13T07:26:24.000Z</published>
+    <updated>2024-04-13T15:19:15.955Z</updated>
+    
+    
+    <summary type="html">里面解释了「当」和「仅当」的区别</summary>
+    
+    
+    
+    <category term="数学" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="离散数学" scheme="https://uuanqin.top/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="命题逻辑" scheme="https://uuanqin.top/pages/tags/%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>为什么个体域变化引入特性谓词时，不同量词的命题变化不一样？</title>
     <link href="https://uuanqin.top/p/83ffd5d1/"/>
     <id>https://uuanqin.top/p/83ffd5d1/</id>
     <published>2024-04-11T16:09:10.000Z</published>
-    <updated>2024-04-12T15:55:43.058Z</updated>
+    <updated>2024-04-13T07:55:20.285Z</updated>
     
     
     <summary type="html">对于全称量词，特性谓词常作为蕴含的前件；对于存在量词，特性谓词常作为合取项。</summary>
     
     
+    
+    <category term="数学" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6/"/>
     
     
     <category term="离散数学" scheme="https://uuanqin.top/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
@@ -295,9 +318,9 @@
     <category term="Hexo" scheme="https://uuanqin.top/pages/categories/Hexo/"/>
     
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
-    
     <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
+    
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
   </entry>
   
@@ -412,9 +435,9 @@
     
     <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
     
-    <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
-    
     <category term="Quartus II" scheme="https://uuanqin.top/pages/tags/Quartus-II/"/>
+    
+    <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
   </entry>
   
@@ -481,40 +504,13 @@
     
     
     
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
     
+    <category term="linux" scheme="https://uuanqin.top/pages/tags/linux/"/>
+    
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux 服务器 HTTPS 的部署</title>
-    <link href="https://uuanqin.top/p/6f54b93a/"/>
-    <id>https://uuanqin.top/p/6f54b93a/</id>
-    <published>2023-12-06T06:54:30.000Z</published>
-    <updated>2024-04-03T11:24:34.850Z</updated>
-    
-    
-    <summary type="html">SSL证书的不同部署方式以及CDN配置HTTPS。</summary>
-    
-    
-    
-    
-    <category term="Apache" scheme="https://uuanqin.top/pages/tags/Apache/"/>
-    
-    <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
-    
-    <category term="HTTPS" scheme="https://uuanqin.top/pages/tags/HTTPS/"/>
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
-    <category term="SSL" scheme="https://uuanqin.top/pages/tags/SSL/"/>
-    
-    <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
     
   </entry>
   
