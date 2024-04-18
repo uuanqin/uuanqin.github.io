@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-04-14T08:09:56.283Z</updated>
+  <updated>2024-04-18T13:35:18.959Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,80 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>go-cqhttp 部署与简单编程</title>
+    <link href="https://uuanqin.top/p/34fc0316/"/>
+    <id>https://uuanqin.top/p/34fc0316/</id>
+    <published>2024-04-18T11:08:47.000Z</published>
+    <updated>2024-04-18T13:35:18.959Z</updated>
+    
+    
+    <summary type="html">舍友用了都说好</summary>
+    
+    
+    
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
+    <category term="Windows" scheme="https://uuanqin.top/pages/tags/Windows/"/>
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="QQ" scheme="https://uuanqin.top/pages/tags/QQ/"/>
+    
+    <category term="cqhttp" scheme="https://uuanqin.top/pages/tags/cqhttp/"/>
+    
+    <category term="HTTP" scheme="https://uuanqin.top/pages/tags/HTTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 使用 nohup 后台运行程序</title>
+    <link href="https://uuanqin.top/p/91c1c44b/"/>
+    <id>https://uuanqin.top/p/91c1c44b/</id>
+    <published>2024-04-18T04:23:22.000Z</published>
+    <updated>2024-04-18T13:21:16.102Z</updated>
+    
+    
+    <summary type="html">保证自己的项目一直运行，不会因为关闭终端而结束</summary>
+    
+    
+    
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
+    <category term="nohup" scheme="https://uuanqin.top/pages/tags/nohup/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对电脑端微信小程序抓包</title>
+    <link href="https://uuanqin.top/p/5744d011/"/>
+    <id>https://uuanqin.top/p/5744d011/</id>
+    <published>2024-04-17T14:54:39.000Z</published>
+    <updated>2024-04-18T13:37:23.568Z</updated>
+    
+    
+    <summary type="html">关闸远离我</summary>
+    
+    
+    
+    
+    <category term="微信小程序" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="微信" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+    <category term="Charles" scheme="https://uuanqin.top/pages/tags/Charles/"/>
+    
+    <category term="Burp" scheme="https://uuanqin.top/pages/tags/Burp/"/>
+    
+  </entry>
+  
+  <entry>
     <title>「蕴含」与「等价」自然语言表达的理解</title>
     <link href="https://uuanqin.top/p/cd939534/"/>
     <id>https://uuanqin.top/p/cd939534/</id>
     <published>2024-04-13T07:26:24.000Z</published>
-    <updated>2024-04-14T08:09:56.283Z</updated>
+    <updated>2024-04-18T13:30:39.617Z</updated>
     
     
     <summary type="html">里面解释了「当」和「仅当」的区别</summary>
@@ -42,7 +111,7 @@
     <link href="https://uuanqin.top/p/83ffd5d1/"/>
     <id>https://uuanqin.top/p/83ffd5d1/</id>
     <published>2024-04-11T16:09:10.000Z</published>
-    <updated>2024-04-14T08:08:12.856Z</updated>
+    <updated>2024-04-15T14:33:14.838Z</updated>
     
     
     <summary type="html">对于全称量词，特性谓词常作为蕴含的前件；对于存在量词，特性谓词常作为合取项。</summary>
@@ -438,79 +507,6 @@
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="Quartus II" scheme="https://uuanqin.top/pages/tags/Quartus-II/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Modelsim 10.4 破解过程中找不到 License 的解决办法</title>
-    <link href="https://uuanqin.top/p/6a2f026f/"/>
-    <id>https://uuanqin.top/p/6a2f026f/</id>
-    <published>2023-12-09T12:41:37.000Z</published>
-    <updated>2024-04-11T11:18:12.944Z</updated>
-    
-    
-    <summary type="html">找不到 License 的一种解决方法以及卸载方法</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="安装" scheme="https://uuanqin.top/pages/tags/%E5%AE%89%E8%A3%85/"/>
-    
-    <category term="问题解决" scheme="https://uuanqin.top/pages/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    
-    <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
-    
-    <category term="Modelsim" scheme="https://uuanqin.top/pages/tags/Modelsim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>简单定时脚本的应用</title>
-    <link href="https://uuanqin.top/p/b9dad4e7/"/>
-    <id>https://uuanqin.top/p/b9dad4e7/</id>
-    <published>2023-12-06T12:59:43.000Z</published>
-    <updated>2024-04-10T12:09:03.087Z</updated>
-    
-    
-    <summary type="html">介绍一个简单定时脚本的编写并推送</summary>
-    
-    
-    
-    
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
-    
-    <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
-    
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux 使用 cron 创建定时任务</title>
-    <link href="https://uuanqin.top/p/88536c89/"/>
-    <id>https://uuanqin.top/p/88536c89/</id>
-    <published>2023-12-06T12:27:40.000Z</published>
-    <updated>2024-04-03T12:09:51.802Z</updated>
-    
-    
-    <summary type="html">快速上手 Linux 定时任务的创建。</summary>
-    
-    
-    
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
-    <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
-    
-    <category term="crontab" scheme="https://uuanqin.top/pages/tags/crontab/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
   </entry>
   
