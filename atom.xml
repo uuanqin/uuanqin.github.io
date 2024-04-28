@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-04-23T14:40:09.582Z</updated>
+  <updated>2024-04-24T04:31:20.320Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://uuanqin.top/p/c497cb3f/"/>
     <id>https://uuanqin.top/p/c497cb3f/</id>
     <published>2024-04-23T14:37:40.000Z</published>
-    <updated>2024-04-23T14:40:09.582Z</updated>
+    <updated>2024-04-24T04:31:20.320Z</updated>
     
     
-    <summary type="html">给出标准库及HAL驱动示例。</summary>
+    <summary type="html">给出标准库及 HAL 驱动示例。</summary>
     
     
     
@@ -117,7 +117,7 @@
     <link href="https://uuanqin.top/p/cd939534/"/>
     <id>https://uuanqin.top/p/cd939534/</id>
     <published>2024-04-13T07:26:24.000Z</published>
-    <updated>2024-04-19T10:19:55.879Z</updated>
+    <updated>2024-04-24T14:48:01.925Z</updated>
     
     
     <summary type="html">里面解释了「当」和「仅当」的区别</summary>
@@ -138,7 +138,7 @@
     <link href="https://uuanqin.top/p/83ffd5d1/"/>
     <id>https://uuanqin.top/p/83ffd5d1/</id>
     <published>2024-04-11T16:09:10.000Z</published>
-    <updated>2024-04-23T11:53:22.043Z</updated>
+    <updated>2024-04-24T04:32:36.339Z</updated>
     
     
     <summary type="html">对于全称量词，特性谓词常作为蕴含的前件；对于存在量词，特性谓词常作为合取项。</summary>
@@ -214,11 +214,11 @@
     
     <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
     
-    <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
-    
     <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
     
     <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
+    
+    <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
     
   </entry>
   
@@ -435,7 +435,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
     
     <category term="Edge" scheme="https://uuanqin.top/pages/tags/Edge/"/>
     
@@ -456,7 +456,7 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="Scrapy" scheme="https://uuanqin.top/pages/tags/Scrapy/"/>
+    <category term="scrapy" scheme="https://uuanqin.top/pages/tags/scrapy/"/>
     
     <category term="css" scheme="https://uuanqin.top/pages/tags/css/"/>
     

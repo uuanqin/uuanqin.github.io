@@ -6,28 +6,28 @@ scale 100 as 150 pixels
 L is low
 S is 复位
 
-@+18
+@+48
 L is high
-L@0 <-> @18: 18ms
+L@0 <-> @48: 18ms
 
 
 @+30
 L is low
 S is DHT响应信号
-L@18 <-> @48: 20-40us
+L@48 <-> @78: 20-40us
 
 @+80
 L is high
 
-L@48 <-> @128: 80us
+L@78 <-> @158: 80us
 
 @+80
 L is low
 S is DHT传输数据
-L@128 <-> @208: 80us
+L@158 <-> @238: 80us
 
-highlight 0 to 48 #b4d9ff;line:DimGrey : 主机
-highlight 318 to 400 #b4d9ff;line:DimGrey : 主机
+highlight 0 to 78 #b4d9ff;line:DimGrey : 主机
+highlight 348 to 400 #b4d9ff;line:DimGrey : 主机
 @+10
 L is {low,high}
 @+50
@@ -36,6 +36,6 @@ S is DHT拉低
 @+50
 L is high
 S is 主机控制
-L@268 <-> @318: 50us
+L@298 <-> @348: 50us
 
 @enduml
