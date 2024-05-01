@@ -1,0 +1,19 @@
+@startuml
+binary "SCL" as SCL
+binary "SDA" as SDA
+
+SCL is high
+SDA is high
+@0
+
+
+@10
+SDA is low
+
+@15
+SCL is low
+
+@20
+
+highlight 7 to 13 #Gold;line:DimGrey
+@enduml
