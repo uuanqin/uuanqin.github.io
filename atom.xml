@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-05-22T12:24:22.078Z</updated>
+  <updated>2024-05-26T11:13:16.577Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CSAPP Lab-3 缓冲区溢出炸弹</title>
+    <link href="https://uuanqin.top/p/67787353/"/>
+    <id>https://uuanqin.top/p/67787353/</id>
+    <published>2024-05-26T07:38:09.000Z</published>
+    <updated>2024-05-26T11:13:16.577Z</updated>
+    
+    
+    <summary type="html">缓冲区溢出攻击实验</summary>
+    
+    
+    
+    <category term="CSAPP LABS" scheme="https://uuanqin.top/pages/categories/CSAPP-LABS/"/>
+    
+    
+    <category term="CSAPP" scheme="https://uuanqin.top/pages/tags/CSAPP/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+    <category term="ASM" scheme="https://uuanqin.top/pages/tags/ASM/"/>
+    
+    <category term="GDB" scheme="https://uuanqin.top/pages/tags/GDB/"/>
+    
+    <category term="objdump" scheme="https://uuanqin.top/pages/tags/objdump/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CSAPP LAB-2 二进制炸弹实验</title>
     <link href="https://uuanqin.top/p/d1f3cf37/"/>
     <id>https://uuanqin.top/p/d1f3cf37/</id>
     <published>2024-05-22T12:00:46.000Z</published>
-    <updated>2024-05-22T12:24:22.078Z</updated>
+    <updated>2024-05-26T09:01:41.754Z</updated>
     
     
     <summary type="html">该补的地方还是得补</summary>
@@ -39,6 +66,10 @@
     
     <category term="ASM" scheme="https://uuanqin.top/pages/tags/ASM/"/>
     
+    <category term="GDB" scheme="https://uuanqin.top/pages/tags/GDB/"/>
+    
+    <category term="objdump" scheme="https://uuanqin.top/pages/tags/objdump/"/>
+    
   </entry>
   
   <entry>
@@ -46,7 +77,7 @@
     <link href="https://uuanqin.top/p/c5970284/"/>
     <id>https://uuanqin.top/p/c5970284/</id>
     <published>2024-05-22T11:30:43.000Z</published>
-    <updated>2024-05-22T12:27:29.182Z</updated>
+    <updated>2024-05-26T08:02:03.653Z</updated>
     
     
     <summary type="html">位级理解我们的代码</summary>
@@ -185,9 +216,9 @@
     <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
-    <category term="微信" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1/"/>
-    
     <category term="微信小程序" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="微信" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1/"/>
     
     <category term="Charles" scheme="https://uuanqin.top/pages/tags/Charles/"/>
     
@@ -289,15 +320,15 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
-    
-    <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
-    
     <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
     
     <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
     
     <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
+    
+    <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
     
     <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
     
@@ -324,9 +355,9 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
-    
     <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
     
     <category term="串口" scheme="https://uuanqin.top/pages/tags/%E4%B8%B2%E5%8F%A3/"/>
     
@@ -434,9 +465,9 @@
     
     <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
     
-    <category term="USB" scheme="https://uuanqin.top/pages/tags/USB/"/>
-    
     <category term="串口" scheme="https://uuanqin.top/pages/tags/%E4%B8%B2%E5%8F%A3/"/>
+    
+    <category term="USB" scheme="https://uuanqin.top/pages/tags/USB/"/>
     
   </entry>
   
@@ -508,33 +539,6 @@
     <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
     
     <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STM32 移植 FreeRTOS - 基于标准库</title>
-    <link href="https://uuanqin.top/p/8111c784/"/>
-    <id>https://uuanqin.top/p/8111c784/</id>
-    <published>2024-04-02T05:44:07.000Z</published>
-    <updated>2024-04-04T15:11:16.829Z</updated>
-    
-    
-    <summary type="html">标准库下FreeRTOS的移植。</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
-    
-    <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
-    
-    <category term="移植" scheme="https://uuanqin.top/pages/tags/%E7%A7%BB%E6%A4%8D/"/>
     
   </entry>
   
