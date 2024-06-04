@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-05-26T11:13:16.577Z</updated>
+  <updated>2024-06-03T10:24:34.074Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CSAPP Lab-4 代码优化</title>
+    <link href="https://uuanqin.top/p/9d6b717/"/>
+    <id>https://uuanqin.top/p/9d6b717/</id>
+    <published>2024-06-03T05:01:05.000Z</published>
+    <updated>2024-06-03T10:24:34.074Z</updated>
+    
+    
+    <summary type="html">烧脑的循环展开</summary>
+    
+    
+    
+    <category term="CSAPP LABS" scheme="https://uuanqin.top/pages/categories/CSAPP-LABS/"/>
+    
+    
+    <category term="CSAPP" scheme="https://uuanqin.top/pages/tags/CSAPP/"/>
+    
+    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CSAPP Lab-3 缓冲区溢出炸弹</title>
     <link href="https://uuanqin.top/p/67787353/"/>
     <id>https://uuanqin.top/p/67787353/</id>
     <published>2024-05-26T07:38:09.000Z</published>
-    <updated>2024-05-26T11:13:16.577Z</updated>
+    <updated>2024-06-03T08:04:11.417Z</updated>
     
     
     <summary type="html">缓冲区溢出攻击实验</summary>
@@ -44,11 +65,11 @@
   </entry>
   
   <entry>
-    <title>CSAPP LAB-2 二进制炸弹实验</title>
+    <title>CSAPP Lab-2 二进制炸弹实验</title>
     <link href="https://uuanqin.top/p/d1f3cf37/"/>
     <id>https://uuanqin.top/p/d1f3cf37/</id>
     <published>2024-05-22T12:00:46.000Z</published>
-    <updated>2024-05-26T09:01:41.754Z</updated>
+    <updated>2024-06-03T08:04:31.294Z</updated>
     
     
     <summary type="html">该补的地方还是得补</summary>
@@ -73,11 +94,11 @@
   </entry>
   
   <entry>
-    <title>CSAPP LAB-1 位操作</title>
+    <title>CSAPP Lab-1 位操作</title>
     <link href="https://uuanqin.top/p/c5970284/"/>
     <id>https://uuanqin.top/p/c5970284/</id>
     <published>2024-05-22T11:30:43.000Z</published>
-    <updated>2024-05-26T08:02:03.653Z</updated>
+    <updated>2024-06-03T08:04:36.084Z</updated>
     
     
     <summary type="html">位级理解我们的代码</summary>
@@ -170,9 +191,9 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="Windows" scheme="https://uuanqin.top/pages/tags/Windows/"/>
-    
     <category term="HTTP" scheme="https://uuanqin.top/pages/tags/HTTP/"/>
+    
+    <category term="Windows" scheme="https://uuanqin.top/pages/tags/Windows/"/>
     
     <category term="QQ" scheme="https://uuanqin.top/pages/tags/QQ/"/>
     
@@ -514,29 +535,6 @@
     
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STM32 工程的创建 - 基于寄存器或标准库</title>
-    <link href="https://uuanqin.top/p/6c1cd7d0/"/>
-    <id>https://uuanqin.top/p/6c1cd7d0/</id>
-    <published>2024-04-02T06:12:46.000Z</published>
-    <updated>2024-04-04T15:09:16.434Z</updated>
-    
-    
-    <summary type="html">附两种方式的 LED 点灯。</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
     
     <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
     
