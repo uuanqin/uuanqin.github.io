@@ -13,7 +13,7 @@
     
     <meta name="keywords" content="编程,博客,生活">
     
-    <meta name="date" content="June 4, 2024 at 6:41:49 PM">
+    <meta name="date" content="June 7, 2024 at 11:54:59 PM">
     <title>Cosma — 半方池水半方田 - 文章关系图谱</title>
 
     <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAIGaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4xMDI0PC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjEwMjQ8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KokyVsAAAAAlwSFlzAAALEwAACxMBAJqcGAAAATtQTFRFR3BMDVJzDFx+GHSUAP//DVByCVd3AAAAAAD/AIKBCXKSBFJ0F1x/GFZ2EGCANmF8D2+QGHaXFG6NAFh8EnaXG3aWLHCOE2iIH3mZAEx4AFV6AG2QAXOUOn+dprG8AHGSGmuLGWmJfZqtUoahprrGD1V4CVV4FHeWFnWWLmeIAFp8FWaGAFh7LmeGF2OGUHWNfZapAF+HUHSNfZaoAF6H/////Pz87O7x4uLio6Oj3t7eFWaJE16DGGCEIWuOAFqAGoCiADxyAFyHRG+MHoGjAGeQE3GUEG6S1tvhAH2iRX+cAG2Y5OjrAGWMiqCxoa+7iqGyobXBB2KGCF6DCGGFCl2DE4CiEX2gGXqdEX2fFX+iJHmcGXqcInmbAEx3aIWa193jAE12Z4Sa5ensZ5CmaZCn1t3j5Ons3t7fp3RRZgAAADV0Uk5TAHRwQQFHRAEBAkJ4+3h0eHBudPpy+3V1cvv7+vpy+/v7+/v7+52dmZl1+nX6dXX7+/v7+/siYXfnAAAA2ElEQVQYGQXBy07CUBRA0X1OD9zCQAloS4Nj40ii/gG/7UdoSYwxjowCgo9EQxrpfdS1wA0AAGDgEHcgO8qshw/xN+IscnG9tp6SfCjqp2hheHXrMhO6EB8Wr43Rz/qX2fSe+TbW0m8MlepMdvBVxCJTDHv/vkNulqs3fnaGIpJmqnWnOksiKKVIAoAkcoLR+fEGMWK3OfYJ5SWsJ2XlfVVOtmGFso+tP53AaOzbuMewqt4+Tj9pP0aH0lrJ/87nG1Elpa5cPufiDvTCUJWUGvM4cDkAAOSOf+M3WO+ZgJOzAAAAAElFTkSuQmCC" />
@@ -18501,7 +18501,7 @@ server {
 <p>[!tip] 使用增强的 Markdown 语法会增加你对特定软件和插件的依赖性，但能提升你的写作体验。在进行相关配置时请酌情考虑。</p>
 </blockquote>
 <p>介绍解决方案前先简要说明一下我对 Markdown 渲染相关的插件的理解。</p>
-<h2>Hexo 里的 Markdown 渲染引擎</h2>
+<h1>Hexo 里的 Markdown 渲染引擎</h1>
 <p>有了 Markdown 渲染引擎，Hexo 才能将 Markdown 格式的内容渲染成 HTML 网页。不同的渲染器支持的语法不同。这里列出以下三种渲染引擎。</p>
 <table>
 <thead>
@@ -18529,7 +18529,7 @@ server {
 <p>比如我安装的支持任务列表语法（GFM[^gfm]）的插件 <a href="https://www.npmjs.com/package/markdown-it-task-lists">markdown-it-task-lists</a>，以及后文讲到的 Callouts 语法（OFM）插件 <a href="https://github.com/widcardw/mdit-plugin-callouts#readme">mdit-plugin-callouts</a>。然后配置上去即可（后面有教程）：</p>
 <p><img src="https://cdn.gallery.uuanqin.top/img/20230801211426.png" alt="image.png|376"></p>
 <p>[^gfm]: Markdown 相关语法规范详见 <a href="#1011516134" title="Markdown 渲染测试" class="record-link ">Markdown 渲染测试</a></p>
-<h2>Internal links 双向链接渲染解决方案</h2>
+<h1>Internal links 双向链接渲染解决方案</h1>
 <p>只需安装一个插件（我本人写的哦！）就可以解决：</p>
 <pre><code class="language-sh">npm install hexo-filter-titlebased-link --save
 </code></pre>
@@ -18540,7 +18540,7 @@ server {
 <p>喜欢的话赏个⭐~</p>
 </blockquote>
 <p>旧方案仍然可以工作，不过操作繁琐。详见：<a href="#2136059777" title="Obsidian Internal links 双向链接渲染解决方案" class="record-link ">Obsidian Internal links 双向链接渲染解决方案</a></p>
-<h2>Callouts 标注块</h2>
+<h1>Callouts 标注块</h1>
 <blockquote>
 <p>找了半天终于找到这个宝藏插件，这里默默感谢作者 <a href="https://widcard.win/">widcardw</a>。现在 <a href="https://widcard.win/">widcardw</a> 已经是本站友链用户啦~大家多多拜访！</p>
 </blockquote>
@@ -18607,9 +18607,6 @@ markdown_it_plus:
 <p>这一层打通以后，你就可以放心使用 Obsidian 中方便调整图像大小的插件啦，比如我正在用的这个：<a href="https://github.com/nicojeske/mousewheel-image-zoom">nicojeske/mousewheel-image-zoom (github.com)</a> 鼠标滚轮调整图片大小。</p>
 <h1>后记</h1>
 <h2>心路历程</h2>
-<blockquote>
-<p>我的第一次，全都弄在这东西上了呢🥵</p>
-</blockquote>
 <p>解决 Callouts 问题的过程中，搜到 <a href="https://widcard.win/">widcardw</a> 的博客并产生启发，于是我的第一款 NPM 插件 markdown-it-obsidian-imgsize 诞生了。开发杂记详见：<a href="#3395837292" title="第一次开发 npm 插件" class="record-link ">第一次开发 npm 插件</a>。</p>
 <p>关于双链渲染，心路历程详见：<a href="#746142122" title="第一次写 Hexo 插件" class="record-link ">第一次写 Hexo 插件</a></p>
 <h2>后续考虑改进</h2>
