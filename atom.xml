@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-06-19T11:38:36.711Z</updated>
+  <updated>2024-06-22T08:47:31.271Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RM 和 EDF 算法在μCOSII 上的实现</title>
+    <link href="https://uuanqin.top/p/b1c2eea4/"/>
+    <id>https://uuanqin.top/p/b1c2eea4/</id>
+    <published>2024-06-22T08:29:41.000Z</published>
+    <updated>2024-06-22T08:47:31.271Z</updated>
+    
+    
+    <summary type="html">实时操作系统实验2</summary>
+    
+    
+    
+    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="μCOS" scheme="https://uuanqin.top/pages/tags/%CE%BCCOS/"/>
+    
+    <category term="RM" scheme="https://uuanqin.top/pages/tags/RM/"/>
+    
+    <category term="EDF" scheme="https://uuanqin.top/pages/tags/EDF/"/>
+    
+    <category term="实时系统" scheme="https://uuanqin.top/pages/tags/%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="任务管理" scheme="https://uuanqin.top/pages/tags/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Typora 免费版本 or 正式版的绿色使用</title>
@@ -129,13 +156,13 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
+    <category term="实验" scheme="https://uuanqin.top/pages/tags/%E5%AE%9E%E9%AA%8C/"/>
+    
     <category term="ASM" scheme="https://uuanqin.top/pages/tags/ASM/"/>
     
     <category term="GDB" scheme="https://uuanqin.top/pages/tags/GDB/"/>
     
     <category term="objdump" scheme="https://uuanqin.top/pages/tags/objdump/"/>
-    
-    <category term="实验" scheme="https://uuanqin.top/pages/tags/%E5%AE%9E%E9%AA%8C/"/>
     
   </entry>
   
@@ -387,15 +414,15 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
-    
-    <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
-    
     <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
     
     <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
     
     <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
+    
+    <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
     
     <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
     
@@ -422,9 +449,9 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
-    
     <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
     
     <category term="串口" scheme="https://uuanqin.top/pages/tags/%E4%B8%B2%E5%8F%A3/"/>
     
@@ -504,37 +531,6 @@
     <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
     
     <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>串口驱动程序之「发送数据」</title>
-    <link href="https://uuanqin.top/p/5c1cda26/"/>
-    <id>https://uuanqin.top/p/5c1cda26/</id>
-    <published>2024-04-02T15:30:28.000Z</published>
-    <updated>2024-05-01T07:28:21.022Z</updated>
-    
-    
-    <summary type="html">一个简单的串口发送数据的驱动程序。</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="Keil" scheme="https://uuanqin.top/pages/tags/Keil/"/>
-    
-    <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
-    
-    <category term="串口" scheme="https://uuanqin.top/pages/tags/%E4%B8%B2%E5%8F%A3/"/>
-    
-    <category term="USB" scheme="https://uuanqin.top/pages/tags/USB/"/>
     
   </entry>
   
