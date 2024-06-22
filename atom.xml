@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-06-22T08:47:31.271Z</updated>
+  <updated>2024-06-22T15:44:07.226Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,14 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>RM 和 EDF 算法在μCOSII 上的实现</title>
+    <title>RM 和 EDF 任务调度算法在μCOSII 上的实现</title>
     <link href="https://uuanqin.top/p/b1c2eea4/"/>
     <id>https://uuanqin.top/p/b1c2eea4/</id>
     <published>2024-06-22T08:29:41.000Z</published>
-    <updated>2024-06-22T08:47:31.271Z</updated>
+    <updated>2024-06-22T15:44:07.226Z</updated>
     
     
-    <summary type="html">实时操作系统实验2</summary>
+    <summary type="html">实时操作系统实验 2</summary>
     
     
     
@@ -115,7 +115,7 @@
     <link href="https://uuanqin.top/p/67787353/"/>
     <id>https://uuanqin.top/p/67787353/</id>
     <published>2024-05-26T07:38:09.000Z</published>
-    <updated>2024-06-17T14:27:57.564Z</updated>
+    <updated>2024-06-22T15:48:23.456Z</updated>
     
     
     <summary type="html">缓冲区溢出攻击实验</summary>
