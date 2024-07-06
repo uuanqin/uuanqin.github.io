@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-06-22T15:44:07.226Z</updated>
+  <updated>2024-07-06T16:15:06.684Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>计算汉明重量的两个技巧性算法</title>
+    <link href="https://uuanqin.top/p/77c7bcae/"/>
+    <id>https://uuanqin.top/p/77c7bcae/</id>
+    <published>2024-07-06T10:53:09.000Z</published>
+    <updated>2024-07-06T16:15:06.684Z</updated>
+    
+    
+    <summary type="html">计算二进制串中 1 的个数骚操作</summary>
+    
+    
+    
+    <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="汉明重量" scheme="https://uuanqin.top/pages/tags/%E6%B1%89%E6%98%8E%E9%87%8D%E9%87%8F/"/>
+    
+    <category term="汉明距离" scheme="https://uuanqin.top/pages/tags/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>RM 和 EDF 任务调度算法在μCOSII 上的实现</title>
     <link href="https://uuanqin.top/p/b1c2eea4/"/>
     <id>https://uuanqin.top/p/b1c2eea4/</id>
     <published>2024-06-22T08:29:41.000Z</published>
-    <updated>2024-06-22T15:44:07.226Z</updated>
+    <updated>2024-06-22T16:01:07.252Z</updated>
     
     
     <summary type="html">实时操作系统实验 2</summary>
@@ -196,7 +217,7 @@
     <link href="https://uuanqin.top/p/2c7939aa/"/>
     <id>https://uuanqin.top/p/2c7939aa/</id>
     <published>2024-04-28T16:27:23.000Z</published>
-    <updated>2024-06-19T10:51:55.697Z</updated>
+    <updated>2024-06-22T16:07:39.836Z</updated>
     
     
     <summary type="html">一个历时半年的任务，一个晚上解决</summary>
@@ -279,7 +300,7 @@
     <link href="https://uuanqin.top/p/91c1c44b/"/>
     <id>https://uuanqin.top/p/91c1c44b/</id>
     <published>2024-04-18T04:23:22.000Z</published>
-    <updated>2024-06-16T07:50:52.713Z</updated>
+    <updated>2024-07-06T07:45:51.423Z</updated>
     
     
     <summary type="html">保证自己的项目一直运行，不会因为关闭终端而结束</summary>
@@ -367,7 +388,7 @@
     <link href="https://uuanqin.top/p/3d8f61f0/"/>
     <id>https://uuanqin.top/p/3d8f61f0/</id>
     <published>2024-04-10T16:18:37.000Z</published>
-    <updated>2024-05-22T12:29:10.231Z</updated>
+    <updated>2024-06-28T09:28:59.283Z</updated>
     
     
     <summary type="html">备忘一下 Ant Design Pro 快速部署</summary>
@@ -400,7 +421,7 @@
     <link href="https://uuanqin.top/p/de31d8e3/"/>
     <id>https://uuanqin.top/p/de31d8e3/</id>
     <published>2024-04-05T04:49:50.000Z</published>
-    <updated>2024-05-02T07:32:35.563Z</updated>
+    <updated>2024-07-02T06:27:07.689Z</updated>
     
     
     <summary type="html">一整套「嵌入式」入门练习</summary>
@@ -502,33 +523,6 @@
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
     <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STM32 移植 FreeRTOS - 基于 HAL 库</title>
-    <link href="https://uuanqin.top/p/7e13c80c/"/>
-    <id>https://uuanqin.top/p/7e13c80c/</id>
-    <published>2024-04-03T14:31:51.000Z</published>
-    <updated>2024-04-05T07:44:58.530Z</updated>
-    
-    
-    <summary type="html">STM32CubeMX 可以以更快速的方式移植 FreeRTOS</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
-    
-    <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
     
     <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
     
