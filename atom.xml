@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-07-06T16:15:06.684Z</updated>
+  <updated>2024-07-07T05:11:11.391Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uuanqin.top/p/77c7bcae/"/>
     <id>https://uuanqin.top/p/77c7bcae/</id>
     <published>2024-07-06T10:53:09.000Z</published>
-    <updated>2024-07-06T16:15:06.684Z</updated>
+    <updated>2024-07-07T05:11:11.391Z</updated>
     
     
     <summary type="html">计算二进制串中 1 的个数骚操作</summary>
@@ -35,14 +35,16 @@
     
     <category term="汉明距离" scheme="https://uuanqin.top/pages/tags/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB/"/>
     
+    <category term="位运算" scheme="https://uuanqin.top/pages/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    
   </entry>
   
   <entry>
-    <title>RM 和 EDF 任务调度算法在μCOSII 上的实现</title>
+    <title>RM 和 EDF 任务调度算法在 μCOSII 上的实现</title>
     <link href="https://uuanqin.top/p/b1c2eea4/"/>
     <id>https://uuanqin.top/p/b1c2eea4/</id>
     <published>2024-06-22T08:29:41.000Z</published>
-    <updated>2024-06-22T16:01:07.252Z</updated>
+    <updated>2024-07-11T08:12:18.423Z</updated>
     
     
     <summary type="html">实时操作系统实验 2</summary>
@@ -217,7 +219,7 @@
     <link href="https://uuanqin.top/p/2c7939aa/"/>
     <id>https://uuanqin.top/p/2c7939aa/</id>
     <published>2024-04-28T16:27:23.000Z</published>
-    <updated>2024-06-22T16:07:39.836Z</updated>
+    <updated>2024-07-07T05:21:59.447Z</updated>
     
     
     <summary type="html">一个历时半年的任务，一个晚上解决</summary>
