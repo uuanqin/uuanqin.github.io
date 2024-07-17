@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-07-07T05:11:11.391Z</updated>
+  <updated>2024-07-17T11:17:54.806Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringBoot 的原理以及写一个自己的 Starter</title>
+    <link href="https://uuanqin.top/p/21b7da2d/"/>
+    <id>https://uuanqin.top/p/21b7da2d/</id>
+    <published>2024-07-16T13:25:56.000Z</published>
+    <updated>2024-07-17T11:17:54.806Z</updated>
+    
+    
+    <summary type="html">记录开发简易 Starter 的基本步骤</summary>
+    
+    
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
+    
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
+    
+    <category term="starter" scheme="https://uuanqin.top/pages/tags/starter/"/>
+    
+    <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
+    
+    <category term="maven" scheme="https://uuanqin.top/pages/tags/maven/"/>
+    
+    <category term="Hutool" scheme="https://uuanqin.top/pages/tags/Hutool/"/>
+    
+  </entry>
   
   <entry>
     <title>计算汉明重量的两个技巧性算法</title>
@@ -504,29 +533,6 @@
     <category term="OLED" scheme="https://uuanqin.top/pages/tags/OLED/"/>
     
     <category term="I2C" scheme="https://uuanqin.top/pages/tags/I2C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STM32 延时函数（FreeRTOS）</title>
-    <link href="https://uuanqin.top/p/c5d0cc56/"/>
-    <id>https://uuanqin.top/p/c5d0cc56/</id>
-    <published>2024-04-04T14:07:11.000Z</published>
-    <updated>2024-05-01T05:53:13.483Z</updated>
-    
-    
-    <summary type="html">微秒、毫秒级别的延时</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
     
   </entry>
   
