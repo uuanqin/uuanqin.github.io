@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-07-17T13:12:05.577Z</updated>
+  <updated>2024-07-23T15:51:12.935Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringBoot 项目的上线方式</title>
+    <link href="https://uuanqin.top/p/b1ef28a0/"/>
+    <id>https://uuanqin.top/p/b1ef28a0/</id>
+    <published>2024-07-22T16:26:08.000Z</published>
+    <updated>2024-07-23T15:51:12.935Z</updated>
+    
+    
+    <summary type="html">备忘 SpringBoot 后端项目的部署方式</summary>
+    
+    
+    
+    
+    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
+    
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
+    
+    <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
+    
+  </entry>
   
   <entry>
     <title>SpringBoot 的原理以及写一个自定义 Starter</title>
@@ -287,13 +316,13 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
-    
     <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
     
     <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
     
-    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
     
   </entry>
   
@@ -331,7 +360,7 @@
     <link href="https://uuanqin.top/p/91c1c44b/"/>
     <id>https://uuanqin.top/p/91c1c44b/</id>
     <published>2024-04-18T04:23:22.000Z</published>
-    <updated>2024-07-06T07:45:51.423Z</updated>
+    <updated>2024-07-23T07:41:40.733Z</updated>
     
     
     <summary type="html">保证自己的项目一直运行，不会因为关闭终端而结束</summary>
@@ -362,9 +391,9 @@
     <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
-    <category term="微信小程序" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
     <category term="微信" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+    <category term="微信小程序" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
     <category term="Charles" scheme="https://uuanqin.top/pages/tags/Charles/"/>
     
@@ -415,14 +444,14 @@
   </entry>
   
   <entry>
-    <title>Ant Design Pro 前端项目初始化</title>
+    <title>Ant Design Pro 前端项目初始化到部署上线</title>
     <link href="https://uuanqin.top/p/3d8f61f0/"/>
     <id>https://uuanqin.top/p/3d8f61f0/</id>
     <published>2024-04-10T16:18:37.000Z</published>
-    <updated>2024-06-28T09:28:59.283Z</updated>
+    <updated>2024-07-23T15:54:36.168Z</updated>
     
     
-    <summary type="html">备忘一下 Ant Design Pro 快速部署</summary>
+    <summary type="html">备忘一下 Ant Design Pro 上线关键流程</summary>
     
     
     
@@ -445,6 +474,12 @@
     
     <category term="蚂蚁金服" scheme="https://uuanqin.top/pages/tags/%E8%9A%82%E8%9A%81%E9%87%91%E6%9C%8D/"/>
     
+    <category term="React" scheme="https://uuanqin.top/pages/tags/React/"/>
+    
+    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
+    
   </entry>
   
   <entry>
@@ -466,19 +501,19 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
-    
     <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
     
     <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
     
+    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
+    
+    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
+    
     <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
     
     <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
+    
+    <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
     
     <category term="UML" scheme="https://uuanqin.top/pages/tags/UML/"/>
     
@@ -501,38 +536,11 @@
     
     <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
     
-    <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
-    
     <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
     
-    <category term="串口" scheme="https://uuanqin.top/pages/tags/%E4%B8%B2%E5%8F%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OLED 驱动程序</title>
-    <link href="https://uuanqin.top/p/8c0cedd4/"/>
-    <id>https://uuanqin.top/p/8c0cedd4/</id>
-    <published>2024-04-04T14:35:48.000Z</published>
-    <updated>2024-05-01T09:01:19.579Z</updated>
-    
-    
-    <summary type="html">江科大提供的驱动程序的改编。</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
     <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
     
-    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
-    
-    <category term="OLED" scheme="https://uuanqin.top/pages/tags/OLED/"/>
-    
-    <category term="I2C" scheme="https://uuanqin.top/pages/tags/I2C/"/>
+    <category term="串口" scheme="https://uuanqin.top/pages/tags/%E4%B8%B2%E5%8F%A3/"/>
     
   </entry>
   
