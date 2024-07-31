@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-07-24T15:09:02.508Z</updated>
+  <updated>2024-07-31T13:50:09.267Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,19 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SPI 概念及案例实践</title>
+    <link href="https://uuanqin.top/p/acab999c/"/>
+    <id>https://uuanqin.top/p/acab999c/</id>
+    <published>2024-07-31T13:39:52.000Z</published>
+    <updated>2024-07-31T13:50:09.267Z</updated>
+    
+    
+    <summary type="html">通过动手实践理解 SPI 并尝试编写 ServiceLoader</summary>
+    
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="API" scheme="https://uuanqin.top/pages/tags/API/"/>
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
+    
+    <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
+    
+  </entry>
+  
+  <entry>
     <title>利用 Cron 编写简单的定时脚本（含简易的 CDN 攻击预警）</title>
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2024-07-24T14:43:43.000Z</published>
-    <updated>2024-07-24T15:09:02.508Z</updated>
+    <updated>2024-07-31T13:49:48.142Z</updated>
     
     
     <summary type="html">介绍一些简单定时脚本的编写并利用 Webhook 推送</summary>
     
     
     
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
+    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
     
+    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
+    
+    
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
@@ -37,15 +66,13 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
-    
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
+    <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
     
-    <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
@@ -54,14 +81,14 @@
     <link href="https://uuanqin.top/p/b1ef28a0/"/>
     <id>https://uuanqin.top/p/b1ef28a0/</id>
     <published>2024-07-23T16:10:09.000Z</published>
-    <updated>2024-07-25T11:17:11.188Z</updated>
+    <updated>2024-07-31T13:49:48.141Z</updated>
     
     
     <summary type="html">备忘 SpringBoot 后端项目的部署方式</summary>
     
     
     
-    <category term="项目部署" scheme="https://uuanqin.top/pages/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/"/>
+    <category term="前端与后端" scheme="https://uuanqin.top/pages/categories/%E5%89%8D%E7%AB%AF%E4%B8%8E%E5%90%8E%E7%AB%AF/"/>
     
     
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
@@ -85,17 +112,15 @@
     <link href="https://uuanqin.top/p/21b7da2d/"/>
     <id>https://uuanqin.top/p/21b7da2d/</id>
     <published>2024-07-16T13:25:56.000Z</published>
-    <updated>2024-07-25T11:17:11.188Z</updated>
+    <updated>2024-07-31T13:49:48.140Z</updated>
     
     
     <summary type="html">记录开发简易 Starter 的基本步骤</summary>
     
     
     
-    <category term="项目部署" scheme="https://uuanqin.top/pages/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/"/>
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
     
-    
-    <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
     <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
     
@@ -104,6 +129,8 @@
     <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
     
     <category term="starter" scheme="https://uuanqin.top/pages/tags/starter/"/>
+    
+    <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
     <category term="maven" scheme="https://uuanqin.top/pages/tags/maven/"/>
     
@@ -166,14 +193,16 @@
     <link href="https://uuanqin.top/p/43ae38fe/"/>
     <id>https://uuanqin.top/p/43ae38fe/</id>
     <published>2024-06-13T04:02:08.000Z</published>
-    <updated>2024-06-19T11:38:36.711Z</updated>
+    <updated>2024-07-31T13:49:48.142Z</updated>
     
     
     <summary type="html">介绍继续使用 Typora 免费版或正式版的方法</summary>
     
     
     
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
+    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    
+    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
     <category term="破解" scheme="https://uuanqin.top/pages/tags/%E7%A0%B4%E8%A7%A3/"/>
@@ -314,21 +343,23 @@
     <link href="https://uuanqin.top/p/2c7939aa/"/>
     <id>https://uuanqin.top/p/2c7939aa/</id>
     <published>2024-04-28T16:27:23.000Z</published>
-    <updated>2024-07-25T11:17:11.188Z</updated>
+    <updated>2024-07-31T13:49:48.141Z</updated>
     
     
     <summary type="html">一个历时半年的任务，一个晚上解决</summary>
     
     
     
-    <category term="有感而发" scheme="https://uuanqin.top/pages/categories/%E6%9C%89%E6%84%9F%E8%80%8C%E5%8F%91/"/>
+    <category term="百味人生" scheme="https://uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/"/>
     
+    <category term="有感而发" scheme="https://uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/%E6%9C%89%E6%84%9F%E8%80%8C%E5%8F%91/"/>
+    
+    
+    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
     <category term="Hexo" scheme="https://uuanqin.top/pages/tags/Hexo/"/>
     
     <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
-    
-    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
     
     <category term="开发杂记" scheme="https://uuanqin.top/pages/tags/%E5%BC%80%E5%8F%91%E6%9D%82%E8%AE%B0/"/>
     
@@ -368,23 +399,25 @@
     <link href="https://uuanqin.top/p/34fc0316/"/>
     <id>https://uuanqin.top/p/34fc0316/</id>
     <published>2024-04-18T11:08:47.000Z</published>
-    <updated>2024-07-28T08:19:31.825Z</updated>
+    <updated>2024-07-31T13:49:48.142Z</updated>
     
     
     <summary type="html">舍友用了都说好</summary>
     
     
     
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
+    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    
+    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
     <category term="HTTP" scheme="https://uuanqin.top/pages/tags/HTTP/"/>
     
     <category term="Windows" scheme="https://uuanqin.top/pages/tags/Windows/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="QQ" scheme="https://uuanqin.top/pages/tags/QQ/"/>
     
@@ -397,14 +430,16 @@
     <link href="https://uuanqin.top/p/91c1c44b/"/>
     <id>https://uuanqin.top/p/91c1c44b/</id>
     <published>2024-04-18T04:23:22.000Z</published>
-    <updated>2024-07-23T07:41:40.733Z</updated>
+    <updated>2024-07-31T13:49:48.141Z</updated>
     
     
     <summary type="html">保证自己的项目一直运行，不会因为关闭终端而结束</summary>
     
     
     
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
+    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    
+    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
@@ -418,19 +453,21 @@
     <link href="https://uuanqin.top/p/5744d011/"/>
     <id>https://uuanqin.top/p/5744d011/</id>
     <published>2024-04-17T14:54:39.000Z</published>
-    <updated>2024-06-16T07:49:46.840Z</updated>
+    <updated>2024-07-31T13:49:48.142Z</updated>
     
     
     <summary type="html">关闸远离我</summary>
     
     
     
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
+    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
     
+    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
-    <category term="微信" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1/"/>
     
     <category term="微信小程序" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="微信" scheme="https://uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1/"/>
     
     <category term="Charles" scheme="https://uuanqin.top/pages/tags/Charles/"/>
     
@@ -485,14 +522,14 @@
     <link href="https://uuanqin.top/p/3d8f61f0/"/>
     <id>https://uuanqin.top/p/3d8f61f0/</id>
     <published>2024-04-10T16:18:37.000Z</published>
-    <updated>2024-07-25T11:17:11.188Z</updated>
+    <updated>2024-07-31T13:49:48.140Z</updated>
     
     
     <summary type="html">备忘一下 Ant Design Pro 上线关键流程</summary>
     
     
     
-    <category term="项目部署" scheme="https://uuanqin.top/pages/categories/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/"/>
+    <category term="前端与后端" scheme="https://uuanqin.top/pages/categories/%E5%89%8D%E7%AB%AF%E4%B8%8E%E5%90%8E%E7%AB%AF/"/>
     
     
     <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
@@ -501,13 +538,13 @@
     
     <category term="阿里巴巴" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4/"/>
     
-    <category term="NPM" scheme="https://uuanqin.top/pages/tags/NPM/"/>
-    
     <category term="前端" scheme="https://uuanqin.top/pages/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="Ant Design" scheme="https://uuanqin.top/pages/tags/Ant-Design/"/>
     
     <category term="umijs" scheme="https://uuanqin.top/pages/tags/umijs/"/>
+    
+    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
     <category term="yarn" scheme="https://uuanqin.top/pages/tags/yarn/"/>
     
@@ -518,43 +555,6 @@
     <category term="蚂蚁金服" scheme="https://uuanqin.top/pages/tags/%E8%9A%82%E8%9A%81%E9%87%91%E6%9C%8D/"/>
     
     <category term="React" scheme="https://uuanqin.top/pages/tags/React/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STM32+ESP8266+MQTT 实现阿里云温湿度监控及 LED 点灯（FreeRTOS+标准库 or HAL）</title>
-    <link href="https://uuanqin.top/p/de31d8e3/"/>
-    <id>https://uuanqin.top/p/de31d8e3/</id>
-    <published>2024-04-05T04:49:50.000Z</published>
-    <updated>2024-07-18T08:13:46.184Z</updated>
-    
-    
-    <summary type="html">一整套「嵌入式」入门练习</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
-    
-    <category term="ESP8266" scheme="https://uuanqin.top/pages/tags/ESP8266/"/>
-    
-    <category term="MQTT" scheme="https://uuanqin.top/pages/tags/MQTT/"/>
-    
-    <category term="STM32CubeMX" scheme="https://uuanqin.top/pages/tags/STM32CubeMX/"/>
-    
-    <category term="FreeRTOS" scheme="https://uuanqin.top/pages/tags/FreeRTOS/"/>
-    
-    <category term="UML" scheme="https://uuanqin.top/pages/tags/UML/"/>
     
   </entry>
   
