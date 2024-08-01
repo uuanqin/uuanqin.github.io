@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-01T05:23:17.524Z</updated>
+  <updated>2024-08-01T16:39:43.557Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SpringBoot 中的 IOC &amp; DI 入门</title>
+    <link href="https://uuanqin.top/p/66216cb4/"/>
+    <id>https://uuanqin.top/p/66216cb4/</id>
+    <published>2024-08-01T16:40:03.000Z</published>
+    <updated>2024-08-01T16:39:43.557Z</updated>
+    
+    
+    <summary type="html">入门案例感受 IOC 容器的基本工作方式。</summary>
+    
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
+    
+    <category term="Bean" scheme="https://uuanqin.top/pages/tags/Bean/"/>
+    
+    <category term="IOC" scheme="https://uuanqin.top/pages/tags/IOC/"/>
+    
+    <category term="DI" scheme="https://uuanqin.top/pages/tags/DI/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SPI 概念及案例实践（下）</title>
     <link href="https://uuanqin.top/p/e7aa13ce/"/>
     <id>https://uuanqin.top/p/e7aa13ce/</id>
     <published>2024-08-01T05:08:18.000Z</published>
-    <updated>2024-08-01T05:23:17.524Z</updated>
+    <updated>2024-08-01T10:11:13.679Z</updated>
     
     
     <summary type="html">写一个更灵活的 SPI 框架</summary>
@@ -44,7 +71,7 @@
     <link href="https://uuanqin.top/p/acab999c/"/>
     <id>https://uuanqin.top/p/acab999c/</id>
     <published>2024-07-31T13:39:52.000Z</published>
-    <updated>2024-08-01T05:13:21.024Z</updated>
+    <updated>2024-08-01T10:13:44.151Z</updated>
     
     
     <summary type="html">通过动手实践理解 SPI 并尝试编写 ServiceLoader</summary>
@@ -69,7 +96,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2024-07-24T14:43:43.000Z</published>
-    <updated>2024-07-31T13:49:48.142Z</updated>
+    <updated>2024-08-01T07:14:18.255Z</updated>
     
     
     <summary type="html">介绍一些简单定时脚本的编写并利用 Webhook 推送</summary>
@@ -81,11 +108,11 @@
     <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
-    
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -93,7 +120,7 @@
     
     <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
-    <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
+    <category term="Cron" scheme="https://uuanqin.top/pages/tags/Cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
     
@@ -104,27 +131,27 @@
     <link href="https://uuanqin.top/p/b1ef28a0/"/>
     <id>https://uuanqin.top/p/b1ef28a0/</id>
     <published>2024-07-23T16:10:09.000Z</published>
-    <updated>2024-07-31T13:49:48.141Z</updated>
+    <updated>2024-08-01T16:37:57.107Z</updated>
     
     
     <summary type="html">备忘 SpringBoot 后端项目的部署方式</summary>
     
     
     
-    <category term="前端与后端" scheme="https://uuanqin.top/pages/categories/%E5%89%8D%E7%AB%AF%E4%B8%8E%E5%90%8E%E7%AB%AF/"/>
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
     
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
+    
+    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
     
     <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
-    
     <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
@@ -135,7 +162,7 @@
     <link href="https://uuanqin.top/p/21b7da2d/"/>
     <id>https://uuanqin.top/p/21b7da2d/</id>
     <published>2024-07-16T13:25:56.000Z</published>
-    <updated>2024-07-31T13:49:48.140Z</updated>
+    <updated>2024-08-01T14:54:15.136Z</updated>
     
     
     <summary type="html">记录开发简易 Starter 的基本步骤</summary>
@@ -422,7 +449,7 @@
     <link href="https://uuanqin.top/p/34fc0316/"/>
     <id>https://uuanqin.top/p/34fc0316/</id>
     <published>2024-04-18T11:08:47.000Z</published>
-    <updated>2024-07-31T13:49:48.142Z</updated>
+    <updated>2024-08-01T07:14:18.219Z</updated>
     
     
     <summary type="html">舍友用了都说好</summary>
@@ -516,27 +543,6 @@
     <category term="离散数学" scheme="https://uuanqin.top/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     
     <category term="命题逻辑" scheme="https://uuanqin.top/pages/tags/%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为什么个体域变化引入特性谓词时，不同量词的命题变化不一样？</title>
-    <link href="https://uuanqin.top/p/83ffd5d1/"/>
-    <id>https://uuanqin.top/p/83ffd5d1/</id>
-    <published>2024-04-11T16:09:10.000Z</published>
-    <updated>2024-07-24T06:23:45.891Z</updated>
-    
-    
-    <summary type="html">对于全称量词，特性谓词常作为蕴含的前件；对于存在量词，特性谓词常作为合取项。</summary>
-    
-    
-    
-    <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="离散数学" scheme="https://uuanqin.top/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
-    
-    <category term="谓词逻辑" scheme="https://uuanqin.top/pages/tags/%E8%B0%93%E8%AF%8D%E9%80%BB%E8%BE%91/"/>
     
   </entry>
   
