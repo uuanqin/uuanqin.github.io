@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-07-31T13:50:09.267Z</updated>
+  <updated>2024-08-01T05:23:17.524Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SPI 概念及案例实践</title>
+    <title>SPI 概念及案例实践（下）</title>
+    <link href="https://uuanqin.top/p/e7aa13ce/"/>
+    <id>https://uuanqin.top/p/e7aa13ce/</id>
+    <published>2024-08-01T05:08:18.000Z</published>
+    <updated>2024-08-01T05:23:17.524Z</updated>
+    
+    
+    <summary type="html">写一个更灵活的 SPI 框架</summary>
+    
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
+    
+    <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SPI 概念及案例实践（上）</title>
     <link href="https://uuanqin.top/p/acab999c/"/>
     <id>https://uuanqin.top/p/acab999c/</id>
     <published>2024-07-31T13:39:52.000Z</published>
-    <updated>2024-07-31T13:50:09.267Z</updated>
+    <updated>2024-08-01T05:13:21.024Z</updated>
     
     
     <summary type="html">通过动手实践理解 SPI 并尝试编写 ServiceLoader</summary>
@@ -68,11 +91,11 @@
     
     <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
+    
     <category term="cron" scheme="https://uuanqin.top/pages/tags/cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
-    
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
@@ -514,47 +537,6 @@
     <category term="离散数学" scheme="https://uuanqin.top/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
     
     <category term="谓词逻辑" scheme="https://uuanqin.top/pages/tags/%E8%B0%93%E8%AF%8D%E9%80%BB%E8%BE%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ant Design Pro 前端项目初始化到部署上线</title>
-    <link href="https://uuanqin.top/p/3d8f61f0/"/>
-    <id>https://uuanqin.top/p/3d8f61f0/</id>
-    <published>2024-04-10T16:18:37.000Z</published>
-    <updated>2024-07-31T13:49:48.140Z</updated>
-    
-    
-    <summary type="html">备忘一下 Ant Design Pro 上线关键流程</summary>
-    
-    
-    
-    <category term="前端与后端" scheme="https://uuanqin.top/pages/categories/%E5%89%8D%E7%AB%AF%E4%B8%8E%E5%90%8E%E7%AB%AF/"/>
-    
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
-    <category term="Nginx" scheme="https://uuanqin.top/pages/tags/Nginx/"/>
-    
-    <category term="阿里巴巴" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4/"/>
-    
-    <category term="前端" scheme="https://uuanqin.top/pages/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="Ant Design" scheme="https://uuanqin.top/pages/tags/Ant-Design/"/>
-    
-    <category term="umijs" scheme="https://uuanqin.top/pages/tags/umijs/"/>
-    
-    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
-    
-    <category term="yarn" scheme="https://uuanqin.top/pages/tags/yarn/"/>
-    
-    <category term="cnpm" scheme="https://uuanqin.top/pages/tags/cnpm/"/>
-    
-    <category term="tyarn" scheme="https://uuanqin.top/pages/tags/tyarn/"/>
-    
-    <category term="蚂蚁金服" scheme="https://uuanqin.top/pages/tags/%E8%9A%82%E8%9A%81%E9%87%91%E6%9C%8D/"/>
-    
-    <category term="React" scheme="https://uuanqin.top/pages/tags/React/"/>
     
   </entry>
   
