@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-01T16:39:43.557Z</updated>
+  <updated>2024-08-02T16:11:21.031Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SpringBoot 中的配置</title>
+    <link href="https://uuanqin.top/p/9441906f/"/>
+    <id>https://uuanqin.top/p/9441906f/</id>
+    <published>2024-08-02T16:10:59.000Z</published>
+    <updated>2024-08-02T16:11:21.031Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;配置文件&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#配置文件&quot;&gt;&lt;/a&gt; 配置文件&lt;/h1&gt;
+&lt;p&gt;SpringBoot</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>SpringBoot 中的 IOC &amp; DI 入门</title>
     <link href="https://uuanqin.top/p/66216cb4/"/>
     <id>https://uuanqin.top/p/66216cb4/</id>
     <published>2024-08-01T16:40:03.000Z</published>
-    <updated>2024-08-01T16:39:43.557Z</updated>
+    <updated>2024-08-02T06:48:02.947Z</updated>
     
     
     <summary type="html">入门案例感受 IOC 容器的基本工作方式。</summary>
@@ -108,11 +132,11 @@
     <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
+    
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
-    
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -149,9 +173,9 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
-    
     <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
+    
+    <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
@@ -522,27 +546,6 @@
     <category term="Charles" scheme="https://uuanqin.top/pages/tags/Charles/"/>
     
     <category term="Burp" scheme="https://uuanqin.top/pages/tags/Burp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「蕴含」与「等价」自然语言表达的理解</title>
-    <link href="https://uuanqin.top/p/cd939534/"/>
-    <id>https://uuanqin.top/p/cd939534/</id>
-    <published>2024-04-13T07:26:24.000Z</published>
-    <updated>2024-07-24T06:28:15.132Z</updated>
-    
-    
-    <summary type="html">里面解释了「当」和「仅当」的区别</summary>
-    
-    
-    
-    <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="离散数学" scheme="https://uuanqin.top/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
-    
-    <category term="命题逻辑" scheme="https://uuanqin.top/pages/tags/%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91/"/>
     
   </entry>
   
