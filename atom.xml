@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-02T16:11:21.031Z</updated>
+  <updated>2024-08-03T08:19:13.912Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,17 +21,10 @@
     <link href="https://uuanqin.top/p/9441906f/"/>
     <id>https://uuanqin.top/p/9441906f/</id>
     <published>2024-08-02T16:10:59.000Z</published>
-    <updated>2024-08-02T16:11:21.031Z</updated>
+    <updated>2024-08-03T08:19:13.912Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;配置文件&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#配置文件&quot;&gt;&lt;/a&gt; 配置文件&lt;/h1&gt;
-&lt;p&gt;SpringBoot</summary>
-        
-      
+    <summary type="html">SpringBoot 最基础的读取配置的方式备忘。</summary>
     
     
     
@@ -120,7 +113,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2024-07-24T14:43:43.000Z</published>
-    <updated>2024-08-01T07:14:18.255Z</updated>
+    <updated>2024-08-03T12:22:12.470Z</updated>
     
     
     <summary type="html">介绍一些简单定时脚本的编写并利用 Webhook 推送</summary>

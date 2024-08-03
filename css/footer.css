@@ -6,7 +6,7 @@
 
 
 #footer {
-    background-color: #177ecd;
+    background-color: rgba(0,0,0,0); /* 修改透明色 */
     color: #fff;
     padding: 0;
 }
@@ -16,16 +16,13 @@
 }
 
 .footer-wave-svg {
-    background-color: transparent;
-    display: block;
-    height: 30px;
-    position: relative;
-    top: -1px;
+    height: 50px;
     width: 100%;
+    transform: scale(-1, -1) translateY(-10px); /*;*/
 }
 
 .footer-wave-path {
-    fill: var(--global-bg);
+    fill: #177ecd;
 }
 
 .footer-content {
@@ -246,6 +243,14 @@
     text-decoration: none;
 }
 
+.footer-content-div{
+    background: #177ecd
+}
+
+.footer-svg-div{
+    width: 100%;
+    max-height: 200px;
+}
 
 /* Media Query For different screens */
 @media (min-width: 320px) and (max-width: 479px) {
@@ -254,8 +259,13 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
-        padding: 40px 15px 1050px;
+        padding: 40px 15px 649px;
         position: relative;
+    }
+
+    /* 不展示logo */
+    .footer-logo{
+        display: none;
     }
 }
 
@@ -265,8 +275,13 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
-        padding: 40px 15px 1050px;
+        padding: 40px 15px 738px;
         position: relative;
+    }
+
+    .footer-logo{
+        padding-left: 177px; /* Qlogo 稍微偏移一点 */
+        padding-right: 170px;
     }
 }
 
@@ -276,9 +291,12 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
-        padding: 40px 15px 1050px;
+        padding: 40px 15px 758px;
         position: relative;
     }
+
+
+
 }
 
 @media (min-width: 801px) {
@@ -302,13 +320,11 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
-        padding: 10px 15px 212px;
+        padding: 10px 15px 237px;
         position: relative;
     }
 
-    .footer-wave-svg {
-        height: 50px;
-    }
+
 
     .footer-content-column {
         /*五列的话 19.99 %*/
@@ -317,7 +333,15 @@
 }
 
 @media (min-width: 568px) {
-    /* .footer-content-column {
-        width: 49.99%;
-    } */
+
 }
+
+@media (min-width: 600px) and (max-width: 760px) {
+    /* 在这里编写适用于小屏幕的样式 */
+    .footer-logo{
+        padding-left: 212px; /* Qlogo 稍微偏移一点 */
+        padding-right: 204px;
+    }
+}
+
+

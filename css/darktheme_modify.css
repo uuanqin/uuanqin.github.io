@@ -32,7 +32,10 @@
 }
 
 /* 页脚波浪的颜色 */
-[data-theme='dark'] #footer {
+[data-theme='dark'] .footer-wave-path {
+    fill: #0f3858;
+}
+[data-theme='dark'] .footer-content-div {
     background-color: #0f3858;
 }
 
