@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-04T15:57:24.690Z</updated>
+  <updated>2024-08-04T16:20:07.477Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uuanqin.top/p/e1ee5eca/"/>
     <id>https://uuanqin.top/p/e1ee5eca/</id>
     <published>2024-08-04T15:40:25.000Z</published>
-    <updated>2024-08-04T15:57:24.690Z</updated>
+    <updated>2024-08-04T16:20:07.477Z</updated>
     
     
     <summary type="html">博客与评论区统一拦截重定向</summary>
@@ -35,9 +35,9 @@
     
     <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
     
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -164,11 +164,11 @@
     
     <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
-    
     <category term="Cron" scheme="https://uuanqin.top/pages/tags/Cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
+    
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
@@ -195,9 +195,9 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
-    
     <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
+    
+    <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
