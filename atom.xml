@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-07T11:01:18.339Z</updated>
+  <updated>2024-08-09T17:05:20.719Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SpringBoot 中的面向切面编程（AOP）</title>
+    <link href="https://uuanqin.top/p/e036b68e/"/>
+    <id>https://uuanqin.top/p/e036b68e/</id>
+    <published>2024-08-09T17:04:09.000Z</published>
+    <updated>2024-08-09T17:05:20.719Z</updated>
+    
+    
+    <summary type="html">备忘基本的 AOP 使用方式</summary>
+    
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
+    
+    <category term="AOP" scheme="https://uuanqin.top/pages/tags/AOP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo 博客与 Waline 评论区实现外链跳转中间页</title>
     <link href="https://uuanqin.top/p/e1ee5eca/"/>
     <id>https://uuanqin.top/p/e1ee5eca/</id>
     <published>2024-08-04T15:40:25.000Z</published>
-    <updated>2024-08-07T11:01:18.339Z</updated>
+    <updated>2024-08-08T07:19:38.121Z</updated>
     
     
     <summary type="html">博客与评论区统一拦截重定向</summary>
@@ -37,9 +60,9 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -168,11 +191,11 @@
     
     <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
+    
     <category term="Cron" scheme="https://uuanqin.top/pages/tags/Cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
-    
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
@@ -515,36 +538,13 @@
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
-    <category term="HTTP" scheme="https://uuanqin.top/pages/tags/HTTP/"/>
-    
     <category term="Windows" scheme="https://uuanqin.top/pages/tags/Windows/"/>
+    
+    <category term="HTTP" scheme="https://uuanqin.top/pages/tags/HTTP/"/>
     
     <category term="QQ" scheme="https://uuanqin.top/pages/tags/QQ/"/>
     
     <category term="cqhttp" scheme="https://uuanqin.top/pages/tags/cqhttp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux 使用 nohup 后台运行程序</title>
-    <link href="https://uuanqin.top/p/91c1c44b/"/>
-    <id>https://uuanqin.top/p/91c1c44b/</id>
-    <published>2024-04-18T04:23:22.000Z</published>
-    <updated>2024-07-31T13:49:48.141Z</updated>
-    
-    
-    <summary type="html">保证自己的项目一直运行，不会因为关闭终端而结束</summary>
-    
-    
-    
-    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
-    
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
-    <category term="nohup" scheme="https://uuanqin.top/pages/tags/nohup/"/>
     
   </entry>
   
