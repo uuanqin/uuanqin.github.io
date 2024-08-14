@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-09T17:05:20.719Z</updated>
+  <updated>2024-08-14T12:26:48.490Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单例模式的应用——为 Java 程序应用全局配置</title>
+    <link href="https://uuanqin.top/p/43de456a/"/>
+    <id>https://uuanqin.top/p/43de456a/</id>
+    <published>2024-08-13T12:13:10.000Z</published>
+    <updated>2024-08-14T12:26:48.490Z</updated>
+    
+    
+    <summary type="html">备忘一个全局配置类的写法。</summary>
+    
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="Hutool" scheme="https://uuanqin.top/pages/tags/Hutool/"/>
+    
+    <category term="设计模式" scheme="https://uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="单例模式" scheme="https://uuanqin.top/pages/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="配置" scheme="https://uuanqin.top/pages/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>SpringBoot 中的面向切面编程（AOP）</title>
@@ -44,7 +71,7 @@
     <link href="https://uuanqin.top/p/e1ee5eca/"/>
     <id>https://uuanqin.top/p/e1ee5eca/</id>
     <published>2024-08-04T15:40:25.000Z</published>
-    <updated>2024-08-08T07:19:38.121Z</updated>
+    <updated>2024-08-14T07:31:34.169Z</updated>
     
     
     <summary type="html">博客与评论区统一拦截重定向</summary>
@@ -60,9 +87,9 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
+    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -121,7 +148,7 @@
     <link href="https://uuanqin.top/p/e7aa13ce/"/>
     <id>https://uuanqin.top/p/e7aa13ce/</id>
     <published>2024-08-01T05:08:18.000Z</published>
-    <updated>2024-08-01T10:11:13.679Z</updated>
+    <updated>2024-08-13T10:51:54.320Z</updated>
     
     
     <summary type="html">写一个更灵活的 SPI 框架</summary>
@@ -144,7 +171,7 @@
     <link href="https://uuanqin.top/p/acab999c/"/>
     <id>https://uuanqin.top/p/acab999c/</id>
     <published>2024-07-31T13:39:52.000Z</published>
-    <updated>2024-08-01T10:13:44.151Z</updated>
+    <updated>2024-08-13T13:58:45.917Z</updated>
     
     
     <summary type="html">通过动手实践理解 SPI 并尝试编写 ServiceLoader</summary>
@@ -183,11 +210,11 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
@@ -222,9 +249,9 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
-    
     <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
@@ -514,37 +541,6 @@
     <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
     
     <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>go-cqhttp 部署与简单编程</title>
-    <link href="https://uuanqin.top/p/34fc0316/"/>
-    <id>https://uuanqin.top/p/34fc0316/</id>
-    <published>2024-04-18T11:08:47.000Z</published>
-    <updated>2024-08-01T07:14:18.219Z</updated>
-    
-    
-    <summary type="html">舍友用了都说好</summary>
-    
-    
-    
-    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
-    
-    
-    <category term="Linux" scheme="https://uuanqin.top/pages/tags/Linux/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="HTTP" scheme="https://uuanqin.top/pages/tags/HTTP/"/>
-    
-    <category term="Windows" scheme="https://uuanqin.top/pages/tags/Windows/"/>
-    
-    <category term="QQ" scheme="https://uuanqin.top/pages/tags/QQ/"/>
-    
-    <category term="cqhttp" scheme="https://uuanqin.top/pages/tags/cqhttp/"/>
     
   </entry>
   
