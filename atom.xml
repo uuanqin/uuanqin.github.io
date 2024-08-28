@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-14T12:26:48.490Z</updated>
+  <updated>2024-08-28T16:27:09.522Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SQL 写题技巧积累</title>
+    <link href="https://uuanqin.top/p/12bc4bc9/"/>
+    <id>https://uuanqin.top/p/12bc4bc9/</id>
+    <published>2024-08-28T08:37:41.000Z</published>
+    <updated>2024-08-28T16:27:09.522Z</updated>
+    
+    
+    <summary type="html">SQL 热身练习。</summary>
+    
+    
+    
+    <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="SQL" scheme="https://uuanqin.top/pages/tags/SQL/"/>
+    
+    <category term="LeetCode" scheme="https://uuanqin.top/pages/tags/LeetCode/"/>
+    
+  </entry>
   
   <entry>
     <title>单例模式的应用——为 Java 程序应用全局配置</title>
@@ -87,9 +108,9 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
+    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -158,11 +179,11 @@
     <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
     
     
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
     <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
     
     <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
     
   </entry>
   
@@ -183,11 +204,11 @@
     
     <category term="API" scheme="https://uuanqin.top/pages/tags/API/"/>
     
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
     <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
     
     <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
     
   </entry>
   
@@ -249,9 +270,9 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
-    
     <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
@@ -514,33 +535,6 @@
     <category term="开发杂记" scheme="https://uuanqin.top/pages/tags/%E5%BC%80%E5%8F%91%E6%9D%82%E8%AE%B0/"/>
     
     <category term="正则表达式" scheme="https://uuanqin.top/pages/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DHT11 驱动程序</title>
-    <link href="https://uuanqin.top/p/c497cb3f/"/>
-    <id>https://uuanqin.top/p/c497cb3f/</id>
-    <published>2024-04-23T14:37:40.000Z</published>
-    <updated>2024-05-01T16:25:54.273Z</updated>
-    
-    
-    <summary type="html">给出标准库及 HAL 驱动示例。</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="C" scheme="https://uuanqin.top/pages/tags/C/"/>
-    
-    <category term="DHT11" scheme="https://uuanqin.top/pages/tags/DHT11/"/>
-    
-    <category term="驱动" scheme="https://uuanqin.top/pages/tags/%E9%A9%B1%E5%8A%A8/"/>
-    
-    <category term="STM32" scheme="https://uuanqin.top/pages/tags/STM32/"/>
-    
-    <category term="HAL" scheme="https://uuanqin.top/pages/tags/HAL/"/>
     
   </entry>
   
