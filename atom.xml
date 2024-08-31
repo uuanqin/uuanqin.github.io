@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-08-28T16:27:09.522Z</updated>
+  <updated>2024-08-31T20:33:01.489Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>线性时间内「找出只出现 1 次的数字」</title>
+    <link href="https://uuanqin.top/p/bf3f2242/"/>
+    <id>https://uuanqin.top/p/bf3f2242/</id>
+    <published>2024-08-31T16:03:24.000Z</published>
+    <updated>2024-08-31T20:33:01.489Z</updated>
+    
+    
+    <summary type="html">积累位运算的经验和方法</summary>
+    
+    
+    
+    <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="LeetCode" scheme="https://uuanqin.top/pages/tags/LeetCode/"/>
+    
+    <category term="异或" scheme="https://uuanqin.top/pages/tags/%E5%BC%82%E6%88%96/"/>
+    
+    <category term="位运算" scheme="https://uuanqin.top/pages/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    
+    <category term="补码" scheme="https://uuanqin.top/pages/tags/%E8%A1%A5%E7%A0%81/"/>
+    
+    <category term="FSM" scheme="https://uuanqin.top/pages/tags/FSM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SQL 写题技巧积累</title>
     <link href="https://uuanqin.top/p/12bc4bc9/"/>
     <id>https://uuanqin.top/p/12bc4bc9/</id>
     <published>2024-08-28T08:37:41.000Z</published>
-    <updated>2024-08-28T16:27:09.522Z</updated>
+    <updated>2024-08-31T20:31:30.021Z</updated>
     
     
     <summary type="html">SQL 热身练习。</summary>
@@ -108,9 +135,9 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -314,7 +341,7 @@
     <link href="https://uuanqin.top/p/77c7bcae/"/>
     <id>https://uuanqin.top/p/77c7bcae/</id>
     <published>2024-07-06T10:53:09.000Z</published>
-    <updated>2024-07-07T05:11:11.391Z</updated>
+    <updated>2024-08-31T20:31:58.497Z</updated>
     
     
     <summary type="html">计算二进制串中 1 的个数骚操作</summary>
@@ -324,11 +351,11 @@
     <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
+    <category term="位运算" scheme="https://uuanqin.top/pages/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    
     <category term="汉明重量" scheme="https://uuanqin.top/pages/tags/%E6%B1%89%E6%98%8E%E9%87%8D%E9%87%8F/"/>
     
     <category term="汉明距离" scheme="https://uuanqin.top/pages/tags/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB/"/>
-    
-    <category term="位运算" scheme="https://uuanqin.top/pages/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
     
   </entry>
   
@@ -506,35 +533,6 @@
     <category term="实验" scheme="https://uuanqin.top/pages/tags/%E5%AE%9E%E9%AA%8C/"/>
     
     <category term="离散数学" scheme="https://uuanqin.top/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一次写 Hexo 插件</title>
-    <link href="https://uuanqin.top/p/2c7939aa/"/>
-    <id>https://uuanqin.top/p/2c7939aa/</id>
-    <published>2024-04-28T16:27:23.000Z</published>
-    <updated>2024-07-31T13:49:48.141Z</updated>
-    
-    
-    <summary type="html">一个历时半年的任务，一个晚上解决</summary>
-    
-    
-    
-    <category term="百味人生" scheme="https://uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/"/>
-    
-    <category term="有感而发" scheme="https://uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/%E6%9C%89%E6%84%9F%E8%80%8C%E5%8F%91/"/>
-    
-    
-    <category term="npm" scheme="https://uuanqin.top/pages/tags/npm/"/>
-    
-    <category term="Hexo" scheme="https://uuanqin.top/pages/tags/Hexo/"/>
-    
-    <category term="Obsidian" scheme="https://uuanqin.top/pages/tags/Obsidian/"/>
-    
-    <category term="开发杂记" scheme="https://uuanqin.top/pages/tags/%E5%BC%80%E5%8F%91%E6%9D%82%E8%AE%B0/"/>
-    
-    <category term="正则表达式" scheme="https://uuanqin.top/pages/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     
   </entry>
   
