@@ -237,9 +237,9 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
-    
     <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    
+    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -308,11 +308,11 @@
     <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
     
     
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
     <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
     
     <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
     
   </entry>
   
@@ -333,11 +333,11 @@
     
     <category term="API" scheme="https://uuanqin.top/pages/tags/API/"/>
     
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
     <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
     
     <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
     
   </entry>
   
@@ -399,9 +399,9 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
-    
     <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
