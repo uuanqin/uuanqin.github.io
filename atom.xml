@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-09-21T16:23:16.785Z</updated>
+  <updated>2024-10-01T10:57:52.345Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,21 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【刷题日记】以作为答案边界的方式理解双指针</title>
+    <link href="https://uuanqin.top/p/3fb6bb6b/"/>
+    <id>https://uuanqin.top/p/3fb6bb6b/</id>
+    <published>2024-10-01T10:58:55.000Z</published>
+    <updated>2024-10-01T10:57:52.345Z</updated>
+    
+    
+    <summary type="html">这样就能放心移动指针了</summary>
+    
+    
+    
+    <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="LeetCode" scheme="https://uuanqin.top/pages/tags/LeetCode/"/>
+    
+    <category term="双指针" scheme="https://uuanqin.top/pages/tags/%E5%8F%8C%E6%8C%87%E9%92%88/"/>
+    
+    <category term="贪心" scheme="https://uuanqin.top/pages/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【刷题日记】学会前后缀分解，就能从「连续子数组」打到「接雨水」</title>
     <link href="https://uuanqin.top/p/59af443f/"/>
     <id>https://uuanqin.top/p/59af443f/</id>
     <published>2024-09-21T11:12:16.000Z</published>
-    <updated>2024-09-21T16:23:16.785Z</updated>
+    <updated>2024-09-21T18:34:50.785Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本文题目难度标识：🟩简单，🟨中等，🟥困难。&lt;/p&gt;
-&lt;h1 id=&quot;前缀和&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前缀和&quot;&gt;&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">动态规划的简单运用</summary>
     
     
     
@@ -40,20 +58,20 @@
     
     <category term="LeetCode" scheme="https://uuanqin.top/pages/tags/LeetCode/"/>
     
-    <category term="动态规划" scheme="https://uuanqin.top/pages/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
-    
     <category term="前缀和" scheme="https://uuanqin.top/pages/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
+    
+    <category term="动态规划" scheme="https://uuanqin.top/pages/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
     <category term="哈希表" scheme="https://uuanqin.top/pages/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/"/>
     
   </entry>
   
   <entry>
-    <title>【刷题必看】最小差值问题的贪心理解</title>
+    <title>【刷题日记】最小差值问题的贪心理解</title>
     <link href="https://uuanqin.top/p/3fe090c8/"/>
     <id>https://uuanqin.top/p/3fe090c8/</id>
     <published>2024-09-19T10:16:50.000Z</published>
-    <updated>2024-09-19T14:57:45.017Z</updated>
+    <updated>2024-09-21T18:34:44.139Z</updated>
     
     
     <summary type="html">尝试自证贪心算法的正确性</summary>
@@ -76,7 +94,7 @@
     <link href="https://uuanqin.top/p/41280b89/"/>
     <id>https://uuanqin.top/p/41280b89/</id>
     <published>2024-09-11T17:35:51.000Z</published>
-    <updated>2024-09-21T16:16:14.983Z</updated>
+    <updated>2024-09-21T18:34:50.774Z</updated>
     
     
     <summary type="html">掌握一次遍历与动态规划。</summary>
@@ -90,20 +108,20 @@
     
     <category term="LeetCode" scheme="https://uuanqin.top/pages/tags/LeetCode/"/>
     
-    <category term="动态规划" scheme="https://uuanqin.top/pages/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
-    
     <category term="前缀和" scheme="https://uuanqin.top/pages/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
+    
+    <category term="动态规划" scheme="https://uuanqin.top/pages/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
     <category term="贪心算法" scheme="https://uuanqin.top/pages/tags/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
-    <title>【刷题必看】字符串的匹配算法（单模式串）</title>
+    <title>【刷题日记】字符串的匹配算法（单模式串）</title>
     <link href="https://uuanqin.top/p/53501b47/"/>
     <id>https://uuanqin.top/p/53501b47/</id>
     <published>2024-09-04T15:58:39.000Z</published>
-    <updated>2024-09-19T15:00:40.631Z</updated>
+    <updated>2024-09-23T07:46:03.878Z</updated>
     
     
     <summary type="html">Needle in a Haystack. 大海捞针</summary>
@@ -124,11 +142,11 @@
   </entry>
   
   <entry>
-    <title>【刷题必看】手写 LRU 缓存以理解 Java 中的 LinkedHashMap</title>
+    <title>【刷题日记】手写 LRU 缓存以理解 Java 中的 LinkedHashMap</title>
     <link href="https://uuanqin.top/p/270917b1/"/>
     <id>https://uuanqin.top/p/270917b1/</id>
     <published>2024-09-03T15:25:18.000Z</published>
-    <updated>2024-09-19T15:00:28.095Z</updated>
+    <updated>2024-09-23T07:45:56.452Z</updated>
     
     
     <summary type="html">一个围绕 LRU 的专题综合。</summary>
@@ -149,11 +167,11 @@
   </entry>
   
   <entry>
-    <title>【刷题必看】最大子数组问题</title>
+    <title>【刷题日记】最大子数组问题</title>
     <link href="https://uuanqin.top/p/19c8c246/"/>
     <id>https://uuanqin.top/p/19c8c246/</id>
     <published>2024-09-01T14:30:58.000Z</published>
-    <updated>2024-09-21T14:41:53.428Z</updated>
+    <updated>2024-09-21T18:34:53.500Z</updated>
     
     
     <summary type="html">一道例题引出的多种解法探讨</summary>
@@ -167,22 +185,22 @@
     
     <category term="LeetCode" scheme="https://uuanqin.top/pages/tags/LeetCode/"/>
     
+    <category term="前缀和" scheme="https://uuanqin.top/pages/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
+    
     <category term="动态规划" scheme="https://uuanqin.top/pages/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
     <category term="分治" scheme="https://uuanqin.top/pages/tags/%E5%88%86%E6%B2%BB/"/>
     
     <category term="线段树" scheme="https://uuanqin.top/pages/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
-    <category term="前缀和" scheme="https://uuanqin.top/pages/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
-    
   </entry>
   
   <entry>
-    <title>【刷题必看】在 O(n) 内找出只出现 1 次的数字</title>
+    <title>【刷题日记】在 O(n) 内找出只出现 1 次的数字</title>
     <link href="https://uuanqin.top/p/bf3f2242/"/>
     <id>https://uuanqin.top/p/bf3f2242/</id>
     <published>2024-08-31T16:03:24.000Z</published>
-    <updated>2024-09-19T15:00:50.968Z</updated>
+    <updated>2024-09-24T18:10:14.106Z</updated>
     
     
     <summary type="html">即使是鹤立鸡群也不是那么好找......</summary>
@@ -205,11 +223,11 @@
   </entry>
   
   <entry>
-    <title>【刷题必看】SQL 写题技巧积累</title>
+    <title>【刷题日记】SQL 写题技巧积累</title>
     <link href="https://uuanqin.top/p/12bc4bc9/"/>
     <id>https://uuanqin.top/p/12bc4bc9/</id>
     <published>2024-08-28T08:37:41.000Z</published>
-    <updated>2024-09-04T16:37:35.027Z</updated>
+    <updated>2024-09-24T18:09:59.659Z</updated>
     
     
     <summary type="html">SQL 刷题热身练习。</summary>
@@ -219,9 +237,9 @@
     <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="SQL" scheme="https://uuanqin.top/pages/tags/SQL/"/>
-    
     <category term="LeetCode" scheme="https://uuanqin.top/pages/tags/LeetCode/"/>
+    
+    <category term="SQL" scheme="https://uuanqin.top/pages/tags/SQL/"/>
     
   </entry>
   
@@ -427,11 +445,11 @@
     
     <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
+    
     <category term="Cron" scheme="https://uuanqin.top/pages/tags/Cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
-    
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
@@ -458,9 +476,9 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
-    
     <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
+    
+    <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     
@@ -498,11 +516,11 @@
   </entry>
   
   <entry>
-    <title>【刷题必看】计算汉明重量的两个技巧性算法</title>
+    <title>【刷题日记】计算汉明重量的两个技巧性算法</title>
     <link href="https://uuanqin.top/p/77c7bcae/"/>
     <id>https://uuanqin.top/p/77c7bcae/</id>
     <published>2024-07-06T10:53:09.000Z</published>
-    <updated>2024-09-19T15:00:45.859Z</updated>
+    <updated>2024-09-24T18:10:06.645Z</updated>
     
     
     <summary type="html">介绍两个精妙的技巧性算法</summary>
@@ -517,33 +535,6 @@
     <category term="汉明重量" scheme="https://uuanqin.top/pages/tags/%E6%B1%89%E6%98%8E%E9%87%8D%E9%87%8F/"/>
     
     <category term="汉明距离" scheme="https://uuanqin.top/pages/tags/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RM 和 EDF 任务调度算法在 μCOSII 上的实现</title>
-    <link href="https://uuanqin.top/p/b1c2eea4/"/>
-    <id>https://uuanqin.top/p/b1c2eea4/</id>
-    <published>2024-06-22T08:29:41.000Z</published>
-    <updated>2024-07-11T08:12:18.423Z</updated>
-    
-    
-    <summary type="html">实时操作系统实验 2</summary>
-    
-    
-    
-    <category term="嵌入式" scheme="https://uuanqin.top/pages/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    
-    <category term="μCOS" scheme="https://uuanqin.top/pages/tags/%CE%BCCOS/"/>
-    
-    <category term="RM" scheme="https://uuanqin.top/pages/tags/RM/"/>
-    
-    <category term="EDF" scheme="https://uuanqin.top/pages/tags/EDF/"/>
-    
-    <category term="实时系统" scheme="https://uuanqin.top/pages/tags/%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/"/>
-    
-    <category term="任务管理" scheme="https://uuanqin.top/pages/tags/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
