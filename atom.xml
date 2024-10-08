@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-10-03T16:57:20.285Z</updated>
+  <updated>2024-10-03T19:18:14.443Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uuanqin.top/p/c73083b9/"/>
     <id>https://uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2024-10-03T16:57:20.285Z</updated>
+    <updated>2024-10-03T19:18:14.443Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
@@ -302,10 +302,10 @@
     <link href="https://uuanqin.top/p/e036b68e/"/>
     <id>https://uuanqin.top/p/e036b68e/</id>
     <published>2024-08-09T17:04:09.000Z</published>
-    <updated>2024-09-04T16:29:20.372Z</updated>
+    <updated>2024-10-08T11:42:04.743Z</updated>
     
     
-    <summary type="html">备忘基本的 AOP 使用方式</summary>
+    <summary type="html">回忆 AOP 基本概念，备忘基本的 AOP 使用方式</summary>
     
     
     
@@ -325,7 +325,7 @@
     <link href="https://uuanqin.top/p/e1ee5eca/"/>
     <id>https://uuanqin.top/p/e1ee5eca/</id>
     <published>2024-08-04T15:40:25.000Z</published>
-    <updated>2024-09-20T16:31:33.991Z</updated>
+    <updated>2024-10-08T15:05:29.996Z</updated>
     
     
     <summary type="html">博客与评论区统一拦截重定向</summary>
@@ -341,9 +341,9 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
-    
     <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    
+    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -375,7 +375,7 @@
     <link href="https://uuanqin.top/p/66216cb4/"/>
     <id>https://uuanqin.top/p/66216cb4/</id>
     <published>2024-08-01T16:40:03.000Z</published>
-    <updated>2024-09-04T16:31:07.448Z</updated>
+    <updated>2024-10-08T15:37:17.941Z</updated>
     
     
     <summary type="html">入门案例感受 IOC 容器的基本工作方式。</summary>
@@ -462,11 +462,11 @@
     <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
-    
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
@@ -503,9 +503,9 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
-    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
-    
     <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
     
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
     

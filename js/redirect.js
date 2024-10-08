@@ -1,4 +1,4 @@
-// 函数用于执行重定向，解决waline评论区数据不一致问题，解决百度跳转链接带index.html的问题
+// 函数用于执行重定向，解决waline评论区数据不一致问题，解决百度、Bing跳转链接带index.html的问题
 function redirectToNewUrl() {
     const currentUrl = window.location.href;  // 获取当前 URL
     const indexPagePattern = /\/p\/(.*?)\/index\.html$/;  // 正则表达式匹配 /p/xxxxx/index.html
