@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>半方池水半方田</title>
   <icon>https://uuanqin.top/icon.png</icon>
-  <subtitle>Qinq 的个人博客</subtitle>
+  <subtitle>Qin&#39;s blog</subtitle>
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-10-03T19:18:14.443Z</updated>
+  <updated>2024-10-12T19:11:25.677Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Waline 配置头像服务（含常用公共头像服务介绍）</title>
+    <link href="https://uuanqin.top/p/1d248fa3/"/>
+    <id>https://uuanqin.top/p/1d248fa3/</id>
+    <published>2024-10-12T19:07:11.000Z</published>
+    <updated>2024-10-12T19:11:25.677Z</updated>
+    
+    
+    <summary type="html">讲明白常见公共头像服务并在 Waline 中上手实践</summary>
+    
+    
+    
+    <category term="博客相关" scheme="https://uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
+    
+    
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
+    
+    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    
+    <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
+    
+    <category term="Vercel" scheme="https://uuanqin.top/pages/tags/Vercel/"/>
+    
+    <category term="Gravatar" scheme="https://uuanqin.top/pages/tags/Gravatar/"/>
+    
+    <category term="Cravatar" scheme="https://uuanqin.top/pages/tags/Cravatar/"/>
+    
+    <category term="Libravatar" scheme="https://uuanqin.top/pages/tags/Libravatar/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【刷题日记】Java 刷题的快速热身，3 分钟重拾战斗热情</title>
     <link href="https://uuanqin.top/p/c73083b9/"/>
     <id>https://uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2024-10-03T19:18:14.443Z</updated>
+    <updated>2024-10-08T18:26:45.638Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
@@ -227,7 +260,7 @@
     <link href="https://uuanqin.top/p/bf3f2242/"/>
     <id>https://uuanqin.top/p/bf3f2242/</id>
     <published>2024-08-31T16:03:24.000Z</published>
-    <updated>2024-09-24T18:10:14.106Z</updated>
+    <updated>2024-10-10T18:21:30.466Z</updated>
     
     
     <summary type="html">即使是鹤立鸡群也不是那么好找......</summary>
@@ -254,14 +287,12 @@
     <link href="https://uuanqin.top/p/12bc4bc9/"/>
     <id>https://uuanqin.top/p/12bc4bc9/</id>
     <published>2024-08-28T08:37:41.000Z</published>
-    <updated>2024-09-24T18:09:59.659Z</updated>
+    <updated>2024-10-10T15:12:01.125Z</updated>
     
     
-    <summary type="html">SQL 刷题热身练习。</summary>
+    <summary type="html">SQL 刷题热身练习</summary>
     
     
-    
-    <category term="数学与算法" scheme="https://uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
     <category term="SQL" scheme="https://uuanqin.top/pages/tags/SQL/"/>
@@ -325,7 +356,7 @@
     <link href="https://uuanqin.top/p/e1ee5eca/"/>
     <id>https://uuanqin.top/p/e1ee5eca/</id>
     <published>2024-08-04T15:40:25.000Z</published>
-    <updated>2024-10-08T15:05:29.996Z</updated>
+    <updated>2024-10-08T18:22:16.209Z</updated>
     
     
     <summary type="html">博客与评论区统一拦截重定向</summary>
@@ -462,21 +493,21 @@
     <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
+    
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
-    
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
+    
     <category term="Cron" scheme="https://uuanqin.top/pages/tags/Cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
-    
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
@@ -503,42 +534,11 @@
     
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
+    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
+    
     <category term="宝塔" scheme="https://uuanqin.top/pages/tags/%E5%AE%9D%E5%A1%94/"/>
     
-    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
-    
     <category term="Docker" scheme="https://uuanqin.top/pages/tags/Docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot 的原理以及写一个自定义 Starter</title>
-    <link href="https://uuanqin.top/p/21b7da2d/"/>
-    <id>https://uuanqin.top/p/21b7da2d/</id>
-    <published>2024-07-16T13:25:56.000Z</published>
-    <updated>2024-08-01T14:54:15.136Z</updated>
-    
-    
-    <summary type="html">记录开发简易 Starter 的基本步骤</summary>
-    
-    
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
-    
-    <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
-    
-    <category term="Spring" scheme="https://uuanqin.top/pages/tags/Spring/"/>
-    
-    <category term="starter" scheme="https://uuanqin.top/pages/tags/starter/"/>
-    
-    <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
-    
-    <category term="maven" scheme="https://uuanqin.top/pages/tags/maven/"/>
-    
-    <category term="Hutool" scheme="https://uuanqin.top/pages/tags/Hutool/"/>
     
   </entry>
   
