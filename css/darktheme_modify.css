@@ -1,22 +1,24 @@
 /*顶部的网站图标*/
 [data-theme='dark'] img.site-icon {
-    content: url(/image/logo-dw.png);
+    content: url(/image/logo-dw.png); /* 建议使用本地图片，以防CDN挂掉 */
 }
 
-/*脚注的图标*/
+/********* 页脚的图标 *********/
+/*Qlogo*/
 [data-theme='dark'] .footer-logo img {
-    content: url(https://cdn.gallery.uuanqin.top/img/A%E5%85%A8%E5%BD%A9%E6%97%A0%E5%AD%97.png);
+    content: url(/image/footer/qlogo_color_no_words.png);
 }
 
 /*十年之约图标*/
 [data-theme='dark'] img.img-foreverblog {
-    content: url(https://cdn.gallery.uuanqin.top/img/logo_en_default.webp);
+    content: url(/image/footer/forever_logo_en_default.webp);
 }
 
 /*Not By AI 图标*/
 [data-theme='dark'] img.img-not-ai {
-    content: url(https://cdn.gallery.uuanqin.top/img/Written-By-Human-Not-By-AI-Badge-black.svg);
+    content: url(/image/footer/Written-By-Human-Not-By-AI-Badge-black.svg);
 }
+/**************** END ******************/
 
 [data-theme='dark'] svg#graph-canvas {
     background-color: #121212;
@@ -46,6 +48,16 @@
 [data-theme='dark'] .footer-social-amoeba-path {
     fill: #104e5e;
 }
+
+/* 顶部的加载条 */
+[data-theme='dark'] .pace {
+    background: #000000;
+}
+
+[data-theme='dark'] .pace .pace-progress {
+    background-color: rgb(16, 78, 94);
+}
+
 
 
 

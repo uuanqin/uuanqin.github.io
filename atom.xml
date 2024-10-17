@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-10-16T07:36:27.604Z</updated>
+  <updated>2024-10-17T17:21:19.970Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://uuanqin.top/p/1d248fa3/"/>
     <id>https://uuanqin.top/p/1d248fa3/</id>
     <published>2024-10-12T19:07:11.000Z</published>
-    <updated>2024-10-16T07:36:27.604Z</updated>
+    <updated>2024-10-17T17:21:19.970Z</updated>
     
     
     <summary type="html">在 Waline 中上手实践替换默认头像</summary>
@@ -333,7 +333,7 @@
     <link href="https://uuanqin.top/p/e036b68e/"/>
     <id>https://uuanqin.top/p/e036b68e/</id>
     <published>2024-08-09T17:04:09.000Z</published>
-    <updated>2024-10-08T11:42:04.743Z</updated>
+    <updated>2024-10-17T16:26:16.520Z</updated>
     
     
     <summary type="html">回忆 AOP 基本概念，备忘基本的 AOP 使用方式</summary>
@@ -348,6 +348,8 @@
     <category term="SpringBoot" scheme="https://uuanqin.top/pages/tags/SpringBoot/"/>
     
     <category term="AOP" scheme="https://uuanqin.top/pages/tags/AOP/"/>
+    
+    <category term="Spring AOP" scheme="https://uuanqin.top/pages/tags/Spring-AOP/"/>
     
   </entry>
   
@@ -481,7 +483,7 @@
     <link href="https://uuanqin.top/p/b9dad4e7/"/>
     <id>https://uuanqin.top/p/b9dad4e7/</id>
     <published>2024-07-24T14:43:43.000Z</published>
-    <updated>2024-08-03T12:22:12.470Z</updated>
+    <updated>2024-10-17T19:01:54.041Z</updated>
     
     
     <summary type="html">介绍一些简单定时脚本的编写并利用 Webhook 推送</summary>
