@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-10-22T16:00:19.060Z</updated>
+  <updated>2024-10-23T16:40:44.736Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://uuanqin.top/p/3ea20c6c/"/>
     <id>https://uuanqin.top/p/3ea20c6c/</id>
     <published>2024-10-22T12:53:15.000Z</published>
-    <updated>2024-10-22T16:00:19.060Z</updated>
+    <updated>2024-10-23T16:40:44.736Z</updated>
     
     
-    <summary type="html">内有犯蠢经过......</summary>
+    <summary type="html">内含本人犯蠢经过......</summary>
     
     
     
@@ -405,9 +405,9 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
-    
     <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
+    
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -526,21 +526,21 @@
     <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
     
     
+    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
+    
     <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
     
     <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
-    
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
     <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
     
     <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
     
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
-    
     <category term="Cron" scheme="https://uuanqin.top/pages/tags/Cron/"/>
     
     <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
+    
+    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
     
   </entry>
   
