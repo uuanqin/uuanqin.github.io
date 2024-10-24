@@ -199,7 +199,7 @@
             const avatarImg = document.querySelector('.avatar');
             const placeholder = document.querySelector('.avatar-placeholder');
             const img = new Image();
-            img.src = 'https://cdn.gallery.uuanqin.top/img/avatar.webp';
+            img.src = '/image/disappear.gif';
             img.onload = function() {
                 avatarImg.src = img.src;
                 avatarImg.style.display = 'block';
@@ -220,8 +220,8 @@
 <body>
     <div class="avatar-placeholder"></div>
     <img src="" alt="头像" class="avatar">
-    <div class="description">外链跳转中间页</div>
-    <div class="subtitle">目标站点不在跳转白名单中</div>
+    <div class="description">外部链接跳转提示</div>
+    <div class="subtitle">请妥善保管好个人信息</div>
     <div class="loading">
         <div class="content">
             <div class="url-text">您即将离开本站，跳转到：</div>
