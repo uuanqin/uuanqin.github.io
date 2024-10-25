@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-10-24T13:52:13.087Z</updated>
+  <updated>2024-10-25T20:00:37.182Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>域名 DNS 服务托管至 Cloudflare 以及 301 重定向的配置</title>
+    <link href="https://uuanqin.top/p/41b77d61/"/>
+    <id>https://uuanqin.top/p/41b77d61/</id>
+    <published>2024-10-25T19:32:09.000Z</published>
+    <updated>2024-10-25T20:00:37.182Z</updated>
+    
+    
+    <summary type="html">Cloudflare 重定向配置可以简化 Nginx 中的反向代理操作</summary>
+    
+    
+    
+    <category term="博客相关" scheme="https://uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="阿里云" scheme="https://uuanqin.top/pages/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+    <category term="DNS" scheme="https://uuanqin.top/pages/tags/DNS/"/>
+    
+    <category term="301" scheme="https://uuanqin.top/pages/tags/301/"/>
+    
+    <category term="Cloudflare" scheme="https://uuanqin.top/pages/tags/Cloudflare/"/>
+    
+  </entry>
   
   <entry>
     <title>假如给我三万天光明——记一次就医过程</title>
@@ -52,7 +77,7 @@
     <link href="https://uuanqin.top/p/1d248fa3/"/>
     <id>https://uuanqin.top/p/1d248fa3/</id>
     <published>2024-10-12T19:07:11.000Z</published>
-    <updated>2024-10-24T16:57:07.823Z</updated>
+    <updated>2024-10-25T19:53:49.744Z</updated>
     
     
     <summary type="html">在 Waline 中上手实践替换默认头像</summary>
@@ -61,12 +86,10 @@
     
     <category term="博客相关" scheme="https://uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo" scheme="https://uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
-    
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
     
@@ -405,15 +428,15 @@
     
     <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Html" scheme="https://uuanqin.top/pages/tags/Html/"/>
+    <category term="HTML" scheme="https://uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="Javascript" scheme="https://uuanqin.top/pages/tags/Javascript/"/>
-    
-    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
+    <category term="JavaScript" scheme="https://uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
     
     <category term="Vercel" scheme="https://uuanqin.top/pages/tags/Vercel/"/>
+    
+    <category term="Butterfly" scheme="https://uuanqin.top/pages/tags/Butterfly/"/>
     
   </entry>
   
@@ -506,41 +529,6 @@
     <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
     
     <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用 Cron 编写简单的定时脚本</title>
-    <link href="https://uuanqin.top/p/b9dad4e7/"/>
-    <id>https://uuanqin.top/p/b9dad4e7/</id>
-    <published>2024-07-24T14:43:43.000Z</published>
-    <updated>2024-10-24T16:37:01.703Z</updated>
-    
-    
-    <summary type="html">介绍一些简单定时脚本的编写并利用 Webhook 推送</summary>
-    
-    
-    
-    <category term="工具箱" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    
-    <category term="核心协同" scheme="https://uuanqin.top/pages/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%A0%B8%E5%BF%83%E5%8D%8F%E5%90%8C/"/>
-    
-    
-    <category term="GitHub" scheme="https://uuanqin.top/pages/tags/GitHub/"/>
-    
-    <category term="CDN" scheme="https://uuanqin.top/pages/tags/CDN/"/>
-    
-    <category term="腾讯云" scheme="https://uuanqin.top/pages/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
-    
-    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
-    
-    <category term="SDK" scheme="https://uuanqin.top/pages/tags/SDK/"/>
-    
-    <category term="script" scheme="https://uuanqin.top/pages/tags/script/"/>
-    
-    <category term="Cron" scheme="https://uuanqin.top/pages/tags/Cron/"/>
-    
-    <category term="Webhook" scheme="https://uuanqin.top/pages/tags/Webhook/"/>
     
   </entry>
   

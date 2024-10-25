@@ -11,7 +11,7 @@ waline.min.css：https://unpkg.com/@waline/client@3.3.0/dist/waline.css
 /* 评论区动图 */
 /* 然而我并不懂确切的含义，参数是乱调的 */
 .wl-editor {
-    background-image: url(https://cdn.gallery.uuanqin.top/img/zhuangzhuang_comment_trans.gif);
+    background-image: url(/image/comment/zhuangzhuang_comment_trans.gif);
     background-size: 18%;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -76,6 +76,6 @@ waline.min.css：https://unpkg.com/@waline/client@3.3.0/dist/waline.css
 
 /* 新版本中waline字体怎么都变小了？ */
 
-.wl-header input{
-    font-size: 0.8rem
-}
+/*.wl-header input{*/
+/*    font-size: 0.8rem*/
+/*}*/
