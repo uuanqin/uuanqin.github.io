@@ -43,10 +43,10 @@
 
 /* 页脚海底的颜色 */
 [data-theme='dark'] .footer-copyright {
-    background-color: #104e5e;
+    background-color: #2b3f49;
 }
 [data-theme='dark'] .footer-social-amoeba-path {
-    fill: #104e5e;
+    fill: #2b3f49;
 }
 
 /* 顶部的加载条 */
