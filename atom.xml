@@ -6,7 +6,7 @@
   <link href="https://uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://uuanqin.top/"/>
-  <updated>2024-10-31T17:35:25.738Z</updated>
+  <updated>2024-11-22T20:28:49.040Z</updated>
   <id>https://uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>将不蒜子中的数据迁移到 Waline</title>
+    <link href="https://uuanqin.top/p/e400f664/"/>
+    <id>https://uuanqin.top/p/e400f664/</id>
+    <published>2024-11-22T18:55:57.000Z</published>
+    <updated>2024-11-22T20:28:49.040Z</updated>
+    
+    
+    <summary type="html">写了个脚本，页面统计数据掌控在自己的手中</summary>
+    
+    
+    
+    <category term="博客相关" scheme="https://uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="Waline" scheme="https://uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Waline/"/>
+    
+    
+    <category term="MySQL" scheme="https://uuanqin.top/pages/tags/MySQL/"/>
+    
+    <category term="SQL" scheme="https://uuanqin.top/pages/tags/SQL/"/>
+    
+    <category term="Python" scheme="https://uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="Waline" scheme="https://uuanqin.top/pages/tags/Waline/"/>
+    
+    <category term="不蒜子" scheme="https://uuanqin.top/pages/tags/%E4%B8%8D%E8%92%9C%E5%AD%90/"/>
+    
+    <category term="busuanzi" scheme="https://uuanqin.top/pages/tags/busuanzi/"/>
+    
+  </entry>
   
   <entry>
     <title>域名 DNS 服务托管至 Cloudflare 以及 301 重定向的配置</title>
@@ -498,31 +529,6 @@
     
     <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
     
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
-    
-    <category term="SPI" scheme="https://uuanqin.top/pages/tags/SPI/"/>
-    
-    <category term="ServiceLoader" scheme="https://uuanqin.top/pages/tags/ServiceLoader/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SPI 概念及案例实践（上）</title>
-    <link href="https://uuanqin.top/p/acab999c/"/>
-    <id>https://uuanqin.top/p/acab999c/</id>
-    <published>2024-07-31T13:39:52.000Z</published>
-    <updated>2024-08-13T13:58:45.917Z</updated>
-    
-    
-    <summary type="html">通过动手实践理解 SPI 并尝试编写 ServiceLoader</summary>
-    
-    
-    
-    <category term="Java" scheme="https://uuanqin.top/pages/categories/Java/"/>
-    
-    
-    <category term="API" scheme="https://uuanqin.top/pages/tags/API/"/>
     
     <category term="Java" scheme="https://uuanqin.top/pages/tags/Java/"/>
     
