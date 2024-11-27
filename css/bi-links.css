@@ -22,16 +22,17 @@ span.yukari {
     position: absolute; /* 将 span 绝对定位 */
     top: 0;
     left: 50%; /* 水平居中 */
-    transform: translate(-50%, -80%); /* 调整位置使其完全居中 */
+    transform: translate(-50%, -94%); /* 调整位置使其完全居中 */
     width: auto; /* 设置宽度为0，使其不占空间 */
     height: auto; /* 设置高度为0，使其不占空间 */
     white-space: nowrap; /* 文字不折叠 */
-    font-size: 14px; /* 固定文字大小 */
+    font-size: 12px; /* 固定文字大小 */
     font-style: normal; /* 设置正斜体 */
     border-radius: 10px;
-    padding: 0px 8px;
+    padding: 4px 8px;
     background-color: #3399ff;
     color: #fff;
+    line-height: normal; /* 摆脱目前Callouts的影响*/
 }
 
 /*span.asagi {*/

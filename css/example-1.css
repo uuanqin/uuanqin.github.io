@@ -1,15 +1,13 @@
 /* https://codepen.io/decemberly/pen/JOrBxo */
 
-/*【目前不使用】用于自定义外部链接外观的css 配合markdown-it-external-links*/
-
-.link-external {
+.link-example-1 {
     color: black;
     border-bottom: 0.1em solid #669900;
     outline: 1em solid rgba(255, 215, 0, 0);
     text-decoration: none;
     transition: all 0.3s ease;
 }
-.link-external:hover, .link-external:focus, .link-external:active {
+.link-example-1:hover, .link-example-1:focus, .link-example-1:active {
     background: #b5ca4226;
     outline: 0.1em solid #b5ca4226;
 }

@@ -30,12 +30,13 @@ body {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 7px 18px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius:50rem!important;
+    margin: 0 4px;
 }
 .text-center{text-align:center!important}
 .col-lg-8{flex:0 0 auto;width:66.66666667%}
