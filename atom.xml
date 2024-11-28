@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-11-27T19:46:29.771Z</updated>
+  <updated>2024-11-28T15:36:27.156Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>用 Markdown 链接替换部分 Hexo 标签语法</title>
+    <link href="https://blog.uuanqin.top/p/fb28dce2/"/>
+    <id>https://blog.uuanqin.top/p/fb28dce2/</id>
+    <published>2024-11-28T15:35:25.000Z</published>
+    <updated>2024-11-28T15:36:27.156Z</updated>
+    
+    
+    <summary type="html">以一种兼容性更强的方式美化卡片类型的链接</summary>
+    
+    
+    
+    <category term="博客相关" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="Hexo" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
+    
+    
+    <category term="npm" scheme="https://blog.uuanqin.top/pages/tags/npm/"/>
+    
+    <category term="HTML" scheme="https://blog.uuanqin.top/pages/tags/HTML/"/>
+    
+    <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
+    
+    <category term="CSS" scheme="https://blog.uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="Markdown" scheme="https://blog.uuanqin.top/pages/tags/Markdown/"/>
+    
+    <category term="hexo-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-plugins/"/>
+    
+    <category term="hexo-tag-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-tag-plugins/"/>
+    
+  </entry>
+  
+  <entry>
     <title>自定义 Hexo 中的超链接样式</title>
     <link href="https://blog.uuanqin.top/p/8aa53d93/"/>
     <id>https://blog.uuanqin.top/p/8aa53d93/</id>
     <published>2024-11-27T15:35:54.000Z</published>
-    <updated>2024-11-27T19:46:29.771Z</updated>
+    <updated>2024-11-28T14:37:17.594Z</updated>
     
     
     <summary type="html">使用博主自写插件轻松使用超链接的自定义样式模板</summary>
@@ -35,15 +68,15 @@
     
     <category term="npm" scheme="https://blog.uuanqin.top/pages/tags/npm/"/>
     
-    <category term="Html" scheme="https://blog.uuanqin.top/pages/tags/Html/"/>
+    <category term="HTML" scheme="https://blog.uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="CSS" scheme="https://blog.uuanqin.top/pages/tags/CSS/"/>
     
-    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
-    
     <category term="hexo-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-plugins/"/>
+    
+    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
     
   </entry>
   
@@ -151,7 +184,7 @@
     
     <category term="GitHub" scheme="https://blog.uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
@@ -490,9 +523,9 @@
     
     <category term="GitHub" scheme="https://blog.uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Html" scheme="https://blog.uuanqin.top/pages/tags/Html/"/>
+    <category term="HTML" scheme="https://blog.uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Butterfly" scheme="https://blog.uuanqin.top/pages/tags/Butterfly/"/>
     
@@ -516,33 +549,6 @@
     
     <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot 中的 IoC &amp; DI 入门</title>
-    <link href="https://blog.uuanqin.top/p/66216cb4/"/>
-    <id>https://blog.uuanqin.top/p/66216cb4/</id>
-    <published>2024-08-01T16:40:03.000Z</published>
-    <updated>2024-10-18T13:29:07.844Z</updated>
-    
-    
-    <summary type="html">入门案例感受 IOC 容器的基本工作方式。</summary>
-    
-    
-    
-    <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-    
-    <category term="SpringBoot" scheme="https://blog.uuanqin.top/pages/tags/SpringBoot/"/>
-    
-    <category term="Bean" scheme="https://blog.uuanqin.top/pages/tags/Bean/"/>
-    
-    <category term="IoC" scheme="https://blog.uuanqin.top/pages/tags/IoC/"/>
-    
-    <category term="DI" scheme="https://blog.uuanqin.top/pages/tags/DI/"/>
     
   </entry>
   
