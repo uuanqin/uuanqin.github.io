@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-11-28T15:36:27.156Z</updated>
+  <updated>2024-11-30T21:11:26.459Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我吃柠檬！网站被镜像自己后知后觉</title>
+    <link href="https://blog.uuanqin.top/p/7d2de43e/"/>
+    <id>https://blog.uuanqin.top/p/7d2de43e/</id>
+    <published>2024-11-30T20:12:53.000Z</published>
+    <updated>2024-11-30T21:11:26.459Z</updated>
+    
+    
+    <summary type="html">我文明和谐你全家</summary>
+    
+    
+    
+    <category term="博客相关" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="CDN" scheme="https://blog.uuanqin.top/pages/tags/CDN/"/>
+    
+    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    
+    <category term="Cloudflare" scheme="https://blog.uuanqin.top/pages/tags/Cloudflare/"/>
+    
+    <category term="Google" scheme="https://blog.uuanqin.top/pages/tags/Google/"/>
+    
+    <category term="Bing" scheme="https://blog.uuanqin.top/pages/tags/Bing/"/>
+    
+    <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
+    
+  </entry>
   
   <entry>
     <title>用 Markdown 链接替换部分 Hexo 标签语法</title>
@@ -527,28 +556,11 @@
     
     <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
     
-    <category term="Butterfly" scheme="https://blog.uuanqin.top/pages/tags/Butterfly/"/>
-    
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
+    <category term="Butterfly" scheme="https://blog.uuanqin.top/pages/tags/Butterfly/"/>
+    
     <category term="Vercel" scheme="https://blog.uuanqin.top/pages/tags/Vercel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot 中的配置</title>
-    <link href="https://blog.uuanqin.top/p/9441906f/"/>
-    <id>https://blog.uuanqin.top/p/9441906f/</id>
-    <published>2024-08-02T16:10:59.000Z</published>
-    <updated>2024-08-03T08:19:13.912Z</updated>
-    
-    
-    <summary type="html">SpringBoot 最基础的读取配置的方式备忘。</summary>
-    
-    
-    
-    <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
-    
     
   </entry>
   
