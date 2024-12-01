@@ -595,6 +595,7 @@ d. 外星生物用右爪写字。这和我们的表述无关且不符。命题�
   showKatex()
 })()</script><script>(() => {
   let initFn = window.walineFn || null
+
   const initWaline = (Fn) => {
     const waline = Fn(Object.assign({
       el: '#waline-wrap',
@@ -603,23 +604,6 @@ d. 外星生物用右爪写字。这和我们的表述无关且不符。命题�
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
       comment: true,
-      imageUploader: (file) => {
-        let formData = new FormData();
-        let headers = new Headers();
-
-        formData.append('smfile', file);
-        headers.append('Authorization', 'Yx2wAPCKbYms7rNGNMOACsnLe1yL62I5');
-        headers.append('Content-Type', 'multipart/form-data');
-        // headers.append('Referer', 'https://blog.uuanqin.top/');
-        // 使用的是smms图床
-        return fetch('https://sm.ms/api/v2/upload', {
-          method: 'POST',
-          headers: headers,
-          body: formData,
-        })
-                .then((resp) => resp.json())
-                .then((resp) => resp.data.url);
-      },
     }, {"locale":{"nick":"昵称","mail":"邮箱","link":"网站","placeholder":"都看到这了，不妨将你的真知灼见狠狠的塞满我......","requiredMeta":[],"sofa":"评论区空空如也~喵呜呜呜","anonymous":"匿名访客","login":"登录(可选)"},"search":false,"emoji":["https://github.elemecdn.com/@waline/emojis@1.2.0/tieba/","https://github.elemecdn.com/@waline/emojis@1.2.0/bilibili/","https://github.elemecdn.com/@waline/emojis@1.2.0/qq/","https://github.elemecdn.com/@waline/emojis@1.2.0/weibo/"],"reaction":["/image/comment/reaction1.gif","/image/comment/reaction2.gif","/image/comment/reaction3.gif","/image/comment/reaction4.gif","/image/comment/reaction5.gif","/image/comment/reaction6.gif"],"smms":{"token":"Yx2wAPCKbYms7rNGNMOACsnLe1yL62I5"}}))
 
     const destroyWaline = () => {
