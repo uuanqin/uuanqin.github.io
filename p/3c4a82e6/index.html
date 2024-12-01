@@ -1234,8 +1234,6 @@ This is a second line. （然而 Typora 不支持这种方式换行） <a href="
   showKatex()
 })()</script><script>(() => {
   let initFn = window.walineFn || null
-
-  const smmsToken = option.smms.token;
   const initWaline = (Fn) => {
     const waline = Fn(Object.assign({
       el: '#waline-wrap',
@@ -1249,7 +1247,7 @@ This is a second line. （然而 Typora 不支持这种方式换行） <a href="
         let headers = new Headers();
 
         formData.append('smfile', file);
-        headers.append('Authorization', smmsToken);
+        headers.append('Authorization', 'Yx2wAPCKbYms7rNGNMOACsnLe1yL62I5');
         headers.append('Content-Type', 'multipart/form-data');
         // headers.append('Referer', 'https://blog.uuanqin.top/');
         // 使用的是smms图床

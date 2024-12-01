@@ -595,8 +595,6 @@ d. 外星生物用右爪写字。这和我们的表述无关且不符。命题�
   showKatex()
 })()</script><script>(() => {
   let initFn = window.walineFn || null
-
-  const smmsToken = option.smms.token;
   const initWaline = (Fn) => {
     const waline = Fn(Object.assign({
       el: '#waline-wrap',
@@ -610,7 +608,7 @@ d. 外星生物用右爪写字。这和我们的表述无关且不符。命题�
         let headers = new Headers();
 
         formData.append('smfile', file);
-        headers.append('Authorization', smmsToken);
+        headers.append('Authorization', 'Yx2wAPCKbYms7rNGNMOACsnLe1yL62I5');
         headers.append('Content-Type', 'multipart/form-data');
         // headers.append('Referer', 'https://blog.uuanqin.top/');
         // 使用的是smms图床
