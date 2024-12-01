@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-11-30T21:11:26.459Z</updated>
+  <updated>2024-12-01T13:01:13.488Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我吃柠檬！网站被镜像自己后知后觉</title>
+    <title>我吃柠檬！网站被镜像自己却后知后觉</title>
     <link href="https://blog.uuanqin.top/p/7d2de43e/"/>
     <id>https://blog.uuanqin.top/p/7d2de43e/</id>
     <published>2024-11-30T20:12:53.000Z</published>
-    <updated>2024-11-30T21:11:26.459Z</updated>
+    <updated>2024-12-01T13:01:13.488Z</updated>
     
     
     <summary type="html">我文明和谐你全家</summary>
@@ -128,9 +128,9 @@
     
     <category term="MySQL" scheme="https://blog.uuanqin.top/pages/tags/MySQL/"/>
     
-    <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
-    
     <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
+    
+    <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
     
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
