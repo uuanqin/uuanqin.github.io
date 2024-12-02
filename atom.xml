@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-12-02T15:25:46.863Z</updated>
+  <updated>2024-12-02T15:30:55.190Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.uuanqin.top/p/7d2de43e/"/>
     <id>https://blog.uuanqin.top/p/7d2de43e/</id>
     <published>2024-11-30T20:12:53.000Z</published>
-    <updated>2024-12-02T15:25:46.863Z</updated>
+    <updated>2024-12-02T15:30:55.190Z</updated>
     
     
     <summary type="html">我文明和谐你全家</summary>
@@ -126,11 +126,11 @@
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Waline/"/>
     
     
-    <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
-    
     <category term="MySQL" scheme="https://blog.uuanqin.top/pages/tags/MySQL/"/>
     
     <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
     
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
