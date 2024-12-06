@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-12-02T20:20:46.517Z</updated>
+  <updated>2024-12-06T14:23:12.964Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.uuanqin.top/p/7d2de43e/"/>
     <id>https://blog.uuanqin.top/p/7d2de43e/</id>
     <published>2024-11-30T20:12:53.000Z</published>
-    <updated>2024-12-02T20:20:46.517Z</updated>
+    <updated>2024-12-06T14:23:12.964Z</updated>
     
     
     <summary type="html">我文明和谐你全家</summary>
@@ -126,9 +126,9 @@
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Waline/"/>
     
     
-    <category term="MySQL" scheme="https://blog.uuanqin.top/pages/tags/MySQL/"/>
-    
     <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
+    
+    <category term="MySQL" scheme="https://blog.uuanqin.top/pages/tags/MySQL/"/>
     
     <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
     
@@ -228,11 +228,36 @@
   </entry>
   
   <entry>
-    <title>【刷题日记】Java 刷题的快速热身，3 分钟重拾战斗热情</title>
+    <title>【刷题日记】Java 快速热身——ACM 模式下的输入输出</title>
+    <link href="https://blog.uuanqin.top/p/bb11ee89/"/>
+    <id>https://blog.uuanqin.top/p/bb11ee89/</id>
+    <published>2024-10-01T16:03:13.000Z</published>
+    <updated>2024-12-06T17:27:37.854Z</updated>
+    
+    
+    <summary type="html">刷题前看一遍，迅速记忆 ACM 模式的输出输出</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="ACM" scheme="https://blog.uuanqin.top/pages/tags/ACM/"/>
+    
+    <category term="字符串" scheme="https://blog.uuanqin.top/pages/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+    <category term="牛客" scheme="https://blog.uuanqin.top/pages/tags/%E7%89%9B%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【刷题日记】Java 快速热身——基础篇</title>
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2024-12-03T14:57:32.496Z</updated>
+    <updated>2024-12-06T16:59:34.481Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
@@ -246,11 +271,11 @@
     
     <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
     
-    <category term="集合" scheme="https://blog.uuanqin.top/pages/tags/%E9%9B%86%E5%90%88/"/>
-    
     <category term="字符串" scheme="https://blog.uuanqin.top/pages/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
     <category term="牛客" scheme="https://blog.uuanqin.top/pages/tags/%E7%89%9B%E5%AE%A2/"/>
+    
+    <category term="集合" scheme="https://blog.uuanqin.top/pages/tags/%E9%9B%86%E5%90%88/"/>
     
   </entry>
   
@@ -528,39 +553,6 @@
     <category term="AOP" scheme="https://blog.uuanqin.top/pages/tags/AOP/"/>
     
     <category term="Spring AOP" scheme="https://blog.uuanqin.top/pages/tags/Spring-AOP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 博客与 Waline 评论区实现外链跳转中间页</title>
-    <link href="https://blog.uuanqin.top/p/e1ee5eca/"/>
-    <id>https://blog.uuanqin.top/p/e1ee5eca/</id>
-    <published>2024-08-04T15:40:25.000Z</published>
-    <updated>2024-11-20T18:49:16.001Z</updated>
-    
-    
-    <summary type="html">博客与评论区统一拦截重定向</summary>
-    
-    
-    
-    <category term="博客相关" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="Waline" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Waline/"/>
-    
-    
-    <category term="npm" scheme="https://blog.uuanqin.top/pages/tags/npm/"/>
-    
-    <category term="GitHub" scheme="https://blog.uuanqin.top/pages/tags/GitHub/"/>
-    
-    <category term="Html" scheme="https://blog.uuanqin.top/pages/tags/Html/"/>
-    
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
-    
-    <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
-    
-    <category term="Butterfly" scheme="https://blog.uuanqin.top/pages/tags/Butterfly/"/>
-    
-    <category term="Vercel" scheme="https://blog.uuanqin.top/pages/tags/Vercel/"/>
     
   </entry>
   
