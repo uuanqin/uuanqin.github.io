@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-12-06T18:40:24.043Z</updated>
+  <updated>2024-12-07T16:21:40.368Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.uuanqin.top/p/7d2de43e/"/>
     <id>https://blog.uuanqin.top/p/7d2de43e/</id>
     <published>2024-11-30T20:12:53.000Z</published>
-    <updated>2024-12-06T18:40:24.043Z</updated>
+    <updated>2024-12-07T16:21:40.368Z</updated>
     
     
     <summary type="html">我文明和谐你全家</summary>
@@ -33,7 +33,7 @@
     
     <category term="CDN" scheme="https://blog.uuanqin.top/pages/tags/CDN/"/>
     
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Cloudflare" scheme="https://blog.uuanqin.top/pages/tags/Cloudflare/"/>
     
@@ -62,15 +62,15 @@
     <category term="Hexo" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
-    <category term="npm" scheme="https://blog.uuanqin.top/pages/tags/npm/"/>
-    
-    <category term="Html" scheme="https://blog.uuanqin.top/pages/tags/Html/"/>
-    
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    <category term="HTML" scheme="https://blog.uuanqin.top/pages/tags/HTML/"/>
     
     <category term="CSS" scheme="https://blog.uuanqin.top/pages/tags/CSS/"/>
     
+    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    
     <category term="Markdown" scheme="https://blog.uuanqin.top/pages/tags/Markdown/"/>
+    
+    <category term="NPM" scheme="https://blog.uuanqin.top/pages/tags/NPM/"/>
     
     <category term="hexo-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-plugins/"/>
     
@@ -95,13 +95,13 @@
     <category term="Hexo" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
-    <category term="npm" scheme="https://blog.uuanqin.top/pages/tags/npm/"/>
+    <category term="HTML" scheme="https://blog.uuanqin.top/pages/tags/HTML/"/>
     
-    <category term="Html" scheme="https://blog.uuanqin.top/pages/tags/Html/"/>
-    
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="CSS" scheme="https://blog.uuanqin.top/pages/tags/CSS/"/>
+    
+    <category term="NPM" scheme="https://blog.uuanqin.top/pages/tags/NPM/"/>
     
     <category term="hexo-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-plugins/"/>
     
@@ -213,7 +213,7 @@
     
     <category term="GitHub" scheme="https://blog.uuanqin.top/pages/tags/GitHub/"/>
     
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
+    <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
     
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
@@ -257,7 +257,7 @@
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2024-12-06T16:59:34.481Z</updated>
+    <updated>2024-12-07T13:59:42.701Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
