@@ -1,6 +1,6 @@
 /*顶部的网站图标*/
 [data-theme='dark'] img.site-icon {
-    content: url(/image/logo-dw.png); /* 建议使用本地图片，以防CDN挂掉 */
+    content: url(/image/logo-dw.webp); /* 建议使用本地图片，以防CDN挂掉 */
 }
 
 /********* 页脚的图标 *********/
