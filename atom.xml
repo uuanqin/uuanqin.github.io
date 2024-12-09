@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-12-08T07:39:54.470Z</updated>
+  <updated>2024-12-08T17:49:02.739Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>防止网站被镜像的若干措施及反制手段</title>
+    <title>防止网站被镜像的若干防护措施及反制手段</title>
     <link href="https://blog.uuanqin.top/p/7d2de43e/"/>
     <id>https://blog.uuanqin.top/p/7d2de43e/</id>
     <published>2024-11-30T20:12:53.000Z</published>
-    <updated>2024-12-08T07:39:54.470Z</updated>
+    <updated>2024-12-08T17:49:02.739Z</updated>
     
     
     <summary type="html">我吃柠檬！网站被镜像自己却后知后觉</summary>
@@ -66,9 +66,9 @@
     
     <category term="CSS" scheme="https://blog.uuanqin.top/pages/tags/CSS/"/>
     
-    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
-    
     <category term="Markdown" scheme="https://blog.uuanqin.top/pages/tags/Markdown/"/>
+    
+    <category term="Javascript" scheme="https://blog.uuanqin.top/pages/tags/Javascript/"/>
     
     <category term="NPM" scheme="https://blog.uuanqin.top/pages/tags/NPM/"/>
     
@@ -95,9 +95,9 @@
     <category term="Hexo" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
-    <category term="HTML" scheme="https://blog.uuanqin.top/pages/tags/HTML/"/>
-    
     <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
+    
+    <category term="HTML" scheme="https://blog.uuanqin.top/pages/tags/HTML/"/>
     
     <category term="CSS" scheme="https://blog.uuanqin.top/pages/tags/CSS/"/>
     
@@ -128,9 +128,9 @@
     
     <category term="MySQL" scheme="https://blog.uuanqin.top/pages/tags/MySQL/"/>
     
-    <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
-    
     <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
+    
+    <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
     
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
