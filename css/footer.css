@@ -161,7 +161,7 @@
 
 .footer-social-link.email {
     height: 41px;
-    left: 4px;
+    left: 5px;
     top: 14px;
     width: 41px;
 }
@@ -195,11 +195,11 @@
     transition: fill .2s;
 }
 
-.footer-social-link.fish {
-    height: 47px;
-    left: 121px;
+.footer-social-link.follow {
+    height: 42px;
+    left: 124px;
     top: 13px;
-    width: 47px;
+    width: 42px;
 }
 
 .footer-social-link.rss {
