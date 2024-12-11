@@ -10,8 +10,6 @@ This is a Chinese blog static file output directory.
 
 作者 Author - wuanqin <uuanqin@uuanqin.top>
 
-协议 License - https://creativecommons.org/licenses/by-nc-sa/4.0/
-
 ## 给站长的提示
 
 此目录作为网站原始材料可部署于服务器或 Git 仓库中。
@@ -23,5 +21,14 @@ This is a Chinese blog static file output directory.
 谨记：**任何时候不得将博客项目发布到公共网络中。**
 
 ---
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ©2022-2024 By wuanqin
