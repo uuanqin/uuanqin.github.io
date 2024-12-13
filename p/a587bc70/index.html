@@ -218,28 +218,25 @@ btf.addGlobalFn('pjaxComplete', () => {
 <td>连接 UST-TTL 的 <code>3V3</code> 口电流不稳定会导致 ESP8266 频繁重启，一般连接<code>5V</code>。而连接 <code>5V</code> 会导致 ESP8266 发烫，有模块烧毁风险。因此建议使用稳定的外部电源供电。这里我使用的就是 STM32 的 3V3 供电。</td>
 </tr>
 <tr>
-<td>GND</td>
-<td>GND</td>
+<td colspan="2">GND</td>
 <td></td>
 </tr>
 <tr>
 <td>TX</td>
 <td>RXD</td>
-<td>建议采用直接连接、短线连接的方式以提高成功率。</td>
+<td rowspan="2">建议采用直接连接、短线连接的方式以提高成功率。</td>
 </tr>
 <tr>
 <td>RX</td>
 <td>TXD</td>
-<td>建议采用直接连接、短线连接的方式以提高成功率。</td>
 </tr>
 <tr>
 <td>IO0</td>
-<td></td>
+<td rowspan="2"></td>
 <td>暂时悬空。<code>IO0</code> 接地后，模块进入烧写模式。</td>
 </tr>
 <tr>
 <td>RST</td>
-<td></td>
 <td>暂时悬空。</td>
 </tr>
 </tbody>
@@ -278,7 +275,7 @@ btf.addGlobalFn('pjaxComplete', () => {
 </div></div><div class="card-widget seamless-card"><div class="item-headline"><i></i><span></span></div><div class="item-content"><div style="height: 250px">
 <iframe src="/DO_NOT_render/cosmoscope/cosmoscope_trim.html" frameborder="no" style="width: 100%; height: 100%"></iframe>
 </div>
-</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9D%90%E6%96%99%E5%87%86%E5%A4%87"><span class="toc-number">1.</span> <span class="toc-text"> 材料准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%BA%E4%BB%B6%E4%B8%8E%E7%83%A7%E5%BD%95%E7%A8%8B%E5%BA%8F%E4%B8%8B%E8%BD%BD"><span class="toc-number">2.</span> <span class="toc-text"> 固件与烧录程序下载</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%9E%E7%BA%BF"><span class="toc-number">3.</span> <span class="toc-text"> 连线</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%83%A7%E5%BD%95"><span class="toc-number">4.</span> <span class="toc-text"> 烧录</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95"><span class="toc-number">5.</span> <span class="toc-text"> 测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83"><span class="toc-number">6.</span> <span class="toc-text"> 本文参考</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/p/55893d1/" title="实现网站国内外分流（境外接入 Cloudflare）"><img src="https://cdn.gallery.uuanqin.top/img/202412100327066.webp" onerror="this.onerror=null;this.src='/image/404img.webp'" alt="实现网站国内外分流（境外接入 Cloudflare）"></a><div class="content"><a class="title" href="/p/55893d1/" title="实现网站国内外分流（境外接入 Cloudflare）">实现网站国内外分流（境外接入 Cloudflare）</a><time datetime="2024-12-12T19:34:31.945Z" title="更新于 2024-12-13 03:34:31">2024-12-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text"><div class="footer-svg-div">
+</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9D%90%E6%96%99%E5%87%86%E5%A4%87"><span class="toc-number">1.</span> <span class="toc-text"> 材料准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%BA%E4%BB%B6%E4%B8%8E%E7%83%A7%E5%BD%95%E7%A8%8B%E5%BA%8F%E4%B8%8B%E8%BD%BD"><span class="toc-number">2.</span> <span class="toc-text"> 固件与烧录程序下载</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%9E%E7%BA%BF"><span class="toc-number">3.</span> <span class="toc-text"> 连线</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%83%A7%E5%BD%95"><span class="toc-number">4.</span> <span class="toc-text"> 烧录</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95"><span class="toc-number">5.</span> <span class="toc-text"> 测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83"><span class="toc-number">6.</span> <span class="toc-text"> 本文参考</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/p/55893d1/" title="实现网站国内外分流（境外接入 Cloudflare）"><img src="https://cdn.gallery.uuanqin.top/img/202412100327066.webp" onerror="this.onerror=null;this.src='/image/404img.webp'" alt="实现网站国内外分流（境外接入 Cloudflare）"></a><div class="content"><a class="title" href="/p/55893d1/" title="实现网站国内外分流（境外接入 Cloudflare）">实现网站国内外分流（境外接入 Cloudflare）</a><time datetime="2024-12-13T17:34:47.778Z" title="更新于 2024-12-14 01:34:47">2024-12-14</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text"><div class="footer-svg-div">
   <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
   <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
   </svg>    
