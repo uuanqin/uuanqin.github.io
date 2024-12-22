@@ -165,9 +165,9 @@
     
     <category term="MySQL" scheme="https://blog.uuanqin.top/pages/tags/MySQL/"/>
     
-    <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
-    
     <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
+    
+    <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
     
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
@@ -296,7 +296,7 @@
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2024-12-13T17:32:40.431Z</updated>
+    <updated>2024-12-21T20:21:59.451Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
