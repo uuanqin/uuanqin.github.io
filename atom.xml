@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>半方池水半方田</title>
-  <icon>https://blog.uuanqin.top/image/avatar.webp</icon>
+  
   <subtitle>Qin&#39;s blog</subtitle>
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2024-12-31T20:14:17.181Z</updated>
+  <updated>2025-01-01T16:52:52.732Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.uuanqin.top/p/fe5764d9/"/>
     <id>https://blog.uuanqin.top/p/fe5764d9/</id>
     <published>2024-12-31T20:06:12.000Z</published>
-    <updated>2024-12-31T20:14:17.181Z</updated>
+    <updated>2025-01-01T16:52:52.732Z</updated>
     
     
     <summary type="html">玩域名的大佬们点进来，博主在线卑微求助</summary>
@@ -77,7 +77,7 @@
     <link href="https://blog.uuanqin.top/p/7d2de43e/"/>
     <id>https://blog.uuanqin.top/p/7d2de43e/</id>
     <published>2024-11-30T20:12:53.000Z</published>
-    <updated>2024-12-30T16:42:31.607Z</updated>
+    <updated>2025-01-01T16:14:13.217Z</updated>
     
     
     <summary type="html">我吃柠檬！网站被镜像自己却后知后觉</summary>
@@ -106,7 +106,7 @@
     <link href="https://blog.uuanqin.top/p/fb28dce2/"/>
     <id>https://blog.uuanqin.top/p/fb28dce2/</id>
     <published>2024-11-28T15:35:25.000Z</published>
-    <updated>2024-12-09T19:37:21.215Z</updated>
+    <updated>2025-01-01T19:05:30.229Z</updated>
     
     
     <summary type="html">以一种兼容性更强的方式美化卡片类型的链接</summary>
@@ -315,7 +315,7 @@
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2024-12-30T14:01:29.263Z</updated>
+    <updated>2025-01-01T17:47:43.548Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
@@ -492,7 +492,7 @@
     <link href="https://blog.uuanqin.top/p/19c8c246/"/>
     <id>https://blog.uuanqin.top/p/19c8c246/</id>
     <published>2024-09-01T14:30:58.000Z</published>
-    <updated>2024-12-30T12:47:36.266Z</updated>
+    <updated>2025-01-01T18:45:47.533Z</updated>
     
     
     <summary type="html">一道例题引出的多种解法探讨</summary>
