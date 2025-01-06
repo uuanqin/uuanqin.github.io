@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2025-01-01T16:52:52.732Z</updated>
+  <updated>2025-01-06T16:09:20.984Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搞清楚 Java 中 List 的 toArray 方法</title>
+    <link href="https://blog.uuanqin.top/p/6b5aa645/"/>
+    <id>https://blog.uuanqin.top/p/6b5aa645/</id>
+    <published>2025-01-06T16:06:51.000Z</published>
+    <updated>2025-01-06T16:09:20.984Z</updated>
+    
+    
+    <summary type="html">从源码上进行理解</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="源码阅读" scheme="https://blog.uuanqin.top/pages/tags/%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>2024 年博客年度数字及域名问题求助</title>
@@ -315,7 +336,7 @@
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2025-01-01T17:47:43.548Z</updated>
+    <updated>2025-01-06T16:09:19.026Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
@@ -492,7 +513,7 @@
     <link href="https://blog.uuanqin.top/p/19c8c246/"/>
     <id>https://blog.uuanqin.top/p/19c8c246/</id>
     <published>2024-09-01T14:30:58.000Z</published>
-    <updated>2025-01-01T18:45:47.533Z</updated>
+    <updated>2025-01-05T19:33:49.146Z</updated>
     
     
     <summary type="html">一道例题引出的多种解法探讨</summary>
@@ -540,25 +561,6 @@
     <category term="补码" scheme="https://blog.uuanqin.top/pages/tags/%E8%A1%A5%E7%A0%81/"/>
     
     <category term="FSM" scheme="https://blog.uuanqin.top/pages/tags/FSM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【刷题日记】SQL 写题技巧积累</title>
-    <link href="https://blog.uuanqin.top/p/12bc4bc9/"/>
-    <id>https://blog.uuanqin.top/p/12bc4bc9/</id>
-    <published>2024-08-28T08:37:41.000Z</published>
-    <updated>2024-11-06T08:20:38.570Z</updated>
-    
-    
-    <summary type="html">SQL 刷题热身练习</summary>
-    
-    
-    
-    
-    <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
-    
-    <category term="LeetCode" scheme="https://blog.uuanqin.top/pages/tags/LeetCode/"/>
     
   </entry>
   
