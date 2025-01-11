@@ -201,9 +201,9 @@
     
     <category term="NPM" scheme="https://blog.uuanqin.top/pages/tags/NPM/"/>
     
-    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
-    
     <category term="hexo-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-plugins/"/>
+    
+    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
     
   </entry>
   
@@ -226,9 +226,9 @@
     
     <category term="MySQL" scheme="https://blog.uuanqin.top/pages/tags/MySQL/"/>
     
-    <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
-    
     <category term="Python" scheme="https://blog.uuanqin.top/pages/tags/Python/"/>
+    
+    <category term="SQL" scheme="https://blog.uuanqin.top/pages/tags/SQL/"/>
     
     <category term="Waline" scheme="https://blog.uuanqin.top/pages/tags/Waline/"/>
     
@@ -357,7 +357,7 @@
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2025-01-10T17:58:23.998Z</updated>
+    <updated>2025-01-11T11:57:43.956Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
