@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>「蕴含」与「等价」自然语言表达的理解 | 半方池水半方田</title><meta name="author" content="wuanqin"><meta name="copyright" content="wuanqin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="里面解释了「当」和「仅当」的区别">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>你真的弄懂假言判断了吗？ | 半方池水半方田</title><meta name="author" content="wuanqin"><meta name="copyright" content="wuanqin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="里面解释了「当」和「仅当」的区别">
 <meta property="og:type" content="article">
-<meta property="og:title" content="「蕴含」与「等价」自然语言表达的理解">
+<meta property="og:title" content="你真的弄懂假言判断了吗？">
 <meta property="og:url" content="https://blog.uuanqin.top/p/cd939534/index.html">
 <meta property="og:site_name" content="半方池水半方田">
 <meta property="og:description" content="里面解释了「当」和「仅当」的区别">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.gallery.uuanqin.top/img/20240413152554.webp">
 <meta property="article:published_time" content="2024-04-13T07:26:24.000Z">
-<meta property="article:modified_time" content="2024-09-21T14:11:11.496Z">
+<meta property="article:modified_time" content="2025-01-14T04:52:36.501Z">
 <meta property="article:author" content="wuanqin">
 <meta property="article:tag" content="离散数学">
 <meta property="article:tag" content="命题逻辑">
@@ -160,14 +160,95 @@ btf.addGlobalFn('pjaxComplete', () => {
   },
   autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: '「蕴含」与「等价」自然语言表达的理解',
+  title: '你真的弄懂假言判断了吗？',
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-09-21 22:11:11'
+  postUpdate: '2025-01-14 12:52:36'
 }</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_4037705_yv0gf35i5r.css"><link rel="stylesheet" href="/css/iconfont_custom.css"><script src="/js/random.js?8"></script><link rel="stylesheet" href="/css/seamless_card.css"><link rel="stylesheet" href="/css/footer.css"><link rel="stylesheet" href="/css/darktheme_modify.css"><link rel="stylesheet" href="/css/markdown-it-obsidian-callouts.css"><link rel="stylesheet" href="/css/bi-links.css"><link rel="stylesheet" href="/css/links-card.css"><link rel="stylesheet" href="/css/links-bilibili-card.css"><link rel="stylesheet" href="/css/links-art-card.css"><link rel="stylesheet" href="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/KaTeX/0.16.9/katex.min.css"><meta name="google-site-verification" content="ppz3zz_ljO3DX-zHwknKzh4A9v_qNLtrhhpSDoCdps8"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Swiper/4.1.6/css/swiper.min.css"><link rel="stylesheet" href="/css/swiperstyle.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="半方池水半方田" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/image/avatar.webp" onerror="onerror=null;src='/image/loading.gif'" alt="avatar"></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">148</div></a><a href="/pages/tags/"><div class="headline">标签</div><div class="length-num">342</div></a><a href="/pages/categories/"><div class="headline">分类</div><div class="length-num">20</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/DO_NOT_render/cosmoscope/cosmoscope_trim.html"><i class="fa-fw iconfont icon-guanxitu"></i><span> 关系图</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/pages/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/pages/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-daimaguanli"></i><span> 项目</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/obsidian2cosma"><i class="fa-fw iconfont icon-xinghao"></i><span> PythonCLI obsidian2cosma</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/waline-link-interceptor"><i class="fa-fw iconfont icon-a-lanjiezudangzhangaiwuzuzhi"></i><span> waline-link-interceptor</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-titlebased-link"><i class="fa-fw iconfont icon-line-bracketszhongkuohao"></i><span> hexo-filter-titlebased-link</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/markdown-it-obsidian-imgsize"><i class="fa-fw iconfont icon-daxiao"></i><span> markdown-it-obsidian-imgsize</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/busuanzi2waline"><i class="fa-fw iconfont icon-suantou"></i><span> PythonCLI busuanzi2waline</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://greasyfork.org/zh-CN/scripts/466046-%E7%9F%A5%E7%BD%91-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE-bibtex-%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6"><i class="fa-fw iconfont icon-yinyong"></i><span> UserScripts bibtex-TJU</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-custom-link"><i class="fa-fw iconfont icon-neibujiekou"></i><span> hexo-filter-custom-link</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.travellings.cn/go-by-clouds.html"><i class="fa-fw iconfont icon-huochepiao"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friend_circle/"><i class="fa-fw iconfont icon-pengyouquan"></i><span> 朋友圈</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanfangwangzhan"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/pages/about.html"><i class="fa-fw iconfont icon-mao"></i><span> 关于本站</span></a></li><li><a class="site-page child" href="/sitemap.xml"><i class="fa-fw iconfont icon-ditu"></i><span> 站点地图</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://pl.uuanqin.top/ui"><i class="fa-fw iconfont icon-w"></i><span> 评论后台</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://uuanqin.instatus.com/"><i class="fa-fw iconfont icon-jiankong"></i><span> 站点状态</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/image/logo-bc.webp" alt="Logo"><span class="site-name">半方池水半方田</span></a><a class="nav-page-title" href="/"><span class="site-name">「蕴含」与「等价」自然语言表达的理解</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/DO_NOT_render/cosmoscope/cosmoscope_trim.html"><i class="fa-fw iconfont icon-guanxitu"></i><span> 关系图</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/pages/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/pages/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-daimaguanli"></i><span> 项目</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/obsidian2cosma"><i class="fa-fw iconfont icon-xinghao"></i><span> PythonCLI obsidian2cosma</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/waline-link-interceptor"><i class="fa-fw iconfont icon-a-lanjiezudangzhangaiwuzuzhi"></i><span> waline-link-interceptor</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-titlebased-link"><i class="fa-fw iconfont icon-line-bracketszhongkuohao"></i><span> hexo-filter-titlebased-link</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/markdown-it-obsidian-imgsize"><i class="fa-fw iconfont icon-daxiao"></i><span> markdown-it-obsidian-imgsize</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/busuanzi2waline"><i class="fa-fw iconfont icon-suantou"></i><span> PythonCLI busuanzi2waline</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://greasyfork.org/zh-CN/scripts/466046-%E7%9F%A5%E7%BD%91-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE-bibtex-%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6"><i class="fa-fw iconfont icon-yinyong"></i><span> UserScripts bibtex-TJU</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-custom-link"><i class="fa-fw iconfont icon-neibujiekou"></i><span> hexo-filter-custom-link</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.travellings.cn/go-by-clouds.html"><i class="fa-fw iconfont icon-huochepiao"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friend_circle/"><i class="fa-fw iconfont icon-pengyouquan"></i><span> 朋友圈</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanfangwangzhan"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/pages/about.html"><i class="fa-fw iconfont icon-mao"></i><span> 关于本站</span></a></li><li><a class="site-page child" href="/sitemap.xml"><i class="fa-fw iconfont icon-ditu"></i><span> 站点地图</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://pl.uuanqin.top/ui"><i class="fa-fw iconfont icon-w"></i><span> 评论后台</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://uuanqin.instatus.com/"><i class="fa-fw iconfont icon-jiankong"></i><span> 站点状态</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">「蕴含」与「等价」自然语言表达的理解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-13T07:26:24.000Z" title="发表于 2024-04-13 15:26:24">2024-04-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-21T14:11:11.496Z" title="更新于 2024-09-21 22:11:11">2024-09-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/">数学与算法</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">1.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>5分钟</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span class="waline-pageview-count" data-path="/p/cd939534/"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/p/cd939534/#post-comment"><span class="waline-comment-count" data-path="/p/cd939534/"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div><article class="post-content" id="article-container"><p>真值表镇楼：</p>
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/image/avatar.webp" onerror="onerror=null;src='/image/loading.gif'" alt="avatar"></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">148</div></a><a href="/pages/tags/"><div class="headline">标签</div><div class="length-num">342</div></a><a href="/pages/categories/"><div class="headline">分类</div><div class="length-num">20</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/DO_NOT_render/cosmoscope/cosmoscope_trim.html"><i class="fa-fw iconfont icon-guanxitu"></i><span> 关系图</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/pages/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/pages/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-daimaguanli"></i><span> 项目</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/obsidian2cosma"><i class="fa-fw iconfont icon-xinghao"></i><span> PythonCLI obsidian2cosma</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/waline-link-interceptor"><i class="fa-fw iconfont icon-a-lanjiezudangzhangaiwuzuzhi"></i><span> waline-link-interceptor</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-titlebased-link"><i class="fa-fw iconfont icon-line-bracketszhongkuohao"></i><span> hexo-filter-titlebased-link</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/markdown-it-obsidian-imgsize"><i class="fa-fw iconfont icon-daxiao"></i><span> markdown-it-obsidian-imgsize</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/busuanzi2waline"><i class="fa-fw iconfont icon-suantou"></i><span> PythonCLI busuanzi2waline</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://greasyfork.org/zh-CN/scripts/466046-%E7%9F%A5%E7%BD%91-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE-bibtex-%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6"><i class="fa-fw iconfont icon-yinyong"></i><span> UserScripts bibtex-TJU</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-custom-link"><i class="fa-fw iconfont icon-neibujiekou"></i><span> hexo-filter-custom-link</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.travellings.cn/go-by-clouds.html"><i class="fa-fw iconfont icon-huochepiao"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friend_circle/"><i class="fa-fw iconfont icon-pengyouquan"></i><span> 朋友圈</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanfangwangzhan"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/pages/about.html"><i class="fa-fw iconfont icon-mao"></i><span> 关于本站</span></a></li><li><a class="site-page child" href="/sitemap.xml"><i class="fa-fw iconfont icon-ditu"></i><span> 站点地图</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://pl.uuanqin.top/ui"><i class="fa-fw iconfont icon-w"></i><span> 评论后台</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://uuanqin.instatus.com/"><i class="fa-fw iconfont icon-jiankong"></i><span> 站点状态</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/image/logo-bc.webp" alt="Logo"><span class="site-name">半方池水半方田</span></a><a class="nav-page-title" href="/"><span class="site-name">你真的弄懂假言判断了吗？</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-nongtian"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanli"></i><span> 归档</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/DO_NOT_render/cosmoscope/cosmoscope_trim.html"><i class="fa-fw iconfont icon-guanxitu"></i><span> 关系图</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-timeAxis"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/pages/categories/"><i class="fa-fw iconfont icon-2"></i><span> 分类</span></a></li><li><a class="site-page child" href="/pages/tags/"><i class="fa-fw iconfont icon-24gf-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-daimaguanli"></i><span> 项目</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/obsidian2cosma"><i class="fa-fw iconfont icon-xinghao"></i><span> PythonCLI obsidian2cosma</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/waline-link-interceptor"><i class="fa-fw iconfont icon-a-lanjiezudangzhangaiwuzuzhi"></i><span> waline-link-interceptor</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-titlebased-link"><i class="fa-fw iconfont icon-line-bracketszhongkuohao"></i><span> hexo-filter-titlebased-link</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/markdown-it-obsidian-imgsize"><i class="fa-fw iconfont icon-daxiao"></i><span> markdown-it-obsidian-imgsize</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/busuanzi2waline"><i class="fa-fw iconfont icon-suantou"></i><span> PythonCLI busuanzi2waline</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://greasyfork.org/zh-CN/scripts/466046-%E7%9F%A5%E7%BD%91-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE-bibtex-%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6"><i class="fa-fw iconfont icon-yinyong"></i><span> UserScripts bibtex-TJU</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/uuanqin/hexo-filter-custom-link"><i class="fa-fw iconfont icon-neibujiekou"></i><span> hexo-filter-custom-link</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:randomPost();" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-suijibofang"></i><span> 随机</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.travellings.cn/go-by-clouds.html"><i class="fa-fw iconfont icon-huochepiao"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friends/"><i class="fa-fw iconfont icon-pengyoufill"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/pages/friend_circle/"><i class="fa-fw iconfont icon-pengyouquan"></i><span> 朋友圈</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw iconfont icon-guanfangwangzhan"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/pages/about.html"><i class="fa-fw iconfont icon-mao"></i><span> 关于本站</span></a></li><li><a class="site-page child" href="/sitemap.xml"><i class="fa-fw iconfont icon-ditu"></i><span> 站点地图</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://pl.uuanqin.top/ui"><i class="fa-fw iconfont icon-w"></i><span> 评论后台</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://uuanqin.instatus.com/"><i class="fa-fw iconfont icon-jiankong"></i><span> 站点状态</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">你真的弄懂假言判断了吗？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-13T07:26:24.000Z" title="发表于 2024-04-13 15:26:24">2024-04-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-01-14T04:52:36.501Z" title="更新于 2025-01-14 12:52:36">2025-01-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/">数学与算法</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">2.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>9分钟</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span class="waline-pageview-count" data-path="/p/cd939534/"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/p/cd939534/#post-comment"><span class="waline-comment-count" data-path="/p/cd939534/"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div><article class="post-content" id="article-container"><blockquote>
+<p>原标题：「蕴含」与「等价」自然语言表达的理解<br>
+你猜猜我写这篇文章晕了几次？</p>
+</blockquote>
+<p>无论是在高中数学、大学离散课上，对于「当」和「仅当」、必要条件和充分条件的符号记法总是这样处理的：</p>
+<ul>
+<li>充分条件推出必要条件</li>
+<li>小范围推导出大范围</li>
+<li>背下来就行了</li>
+</ul>
+<p>含义背下来了，考试也通过了，但总是不知其所以然，无法在语义上进行通透的理解。近期翻看高中政治选择性必修课本（理科生很难接触到的书），发现里面其实讲的非常清楚。建议在学习「符号」之前了解一下语言中的「含义」将更有助于理解和消化。</p>
+<h1 id="假言判断中的必要条件和充分条件"><a class="markdownIt-Anchor" href="#假言判断中的必要条件和充分条件"></a> 假言判断中的必要条件和充分条件</h1>
+
+<div class="callout" data-callout="tldr">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-list"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg>
+</div>
+<div class="callout-title-inner">假言判断</div>
+</div>
+<div class="callout-content"><p><strong>假言判断</strong>是断定事物某情况的存在（或不存在）是另一情况存在（或不存在）的条件的判断。假言判断又叫<strong>条件判断</strong>。</p>
+<p>一个假言判断由表示条件关系的两个判断组成。</p>
+<ul>
+<li>表示条件的判断叫作假言判断的<strong>前件</strong></li>
+<li>表示依赖这一条件而成立的判断叫作假言判断的<strong>后件</strong>。</li>
+<li>「如果…那么…」「只有…才…」「…当且仅当…」等，是常用来联结前件与后件的词项，叫作假言判断的<strong>联结项</strong>。</li>
+</ul>
+</div></div><p>如果有前一种事物情况就必有后一种事物情况，前一种情况就是后一种情况的<strong>充分条件</strong>。</p>
+<p>如果<strong>没有</strong>前一种事物情况就一定<strong>没有</strong>后一种事物情况，前一种情况就是后一种情况的<strong>必要条件</strong>。必要条件是产生某种事物情况所不可缺少的条件。</p>
+
+<div class="callout" data-callout="example">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list"><line x1="8" x2="21" y1="6" y2="6"></line><line x1="8" x2="21" y1="12" y2="12"></line><line x1="8" x2="21" y1="18" y2="18"></line><line x1="3" x2="3.01" y1="6" y2="6"></line><line x1="3" x2="3.01" y1="12" y2="12"></line><line x1="3" x2="3.01" y1="18" y2="18"></line></svg>
+</div>
+<div class="callout-title-inner">例子：充分条件和必要条件</div>
+</div>
+<div class="callout-content"><p>例 1：如果学习方法不当，就不能提高学习效率。<br>
+解析：有了「学习方法不当」这种情况，必有「不能提高学习效率」。「学习方法不当」却「提高学习效率」是不可能的。</p>
+<p>例 2：只有年满 18 周岁，才有选举权。<br>
+解析：在我国，「年龄<strong>不满</strong>18 岁」必出现「<strong>没有</strong>选举权」。满 18 岁只是拥有选举权的必要条件之一。</p>
+</div></div><p>有了这种情况，必将产生某种情况；没有这种情况，必不产生该种情况。这种条件关系就是<strong>充分必要条件关系</strong>。</p>
+<p>在后文中，我们将「假言判断」和「条件命题」看成同一个概念。</p>
+<h1 id="联结词中的蕴含和等价"><a class="markdownIt-Anchor" href="#联结词中的蕴含和等价"></a> 联结词中的蕴含和等价</h1>
+<p>蕴含（条件）：</p>
+<ul>
+<li>在蕴含式「如果 p 则 q」中，记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span>[^yhfh]，p 称为蕴含式的前件，q 称为蕴含式的后件。</li>
+<li>q 是 p 的<strong>必要条件</strong>，p 是 q 的<strong>充分条件</strong></li>
+<li>当且仅当 p 为 T，q 为 F 时，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 为 F。</li>
+<li>p 和 q 可以没有因果关系</li>
+<li>联结词 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 亦可记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⊃</mo></mrow><annotation encoding="application/x-tex">\supset</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">⊃</span></span></span></span>。</li>
+</ul>
+<p>等价（双条件）：</p>
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\leftrightarrow q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 表示的基本逻辑关系：p 与 q 互为充分必要条件，相当于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>p</mi><mo>→</mo><mi>q</mi><mo stretchy="false">)</mo><mo>∧</mo><mo stretchy="false">(</mo><mi>q</mi><mo>→</mo><mi>p</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(p\to q)\wedge (q\to p)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">p</span><span class="mclose">)</span></span></span></span></li>
+<li>p 仅当 q 可译为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span></li>
+<li>p 当 q 可译为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi><mo>→</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">q\to p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span></span></span></span></li>
+<li>p 当且仅当 q 译为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\leftrightarrow q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span></li>
+<li>等价联结词连接的两个命题之间可以没有因果关系。</li>
+<li>联结词 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>↔</mo></mrow><annotation encoding="application/x-tex">\leftrightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">↔</span></span></span></span> 亦可记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⇆</mo></mrow><annotation encoding="application/x-tex">\leftrightarrows</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8558em;vertical-align:-0.1808em;"></span><span class="mrel amsrm">⇆</span></span></span></span>，或「iff」</li>
+</ul>
+<p>「蕴含」的自然语言表述：「如果 p，则 q」有很多不同的表述方法。</p>
+<ul>
+<li>若 p，就 q</li>
+<li>只要 p，就 q</li>
+<li>因为 p，所以 q</li>
+<li><strong>p 仅当 q</strong></li>
+<li><strong>只有 q，才 p</strong></li>
+<li><strong>除非 q，才 p</strong> 或 <strong>除非 q，否则非 p</strong></li>
+</ul>
+
+<div class="callout" data-callout="note">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path></svg>
+</div>
+<div class="callout-title-inner">关于「蕴含」</div>
+</div>
+<div class="callout-content"><p></p>
+<p>本文（也就是屈婉玲主编的《离散数学》）提到的「蕴含」，准确来说是指「实质蕴含」。实际上，「蕴含」和「如果…就…」还是有区别的，具体可以搜索「蕴含悖论」。</p>
+<p>在左孝凌主编的《离散数学》（P20-P22）中，「蕴含」一词有其他含义：当且仅当 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>→</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">P\to Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">Q</span></span></span></span> 是一个重言式时，我们称「P 蕴含 Q」，并记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>⇒</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">P\Rightarrow Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">Q</span></span></span></span>。在研究生课程中（屈婉玲主编的《离散数学》）没有刻意这样定义。</p>
+</div></div><p>真值表：</p>
 <table>
 <thead>
 <tr>
@@ -179,86 +260,58 @@ btf.addGlobalFn('pjaxComplete', () => {
 </thead>
 <tbody>
 <tr>
-<td rowspan="2">0</td>
 <td>0</td>
-<td rowspan="2">1</td>
+<td>0 <!-- 以防合并1 --></td>
 <td>1</td>
+<td>1 <!-- 以防合并1 --></td>
+</tr>
+<tr>
+<td>0 <!-- 以防合并1 --></td>
+<td>1 <!-- 以防合并1 --></td>
+<td>1 <!-- 以防合并11 --></td>
+<td>0</td>
 </tr>
 <tr>
 <td>1</td>
-<td rowspan="2">0</td>
-</tr>
-<tr>
-<td rowspan="2">1</td>
 <td>0</td>
 <td><strong>0</strong></td>
+<td>0 <!-- 以防合并1 --></td>
 </tr>
 <tr>
-<td colspan="3">1</td>
+<td>1 <!-- 以防合并1 --></td>
+<td>1</td>
+<td>1 <!-- 以防合并1 --></td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
-<h1 id="联结词中的蕴含和等价"><a class="markdownIt-Anchor" href="#联结词中的蕴含和等价"></a> 联结词中的蕴含和等价</h1>
-<p>蕴含（条件 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>）：</p>
-<ul>
-<li>在蕴含式「如果 p 则 q」中，记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>，p 称为蕴含式的前件，q 称为蕴含式的后件。</li>
-<li>q 是 p 的必要条件，p 是 q 的充分条件</li>
-<li>当且仅当 p 为 T，q 为 F 时，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 为 F。<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></li>
-<li>p 和 q 可以没有因果关系</li>
-</ul>
-<p>等价（双条件）：</p>
-<ul>
-<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\leftrightarrow q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> 表示的基本逻辑关系：p 与 q 互为充分必要条件，相当于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>p</mi><mo>→</mo><mi>q</mi><mo stretchy="false">)</mo><mo>∧</mo><mo stretchy="false">(</mo><mi>q</mi><mo>→</mo><mi>p</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(p\to q)\wedge (q\to p)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">p</span><span class="mclose">)</span></span></span></span></li>
-<li>p 仅当 q 可译为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span></li>
-<li>p 当 q 可译为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi><mo>→</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">q\to p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span></span></span></span></li>
-<li>p 当且仅当 q 译为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\leftrightarrow q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span></li>
-<li>等价联结词连接的两个命题之间可以没有因果关系。</li>
-</ul>
-<p>「蕴含」的自然语言表述：“如果 p，则 q” 有很多不同的表述方法。</p>
-<ul>
-<li>若 p，就 q</li>
-<li>只要 p，就 q</li>
-<li>因为 p，所以 q</li>
-<li><strong>p 仅当 q</strong></li>
-<li><strong>只有 q，才 p</strong></li>
-<li><strong>除非 q，才 p</strong> 或 <strong>除非 q，否则非 p</strong></li>
-</ul>
-<h1 id="当和仅当的理解"><a class="markdownIt-Anchor" href="#当和仅当的理解"></a> 「当」和「仅当」的理解</h1>
-<p>英语中，「当」为 if，「仅当」为 only if。</p>
+<h1 id="部分联结词的理解"><a class="markdownIt-Anchor" href="#部分联结词的理解"></a> 部分联结词的理解</h1>
+<h2 id="当和仅当的理解"><a class="markdownIt-Anchor" href="#当和仅当的理解"></a> 「当」和「仅当」的理解</h2>
+<blockquote>
+<p>英语中，「当」为 if，「仅当」为 only if，「当且仅当」为 If and only if（简记 iff）。在中文中由于倒装的存在，我们对这两个词的理解加了点难度。</p>
+</blockquote>
 <p>下面对句子含义进行理解：</p>
 <ul>
-<li>p 当 q：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi><mo>→</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">q\to p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span></span></span></span>
+<li>q 当 p：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span>
 <ul>
-<li>当 q 成立，p 必定成立。也就是说：如果 q 成立，p 成立。</li>
+<li>去掉倒装：当 p 时，有 q。</li>
+<li>真实含义：当 p 成立，q 必定成立。换句话说：如果 p 成立，则 q 成立。这是充分条件的定义。</li>
+<li>p 是 q 的<strong>充分条件</strong>。</li>
 </ul>
 </li>
 <li>p 仅当 q：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span>
 <ul>
-<li>当 q 成立，p<strong>可能</strong>成立，也<strong>可能</strong>不成立。只有 q 成立，p 才（可能）成立。</li>
-<li>q 若不成立，p 绝对成立不了。</li>
+<li>去掉倒装：仅当 p 时，有 p</li>
+<li>真实含义：q 若<strong>不</strong>成立，p 绝对成立<strong>不</strong>了。这是必要条件的定义。</li>
+<li>若 q 成立，p <strong>可能</strong>成立，也<strong>可能</strong>不成立。q 是 p 的<strong>必要条件</strong>。只有 q 成立，p 才<strong>可能</strong>成立。</li>
 <li>因此一看见 p 成立了 q 必定成立。</li>
 </ul>
 </li>
 </ul>
-
-<div class="callout" data-callout="example">
-<div class="callout-title">
-<div class="callout-title-icon">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list"><line x1="8" x2="21" y1="6" y2="6"></line><line x1="8" x2="21" y1="12" y2="12"></line><line x1="8" x2="21" y1="18" y2="18"></line><line x1="3" x2="3.01" y1="6" y2="6"></line><line x1="3" x2="3.01" y1="12" y2="12"></line><line x1="3" x2="3.01" y1="18" y2="18"></line></svg>
-</div>
-<div class="callout-title-inner">例子理解</div>
-</div>
-<div class="callout-content"><p>设 p 为我成功，q 为我努力。</p>
-<ol>
-<li>p 当 q：当我努力，我就成功。</li>
-<li>p 仅当 q：仅当我努力时，我才会成功。</li>
-</ol>
-<p>尝试将这个例子代入上面的解释中。</p>
-</div></div><p>综上：「当」是「如果…则…」的关系。「仅当」是「只有…才…」的关系。</p>
 <blockquote>
-<p>这里也顺便解释了「只有…才…」和「除非…才…」。</p>
+<p>为了方便理解，在后面的例子中，p 一般就代指充分条件，q 代表必要条件。</p>
 </blockquote>
-<p>看下面的真值表前需要先理解下表中命题真值的含义。命题真值的值为 1 时，说明符合上面的解释；命题真值为 0，说明存在冲突。</p>
+<p>综上：「当」是「如果…则…」的关系。「仅当」是「只有…才…」的关系。这里也顺便解释了「只有…才…」和「除非…才…」。</p>
 <p>真值表：</p>
 <table>
 <thead>
@@ -274,62 +327,97 @@ btf.addGlobalFn('pjaxComplete', () => {
 <tr>
 <td>当</td>
 <td colspan="2"></td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi><mo>→</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">q\to p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span></span></span></span></td>
-<td></td>
+<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span></td>
+<td>句意：q 当 p</td>
 </tr>
 <tr>
 <td rowspan="4"></td>
-<td rowspan="2">0</td>
 <td>0</td>
+<td>0 <!-- 以防合并1 --></td>
 <td>1</td>
-<td>（善意的推定）</td>
+<td rowspan="2">善意的推定</td>
+</tr>
+<tr>
+<td>0 <!-- 以防合并1 --></td>
+<td>1</td>
+<td>1 <!-- 以防合并1 --></td>
+</tr>
+<tr>
+<td>1 <!-- 以防合并1 --></td>
+<td colspan="2">0</td>
+<td>命题要求当 p 成立，q 成立。如果实践证明这里的 q 居然是不成立，那么这个命题就是错的，所以是假命题。</td>
 </tr>
 <tr>
 <td>1</td>
-<td>0</td>
-<td>当 q 成立，p 成立。<strong>与上面解释的意思相反，所以为假。</strong></td>
-</tr>
-<tr>
-<td rowspan="2">1</td>
-<td>0</td>
-<td rowspan="2">1</td>
-<td>（善意的推定）</td>
-</tr>
-<tr>
+<td>1 <!-- 以防合并1 --></td>
 <td>1</td>
-<td>当 q 成立，p 成立</td>
+<td>当 p 成立，q 成立。</td>
 </tr>
 <tr>
 <td>仅当</td>
 <td colspan="2"></td>
 <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span></td>
-<td></td>
+<td>句意：p 仅当 q</td>
 </tr>
 <tr>
 <td rowspan="4"></td>
-<td rowspan="2">0</td>
 <td>0</td>
-<td rowspan="2">1</td>
+<td>0 <!-- 以防合并1 --></td>
+<td>1</td>
 <td>q 若不成立，p 绝对成立不了。</td>
 </tr>
 <tr>
+<td>0 <!-- 以防合并1 --></td>
 <td>1</td>
+<td>1 <!-- 以防合并1 --></td>
 <td>当 q 成立，p 可能成立，也可能不成立。</td>
 </tr>
 <tr>
-<td rowspan="2">1</td>
-<td colspan="2">0</td>
-<td>p 成立了 q 肯定成立。<strong>与上面解释的意思相反，所以为假。</strong></td>
+<td>1 <!-- 以防合并1 --></td>
+<td>0 <!-- 以防合并1 --></td>
+<td>0</td>
+<td>p 成立了 q 肯定成立。但实践证明 q 为假，所以这个命题是错误的。</td>
 </tr>
 <tr>
-<td colspan="2">1</td>
+<td>1</td>
+<td>1 <!-- 以防合并1 --></td>
+<td>1</td>
 <td>当 q 成立，p 可能成立，也可能不成立。</td>
 </tr>
 </tbody>
 </table>
 <p>所以符号对「当」和「仅当」的解释是合理的。</p>
-<h1 id="除非否则的理解"><a class="markdownIt-Anchor" href="#除非否则的理解"></a> 「除非…否则…」的理解</h1>
-<p>上文提到“如果 p，则 q” 的表述方法中有一条：</p>
+
+<div class="callout" data-callout="tldr">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-list"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg>
+</div>
+<div class="callout-title-inner">假言判断的真假</div>
+</div>
+<div class="callout-content"><p>假言判断既然是反映事物情况之间条件关系的判断，它的真假就不取决于前件、后件本身的真假，而取决于判断所揭示的事物之间的条件关系能否成立。有时，前件和后件都是假的，但事物情况之间确实存在着某种条件关系，这样的判断仍然可以是真的。</p>
+<p>例：如果人可以长生不老，那么地球上的人早就没地方站了。<br>
+解释：这个假言判断的前件和后件都是假的，它所反映的这两个对象情况之间的关系却是存在的，这个判断仍然是真的。</p>
+</div></div>
+<div class="callout" data-callout="note">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path></svg>
+</div>
+<div class="callout-title-inner">善意的推定</div>
+</div>
+<div class="callout-content"><p>善意推定，一种推定原则。当 P 为假命题时，无论 Q 是否为假命题，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>→</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">P→Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">Q</span></span></span></span> 总为真命题，这就叫做「善意推定」。</p>
+</div></div>
+<div class="callout" data-callout="note">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path></svg>
+</div>
+<div class="callout-title-inner">正确理解本文提到的「当」</div>
+</div>
+<div class="callout-content"><p>注意，这里的「当」应该理解为单个字当，解读为「当…就/则」。不能理解为「当…才」。比如，「<strong>当</strong>我吃饭的时候，我<strong>才</strong>刷抖音。」这里的「当」在日常语境下表达一个必要条件而不是前面说的充分条件。这里的「当……才……」更像是「仅当……才……」的略称。</p>
+</div></div><h2 id="除非否则的理解"><a class="markdownIt-Anchor" href="#除非否则的理解"></a> 「除非…否则…」的理解</h2>
+<p>上文提到「如果 p，则 q」的表述方法中有一条：</p>
 <ul>
 <li><strong>除非 q，才 p</strong> 或 <strong>除非 q，否则非 p</strong></li>
 </ul>
@@ -345,7 +433,7 @@ btf.addGlobalFn('pjaxComplete', () => {
 <div class="callout-title-icon">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list"><line x1="8" x2="21" y1="6" y2="6"></line><line x1="8" x2="21" y1="12" y2="12"></line><line x1="8" x2="21" y1="18" y2="18"></line><line x1="3" x2="3.01" y1="6" y2="6"></line><line x1="3" x2="3.01" y1="12" y2="12"></line><line x1="3" x2="3.01" y1="18" y2="18"></line></svg>
 </div>
-<div class="callout-title-inner">例子</div>
+<div class="callout-title-inner">例子：「除非…否则…」</div>
 </div>
 <div class="callout-content"><p>设 p 为我成功，q 为我努力。<br>
 命题：除非你努力，否则你将失败。</p>
@@ -383,33 +471,36 @@ btf.addGlobalFn('pjaxComplete', () => {
 </div>
 <div class="callout-content"><p><strong>燕子飞回南方，春天来了。</strong><br>
 <strong>我们要学习好，为祖国的现代化建设而奋斗。</strong></p>
-</div></div><h1 id="本文参考"><a class="markdownIt-Anchor" href="#本文参考"></a> 本文参考</h1>
+</div></div><h1 id="区分好逻辑学中的专业术语和日常用语"><a class="markdownIt-Anchor" href="#区分好逻辑学中的专业术语和日常用语"></a> 区分好逻辑学中的专业术语和日常用语</h1>
+<p>在数学语言中，数学语言<strong>规定了</strong>「当」表示充分条件，「仅当」表示必要条件，没有任何歧义，相当于在数学中重新定义了两个词的含义。</p>
+<p>在日常汉语或别的语言中，按照语感会产生很多解释。比如，「仅当」在一些场合下是可以理解为充要条件而不仅仅是必要条件。</p>
+<p>在数学语言上的一些表达，对于汉语来讲可能是错的。比如：仅当 x &gt; 1 时，x &gt; 10 。这句话在数学语言上是正确的，但在汉语/英语语感下是错误的。</p>
+<p>前面提到，教材中将「只有 q 才 p」解读为 q 是 p 的必要条件。但是在日常中也有很多时候把「只有 q 才 p」表达解释为：q 是 p 的充要条件，特别是当做「要求」来提出的时候。比如：</p>
+<ul>
+<li>只有你道歉，我才会原谅你。</li>
+<li>只有交够赎金，我才会放人。</li>
+</ul>
+<blockquote>
+<p>那考试时候又该怎么理解？背书就完事了！</p>
+</blockquote>
+<h1 id="本文参考"><a class="markdownIt-Anchor" href="#本文参考"></a> 本文参考</h1>
 <ul>
 <li>左孝凌等人主编的《离散数学》</li>
 <li>屈婉玲等人主编的《离散数学》第 2 版</li>
+<li>2019 人教版高中教材《思想政治》选择性必修 3——逻辑与思维，「正确运用假言判断」小节</li>
 <li>研究生课程课件部分内容、本科生课程部分笔记</li>
 <li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.zhihu.com/question/27155054">离散数学中，为什么在表示“所有人···”的时候使用蕴涵式，在表达“有的人···”的时候使用合取式？ - 知乎 (zhihu.com)</a> 郭戴维的回答</li>
 <li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://zhuanlan.zhihu.com/p/138532995">逻辑 ∣ 除非…否则…如何破解？ - 知乎 (zhihu.com)</a> 逻辑判断的回答</li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.zhihu.com/question/28594040">“当且仅当”是充要条件吗？ - 知乎</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.zhihu.com/question/459697431">为什么数学里非要写「当且仅当」，而不是「仅当」？ - 知乎</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.zhihu.com/question/288117056">实质蕴涵如何理解？ - 知乎</a></li>
 </ul>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>在左孝凌主编的《离散数学》（P20-P22）中，「蕴含」一词有其他含义：当且仅当 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>→</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">P\to Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">Q</span></span></span></span> 是一个重言式时，我们称「P 蕴含 Q」，并记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>⇒</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">P\Rightarrow Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">Q</span></span></span></span>。在研究生课程中没有刻意这样定义。仅给<strong>博主本人</strong>的提醒：有一个和它相似的概念「推理正确」，无论是研究生课程还是左孝凌的《离散数学》，「推理正确」定义相似。参考《离散数学》左孝凌 P20、P40。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>联结词 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> 亦可记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⊃</mo></mrow><annotation encoding="application/x-tex">\supset</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">⊃</span></span></span></span>。 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p>「善意的推定」，即前提为 F 时，条件命题真值取 T。左孝凌《离散数学》P7。 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn4" class="footnote-item"><p>联结词 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>↔</mo></mrow><annotation encoding="application/x-tex">\leftrightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">↔</span></span></span></span> 亦可记作 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⇆</mo></mrow><annotation encoding="application/x-tex">\leftrightarrows</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8558em;vertical-align:-0.1808em;"></span><span class="mrel amsrm">⇆</span></span></span></span>，或「iff」 <a href="#fnref4" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
 </article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.uuanqin.top">wuanqin</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://blog.uuanqin.top/p/cd939534/">https://blog.uuanqin.top/p/cd939534/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="/pages/cc.html" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://blog.uuanqin.top" target="_blank">半方池水半方田</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/pages/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a><a class="post-meta__tags" href="/pages/tags/%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91/">命题逻辑</a></div><div class="post-share"><div class="social-share" data-image="https://cdn.gallery.uuanqin.top/img/20240413152554.webp" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css" media="print" onload="this.media='all'"><script src="https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js" defer=""></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/image/wx.png" target="_blank"><img class="post-qr-code-img" src="/image/wx.png" alt="微信"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/image/zfb.png" target="_blank"><img class="post-qr-code-img" src="/image/zfb.png" alt="支付宝"></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/p/83ffd5d1/" title="为什么个体域变化引入特性谓词时，不同量词的命题变化不一样？"><img class="cover" src="https://cdn.gallery.uuanqin.top/img/20240412231559.webp" onerror="onerror=null;src='/image/404img.webp'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">为什么个体域变化引入特性谓词时，不同量词的命题变化不一样？</div></div><div class="info-2"><div class="info-item-1">对于全称量词，特性谓词常作为蕴含的前件；对于存在量词，特性谓词常作为合取项。</div></div></div></a><a class="pagination-related" href="/p/5744d011/" title="对电脑端微信小程序抓包"><img class="cover" src="https://cdn.gallery.uuanqin.top/img/20240417234049.webp" onerror="onerror=null;src='/image/404img.webp'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">对电脑端微信小程序抓包</div></div><div class="info-2"><div class="info-item-1">关闸远离我</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/p/c5970284/" title="CSAPP LAB-1 位操作"><img class="cover" src="https://cdn.gallery.uuanqin.top/img/20240522202049.webp" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-05-22</div><div class="info-item-2">CSAPP LAB-1 位操作</div></div><div class="info-2"><div class="info-item-1">位级理解我们的代码</div></div></div></a><a class="pagination-related" href="/p/83ffd5d1/" title="为什么个体域变化引入特性谓词时，不同量词的命题变化不一样？"><img class="cover" src="https://cdn.gallery.uuanqin.top/img/20240412231559.webp" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-12</div><div class="info-item-2">为什么个体域变化引入特性谓词时，不同量词的命题变化不一样？</div></div><div class="info-2"><div class="info-item-1">对于全称量词，特性谓词常作为蕴含的前件；对于存在量词，特性谓词常作为合取项。</div></div></div></a></div></div><hr class="custom-hr"><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/image/avatar.webp" onerror="this.onerror=null;this.src='/image/loading.gif'" alt="avatar"></div><div class="author-info-name">wuanqin</div><div class="author-info-description">只能懂一点点</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">148</div></a><a href="/pages/tags/"><div class="headline">标签</div><div class="length-num">342</div></a><a href="/pages/categories/"><div class="headline">分类</div><div class="length-num">20</div></a></div><a id="card-info-btn" href="/pages/building.html"><i class="fa-solid fa-address-card"></i><span>用户认证页/调试页</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/uuanqin" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a><a class="social-icon" href="mailto:uuanqin@uuanqin.top" target="_blank" title="Email"><i class="fa-solid fa-at"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa-solid fa-rss"></i></a><a class="social-icon" href="https://app.follow.is/share/users/uuanqin" rel="external nofollow noreferrer" target="_blank" title="Follow"><i class="fa-solid fa-square-rss"></i></a><a class="social-icon" href="https://steamcommunity.com/id/uuanqin/" rel="external nofollow noreferrer" target="_blank" title="Steam"><i class="fa-brands fa-steam"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">🌏全球访问本站的速度更快了！<br> 
 ⚠️账单保卫行动：小破站正抵御坏人的攻击！部分省市用户近期将无法访问本站。
 </div></div><div class="card-widget seamless-card"><div class="item-headline"><i></i><span></span></div><div class="item-content"><div style="height: 250px">
 <iframe src="/DO_NOT_render/cosmoscope/cosmoscope_trim.html" frameborder="no" style="width: 100%; height: 100%"></iframe>
 </div>
-</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%81%94%E7%BB%93%E8%AF%8D%E4%B8%AD%E7%9A%84%E8%95%B4%E5%90%AB%E5%92%8C%E7%AD%89%E4%BB%B7"><span class="toc-number">1.</span> <span class="toc-text"> 联结词中的蕴含和等价</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BD%93%E5%92%8C%E4%BB%85%E5%BD%93%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">2.</span> <span class="toc-text"> 「当」和「仅当」的理解</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%99%A4%E9%9D%9E%E5%90%A6%E5%88%99%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.</span> <span class="toc-text"> 「除非…否则…」的理解</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A1%88%E4%BE%8B%E7%BB%83%E4%B9%A0"><span class="toc-number">4.</span> <span class="toc-text"> 案例练习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83"><span class="toc-number">5.</span> <span class="toc-text"> 本文参考</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/p/c73083b9/" title="【刷题日记】Java 快速热身——基础篇"><img src="https://cdn.gallery.uuanqin.top/img/202412100351778.webp" onerror="this.onerror=null;this.src='/image/404img.webp'" alt="【刷题日记】Java 快速热身——基础篇"></a><div class="content"><a class="title" href="/p/c73083b9/" title="【刷题日记】Java 快速热身——基础篇">【刷题日记】Java 快速热身——基础篇</a><time datetime="2025-01-11T11:57:43.956Z" title="更新于 2025-01-11 19:57:43">2025-01-11</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text"><div class="footer-svg-div">
+</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%81%87%E8%A8%80%E5%88%A4%E6%96%AD%E4%B8%AD%E7%9A%84%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6%E5%92%8C%E5%85%85%E5%88%86%E6%9D%A1%E4%BB%B6"><span class="toc-number">1.</span> <span class="toc-text"> 假言判断中的必要条件和充分条件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%81%94%E7%BB%93%E8%AF%8D%E4%B8%AD%E7%9A%84%E8%95%B4%E5%90%AB%E5%92%8C%E7%AD%89%E4%BB%B7"><span class="toc-number">2.</span> <span class="toc-text"> 联结词中的蕴含和等价</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%83%A8%E5%88%86%E8%81%94%E7%BB%93%E8%AF%8D%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.</span> <span class="toc-text"> 部分联结词的理解</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%93%E5%92%8C%E4%BB%85%E5%BD%93%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.1.</span> <span class="toc-text"> 「当」和「仅当」的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%99%A4%E9%9D%9E%E5%90%A6%E5%88%99%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.2.</span> <span class="toc-text"> 「除非…否则…」的理解</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A1%88%E4%BE%8B%E7%BB%83%E4%B9%A0"><span class="toc-number">4.</span> <span class="toc-text"> 案例练习</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8C%BA%E5%88%86%E5%A5%BD%E9%80%BB%E8%BE%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD%E5%92%8C%E6%97%A5%E5%B8%B8%E7%94%A8%E8%AF%AD"><span class="toc-number">5.</span> <span class="toc-text"> 区分好逻辑学中的专业术语和日常用语</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83"><span class="toc-number">6.</span> <span class="toc-text"> 本文参考</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/p/cd939534/" title="你真的弄懂假言判断了吗？"><img src="https://cdn.gallery.uuanqin.top/img/20240413152554.webp" onerror="this.onerror=null;this.src='/image/404img.webp'" alt="你真的弄懂假言判断了吗？"></a><div class="content"><a class="title" href="/p/cd939534/" title="你真的弄懂假言判断了吗？">你真的弄懂假言判断了吗？</a><time datetime="2025-01-14T04:52:36.501Z" title="更新于 2025-01-14 12:52:36">2025-01-14</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text"><div class="footer-svg-div">
   <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
   <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
   </svg>    
@@ -554,6 +645,55 @@ btf.addGlobalFn('pjaxComplete', () => {
   }
 
   showKatex()
+})()</script><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = `%%{init:{ 'theme':'${theme}'}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (true) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/mermaid/8.14.0/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
 })()</script><script>(() => {
   let initFn = window.walineFn || null
 
