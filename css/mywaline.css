@@ -76,6 +76,6 @@ waline.min.css：https://unpkg.com/@waline/client@3.3.0/dist/waline.css
 
 /* 新版本中waline字体怎么都变小了？ */
 
-/*.wl-header input{*/
-/*    font-size: 0.8rem*/
-/*}*/
+.wl-header input{
+    font-size: 0.8rem
+}
