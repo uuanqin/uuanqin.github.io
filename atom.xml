@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2025-01-29T13:06:22.030Z</updated>
+  <updated>2025-01-29T20:03:36.998Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.uuanqin.top/p/22db7c91/"/>
     <id>https://blog.uuanqin.top/p/22db7c91/</id>
     <published>2025-01-29T12:24:15.000Z</published>
-    <updated>2025-01-29T13:06:22.030Z</updated>
+    <updated>2025-01-29T20:03:36.998Z</updated>
     
     
     <summary type="html">解决 SERVERHOLD 提交自证身份材料操作问题</summary>
@@ -295,9 +295,9 @@
     
     <category term="NPM" scheme="https://blog.uuanqin.top/pages/tags/NPM/"/>
     
-    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
-    
     <category term="hexo-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-plugins/"/>
+    
+    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
     
   </entry>
   
