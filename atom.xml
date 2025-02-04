@@ -6,7 +6,7 @@
   <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
   
   <link href="https://blog.uuanqin.top/"/>
-  <updated>2025-01-30T13:36:00.129Z</updated>
+  <updated>2025-01-30T14:10:10.182Z</updated>
   <id>https://blog.uuanqin.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.uuanqin.top/p/22db7c91/"/>
     <id>https://blog.uuanqin.top/p/22db7c91/</id>
     <published>2025-01-29T12:24:15.000Z</published>
-    <updated>2025-01-30T13:36:00.129Z</updated>
+    <updated>2025-01-30T14:10:10.182Z</updated>
     
     
     <summary type="html">解决 SERVERHOLD 提交自证身份材料操作问题</summary>
@@ -73,7 +73,7 @@
     <link href="https://blog.uuanqin.top/p/817735b/"/>
     <id>https://blog.uuanqin.top/p/817735b/</id>
     <published>2025-01-24T17:21:35.000Z</published>
-    <updated>2025-01-25T19:35:52.126Z</updated>
+    <updated>2025-02-02T13:59:25.601Z</updated>
     
     
     <summary type="html">把握好循环不变量这个关键点就行</summary>
@@ -295,9 +295,9 @@
     
     <category term="NPM" scheme="https://blog.uuanqin.top/pages/tags/NPM/"/>
     
-    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
-    
     <category term="hexo-plugins" scheme="https://blog.uuanqin.top/pages/tags/hexo-plugins/"/>
+    
+    <category term="URL" scheme="https://blog.uuanqin.top/pages/tags/URL/"/>
     
   </entry>
   
@@ -422,14 +422,14 @@
   </entry>
   
   <entry>
-    <title>【刷题日记】Java 快速热身——ACM 模式下的输入输出</title>
+    <title>【刷题日记】Java 快速热身——其他输入输出模式</title>
     <link href="https://blog.uuanqin.top/p/bb11ee89/"/>
     <id>https://blog.uuanqin.top/p/bb11ee89/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2025-01-21T14:46:26.867Z</updated>
+    <updated>2025-02-03T11:45:23.981Z</updated>
     
     
-    <summary type="html">刷题前看一遍，迅速记忆 ACM 模式的输出输出</summary>
+    <summary type="html">刷题前看一遍，迅速记忆 ACM 模式的输入输出</summary>
     
     
     
@@ -451,7 +451,7 @@
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2025-01-23T13:14:49.146Z</updated>
+    <updated>2025-02-03T11:38:27.987Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
