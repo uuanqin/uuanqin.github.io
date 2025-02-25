@@ -98,11 +98,11 @@
   </entry>
   
   <entry>
-    <title>【刷题日记】Java 快速热身——排序</title>
+    <title>【语言热身】Java 中的排序</title>
     <link href="https://blog.uuanqin.top/p/72156dd2/"/>
     <id>https://blog.uuanqin.top/p/72156dd2/</id>
     <published>2025-01-23T15:20:27.000Z</published>
-    <updated>2025-01-23T15:29:15.284Z</updated>
+    <updated>2025-02-25T18:02:59.525Z</updated>
     
     
     <summary type="html">快速弄清楚各种写排序的方法</summary>
@@ -432,36 +432,11 @@
   </entry>
   
   <entry>
-    <title>【刷题日记】Java 快速热身——其他输入输出模式</title>
-    <link href="https://blog.uuanqin.top/p/bb11ee89/"/>
-    <id>https://blog.uuanqin.top/p/bb11ee89/</id>
-    <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2025-02-03T11:45:23.981Z</updated>
-    
-    
-    <summary type="html">刷题前看一遍，迅速记忆 ACM 模式的输入输出</summary>
-    
-    
-    
-    <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-    
-    <category term="ACM" scheme="https://blog.uuanqin.top/pages/tags/ACM/"/>
-    
-    <category term="字符串" scheme="https://blog.uuanqin.top/pages/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
-    
-    <category term="牛客" scheme="https://blog.uuanqin.top/pages/tags/%E7%89%9B%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【刷题日记】Java 快速热身——基础篇</title>
+    <title>【语言热身】Java 基础（热身索引）</title>
     <link href="https://blog.uuanqin.top/p/c73083b9/"/>
     <id>https://blog.uuanqin.top/p/c73083b9/</id>
     <published>2024-10-01T16:03:13.000Z</published>
-    <updated>2025-02-11T14:47:08.710Z</updated>
+    <updated>2025-02-25T18:58:07.186Z</updated>
     
     
     <summary type="html">刷题前看一遍，大脑切换一下编码模式</summary>
@@ -475,11 +450,59 @@
     
     <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
     
+    <category term="集合" scheme="https://blog.uuanqin.top/pages/tags/%E9%9B%86%E5%90%88/"/>
+    
     <category term="字符串" scheme="https://blog.uuanqin.top/pages/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
     <category term="牛客" scheme="https://blog.uuanqin.top/pages/tags/%E7%89%9B%E5%AE%A2/"/>
     
+  </entry>
+  
+  <entry>
+    <title>【语言热身】Java 集合的使用</title>
+    <link href="https://blog.uuanqin.top/p/182af697/"/>
+    <id>https://blog.uuanqin.top/p/182af697/</id>
+    <published>2024-10-01T16:03:13.000Z</published>
+    <updated>2025-02-25T18:14:32.265Z</updated>
+    
+    
+    <summary type="html">快速熟悉 Java 的集合</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="LeetCode" scheme="https://blog.uuanqin.top/pages/tags/LeetCode/"/>
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+    
     <category term="集合" scheme="https://blog.uuanqin.top/pages/tags/%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【语言热身】Java 编写其他输入输出模式</title>
+    <link href="https://blog.uuanqin.top/p/bb11ee89/"/>
+    <id>https://blog.uuanqin.top/p/bb11ee89/</id>
+    <published>2024-10-01T16:03:13.000Z</published>
+    <updated>2025-02-25T18:58:04.789Z</updated>
+    
+    
+    <summary type="html">刷题前看一遍，迅速记忆 ACM 模式的输入输出</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+    
+    <category term="字符串" scheme="https://blog.uuanqin.top/pages/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+    <category term="牛客" scheme="https://blog.uuanqin.top/pages/tags/%E7%89%9B%E5%AE%A2/"/>
+    
+    <category term="ACM" scheme="https://blog.uuanqin.top/pages/tags/ACM/"/>
     
   </entry>
   
@@ -532,29 +555,6 @@
     <category term="前缀和" scheme="https://blog.uuanqin.top/pages/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
     
     <category term="哈希表" scheme="https://blog.uuanqin.top/pages/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【刷题日记】最小差值问题的贪心理解</title>
-    <link href="https://blog.uuanqin.top/p/3fe090c8/"/>
-    <id>https://blog.uuanqin.top/p/3fe090c8/</id>
-    <published>2024-09-19T10:16:50.000Z</published>
-    <updated>2024-09-21T18:34:44.139Z</updated>
-    
-    
-    <summary type="html">尝试自证贪心算法的正确性</summary>
-    
-    
-    
-    <category term="数学与算法" scheme="https://blog.uuanqin.top/pages/categories/%E6%95%B0%E5%AD%A6%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="LeetCode" scheme="https://blog.uuanqin.top/pages/tags/LeetCode/"/>
-    
-    <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-    
-    <category term="贪心" scheme="https://blog.uuanqin.top/pages/tags/%E8%B4%AA%E5%BF%83/"/>
     
   </entry>
   
