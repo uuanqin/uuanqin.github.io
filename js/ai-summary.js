@@ -105,7 +105,7 @@ var sparkLite = { // 重命名对象
             const title = document.title;
             const container = document.querySelector(sparkLite_postSelector); // 假设您也重命名了配置变量
             if (!container) {
-                console.warn('Spark Lite：找不到文章容器...');
+                console.warn('Spark Lite: 找不到文章容器...');
                 return '';
             }
             const paragraphs = container.getElementsByTagName('p');
@@ -127,8 +127,7 @@ var sparkLite = { // 重命名对象
             if (typeof sparkLite_wordLimit !== "undefined") { // 假设您也重命名了配置变量
                 wordLimit = sparkLite_wordLimit;
             }
-            const truncatedText = combinedText.slice(0, wordLimit);
-            return truncatedText;
+            return combinedText.slice(0, wordLimit);
         } catch (e) {
             console.error('Spark Lite 错误：...', e);
             return '';
@@ -349,12 +348,12 @@ function checkURLAndRun() {
             console.log("Spark Lite: 匹配到了页面URL，将在此页面生成摘要");
             return true; // URL匹配，检查通过
         } else {
-            console.log("Spark Lite:因为不符合自定义的链接规则，我决定不执行摘要功能。");
+            console.log("Spark Lite: 因为不符合自定义的链接规则，我决定不执行摘要功能。");
             removeExistingAIDiv(); // 如果URL不匹配了，移除可能存在的旧AI框
             return false; // URL不匹配，检查不通过
         }
     } catch (error) {
-        console.error("Spark Lite：我没有看懂你编写的自定义链接规则...", error);
+        console.error("Spark Lite: 我没有看懂你编写的自定义链接规则...", error);
         return false; // 出错，检查不通过
     }
 }
