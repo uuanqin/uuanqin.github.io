@@ -1,8 +1,17 @@
-// 作者: konoXIN
-// 链接: https://www.konoxin.top/posts/db7b3418
-// 来源: XIN's Blog | 前端开发 | Vue.js & JavaScript 技术分享
+console.log("\n %c Spark Lite 文章摘要AI生成 %c https://uuanqin.top \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;")
 
-console.log("\n %c Post-Abstract-AI (Spark Lite) 开源博客文章摘要AI生成工具 %c https://uuanqin.top \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;")
+// --- 其他配置 (根据需要调整) ---
+const sparkLite_postSelector = "#article-container"; // 文章内容容器的选择器，例如 #article-container, .post-content
+const sparkLite_wordLimit = 1000;             // 提交给 API 的最大字数限制
+const sparkLite_typingAnimate = true;         // 是否启用打字机效果
+// 指定博客文章URL类型，只在这样的界面上生成ai摘要
+const sparkLite_postURLs = [
+    "https://*.uuanqin.top/p/*",
+    "http://localhost:*/p/*"
+];
+const MILLISECONDS_OF_A_WEEK = 7 * 24 * 60 * 60 * 1000;
+
+const sparkLite_localCacheTime = MILLISECONDS_OF_A_WEEK;
 
 const initDB = () => {
     return new Promise((resolve, reject) => {
@@ -11,8 +20,8 @@ const initDB = () => {
         request.onupgradeneeded = (e) => {
             const db = e.target.result;
             if (!db.objectStoreNames.contains('summaries')) {
-                const store = db.createObjectStore('summaries', { keyPath: 'url' });
-                store.createIndex('timestamp', 'timestamp', { unique: false });
+                const store = db.createObjectStore('summaries', {keyPath: 'url'});
+                store.createIndex('timestamp', 'timestamp', {unique: false});
             }
         };
 
@@ -145,7 +154,8 @@ var sparkLite = { // 重命名对象
 
             if (cachedData?.summary) {
                 // 检查缓存是否过期（7天有效期）
-                const isExpired = Date.now() - cachedData.timestamp > 7 * 24 * 60 * 60 * 1000;
+
+                const isExpired = Date.now() - cachedData.timestamp > sparkLite_localCacheTime;
                 if (!isExpired) {
                     return cachedData.summary;
                 }
@@ -154,8 +164,8 @@ var sparkLite = { // 重命名对象
             console.log('读取IndexedDB缓存失败', e);
         }
 
-        const proxyApiUrl = "https://ai-summary.uuanqin.top/ai-summary/spark-lite.js";
-        const requestDataToProxy = { content: content, title: title };
+        const proxyApiUrl = "https://ai-summary.uuanqin.top/api/ai-summary/spark-lite";
+        const requestDataToProxy = {content: content, title: title};
         const timeout = 30000;
 
         try {
@@ -164,7 +174,7 @@ var sparkLite = { // 重命名对象
 
             const response = await fetch(proxyApiUrl, {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
+                headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(requestDataToProxy),
                 signal: controller.signal
             });
@@ -266,14 +276,13 @@ var sparkLite = { // 重命名对象
 
         // 使用IntersectionObserver对象优化ai离开视口后暂停的业务逻辑，提高性能
         const observer = new IntersectionObserver((entries) => {
-            let isVisible = entries[0].isIntersecting;
-            animationRunning = isVisible; // 标志变量更新
+            animationRunning = entries[0].isIntersecting; // 标志变量更新
             if (animationRunning && initialAnimation) {
                 setTimeout(() => {
                     requestAnimationFrame(animate);
                 }, 200);
             }
-        }, { threshold: 0 });
+        }, {threshold: 0});
         let post_ai = document.querySelector('.post-SparkLite'); // 修改选择器
         observer.observe(post_ai);//启动新监听
     },
@@ -314,26 +323,33 @@ function checkURLAndRun() {
     // }
 
     // URL 检查逻辑
-    if (typeof sparkLite_postURL === "undefined") {
-        console.log("Spark Lite: No URL restriction.");
+    if (typeof sparkLite_postURLs === "undefined") {
+        console.log("Spark Lite: 没有设置页面链接模板，所以我为每个页面都生成ai摘要.");
         return true; // 返回 true 表示检查通过，可以运行
     }
 
     try {
-        const wildcardToRegExp = (s) => {
-            return new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
-        };
         const regExpEscape = (s) => {
             return s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
         };
-        const urlPattern = wildcardToRegExp(sparkLite_postURL);
+        const wildcardToRegExp = (s) => {
+            return new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
+        };
+
         const currentURL = window.location.href;
 
-        if (urlPattern.test(currentURL)) {
-            console.log("Spark Lite: URL matches.");
+        const urlPattern = sparkLite_postURLs.map(wildcardToRegExp);
+
+        // 测试某个 URL 是否匹配任意一个规则
+        const testURL = (url) => {
+            return urlPattern.some(re => re.test(url));
+        };
+
+        if (testURL(currentURL)) {
+            console.log("Spark Lite: 匹配到了页面URL，将在此页面生成摘要");
             return true; // URL匹配，检查通过
         } else {
-            console.log("Spark Lite：因为不符合自定义的链接规则，我决定不执行摘要功能。");
+            console.log("Spark Lite:因为不符合自定义的链接规则，我决定不执行摘要功能。");
             removeExistingAIDiv(); // 如果URL不匹配了，移除可能存在的旧AI框
             return false; // URL不匹配，检查不通过
         }
