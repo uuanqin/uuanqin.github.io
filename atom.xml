@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2025-06-11T16:22:16.472Z</updated>
+    <updated>2025-06-14T16:50:12.900Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -18,14 +18,39 @@
     <generator uri="https://hexo.io/">Hexo</generator>
     
     <entry>
+        <title>工厂模式（简单工厂、静态工厂、抽象工厂）</title>
+        <link href="https://blog.uuanqin.top/p/3a9f48af/"/>
+        <id>https://blog.uuanqin.top/p/3a9f48af/</id>
+        <published>2025-06-12T13:37:37.000Z</published>
+        <updated>2025-06-14T16:50:12.900Z</updated>
+        
+        
+        <summary type="html">辨析各种工厂别混淆</summary>
+        
+        
+        
+        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
+        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        <category term="单例模式" scheme="https://blog.uuanqin.top/pages/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/"/>
+        
+        <category term="工厂模式" scheme="https://blog.uuanqin.top/pages/tags/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/"/>
+        
+    </entry>
+    
+    <entry>
         <title>单例模式一文通</title>
         <link href="https://blog.uuanqin.top/p/f7f6f747/"/>
         <id>https://blog.uuanqin.top/p/f7f6f747/</id>
         <published>2025-06-11T15:49:21.000Z</published>
-        <updated>2025-06-11T16:22:16.472Z</updated>
+        <updated>2025-06-12T14:20:37.444Z</updated>
         
         
-        <summary type="html">除了具体实现外，还探讨单例模式的一些问题及解决方案</summary>
+        <summary type="html">单例模式——只有一个实例。除了具体实现外，还探讨单例模式的一些问题及解决方案</summary>
         
         
         
@@ -74,7 +99,7 @@
         <link href="https://blog.uuanqin.top/p/f4bb8efc/"/>
         <id>https://blog.uuanqin.top/p/f4bb8efc/</id>
         <published>2025-05-22T15:04:47.000Z</published>
-        <updated>2025-06-09T17:19:29.755Z</updated>
+        <updated>2025-06-11T16:31:59.743Z</updated>
         
         
         <summary type="html">运用差分数组的性质降低复杂度</summary>
@@ -511,37 +536,6 @@
         <category term="301" scheme="https://blog.uuanqin.top/pages/tags/301/"/>
         
         <category term="Cloudflare" scheme="https://blog.uuanqin.top/pages/tags/Cloudflare/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>假如给我三万天光明——记一次就医过程</title>
-        <link href="https://blog.uuanqin.top/p/3ea20c6c/"/>
-        <id>https://blog.uuanqin.top/p/3ea20c6c/</id>
-        <published>2024-10-22T12:53:15.000Z</published>
-        <updated>2024-12-29T18:03:55.476Z</updated>
-        
-        
-        <summary type="html">内含本人犯蠢经过......</summary>
-        
-        
-        
-        <category term="百味人生" scheme="https://blog.uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/"/>
-        
-        <category term="社会生活" scheme="https://blog.uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/%E7%A4%BE%E4%BC%9A%E7%94%9F%E6%B4%BB/"/>
-        
-        
-        <category term="微信小程序" scheme="https://blog.uuanqin.top/pages/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-        
-        <category term="医院" scheme="https://blog.uuanqin.top/pages/tags/%E5%8C%BB%E9%99%A2/"/>
-        
-        <category term="门诊" scheme="https://blog.uuanqin.top/pages/tags/%E9%97%A8%E8%AF%8A/"/>
-        
-        <category term="眼科" scheme="https://blog.uuanqin.top/pages/tags/%E7%9C%BC%E7%A7%91/"/>
-        
-        <category term="南宁" scheme="https://blog.uuanqin.top/pages/tags/%E5%8D%97%E5%AE%81/"/>
-        
-        <category term="青年大学习" scheme="https://blog.uuanqin.top/pages/tags/%E9%9D%92%E5%B9%B4%E5%A4%A7%E5%AD%A6%E4%B9%A0/"/>
         
     </entry>
     
