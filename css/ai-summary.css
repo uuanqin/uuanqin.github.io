@@ -73,13 +73,13 @@
     background: var(--ai-summary-card-bg);
     border-radius: 0.5rem;  /* 8px→0.5rem */
     border: var(--ai-summary-style-border-always);
-    font-size: 0.9375rem;  /* 15px→0.9375rem */
+    /*font-size: var(--global-font-size);*/
     line-height: 1.4;
     display: flex;
 }
 
 .sparkLite-tag {
-    font-size: 0.75rem;  /* 12px→0.75rem */
+    font-size: 0.70rem;  /* 12px→0.75rem */
     background-color: var(--ai-summary-lighttext);
     color: var(--ai-summary-card-bg);
     font-weight: bold;
