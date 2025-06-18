@@ -32,11 +32,11 @@
         <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
         
         
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
         <category term="C++" scheme="https://blog.uuanqin.top/pages/tags/C/"/>
         
         <category term="UML" scheme="https://blog.uuanqin.top/pages/tags/UML/"/>
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
         
         <category term="类图" scheme="https://blog.uuanqin.top/pages/tags/%E7%B1%BB%E5%9B%BE/"/>
         
@@ -397,9 +397,9 @@
         
         <category term="DNS" scheme="https://blog.uuanqin.top/pages/tags/DNS/"/>
         
-        <category term="Cloudflare" scheme="https://blog.uuanqin.top/pages/tags/Cloudflare/"/>
-        
         <category term="DNSPod" scheme="https://blog.uuanqin.top/pages/tags/DNSPod/"/>
+        
+        <category term="Cloudflare" scheme="https://blog.uuanqin.top/pages/tags/Cloudflare/"/>
         
         <category term="SaaS" scheme="https://blog.uuanqin.top/pages/tags/SaaS/"/>
         
