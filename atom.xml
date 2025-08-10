@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2025-08-06T16:39:20.776Z</updated>
+    <updated>2025-08-10T17:23:02.228Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -18,11 +18,42 @@
     <generator uri="https://hexo.io/">Hexo</generator>
     
     <entry>
-        <title>责任链模式——推卸责任</title>
+        <title>代理模式：爱因斯坦和他的司机</title>
+        <link href="https://blog.uuanqin.top/p/ba3851cf/"/>
+        <id>https://blog.uuanqin.top/p/ba3851cf/</id>
+        <published>2025-08-10T16:52:22.000Z</published>
+        <updated>2025-08-10T17:23:02.228Z</updated>
+        
+        
+        <summary type="html">只在必要时生成实例</summary>
+        
+        
+        
+        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
+        <category term="AOP" scheme="https://blog.uuanqin.top/pages/tags/AOP/"/>
+        
+        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        <category term="动态代理" scheme="https://blog.uuanqin.top/pages/tags/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
+        
+        <category term="反射" scheme="https://blog.uuanqin.top/pages/tags/%E5%8F%8D%E5%B0%84/"/>
+        
+        <category term="CGLIB" scheme="https://blog.uuanqin.top/pages/tags/CGLIB/"/>
+        
+        <category term="JDK" scheme="https://blog.uuanqin.top/pages/tags/JDK/"/>
+        
+    </entry>
+    
+    <entry>
+        <title>责任链模式：击鼓传花</title>
         <link href="https://blog.uuanqin.top/p/c4f5b558/"/>
         <id>https://blog.uuanqin.top/p/c4f5b558/</id>
         <published>2025-08-06T16:35:06.000Z</published>
-        <updated>2025-08-06T16:39:20.776Z</updated>
+        <updated>2025-08-10T16:57:42.382Z</updated>
         
         
         <summary type="html">链式处理责任</summary>
@@ -39,11 +70,11 @@
     </entry>
     
     <entry>
-        <title>原型模式——通过复制生成实例</title>
+        <title>原型模式：学会克隆</title>
         <link href="https://blog.uuanqin.top/p/96a98120/"/>
         <id>https://blog.uuanqin.top/p/96a98120/</id>
         <published>2025-07-21T15:36:14.000Z</published>
-        <updated>2025-07-21T15:42:05.788Z</updated>
+        <updated>2025-08-10T16:57:52.652Z</updated>
         
         
         <summary type="html">用了clone其实就是有原型模式的意思</summary>
@@ -64,7 +95,7 @@
         <link href="https://blog.uuanqin.top/p/5b8a11ae/"/>
         <id>https://blog.uuanqin.top/p/5b8a11ae/</id>
         <published>2025-07-14T15:53:28.000Z</published>
-        <updated>2025-07-30T15:28:19.595Z</updated>
+        <updated>2025-08-10T16:55:26.995Z</updated>
         
         
         <summary type="html">解决了构造参数十分复杂的问题</summary>
@@ -143,7 +174,7 @@
         <link href="https://blog.uuanqin.top/p/25e0b352/"/>
         <id>https://blog.uuanqin.top/p/25e0b352/</id>
         <published>2025-06-18T02:32:48.000Z</published>
-        <updated>2025-06-18T02:46:39.341Z</updated>
+        <updated>2025-08-07T14:12:20.324Z</updated>
         
         
         <summary type="html">关系是挺复杂的</summary>
@@ -164,11 +195,11 @@
     </entry>
     
     <entry>
-        <title>工厂模式（简单工厂、静态工厂、抽象工厂）</title>
+        <title>类的工厂</title>
         <link href="https://blog.uuanqin.top/p/3a9f48af/"/>
         <id>https://blog.uuanqin.top/p/3a9f48af/</id>
         <published>2025-06-12T13:37:37.000Z</published>
-        <updated>2025-07-10T16:07:52.209Z</updated>
+        <updated>2025-08-10T16:57:26.011Z</updated>
         
         
         <summary type="html">辨析各种工厂别混淆</summary>
@@ -189,11 +220,11 @@
     </entry>
     
     <entry>
-        <title>单例模式一文通</title>
+        <title>单例模式：保持唯一</title>
         <link href="https://blog.uuanqin.top/p/f7f6f747/"/>
         <id>https://blog.uuanqin.top/p/f7f6f747/</id>
         <published>2025-06-11T15:49:21.000Z</published>
-        <updated>2025-06-12T14:20:37.444Z</updated>
+        <updated>2025-08-10T16:57:27.597Z</updated>
         
         
         <summary type="html">单例模式——只有一个实例。除了具体实现外，还探讨单例模式的一些问题及解决方案</summary>
@@ -477,25 +508,6 @@
         <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
         
         <category term="源码阅读" scheme="https://blog.uuanqin.top/pages/tags/%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>2024 年博客年度数字及域名问题求助</title>
-        <link href="https://blog.uuanqin.top/p/fe5764d9/"/>
-        <id>https://blog.uuanqin.top/p/fe5764d9/</id>
-        <published>2024-12-31T20:06:12.000Z</published>
-        <updated>2025-01-29T13:06:20.458Z</updated>
-        
-        
-        <summary type="html">玩域名的大佬们点进来，博主在线卑微求助</summary>
-        
-        
-        
-        <category term="百味人生" scheme="https://blog.uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/"/>
-        
-        
-        <category term="年终总结" scheme="https://blog.uuanqin.top/pages/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
         
     </entry>
     
