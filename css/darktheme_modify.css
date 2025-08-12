@@ -5,7 +5,7 @@
 
 /********* 页脚的图标 *********/
 /*Qlogo*/
-[data-theme='dark'] .footer-logo img {
+[data-theme='dark'] .my-footer-logo img {
     content: url(/image/footer/qlogo_color_no_words.png);
 }
 
@@ -34,18 +34,18 @@
 }
 
 /* 页脚波浪的颜色 */
-[data-theme='dark'] .footer-wave-path {
+[data-theme='dark'] .my-footer-wave-path {
     fill: #0f3858;
 }
-[data-theme='dark'] .footer-content-div {
+[data-theme='dark'] .my-footer-content-div {
     background-color: #0f3858;
 }
 
 /* 页脚海底的颜色 */
-[data-theme='dark'] .footer-copyright {
+[data-theme='dark'] .my-footer-copyright {
     background-color: #2b3f49;
 }
-[data-theme='dark'] .footer-social-amoeba-path {
+[data-theme='dark'] .my-footer-social-amoeba-path {
     fill: #2b3f49;
 }
 

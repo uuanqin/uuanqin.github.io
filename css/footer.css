@@ -1,31 +1,34 @@
 /*https://codepen.io/poojanahelia/pen/Exabvdy*/
-#footer-wrap {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-}
-
 
 #footer {
-    background-color: rgba(0,0,0,0); /* 修改透明色 */
+    background-color: rgba(0, 0, 0, 0); /* 修改透明色 */
     color: #fff;
     padding: 0;
 }
 
-.footer-logo {
+#footer .footer-other {
+    padding: 0;
+}
+
+.footer-copyright{
+    padding: 0;
+}
+
+.my-footer-logo {
     color: white;
 }
 
-.footer-wave-svg {
+.my-footer-wave-svg {
     height: 50px;
     width: 100%;
     transform: scale(-1, -1) translateY(-10px); /*;*/
 }
 
-.footer-wave-path {
+.my-footer-wave-path {
     fill: #177ecd;
 }
 
-.footer-content {
+.my-footer-content {
     margin-left: auto;
     margin-right: auto;
     max-width: 1230px;
@@ -33,7 +36,7 @@
     position: relative;
 }
 
-.footer-content-column {
+.my-footer-content-column {
     box-sizing: border-box;
     float: left;
     padding-left: 15px;
@@ -42,20 +45,20 @@
     color: #fff;
 }
 
-.footer-content-column ul li a {
+.my-footer-content-column ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-.footer-logo-link {
+.my-footer-logo-link {
     display: inline-block;
 }
 
-.footer-menu {
+.my-footer-menu {
     margin-top: 15px;
 }
 
-.footer-menu-name {
+.my-footer-menu-name {
     color: #fffff2;
     font-size: 15px;
     font-weight: 900;
@@ -66,24 +69,24 @@
     text-transform: uppercase;
 }
 
-.footer-menu-list {
+.my-footer-menu-list {
     list-style: none;
     margin-bottom: 0;
     margin-top: 10px;
     padding-left: 0;
 }
 
-.footer-menu-list li {
+.my-footer-menu-list li {
     margin-top: 5px;
 }
 
-.footer-call-to-action-description {
+.my-footer-call-to-action-description {
     color: #fffff2;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.footer-call-to-action-button:hover {
+.my-footer-call-to-action-button:hover {
     background-color: #fffff2;
     color: #00bef0;
 }
@@ -92,7 +95,7 @@
     margin-right: 0;
 }
 
-.footer-call-to-action-button {
+.my-footer-call-to-action-button {
     background-color: #03708c;
     border-radius: 21px;
     color: #fffff2;
@@ -110,11 +113,11 @@
     position: relative;
 }
 
-.footer-call-to-action {
+.my-footer-call-to-action {
     margin-top: 17px;
 }
 
-.footer-call-to-action-title {
+.my-footer-call-to-action-title {
     color: #fffff2;
     font-size: 14px;
     font-weight: 900;
@@ -125,20 +128,20 @@
     text-transform: uppercase;
 }
 
-.footer-call-to-action-link-wrapper {
+.my-footer-call-to-action-link-wrapper {
     margin-bottom: 0;
     margin-top: 10px;
     color: #fff;
     text-decoration: none;
 }
 
-.footer-call-to-action-link-wrapper a {
+.my-footer-call-to-action-link-wrapper a {
     color: #fff;
     text-decoration: none;
 }
 
 
-.footer-social-links {
+.my-footer-social-links {
     bottom: -1px;
     height: 54px;
     position: absolute;
@@ -146,7 +149,7 @@
     width: 236px;
 }
 
-.footer-social-amoeba-svg {
+.my-footer-social-amoeba-svg {
     height: 54px;
     left: 0;
     display: block;
@@ -155,18 +158,18 @@
     width: 236px;
 }
 
-.footer-social-amoeba-path {
+.my-footer-social-amoeba-path {
     fill: #03708c;
 }
 
-.footer-social-link.email {
+.my-footer-social-link.email {
     height: 41px;
     left: 5px;
     top: 14px;
     width: 41px;
 }
 
-.footer-social-link {
+.my-footer-social-link {
     display: block;
     padding: 10px;
     position: absolute;
@@ -186,50 +189,50 @@
     top: 50%;
 }
 
-.footer-social-icon-svg {
+.my-footer-social-icon-svg {
     display: block;
 }
 
-.footer-social-icon-path {
+.my-footer-social-icon-path {
     fill: #fffff2;
     transition: fill .2s;
 }
 
-.footer-social-link.follow {
+.my-footer-social-link.follow {
     height: 42px;
     left: 124px;
     top: 13px;
     width: 42px;
 }
 
-.footer-social-link.rss {
+.my-footer-social-link.rss {
     height: 43px;
     left: 178px;
     top: 10px;
     width: 43px;
 }
 
-.footer-social-link.github {
+.my-footer-social-link.github {
     height: 62px;
     left: 54px;
     top: -4px;
     width: 62px;
 }
 
-.footer-copyright {
+.my-footer-copyright {
     background-color: #03708c;
     color: #fff;
     padding: 15px 30px;
     text-align: center;
 }
 
-.footer-copyright-wrapper {
+.my-footer-copyright-wrapper {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
-.footer-copyright-text {
+.my-footer-copyright-text {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
@@ -238,16 +241,16 @@
     margin-top: 0;
 }
 
-.footer-copyright-link {
+.my-footer-copyright-link {
     color: #fff;
     text-decoration: none;
 }
 
-.footer-content-div{
+.my-footer-content-div {
     background: #177ecd
 }
 
-.footer-svg-div{
+.my-footer-svg-div {
     width: 100%;
     max-height: 200px;
 }
@@ -255,7 +258,7 @@
 /* Media Query For different screens */
 @media (min-width: 320px) and (max-width: 479px) {
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-    .footer-content {
+    .my-footer-content {
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
@@ -264,14 +267,14 @@
     }
 
     /* 不展示logo */
-    .footer-logo{
+    .my-footer-logo {
         display: none;
     }
 }
 
 @media (min-width: 480px) and (max-width: 599px) {
     /* smartphones, Android phones, landscape iPhone */
-    .footer-content {
+    .my-footer-content {
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
@@ -279,7 +282,7 @@
         position: relative;
     }
 
-    .footer-logo{
+    .my-footer-logo {
         padding-left: 177px; /* Qlogo 稍微偏移一点 */
         padding-right: 170px;
     }
@@ -287,14 +290,13 @@
 
 @media (min-width: 600px) and (max-width: 800px) {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-    .footer-content {
+    .my-footer-content {
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
         padding: 40px 15px 758px;
         position: relative;
     }
-
 
 
 }
@@ -316,7 +318,7 @@
 
 
 @media (min-width: 760px) {
-    .footer-content {
+    .my-footer-content {
         margin-left: auto;
         margin-right: auto;
         max-width: 1230px;
@@ -325,8 +327,7 @@
     }
 
 
-
-    .footer-content-column {
+    .my-footer-content-column {
         /*五列的话 19.99 %*/
         width: 24.99%;
     }
@@ -338,7 +339,7 @@
 
 @media (min-width: 600px) and (max-width: 760px) {
     /* 在这里编写适用于小屏幕的样式 */
-    .footer-logo{
+    .my-footer-logo {
         padding-left: 212px; /* Qlogo 稍微偏移一点 */
         padding-right: 204px;
     }

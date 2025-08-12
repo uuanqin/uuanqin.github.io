@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2025-08-10T17:23:02.228Z</updated>
+    <updated>2025-08-12T16:05:25.120Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -16,6 +16,27 @@
     </author>
     
     <generator uri="https://hexo.io/">Hexo</generator>
+    
+    <entry>
+        <title>Java 8 中的函数式编程</title>
+        <link href="https://blog.uuanqin.top/p/2c5c0eb2/"/>
+        <id>https://blog.uuanqin.top/p/2c5c0eb2/</id>
+        <published>2025-08-12T16:05:41.000Z</published>
+        <updated>2025-08-12T16:05:25.120Z</updated>
+        
+        
+        <summary type="html">函数式编程为我们打开了一扇大门</summary>
+        
+        
+        
+        <category term="计算机语言" scheme="https://blog.uuanqin.top/pages/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/"/>
+        
+        
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
+        <category term="Lambda" scheme="https://blog.uuanqin.top/pages/tags/Lambda/"/>
+        
+    </entry>
     
     <entry>
         <title>代理模式：爱因斯坦和他的司机</title>
@@ -36,11 +57,11 @@
         
         <category term="AOP" scheme="https://blog.uuanqin.top/pages/tags/AOP/"/>
         
-        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        <category term="反射" scheme="https://blog.uuanqin.top/pages/tags/%E5%8F%8D%E5%B0%84/"/>
         
         <category term="动态代理" scheme="https://blog.uuanqin.top/pages/tags/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
         
-        <category term="反射" scheme="https://blog.uuanqin.top/pages/tags/%E5%8F%8D%E5%B0%84/"/>
+        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
         
         <category term="CGLIB" scheme="https://blog.uuanqin.top/pages/tags/CGLIB/"/>
         
@@ -199,7 +220,7 @@
         <link href="https://blog.uuanqin.top/p/3a9f48af/"/>
         <id>https://blog.uuanqin.top/p/3a9f48af/</id>
         <published>2025-06-12T13:37:37.000Z</published>
-        <updated>2025-08-10T16:57:26.011Z</updated>
+        <updated>2025-08-11T15:32:50.177Z</updated>
         
         
         <summary type="html">辨析各种工厂别混淆</summary>
@@ -451,7 +472,7 @@
         <link href="https://blog.uuanqin.top/p/72156dd2/"/>
         <id>https://blog.uuanqin.top/p/72156dd2/</id>
         <published>2025-01-23T15:20:27.000Z</published>
-        <updated>2025-06-11T16:08:12.779Z</updated>
+        <updated>2025-08-12T15:15:02.798Z</updated>
         
         
         <summary type="html">快速弄清楚各种写排序的方法</summary>
@@ -487,27 +508,6 @@
         <category term="百度站长" scheme="https://blog.uuanqin.top/pages/tags/%E7%99%BE%E5%BA%A6%E7%AB%99%E9%95%BF/"/>
         
         <category term="curl" scheme="https://blog.uuanqin.top/pages/tags/curl/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>Java List 的 toArray 方法</title>
-        <link href="https://blog.uuanqin.top/p/6b5aa645/"/>
-        <id>https://blog.uuanqin.top/p/6b5aa645/</id>
-        <published>2025-01-06T16:06:51.000Z</published>
-        <updated>2025-06-11T16:08:12.779Z</updated>
-        
-        
-        <summary type="html">从源码上进行理解</summary>
-        
-        
-        
-        <category term="计算机语言" scheme="https://blog.uuanqin.top/pages/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/"/>
-        
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-        
-        <category term="源码阅读" scheme="https://blog.uuanqin.top/pages/tags/%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/"/>
         
     </entry>
     
