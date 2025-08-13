@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2025-08-12T16:05:25.120Z</updated>
+    <updated>2025-08-13T16:28:10.503Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -18,11 +18,36 @@
     <generator uri="https://hexo.io/">Hexo</generator>
     
     <entry>
+        <title>模板方法模式：命题作文</title>
+        <link href="https://blog.uuanqin.top/p/e165ad61/"/>
+        <id>https://blog.uuanqin.top/p/e165ad61/</id>
+        <published>2025-08-13T16:28:33.000Z</published>
+        <updated>2025-08-13T16:28:10.503Z</updated>
+        
+        
+        <summary type="html">将具体处理交给子类</summary>
+        
+        
+        
+        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
+        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        <category term="回调函数" scheme="https://blog.uuanqin.top/pages/tags/%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0/"/>
+        
+        <category term="Hook" scheme="https://blog.uuanqin.top/pages/tags/Hook/"/>
+        
+    </entry>
+    
+    <entry>
         <title>Java 8 中的函数式编程</title>
         <link href="https://blog.uuanqin.top/p/2c5c0eb2/"/>
         <id>https://blog.uuanqin.top/p/2c5c0eb2/</id>
         <published>2025-08-12T16:05:41.000Z</published>
-        <updated>2025-08-12T16:05:25.120Z</updated>
+        <updated>2025-08-12T16:49:32.329Z</updated>
         
         
         <summary type="html">函数式编程为我们打开了一扇大门</summary>
@@ -205,11 +230,11 @@
         <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
         
         
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
         <category term="C++" scheme="https://blog.uuanqin.top/pages/tags/C/"/>
         
         <category term="UML" scheme="https://blog.uuanqin.top/pages/tags/UML/"/>
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
         
         <category term="类图" scheme="https://blog.uuanqin.top/pages/tags/%E7%B1%BB%E5%9B%BE/"/>
         
@@ -487,27 +512,6 @@
         <category term="Collections" scheme="https://blog.uuanqin.top/pages/tags/Collections/"/>
         
         <category term="Arrays" scheme="https://blog.uuanqin.top/pages/tags/Arrays/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>向百度站长申请索引配额</title>
-        <link href="https://blog.uuanqin.top/p/a31da428/"/>
-        <id>https://blog.uuanqin.top/p/a31da428/</id>
-        <published>2025-01-10T17:59:29.000Z</published>
-        <updated>2025-01-13T06:06:34.366Z</updated>
-        
-        
-        <summary type="html">仅需写一个问卷，然后等待即可</summary>
-        
-        
-        
-        <category term="博客站点维护" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9%E7%BB%B4%E6%8A%A4/"/>
-        
-        
-        <category term="百度站长" scheme="https://blog.uuanqin.top/pages/tags/%E7%99%BE%E5%BA%A6%E7%AB%99%E9%95%BF/"/>
-        
-        <category term="curl" scheme="https://blog.uuanqin.top/pages/tags/curl/"/>
         
     </entry>
     
