@@ -1,1 +1,1 @@
-document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.table-wrap').forEach(function(tableWrapElement){tableWrapElement.querySelector('span.yukari')&&(tableWrapElement.style.overflow='visible')})});
+document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.table-wrap').forEach(function(tableWrapElement){tableWrapElement.querySelector('span.bilink-pop-up')&&(tableWrapElement.style.overflow='visible')})});
