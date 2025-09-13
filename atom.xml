@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2025-09-05T14:58:54.861Z</updated>
+    <updated>2025-09-13T10:41:52.927Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -16,6 +16,39 @@
     </author>
     
     <generator uri="https://hexo.io/">Hexo</generator>
+    
+    <entry>
+        <title>缓存置换算法的实现与 Java 中相关的数据结构</title>
+        <link href="https://blog.uuanqin.top/p/270917b1/"/>
+        <id>https://blog.uuanqin.top/p/270917b1/</id>
+        <published>2025-09-13T10:15:18.000Z</published>
+        <updated>2025-09-13T10:41:52.927Z</updated>
+        
+        
+        <summary type="html">OPT、LRU、LFU 不再惧怕</summary>
+        
+        
+        
+        <category term="算法与数据结构" scheme="https://blog.uuanqin.top/pages/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+        
+        
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
+        <category term="LeetCode" scheme="https://blog.uuanqin.top/pages/tags/LeetCode/"/>
+        
+        <category term="LRU" scheme="https://blog.uuanqin.top/pages/tags/LRU/"/>
+        
+        <category term="LFU" scheme="https://blog.uuanqin.top/pages/tags/LFU/"/>
+        
+        <category term="OPT" scheme="https://blog.uuanqin.top/pages/tags/OPT/"/>
+        
+        <category term="缓存" scheme="https://blog.uuanqin.top/pages/tags/%E7%BC%93%E5%AD%98/"/>
+        
+        <category term="页面置换" scheme="https://blog.uuanqin.top/pages/tags/%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2/"/>
+        
+        <category term="操作系统" scheme="https://blog.uuanqin.top/pages/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+        
+    </entry>
     
     <entry>
         <title>关于海量数据的若干问题</title>
@@ -69,7 +102,7 @@
         <link href="https://blog.uuanqin.top/p/b6ca7c41/"/>
         <id>https://blog.uuanqin.top/p/b6ca7c41/</id>
         <published>2025-08-30T08:21:58.000Z</published>
-        <updated>2025-09-05T15:03:31.013Z</updated>
+        <updated>2025-09-06T10:47:09.581Z</updated>
         
         
         <summary type="html">访问数据结构并处理数据</summary>
@@ -165,7 +198,7 @@
         <link href="https://blog.uuanqin.top/p/e165ad61/"/>
         <id>https://blog.uuanqin.top/p/e165ad61/</id>
         <published>2025-08-13T16:28:33.000Z</published>
-        <updated>2025-08-31T10:39:11.541Z</updated>
+        <updated>2025-09-07T12:41:51.716Z</updated>
         
         
         <summary type="html">将具体处理交给子类</summary>
@@ -186,11 +219,11 @@
     </entry>
     
     <entry>
-        <title>函数式编程与Java 中的 Lambda 表达式</title>
+        <title>函数式编程与 Java 中的 Lambda 表达式</title>
         <link href="https://blog.uuanqin.top/p/2c5c0eb2/"/>
         <id>https://blog.uuanqin.top/p/2c5c0eb2/</id>
         <published>2025-08-12T16:05:41.000Z</published>
-        <updated>2025-08-28T14:49:45.592Z</updated>
+        <updated>2025-09-06T01:38:20.962Z</updated>
         
         
         <summary type="html">函数式编程为我们打开了一扇大门</summary>
@@ -373,11 +406,11 @@
         <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
         
         
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
         <category term="C++" scheme="https://blog.uuanqin.top/pages/tags/C/"/>
         
         <category term="UML" scheme="https://blog.uuanqin.top/pages/tags/UML/"/>
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
         
         <category term="类图" scheme="https://blog.uuanqin.top/pages/tags/%E7%B1%BB%E5%9B%BE/"/>
         
@@ -498,36 +531,13 @@
         <category term="算法与数据结构" scheme="https://blog.uuanqin.top/pages/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
         
         
-        <category term="矩阵" scheme="https://blog.uuanqin.top/pages/tags/%E7%9F%A9%E9%98%B5/"/>
-        
         <category term="分治" scheme="https://blog.uuanqin.top/pages/tags/%E5%88%86%E6%B2%BB/"/>
+        
+        <category term="矩阵" scheme="https://blog.uuanqin.top/pages/tags/%E7%9F%A9%E9%98%B5/"/>
         
         <category term="Pascal" scheme="https://blog.uuanqin.top/pages/tags/Pascal/"/>
         
         <category term="模运算" scheme="https://blog.uuanqin.top/pages/tags/%E6%A8%A1%E8%BF%90%E7%AE%97/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>Groovy 基础</title>
-        <link href="https://blog.uuanqin.top/p/22279b30/"/>
-        <id>https://blog.uuanqin.top/p/22279b30/</id>
-        <published>2025-05-13T15:55:25.000Z</published>
-        <updated>2025-07-30T15:27:19.774Z</updated>
-        
-        
-        <summary type="html">既然接触了，干脆就学完吧</summary>
-        
-        
-        
-        <category term="计算机语言" scheme="https://blog.uuanqin.top/pages/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/"/>
-        
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-        
-        <category term="Groovy" scheme="https://blog.uuanqin.top/pages/tags/Groovy/"/>
-        
-        <category term="语法糖" scheme="https://blog.uuanqin.top/pages/tags/%E8%AF%AD%E6%B3%95%E7%B3%96/"/>
         
     </entry>
     
