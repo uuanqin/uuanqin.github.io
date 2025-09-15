@@ -1,0 +1,251 @@
+/* 聊天框整体容器 */
+#ChatBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at 50% 50%, rgba(240, 248, 255, 0.85), rgba(220, 235, 255, 0.8));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeIn 0.4s ease;
+    overflow: hidden;
+}
+
+/* 科幻装饰元素 */
+#ChatBox::before, #ChatBox::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(173, 216, 230, 0.15);
+    z-index: -1;
+}
+
+#ChatBox::before {
+    width: 800px;
+    height: 800px;
+    top: -400px;
+    right: -200px;
+}
+
+#ChatBox::after {
+    width: 600px;
+    height: 600px;
+    bottom: -300px;
+    left: -100px;
+}
+
+/* 聊天内容容器 */
+.cb-dialog {
+    width: 550px;
+    max-width: 90vw;
+    height: 700px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* 头部标题区域 */
+.cb-header {
+    padding: 14px 20px;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cb-close {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #555;
+    font-size: 18px;
+}
+
+.cb-close:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: rotate(90deg);
+}
+
+/* 消息区域 */
+.cb-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(150, 150, 150, 0.3) transparent;
+}
+
+.cb-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.cb-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cb-messages::-webkit-scrollbar-thumb {
+    background-color: rgba(150, 150, 150, 0.3);
+    border-radius: 3px;
+}
+
+/* 消息容器 */
+.msg-container {
+    display: flex;
+    margin: 8px 0;
+    align-items: flex-start; /* 确保头像与气泡顶部对齐 */
+}
+
+/* 用户消息容器 - 头像在右，气泡在左 */
+.msg-container.user {
+    flex-direction: row-reverse; /* 反转布局，使头像在右 */
+}
+
+/* AI消息容器 - 头像在左，气泡在右 */
+.msg-container.bot {
+    flex-direction: row;
+}
+
+/* 头像样式 */
+.msg-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+/* 统一头像与气泡间距 - 确保双方间距一致 */
+.msg-container.bot .msg-avatar {
+    margin-right: 12px; /* AI头像右侧间距 */
+}
+
+.msg-container.user .msg-avatar {
+    margin-left: 12px; /* 用户头像左侧间距（与气泡的间距） */
+}
+
+/* 消息气泡样式 - 全圆角设计 */
+.cb-msg {
+    max-width: 75%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: normal;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: inline-block;
+}
+
+/* 用户消息气泡 */
+.cb-msg-user {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* AI消息气泡 */
+.cb-msg-bot {
+    background-color: white;
+    color: #333;
+}
+
+/* 流式输出动画 */
+.cb-msg[data-streaming="true"]::after {
+    content: "";
+    display: inline-block;
+    width: 1.5em;
+    text-align: left;
+    animation: typing 1s steps(3, end) infinite;
+}
+
+@keyframes typing {
+    0% { content: "   "; }
+    33% { content: ".  "; }
+    66% { content: ".. "; }
+    100% { content: "..."; }
+}
+
+/* 输入区域 */
+.cb-input {
+    display: flex;
+    padding: 15px 20px;
+    gap: 10px;
+}
+
+.cb-input input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+    border-radius: 24px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cb-input input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+    background-color: white;
+}
+
+/* 按钮样式 */
+.cb-input button {
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* 清空按钮 */
+#cbClear {
+    background-color: rgba(230, 230, 230, 0.8);
+    color: #555;
+}
+
+#cbClear:hover {
+    background-color: #e0e0e0;
+}
+
+/* 发送按钮 */
+#cbSend {
+    background-color: #4a90e2;
+    color: white;
+}
+
+#cbSend:hover {
+    background-color: #3a80d2;
+}
+
+#cbSend:disabled, #cbClear:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}

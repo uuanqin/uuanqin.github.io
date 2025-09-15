@@ -4762,6 +4762,10 @@ figure.highlight pre .javascript .function {
     display: block;
   }
 }
+#rightside #ai-button {
+  display: block;
+  background-color: #ac63f1;
+}
 @media screen and (max-width: 900px) {
   #rightside #hide-aside-btn {
     display: none;

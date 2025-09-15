@@ -658,7 +658,10 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     translateLink: () => { // switch between traditional and simplified chinese
       window.translateFn.translatePage()
-    }
+    },
+    'ai-button': () => { // Show chat
+      ChatBox() // AI 聊天对话框。需配合外部 JS
+    },
   }
 
   document.getElementById('rightside').addEventListener('click', e => {
