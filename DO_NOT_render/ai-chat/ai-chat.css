@@ -61,6 +61,7 @@
     align-items: center;
 }
 
+/* 关闭按钮样式与动画 */
 .cb-close {
     cursor: pointer;
     width: 36px;
@@ -69,15 +70,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     background-color: rgba(255, 255, 255, 0.5);
     color: #555;
-    font-size: 18px;
 }
 
 .cb-close:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    transform: rotate(90deg);
+    background-color: #ff5a5a;
+    color: white;
+    transform: scale(1.15) rotate(90deg);
+    box-shadow: 0 4px 12px rgba(255, 90, 90, 0.3);
 }
 
 /* 消息区域 */
@@ -86,9 +88,10 @@
     padding: 20px;
     overflow-y: auto;
     scrollbar-width: thin;
-    scrollbar-color: rgba(150, 150, 150, 0.3) transparent;
+    scrollbar-color: rgba(180, 180, 180, 0.3) transparent;
 }
 
+/* 浅色滚动条样式 */
 .cb-messages::-webkit-scrollbar {
     width: 6px;
 }
@@ -98,25 +101,30 @@
 }
 
 .cb-messages::-webkit-scrollbar-thumb {
-    background-color: rgba(150, 150, 150, 0.3);
+    background-color: rgba(180, 180, 180, 0.3);
     border-radius: 3px;
+    transition: background-color 0.2s ease;
 }
 
-/* 消息容器 */
+.cb-messages::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(150, 150, 150, 0.5);
+}
+
+/* 消息容器 - 基础样式 */
 .msg-container {
     display: flex;
     margin: 8px 0;
-    align-items: flex-start; /* 确保头像与气泡顶部对齐 */
+    align-items: flex-start;
 }
 
-/* 用户消息容器 - 头像在右，气泡在左 */
-.msg-container.user {
-    flex-direction: row-reverse; /* 反转布局，使头像在右 */
-}
-
-/* AI消息容器 - 头像在左，气泡在右 */
+/* AI消息容器 - 靠左对齐 */
 .msg-container.bot {
-    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* 用户消息容器 - 靠右对齐 */
+.msg-container.user {
+    justify-content: flex-end; /* 整体靠右对齐 */
 }
 
 /* 头像样式 */
@@ -130,53 +138,46 @@
     flex-shrink: 0;
 }
 
-/* 统一头像与气泡间距 - 确保双方间距一致 */
+/* AI头像 - 在气泡左侧 */
 .msg-container.bot .msg-avatar {
-    margin-right: 12px; /* AI头像右侧间距 */
+    margin-right: 12px; /* 与气泡间距 */
+    margin-left: 0;
 }
 
+/* 用户头像 - 在气泡右侧，整体靠右 */
 .msg-container.user .msg-avatar {
-    margin-left: 12px; /* 用户头像左侧间距（与气泡的间距） */
+    margin-left: 12px; /* 与气泡间距 */
+    margin-right: 0;
+    order: 2; /* 确保头像在气泡右侧 */
 }
 
-/* 消息气泡样式 - 全圆角设计 */
+/* 消息气泡基础样式 */
 .cb-msg {
     max-width: 75%;
     padding: 12px 16px;
     border-radius: 18px;
     line-height: 1.5;
-    word-wrap: break-word;
-    white-space: normal;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    display: inline-block;
+
+    /* 优化文字换行 */
+    word-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: break-word;
+    -webkit-hyphens: none;
+    hyphens: none;
 }
 
-/* 用户消息气泡 */
-.cb-msg-user {
+/* 用户气泡 - 在头像左侧 */
+.msg-container.user .cb-msg {
     background-color: #4a90e2;
     color: white;
+    order: 1; /* 确保气泡在头像左侧 */
 }
 
-/* AI消息气泡 */
-.cb-msg-bot {
+/* AI气泡样式 */
+.msg-container.bot .cb-msg {
     background-color: white;
     color: #333;
-}
-
-/* 流式输出动画 */
-.cb-msg[data-streaming="true"]::after {
-    content: "";
-    display: inline-block;
-    width: 1.5em;
-    text-align: left;
-    animation: typing 1s steps(3, end) infinite;
-}
-
-@keyframes typing {
-    0% { content: "   "; }
-    33% { content: ".  "; }
-    66% { content: ".. "; }
-    100% { content: "..."; }
 }
 
 /* 输入区域 */
@@ -196,22 +197,48 @@
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.cb-input input:focus {
-    outline: none;
-    border-color: #4a90e2;
-    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
-    background-color: white;
+/* 输入框和按钮禁用效果 */
+.cb-input input:disabled {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: not-allowed;
+    color: #999;
+    border-color: rgba(200, 200, 200, 0.3);
 }
 
-/* 按钮样式 */
+.cb-input input:disabled::placeholder {
+    color: #bbb;
+}
+
+#cbSend:disabled {
+    background-color: #99b9e2;
+    color: #e6e6e6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* 输入框placeholder样式 */
+.cb-input input::placeholder {
+    color: #999;
+    opacity: 1;
+    transition: color 0.2s ease;
+}
+
+.cb-input input:focus::placeholder {
+    color: #ccc;
+}
+
+/* 图标按钮样式 */
 .cb-input button {
-    padding: 12px 20px;
-    border-radius: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     border: none;
     cursor: pointer;
-    font-size: 15px;
-    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.2s ease;
+    padding: 0;
 }
 
 /* 清空按钮 */
@@ -222,6 +249,7 @@
 
 #cbClear:hover {
     background-color: #e0e0e0;
+    transform: scale(1.1);
 }
 
 /* 发送按钮 */
@@ -232,11 +260,23 @@
 
 #cbSend:hover {
     background-color: #3a80d2;
+    transform: scale(1.1);
 }
 
-#cbSend:disabled, #cbClear:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
+/* 流式输出动画 */
+.cb-msg[data-streaming="true"]::after {
+    content: "";
+    display: inline-block;
+    width: 1.5em;
+    text-align: left;
+    animation: typing 1s steps(3, end) infinite;
+}
+
+@keyframes typing {
+    0% { content: "   "; }
+    33% { content: ".  "; }
+    66% { content: ".. "; }
+    100% { content: "..."; }
 }
 
 /* 动画效果 */
