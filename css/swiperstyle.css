@@ -1,7 +1,8 @@
 /* 这是 hexo-swiper-bar 插件必备的 css。原作者将其托管至 jsdelivr 不如直接本站托管安心。注意，插件修改了源代码。*/
 
 /*@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");*/
-@import url("https://fonts.font.im/css?family=Fira+Sans:400,500,600,700,800"); /* 中国镜像 */
+/*@import url("https://fonts.font.im/css?family=Fira+Sans:400,500,600,700,800"); !* 中国镜像（失效） *!*/
+@import url("https://gstatic.aby.pub/css?family=Fira+Sans:400,500,600,700,800"); /* 中国镜像 */
 * {
   box-sizing: border-box;
 }
