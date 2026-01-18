@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2026-01-16T18:03:04.620Z</updated>
+    <updated>2026-01-18T08:01:23.771Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -18,11 +18,36 @@
     <generator uri="https://hexo.io/">Hexo</generator>
     
     <entry>
+        <title>Prompt 编写手册</title>
+        <link href="https://blog.uuanqin.top/p/d1b29bd4/"/>
+        <id>https://blog.uuanqin.top/p/d1b29bd4/</id>
+        <published>2026-01-18T08:01:53.000Z</published>
+        <updated>2026-01-18T08:01:23.771Z</updated>
+        
+        
+        <summary type="html">我的魔法书</summary>
+        
+        
+        
+        <category term="技术学习" scheme="https://blog.uuanqin.top/pages/categories/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/"/>
+        
+        
+        <category term="Prompt" scheme="https://blog.uuanqin.top/pages/tags/Prompt/"/>
+        
+        <category term="LLM" scheme="https://blog.uuanqin.top/pages/tags/LLM/"/>
+        
+        <category term="Agent" scheme="https://blog.uuanqin.top/pages/tags/Agent/"/>
+        
+        <category term="AI" scheme="https://blog.uuanqin.top/pages/tags/AI/"/>
+        
+    </entry>
+    
+    <entry>
         <title>2025 WePlay 上海两日游</title>
         <link href="https://blog.uuanqin.top/p/11d14c50/"/>
         <id>https://blog.uuanqin.top/p/11d14c50/</id>
         <published>2026-01-12T13:28:32.000Z</published>
-        <updated>2026-01-16T18:03:04.620Z</updated>
+        <updated>2026-01-17T16:26:05.855Z</updated>
         
         
         <summary type="html">最后的快乐</summary>
@@ -519,39 +544,6 @@
         <category term="南园" scheme="https://blog.uuanqin.top/pages/tags/%E5%8D%97%E5%9B%AD/"/>
         
         <category term="古城" scheme="https://blog.uuanqin.top/pages/tags/%E5%8F%A4%E5%9F%8E/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>我的 AI 摘要方案：Vercel+Redis+Hexo API+Spark Lite</title>
-        <link href="https://blog.uuanqin.top/p/75efe9f3/"/>
-        <id>https://blog.uuanqin.top/p/75efe9f3/</id>
-        <published>2025-06-24T15:19:05.000Z</published>
-        <updated>2025-11-04T14:33:21.867Z</updated>
-        
-        
-        <summary type="html">自己尝试动手实现一个 AI 摘要</summary>
-        
-        
-        
-        <category term="博客站点维护" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9%E7%BB%B4%E6%8A%A4/"/>
-        
-        <category term="Hexo" scheme="https://blog.uuanqin.top/pages/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9%E7%BB%B4%E6%8A%A4/Hexo/"/>
-        
-        
-        <category term="JavaScript" scheme="https://blog.uuanqin.top/pages/tags/JavaScript/"/>
-        
-        <category term="Hexo" scheme="https://blog.uuanqin.top/pages/tags/Hexo/"/>
-        
-        <category term="npm" scheme="https://blog.uuanqin.top/pages/tags/npm/"/>
-        
-        <category term="Butterfly" scheme="https://blog.uuanqin.top/pages/tags/Butterfly/"/>
-        
-        <category term="Vercel" scheme="https://blog.uuanqin.top/pages/tags/Vercel/"/>
-        
-        <category term="Redis" scheme="https://blog.uuanqin.top/pages/tags/Redis/"/>
-        
-        <category term="SparkLite" scheme="https://blog.uuanqin.top/pages/tags/SparkLite/"/>
         
     </entry>
     
