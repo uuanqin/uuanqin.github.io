@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2026-01-18T08:01:23.771Z</updated>
+    <updated>2026-01-20T11:06:12.264Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -22,7 +22,7 @@
         <link href="https://blog.uuanqin.top/p/d1b29bd4/"/>
         <id>https://blog.uuanqin.top/p/d1b29bd4/</id>
         <published>2026-01-18T08:01:53.000Z</published>
-        <updated>2026-01-18T08:01:23.771Z</updated>
+        <updated>2026-01-20T11:06:12.264Z</updated>
         
         
         <summary type="html">我的魔法书</summary>
@@ -333,6 +333,27 @@
     </entry>
     
     <entry>
+        <title>迭代器模式：游标</title>
+        <link href="https://blog.uuanqin.top/p/61ade5c3/"/>
+        <id>https://blog.uuanqin.top/p/61ade5c3/</id>
+        <published>2025-08-17T14:07:34.000Z</published>
+        <updated>2026-01-20T11:57:32.490Z</updated>
+        
+        
+        <summary type="html">规范化的方式遍历集合元素</summary>
+        
+        
+        
+        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
+        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+    </entry>
+    
+    <entry>
         <title>桥接模式可以沟通功能层次与实现层次</title>
         <link href="https://blog.uuanqin.top/p/d9cc7566/"/>
         <id>https://blog.uuanqin.top/p/d9cc7566/</id>
@@ -519,31 +540,6 @@
         <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
         
         <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>这里曾是苏州古城最大的田野——南园</title>
-        <link href="https://blog.uuanqin.top/p/77a4685d/"/>
-        <id>https://blog.uuanqin.top/p/77a4685d/</id>
-        <published>2025-07-02T15:11:31.000Z</published>
-        <updated>2026-01-14T15:25:05.218Z</updated>
-        
-        
-        <summary type="html">消失的菜园</summary>
-        
-        
-        
-        <category term="百味人生" scheme="https://blog.uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/"/>
-        
-        <category term="游记" scheme="https://blog.uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/%E6%B8%B8%E8%AE%B0/"/>
-        
-        
-        <category term="苏州" scheme="https://blog.uuanqin.top/pages/tags/%E8%8B%8F%E5%B7%9E/"/>
-        
-        <category term="南园" scheme="https://blog.uuanqin.top/pages/tags/%E5%8D%97%E5%9B%AD/"/>
-        
-        <category term="古城" scheme="https://blog.uuanqin.top/pages/tags/%E5%8F%A4%E5%9F%8E/"/>
         
     </entry>
     
