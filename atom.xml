@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2026-01-25T08:19:04.527Z</updated>
+    <updated>2026-02-01T06:19:14.872Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -22,7 +22,7 @@
         <link href="https://blog.uuanqin.top/p/d1b29bd4/"/>
         <id>https://blog.uuanqin.top/p/d1b29bd4/</id>
         <published>2026-01-18T08:01:53.000Z</published>
-        <updated>2026-01-25T08:19:04.527Z</updated>
+        <updated>2026-02-01T06:19:14.872Z</updated>
         
         
         <summary type="html">我的魔法书</summary>
@@ -47,7 +47,7 @@
         <link href="https://blog.uuanqin.top/p/11d14c50/"/>
         <id>https://blog.uuanqin.top/p/11d14c50/</id>
         <published>2026-01-12T13:28:32.000Z</published>
-        <updated>2026-01-23T15:24:46.230Z</updated>
+        <updated>2026-02-01T06:22:03.125Z</updated>
         
         
         <summary type="html">最后的快乐</summary>
@@ -80,7 +80,7 @@
         <link href="https://blog.uuanqin.top/p/7ad89c4d/"/>
         <id>https://blog.uuanqin.top/p/7ad89c4d/</id>
         <published>2025-12-05T08:43:11.000Z</published>
-        <updated>2025-12-05T08:43:40.407Z</updated>
+        <updated>2026-02-01T08:42:42.160Z</updated>
         
         
         <summary type="html">很少写过和 Random 相关的题目</summary>
@@ -107,7 +107,7 @@
         <link href="https://blog.uuanqin.top/p/6c1e0ffd/"/>
         <id>https://blog.uuanqin.top/p/6c1e0ffd/</id>
         <published>2025-11-03T13:36:44.000Z</published>
-        <updated>2025-11-04T15:09:32.744Z</updated>
+        <updated>2026-02-01T06:19:42.915Z</updated>
         
         
         <summary type="html">本文主要介绍以两个字符串作为输入的题目</summary>
@@ -138,7 +138,7 @@
         <link href="https://blog.uuanqin.top/p/47fd7a85/"/>
         <id>https://blog.uuanqin.top/p/47fd7a85/</id>
         <published>2025-09-24T15:26:16.000Z</published>
-        <updated>2025-10-21T15:01:58.063Z</updated>
+        <updated>2026-02-01T06:20:05.478Z</updated>
         
         
         <summary type="html">理解起来可难了</summary>
@@ -161,7 +161,7 @@
         <link href="https://blog.uuanqin.top/p/270917b1/"/>
         <id>https://blog.uuanqin.top/p/270917b1/</id>
         <published>2025-09-13T10:15:18.000Z</published>
-        <updated>2025-10-27T16:48:52.820Z</updated>
+        <updated>2026-02-01T08:42:41.927Z</updated>
         
         
         <summary type="html">OPT、LRU、LFU 不再惧怕</summary>
@@ -194,7 +194,7 @@
         <link href="https://blog.uuanqin.top/p/4fdbc02c/"/>
         <id>https://blog.uuanqin.top/p/4fdbc02c/</id>
         <published>2025-09-05T14:58:15.000Z</published>
-        <updated>2026-01-09T09:28:43.512Z</updated>
+        <updated>2026-02-01T08:24:46.371Z</updated>
         
         
         <summary type="html">太卷了</summary>
@@ -203,6 +203,8 @@
         
         <category term="算法与数据结构" scheme="https://blog.uuanqin.top/pages/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
         
+        
+        <category term="面试" scheme="https://blog.uuanqin.top/pages/tags/%E9%9D%A2%E8%AF%95/"/>
         
         <category term="哈希" scheme="https://blog.uuanqin.top/pages/tags/%E5%93%88%E5%B8%8C/"/>
         
@@ -226,8 +228,6 @@
         
         <category term="布隆过滤器" scheme="https://blog.uuanqin.top/pages/tags/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8/"/>
         
-        <category term="面试" scheme="https://blog.uuanqin.top/pages/tags/%E9%9D%A2%E8%AF%95/"/>
-        
         <category term="多路归并" scheme="https://blog.uuanqin.top/pages/tags/%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6/"/>
         
         <category term="分治算法" scheme="https://blog.uuanqin.top/pages/tags/%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95/"/>
@@ -241,7 +241,7 @@
         <link href="https://blog.uuanqin.top/p/b6ca7c41/"/>
         <id>https://blog.uuanqin.top/p/b6ca7c41/</id>
         <published>2025-08-30T08:21:58.000Z</published>
-        <updated>2026-01-14T15:40:16.751Z</updated>
+        <updated>2026-02-01T08:42:41.901Z</updated>
         
         
         <summary type="html">访问数据结构并处理数据</summary>
@@ -266,7 +266,7 @@
         <link href="https://blog.uuanqin.top/p/e0b8ae0b/"/>
         <id>https://blog.uuanqin.top/p/e0b8ae0b/</id>
         <published>2025-08-27T14:54:00.000Z</published>
-        <updated>2025-09-01T14:48:17.435Z</updated>
+        <updated>2026-02-01T07:22:25.307Z</updated>
         
         
         <summary type="html">资源节约与线程安全的手段</summary>
@@ -289,7 +289,7 @@
         <link href="https://blog.uuanqin.top/p/2c61e522/"/>
         <id>https://blog.uuanqin.top/p/2c61e522/</id>
         <published>2025-08-26T13:38:30.000Z</published>
-        <updated>2025-08-26T16:18:00.710Z</updated>
+        <updated>2026-02-01T07:00:46.561Z</updated>
         
         
         <summary type="html">观察者模式的框架实现</summary>
@@ -316,7 +316,7 @@
         <link href="https://blog.uuanqin.top/p/d1e2262f/"/>
         <id>https://blog.uuanqin.top/p/d1e2262f/</id>
         <published>2025-08-20T15:19:35.000Z</published>
-        <updated>2025-08-31T09:51:29.092Z</updated>
+        <updated>2026-02-01T08:42:41.939Z</updated>
         
         
         <summary type="html">发送状态变化通知</summary>
@@ -333,11 +333,36 @@
     </entry>
     
     <entry>
+        <title>装饰器模式：相框</title>
+        <link href="https://blog.uuanqin.top/p/933c61ed/"/>
+        <id>https://blog.uuanqin.top/p/933c61ed/</id>
+        <published>2025-08-18T14:54:03.000Z</published>
+        <updated>2026-02-01T08:42:42.030Z</updated>
+        
+        
+        <summary type="html">装饰边框与被装饰物的一致性。不断地为对象添加装饰。</summary>
+        
+        
+        
+        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        
+        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
+        
+        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+        
+        <category term="组合" scheme="https://blog.uuanqin.top/pages/tags/%E7%BB%84%E5%90%88/"/>
+        
+        <category term="Wrapper" scheme="https://blog.uuanqin.top/pages/tags/Wrapper/"/>
+        
+    </entry>
+    
+    <entry>
         <title>迭代器模式：游标</title>
         <link href="https://blog.uuanqin.top/p/61ade5c3/"/>
         <id>https://blog.uuanqin.top/p/61ade5c3/</id>
         <published>2025-08-17T14:07:34.000Z</published>
-        <updated>2026-01-20T11:57:32.490Z</updated>
+        <updated>2026-02-01T08:42:41.702Z</updated>
         
         
         <summary type="html">规范化的方式遍历集合元素</summary>
@@ -358,7 +383,7 @@
         <link href="https://blog.uuanqin.top/p/d9cc7566/"/>
         <id>https://blog.uuanqin.top/p/d9cc7566/</id>
         <published>2025-08-17T09:29:43.000Z</published>
-        <updated>2025-12-03T17:10:44.607Z</updated>
+        <updated>2026-02-01T08:29:01.211Z</updated>
         
         
         <summary type="html">将类的功能层次结构与实现层次结构分离。</summary>
@@ -385,7 +410,7 @@
         <link href="https://blog.uuanqin.top/p/e165ad61/"/>
         <id>https://blog.uuanqin.top/p/e165ad61/</id>
         <published>2025-08-13T16:28:33.000Z</published>
-        <updated>2025-09-07T12:41:51.716Z</updated>
+        <updated>2026-02-01T08:29:01.181Z</updated>
         
         
         <summary type="html">将具体处理交给子类</summary>
@@ -410,7 +435,7 @@
         <link href="https://blog.uuanqin.top/p/2c5c0eb2/"/>
         <id>https://blog.uuanqin.top/p/2c5c0eb2/</id>
         <published>2025-08-12T16:05:41.000Z</published>
-        <updated>2025-10-27T16:51:05.273Z</updated>
+        <updated>2026-02-01T08:24:46.506Z</updated>
         
         
         <summary type="html">函数式编程为我们打开了一扇大门</summary>
@@ -431,7 +456,7 @@
         <link href="https://blog.uuanqin.top/p/ba3851cf/"/>
         <id>https://blog.uuanqin.top/p/ba3851cf/</id>
         <published>2025-08-10T16:52:22.000Z</published>
-        <updated>2025-08-31T09:17:00.085Z</updated>
+        <updated>2026-02-01T08:24:46.592Z</updated>
         
         
         <summary type="html">只在必要时生成实例</summary>
@@ -455,6 +480,10 @@
         
         <category term="JDK" scheme="https://blog.uuanqin.top/pages/tags/JDK/"/>
         
+        <category term="组合" scheme="https://blog.uuanqin.top/pages/tags/%E7%BB%84%E5%90%88/"/>
+        
+        <category term="Wrapper" scheme="https://blog.uuanqin.top/pages/tags/Wrapper/"/>
+        
     </entry>
     
     <entry>
@@ -462,7 +491,7 @@
         <link href="https://blog.uuanqin.top/p/c4f5b558/"/>
         <id>https://blog.uuanqin.top/p/c4f5b558/</id>
         <published>2025-08-06T16:35:06.000Z</published>
-        <updated>2025-08-31T10:35:32.465Z</updated>
+        <updated>2026-02-01T08:42:42.232Z</updated>
         
         
         <summary type="html">链式处理责任</summary>
@@ -483,7 +512,7 @@
         <link href="https://blog.uuanqin.top/p/3ac6c05c/"/>
         <id>https://blog.uuanqin.top/p/3ac6c05c/</id>
         <published>2025-07-31T12:27:27.000Z</published>
-        <updated>2025-10-21T15:12:14.563Z</updated>
+        <updated>2026-02-01T08:24:46.526Z</updated>
         
         
         <summary type="html">一篇设计模式索引</summary>
@@ -506,31 +535,10 @@
         <link href="https://blog.uuanqin.top/p/96a98120/"/>
         <id>https://blog.uuanqin.top/p/96a98120/</id>
         <published>2025-07-21T15:36:14.000Z</published>
-        <updated>2025-09-26T16:05:51.033Z</updated>
+        <updated>2026-02-01T08:42:42.139Z</updated>
         
         
         <summary type="html">用了clone其实就是有原型模式的意思</summary>
-        
-        
-        
-        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-        
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-        
-        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>建造者模式的两种不同实现方式</title>
-        <link href="https://blog.uuanqin.top/p/5b8a11ae/"/>
-        <id>https://blog.uuanqin.top/p/5b8a11ae/</id>
-        <published>2025-07-14T15:53:28.000Z</published>
-        <updated>2025-08-31T08:27:35.088Z</updated>
-        
-        
-        <summary type="html">解决了构造参数十分复杂的问题</summary>
         
         
         
