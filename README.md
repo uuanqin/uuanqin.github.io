@@ -1,4 +1,4 @@
-# 半方池水半方田 - Qin's Blog
+# 半方池水半方田 - Qin's Blog 公共资源
 
 This is a Chinese blog static file output directory.
 
@@ -31,4 +31,4 @@ This work is licensed under a
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-©2022-2024 By wuanqin
+©2022-2026 By wuanqin

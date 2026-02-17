@@ -1,4 +1,4 @@
-const file_addr = '/DO_NOT_render/ai-chat/'
+const file_addr = '/pages_unrendered/ai-chat/'
 
 // 全局变量用于跟踪用户是否正在滚动
 let userIsScrolling = false;
