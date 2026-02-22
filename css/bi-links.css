@@ -9,6 +9,7 @@
     text-decoration-style: dashed;
     text-underline-offset: 4px;
     text-decoration-color: #3399ff; /* 默认颜色 */
+    z-index: 2; /* 设置极高的层级值，确保在最上层（避免被文章摘要遮到了） */
 }
 
 span.bilink-pop-up {

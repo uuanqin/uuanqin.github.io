@@ -124,8 +124,8 @@ function addMsg(text, isUser) {
     const avatar = document.createElement('div');
     avatar.className = 'msg-avatar';
     avatar.style.backgroundImage = isUser
-        ? "url('https://cdn.gallery.uuanqin.top/img/justsoso1122311.webp')"
-        : "url('https://cdn.gallery.uuanqin.top/img/aichatpic2.webp')";
+        ? "url('/image/agent/justsoso1122311.webp')"
+        : "url('/image/agent/aichatpic2.webp')";
 
     // 创建消息气泡
     const msgElement = document.createElement('div');
