@@ -7,7 +7,7 @@
     <link href="https://blog.uuanqin.top/atom.xml" rel="self"/>
     
     <link href="https://blog.uuanqin.top/"/>
-    <updated>2026-03-05T09:00:08.245Z</updated>
+    <updated>2026-03-14T14:10:34.204Z</updated>
     <id>https://blog.uuanqin.top/</id>
     
     <author>
@@ -16,6 +16,48 @@
     </author>
     
     <generator uri="https://hexo.io/">Hexo</generator>
+    
+    <entry>
+        <title>记一次行李托运理赔流程（南航）</title>
+        <link href="https://blog.uuanqin.top/p/2fa44e03/"/>
+        <id>https://blog.uuanqin.top/p/2fa44e03/</id>
+        <published>2026-03-14T14:10:50.000Z</published>
+        <updated>2026-03-14T14:10:34.204Z</updated>
+        
+        
+        <summary type="html">权益是要靠自己去争取的</summary>
+        
+        
+        
+        <category term="百味人生" scheme="https://blog.uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/"/>
+        
+        <category term="社会生活" scheme="https://blog.uuanqin.top/pages/categories/%E7%99%BE%E5%91%B3%E4%BA%BA%E7%94%9F/%E7%A4%BE%E4%BC%9A%E7%94%9F%E6%B4%BB/"/>
+        
+        
+        <category term="南航" scheme="https://blog.uuanqin.top/pages/tags/%E5%8D%97%E8%88%AA/"/>
+        
+        <category term="赔偿" scheme="https://blog.uuanqin.top/pages/tags/%E8%B5%94%E5%81%BF/"/>
+        
+    </entry>
+    
+    <entry>
+        <title>Docker 镜像的制作、拉取与运行</title>
+        <link href="https://blog.uuanqin.top/p/6dec5621/"/>
+        <id>https://blog.uuanqin.top/p/6dec5621/</id>
+        <published>2026-03-13T16:23:14.000Z</published>
+        <updated>2026-03-14T14:09:38.837Z</updated>
+        
+        
+        <summary type="html">一篇给人看的 Skill</summary>
+        
+        
+        
+        <category term="工程" scheme="https://blog.uuanqin.top/pages/categories/%E5%B7%A5%E7%A8%8B/"/>
+        
+        
+        <category term="Docker" scheme="https://blog.uuanqin.top/pages/tags/Docker/"/>
+        
+    </entry>
     
     <entry>
         <title>Hexo-Butterfly 主题中对 Algolia 搜索框 Power By 的定制</title>
@@ -161,7 +203,7 @@
         <link href="https://blog.uuanqin.top/p/d1b29bd4/"/>
         <id>https://blog.uuanqin.top/p/d1b29bd4/</id>
         <published>2026-01-18T08:01:53.000Z</published>
-        <updated>2026-03-05T07:36:07.460Z</updated>
+        <updated>2026-03-14T13:47:54.464Z</updated>
         
         
         <summary type="html">我的魔法书</summary>
@@ -514,48 +556,6 @@
         <category term="组合" scheme="https://blog.uuanqin.top/pages/tags/%E7%BB%84%E5%90%88/"/>
         
         <category term="Wrapper" scheme="https://blog.uuanqin.top/pages/tags/Wrapper/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>策略模式：符文槽</title>
-        <link href="https://blog.uuanqin.top/p/587f9ffd/"/>
-        <id>https://blog.uuanqin.top/p/587f9ffd/</id>
-        <published>2025-08-18T13:01:21.000Z</published>
-        <updated>2026-03-03T14:14:49.957Z</updated>
-        
-        
-        <summary type="html">其实就是组合加委托，整体地替换算法。</summary>
-        
-        
-        
-        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-        
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-        
-        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-        
-    </entry>
-    
-    <entry>
-        <title>迭代器模式：游标</title>
-        <link href="https://blog.uuanqin.top/p/61ade5c3/"/>
-        <id>https://blog.uuanqin.top/p/61ade5c3/</id>
-        <published>2025-08-17T14:07:34.000Z</published>
-        <updated>2026-02-01T08:42:41.702Z</updated>
-        
-        
-        <summary type="html">规范化的方式遍历集合元素</summary>
-        
-        
-        
-        <category term="高质量代码及设计模式" scheme="https://blog.uuanqin.top/pages/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-        
-        
-        <category term="Java" scheme="https://blog.uuanqin.top/pages/tags/Java/"/>
-        
-        <category term="设计模式" scheme="https://blog.uuanqin.top/pages/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
         
     </entry>
     
